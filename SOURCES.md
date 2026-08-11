@@ -261,3 +261,9 @@
 - **Visual Elements**: 35+ custom SVG logic diagrams covering hydrological landscape compositions, conceptual geographic systems, valley cross-sections, and river-flow models.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP-BOIT, historical gazetteers, and Lucas White King's monograph.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 45: Climate & Environment
+- **Research Sources**: Detailed citations are available in `book/sources/page-045-climate-environment.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering environmental system models, climate vs. weather distinctions, seasonal circular graphics, and orographic precipitation loops.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Scientific Reports (2026), PMD, World Bank, and KP Government environmental data.
+- **License**: Content is proprietary to the author; visual design is project-specific.

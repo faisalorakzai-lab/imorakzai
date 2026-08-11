@@ -182,5 +182,9 @@
       <navLabel><text>Valleys &amp; Rivers</text></navLabel>
       <content src="../pages/page-044-valleys-rivers.html"/>
     </navPoint>
+    <navPoint id="navPoint-45" playOrder="44">
+      <navLabel><text>Climate &amp; Environment</text></navLabel>
+      <content src="../pages/page-045-climate-environment.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Climate &amp; Environment</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .info-item {
+            background: rgba(18, 59, 42, 0.06);
+            border-left: 3px solid var(--gold);
+            padding: 1rem;
+            border-radius: 0 4px 4px 0;
+        }
+        .info-item h5 {
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        .info-item p {
+            font-size: 0.8rem;
+            line-height: 1.4;
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page climate-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 0, 800 100" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <path d="M0 300 Q 400 200, 800 300" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <defs>
+                    <pattern id="climate-pattern" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <circle cx="50" cy="50" r="1" fill="rgba(181, 150, 84, 0.05)" />
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#climate-pattern)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 45</h3>
+            <h2>CLIMATE &amp; ENVIRONMENT</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where mountains, water, weather and life meet.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">The mountains shape the landscape. The valleys collect water. And climate moves through both. Temperature, rainfall, snowfall, seasonal variation, vegetation and water availability are not separate stories. Together, they form the environmental system in which life in Orakzai takes place.</p>
+            
+            <p>Understanding the environmental context of Orakzai requires recognizing it as an ecologically transitional zone between subtropical and temperate regions. The interaction between rugged topography and atmospheric patterns determines the rhythm of agricultural life, the distribution of flora, and the challenges faced by local communities.<sup>1</sup><sup>2</sup></p>
+
+            <!-- 1. HERO VISUAL: ENVIRONMENTAL SYSTEM -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Mountain -->
+                    <path d="M 50 200 L 150 50 L 250 200" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                    <!-- Cloud & Rain -->
+                    <g transform="translate(150, 40)">
+                        <path d="M -20 0 Q -30 -10, -10 -20 Q 0 -30, 20 -20 Q 40 -10, 20 0 Z" fill="rgba(255,255,255,0.1)" stroke="#fff" stroke-width="1"/>
+                        <path d="M -10 10 L -10 20 M 0 15 L 0 25 M 10 10 L 10 20" stroke="#fff" stroke-width="1" stroke-dasharray="2 2"/>
+                    </g>
+                    <!-- Flow -->
+                    <path d="M 150 50 L 300 250" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4 4"/>
+                    
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="150" y="20">MOUNTAIN</text>
+                        <text x="300" y="265">VALLEY / COMMUNITY</text>
+                    </g>
+                    
+                    <circle cx="225" cy="150" r="30" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="225" y="153" fill="#fff" font-size="7" text-anchor="middle">CLIMATE</text>
+                    
+                    <path d="M 255 150 L 350 150" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-45)"/>
+                    <text x="400" y="153" fill="var(--gold)" font-size="8" text-anchor="start">ENVIRONMENTAL SYSTEM</text>
+
+                    <defs>
+                        <marker id="arrow-45" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Conceptual model of the environmental system: Mountain → Climate → Valley → Life.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Climate vs. Weather</h3>
+            
+            <p>It is essential to distinguish between weather and climate. While weather describes short-term atmospheric conditions—such as a specific rainfall event or a cold morning—climate refers to the long-term patterns and variability observed over decades. In Orakzai, the climate is the predictable yet varying framework within which daily weather occurs.<sup>2</sup><sup>3</sup></p>
+
+            <!-- 2. CLIMATE VS WEATHER MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="25" width="220" height="50" rx="4" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="160" y="45" fill="var(--gold)" font-size="9" font-weight="bold" text-anchor="middle">WEATHER</text>
+                    <text x="160" y="65" fill="#fff" font-size="8" text-anchor="middle">Short-term atmospheric conditions</text>
+                    
+                    <path d="M 270 50 L 330 50" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2 2"/>
+                    
+                    <rect x="330" y="25" width="220" height="50" rx="4" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="440" y="45" fill="var(--gold)" font-size="9" font-weight="bold" text-anchor="middle">CLIMATE</text>
+                    <text x="440" y="65" fill="#fff" font-size="8" text-anchor="middle">Long-term patterns and variability</text>
+                </svg>
+                <p class="diagram-caption">“The fundamental distinction between short-term weather and long-term climate.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Orakzai's Mountain Climate</h3>
+            
+            <p>Orakzai's mountainous terrain creates significant elevation differences that directly influence local environmental conditions. Generally, higher elevations in the west experience cooler temperatures and greater potential for snowfall, while the lower valleys in the east remain relatively milder. This physical relationship shapes the ecological transition from subtropical to temperate zones.<sup>1</sup><sup>4</sup></p>
+
+            <!-- 3. ELEVATION-CLIMATE MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 100 L 550 20" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="50" y="115" fill="#fff" font-size="7" text-anchor="middle">LOWER ELEVATION</text>
+                    <text x="550" y="15" fill="#fff" font-size="7" text-anchor="middle">HIGHER ELEVATION</text>
+                    
+                    <g transform="translate(300, 60)">
+                        <circle cx="0" cy="0" r="35" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4 2"/>
+                        <text x="0" y="-10" fill="#fff" font-size="7" text-anchor="middle">COOLER CONDITIONS</text>
+                        <text x="0" y="5" fill="#fff" font-size="7" text-anchor="middle">DIFFERENT VEGETATION</text>
+                        <text x="0" y="20" fill="#fff" font-size="7" text-anchor="middle">SNOW POSSIBILITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Physical relationship between elevation and climatic conditions.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Seasonal Cycle</h3>
+            
+            <p>The regional seasonal pattern is characterized by four distinct periods. Winter brings cold temperatures and significant snowfall to higher reaches like the Tirah Valley, while Summer is temperate in the upper basins but influenced by the seasonal monsoon. These transitions dictate the timing of agricultural activity and water availability.<sup>2</sup><sup>4</sup></p>
+
+            <!-- 4. SEASONAL CIRCLE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="300" cy="100" r="80" fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1"/>
+                    
+                    <g font-size="9" font-weight="bold" fill="var(--gold)">
+                        <text x="300" y="30" text-anchor="middle">WINTER</text>
+                        <text x="430" y="105" text-anchor="start">SPRING</text>
+                        <text x="300" y="185" text-anchor="middle">SUMMER</text>
+                        <text x="170" y="105" text-anchor="end">AUTUMN</text>
+                    </g>
+                    
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <text x="300" y="45">Snowfall / Cold</text>
+                        <text x="430" y="120" text-anchor="start">Thawing / Planting</text>
+                        <text x="300" y="170">Monsoon / Growth</text>
+                        <text x="170" y="120" text-anchor="end">Harvest / Prep</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The circular rhythm of the four seasons in Orakzai.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Precipitation: Rainfall &amp; Snowfall</h3>
+            
+            <p>Rainfall and snowfall in Orakzai are driven by complex mechanisms. Winter precipitation is primarily associated with **Western Disturbances**, while summer rains are influenced by the **Monsoon**. Mountains play a critical role through **Orographic Lifting**, where rising air cools and condenses, leading to localized precipitation.<sup>2</sup><sup>3</sup></p>
+
+            <!-- 5. OROGRAPHIC LIFTING MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 100 L 300 20 L 550 100" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <path d="M 20 100 L 100 100" stroke="#fff" stroke-width="1" marker-end="url(#arrow-45)"/>
+                    <text x="60" y="115" fill="#fff" font-size="7">AIR FLOW</text>
+                    
+                    <path d="M 120 80 Q 150 60, 200 50" fill="none" stroke="#fff" stroke-width="1" marker-end="url(#arrow-45)"/>
+                    <text x="160" y="45" fill="#fff" font-size="7">LIFTING</text>
+                    
+                    <g transform="translate(300, 20)">
+                        <path d="M -15 0 Q -25 -10, -5 -15 Q 0 -25, 15 -15 Q 25 -10, 15 0 Z" fill="rgba(255,255,255,0.2)"/>
+                        <text x="0" y="15" fill="#fff" font-size="7" text-anchor="middle">PRECIPITATION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Simplified conceptual model of orographic lifting and mountain precipitation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Climate Change &amp; Environmental Risk</h3>
+            
+            <p>Regional and national climate evidence documents significant trends, including rising temperatures and changing rainfall variability. For Orakzai, these changes manifest as increased unpredictability of seasonal rains and heightened risks of rapid runoff leading to valley floods. Adaptation to these future risks is a critical component of regional resilience.<sup>3</sup><sup>5</sup></p>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <h5>FLOOD RISK</h5>
+                    <p>Intense rainfall on steep terrain produces rapid runoff, increasing the threat of sudden floods in valley floors.<sup>5</sup></p>
+                </div>
+                <div class="info-item">
+                    <h5>DROUGHT RISK</h5>
+                    <p>Variability in precipitation can lead to periods of water stress, impacting agriculture and local livelihoods.<sup>3</sup></p>
+                </div>
+                <div class="info-item">
+                    <h5>WARMING TRENDS</h5>
+                    <p>Regional warming affects snowmelt timing and the ecological balance of the transitional zones.<sup>3</sup></p>
+                </div>
+                <div class="info-item">
+                    <h5>SOIL EROSION</h5>
+                    <p>Heavy rainfall events on mountainous slopes contribute to soil loss and environmental degradation.<sup>1</sup></p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Flora &amp; Biodiversity</h3>
+            
+            <p>The environmental richness of Orakzai is evidenced by its diverse flora, with 123 identified wild plant species. These include traditionally significant medicinal plants like *Daphne papyracea* and *Olea europaea*. However, 37% of these species are classified as highly vulnerable, highlighting the need for conservation and the preservation of tribal ecological knowledge.<sup>1</sup></p>
+
+            <!-- 6. FLORA VULNERABILITY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="35" width="200" height="30" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="150" y="53" fill="#fff" font-size="8" text-anchor="middle">123 WILD PLANT SPECIES</text>
+                    
+                    <path d="M 250 50 L 300 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-45)"/>
+                    
+                    <rect x="300" y="35" width="250" height="30" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="425" y="53" fill="#fff" font-size="8" text-anchor="middle">37% HIGHLY VULNERABLE</text>
+                </svg>
+                <p class="diagram-caption">“The scale of biodiversity and the urgent challenge of conservation.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Climate is the breath of the mountains. It is the snow that blankets the Tirah and the monsoon that feeds our orchards. We have lived in harmony with these cycles for generations, but the world is changing. The rains are less predictable, and the heat is rising. To protect Orakzai is to protect its environment—not as a wilderness to be locked away, but as a living system that sustains our people and our identity.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“The environment is the silent partner in every Orakzai story.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+            <p style="font-size: 0.75rem; color: rgba(255,255,255,0.5); font-style: italic; margin-top: 2rem;">Note: District-level long-term climate observations are limited in the publicly accessible sources reviewed. Regional and national trends are used as indicators where district-specific measurements are unavailable.</p>
+
+        </main>
+
+        <footer class="page-footer">
+            45
+        </footer>
+    </div>
+</body>
+</html>
