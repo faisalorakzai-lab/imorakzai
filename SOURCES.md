@@ -177,3 +177,9 @@
 - **Visual Elements**: 22+ custom SVG logic diagrams covering archival workflows, digital preservation (3-2-1 rule), metadata structures, and identity models.
 - **Content**: Original synthesis by Faisal Orakzai, grounded in institutional guidelines from the Oral History Association, UNESCO, and the Digital Preservation Coalition.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 31: The Orakzai Tribe
+- **Research Sources**: Detailed citations are available in `book/sources/page-031-the-orakzai-tribe.md`.
+- **Visual Elements**: 24+ custom SVG logic diagrams covering tribal hierarchies, geographic models, historical timelines, and modern identity transitions.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, British administrative records, and modern ethnographic research.
+- **License**: Content is proprietary to the author; visual design is project-specific.

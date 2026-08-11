@@ -126,5 +126,9 @@
       <navLabel><text>Preserving Tribal Memory</text></navLabel>
       <content src="../pages/page-030-preserving-tribal-memory.html"/>
     </navPoint>
+    <navPoint id="navPoint-31" playOrder="30">
+      <navLabel><text>The Orakzai Tribe</text></navLabel>
+      <content src="../pages/page-031-the-orakzai-tribe.html"/>
+    </navPoint>
   </navMap>
 </ncx>
