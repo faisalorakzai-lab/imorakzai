@@ -11,3 +11,7 @@
 ## Fonts
 - **Serif**: Playfair Display (Google Fonts / Open Font License) - used for titles.
 - **Sans-Serif**: Montserrat (Google Fonts / Open Font License) - used for subtitles and body.
+
+## Page 2: Copyright & Publication Information
+- **Assets**: No external images or third-party assets were used on this page.
+- **Content**: Original text provided by the author.

@@ -124,3 +124,77 @@ body {
         color: #c5a059 !important; /* Ensure gold color prints */
     }
 }
+
+/* Content Page Styles */
+.content-page {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--accent-gold);
+    padding-bottom: 1rem;
+}
+
+.page-header h2 {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.page-body {
+    flex-grow: 1;
+}
+
+.copyright-section {
+    margin-bottom: 2rem;
+}
+
+.copyright-section h3 {
+    font-family: var(--font-serif);
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.copyright-section p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.publication-info {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--muted-brown);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--muted-brown);
+}
