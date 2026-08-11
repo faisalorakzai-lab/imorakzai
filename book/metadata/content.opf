@@ -66,6 +66,7 @@
     <item id="page-052" href="../pages/page-052-orakzai-traditions.html" media-type="application/xhtml+xml"/>
     <item id="page-053" href="../pages/page-053-orakzai-hospitality.html" media-type="application/xhtml+xml"/>
     <item id="page-054" href="../pages/page-054-traditional-clothing.html" media-type="application/xhtml+xml"/>
+    <item id="page-055" href="../pages/page-055-turban-cultural-identity.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -123,5 +124,6 @@
     <itemref idref="page-052"/>
     <itemref idref="page-053"/>
     <itemref idref="page-054"/>
+    <itemref idref="page-055"/>
   </spine>
 </package>
