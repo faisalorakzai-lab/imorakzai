@@ -201,3 +201,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering tribal hierarchies, major sections (highlighting Mamozai and Ali Khel), source comparisons, and geographic associations.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Encyclopaedia Britannica, and modern institutional research.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 35: Tribal Clans & Lineages
+- **Research Sources**: Detailed citations are available in `book/sources/page-035-tribal-clans-lineages.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering tribal identity layers, clan vs. lineage models, source confidence systems, and digital preservation workflows.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Encyclopaedia Iranica, and modern institutional research.
+- **License**: Content is proprietary to the author; visual design is project-specific.
