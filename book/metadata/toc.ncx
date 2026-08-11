@@ -106,5 +106,9 @@
       <navLabel><text>Pashtun Family Structure</text></navLabel>
       <content src="../pages/page-025-pashtun-family-structure.html"/>
     </navPoint>
+    <navPoint id="navPoint-26" playOrder="25">
+      <navLabel><text>Pashtun Brotherhood</text></navLabel>
+      <content src="../pages/page-026-pashtun-brotherhood.html"/>
+    </navPoint>
   </navMap>
 </ncx>

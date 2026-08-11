@@ -147,3 +147,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the individual-to-community network model and traditional proximity vs. global diaspora transformation.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Akbar S. Ahmed (1980), Fredrik Barth (1981), and Lutz Rzehak (2011).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 26: Pashtun Brotherhood
+- **Research Sources**: Detailed citations are available in `book/sources/page-026-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the layered hierarchy of identity and the coexistence of solidarity and competition.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Joseph A. Tainter & Donald G. MacGregor (2011), Charles Lindholm (1986), and Akbar S. Ahmed (1976).
+- **License**: Content is proprietary to the author; visual design is project-specific.
