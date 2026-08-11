@@ -135,3 +135,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the badal framework, comparison between revenge and customary redress, and conflict resolution pathways.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Bruce L. Benson and Zafar R. Siddiqui (2014), Anders Widmark (2010), and Lutz Rzehak (2011).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 24: Hujra — The Community Space
+- **Research Sources**: Detailed citations are available in `book/sources/page-024-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the hujra core model, transmission of knowledge, and modern community evolution.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Akbar S. Ahmed (1980), Fredrik Barth (1959), and M. Jamil Hanifi (*Encyclopaedia Iranica*).
+- **License**: Content is proprietary to the author; visual design is project-specific.

@@ -98,5 +98,9 @@
       <navLabel><text>Badal — Justice &amp; Revenge</text></navLabel>
       <content src="../pages/page-023-badal-justice-revenge.html"/>
     </navPoint>
+    <navPoint id="navPoint-24" playOrder="23">
+      <navLabel><text>Hujra — The Community Space</text></navLabel>
+      <content src="../pages/page-024-hujra-community-space.html"/>
+    </navPoint>
   </navMap>
 </ncx>
