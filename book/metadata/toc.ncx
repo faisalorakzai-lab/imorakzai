@@ -194,5 +194,9 @@
       <navLabel><text>Agriculture &amp; Land</text></navLabel>
       <content src="../pages/page-047-agriculture-land.html"/>
     </navPoint>
+    <navPoint id="navPoint-48" playOrder="47">
+      <navLabel><text>Livestock &amp; Rural Economy</text></navLabel>
+      <content src="../pages/page-048-livestock-rural-economy.html"/>
+    </navPoint>
   </navMap>
 </ncx>
