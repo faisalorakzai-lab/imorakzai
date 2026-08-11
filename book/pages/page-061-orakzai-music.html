@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Music</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+        .evidence-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+        .badge-orakzai { background: var(--gold); color: var(--charcoal); }
+        .badge-pashtun { background: var(--forest); color: var(--ivory); }
+        .badge-islamic { background: var(--earth); color: var(--ivory); }
+        .badge-regional { background: var(--gray); color: var(--ivory); }
+        .badge-contemporary { background: #333; color: #ccc; }
+        .caution-box {
+            border-left: 4px solid var(--earth);
+            background: rgba(107, 79, 58, 0.1);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page music-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 150 Q 400 200, 800 150" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 550 Q 400 600, 800 550" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 850 Q 400 900, 800 850" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 61</h3>
+            <h2>ORAKZAI MUSIC</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“When a people sings, memory finds a voice.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Music can preserve a place long after the sound itself has faded. A song can remember a mountain. A verse can remember a harvest. A melody can remember a wedding. A woman’s voice can carry a memory that was never written down. An elder can remember a song that younger generations have never heard. For the Orakzai, music exists within the larger world of Pashto language and Pashtun culture, but it also contains local memories. Songs documented as Orakzai folk songs speak of love, separation, weddings, harvests, weather, mountains, travel and everyday life. They show something important about cultural memory: A people does not preserve its history only through books. Sometimes it preserves history through melody.</p>
+
+            <!-- HERO: MUSICAL LANDSCAPE (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Silhouette -->
+                        <path d="M0 150 L150 80 L300 150 L450 80 L600 150 L600 300 L0 300 Z" fill="rgba(18,59,42,0.2)"/>
+                        
+                        <!-- Rubab Silhouette -->
+                        <path d="M280 200 Q 280 160, 300 160 Q 320 160, 320 200 L320 250 Q 320 270, 300 270 Q 280 270, 280 250 Z" fill="rgba(181,150,84,0.3)" stroke="var(--gold)" stroke-width="1"/>
+                        <path d="M300 160 L300 140" stroke="var(--gold)" stroke-width="1.5"/> <!-- Neck -->
+                        
+                        <!-- Sound Waves -->
+                        <path d="M200 180 Q 300 140, 400 180" fill="none" stroke="var(--gold)" stroke-width="0.5" opacity="0.5">
+                            <animate attributeName="d" values="M200 180 Q 300 140, 400 180; M200 180 Q 300 220, 400 180; M200 180 Q 300 140, 400 180" dur="4s" repeatCount="indefinite"/>
+                        </path>
+                        
+                        <!-- Silhouettes of Singers -->
+                        <g opacity="0.6">
+                            <circle cx="100" cy="220" r="10" fill="var(--ivory)"/>
+                            <path d="M100 230 L100 270" stroke="var(--ivory)"/>
+                            <circle cx="500" cy="220" r="10" fill="var(--ivory)"/>
+                            <path d="M500 230 L500 270" stroke="var(--ivory)"/>
+                        </g>
+                        
+                        <!-- Decorative Elements -->
+                        <text x="300" y="40" font-size="16" font-weight="bold" fill="var(--gold)">MELODY OF THE VALLEY</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255,255,255,0.7)">“Preserving History through Voice and Verse”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The musical landscape: where Rubab, voice, and mountain memory converge.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Orakzai Music?</h3>
+            <p>“Orakzai music” should be understood as music documented among Orakzai communities rather than as a completely separate musical system isolated from wider Pashto traditions. It is the intersection of broad Pashtun musical forms and local Orakzai memories preserved through oral tradition.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">MUSICAL CULTURE</text>
+                        
+                        <path d="M250 35 L100 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L200 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L300 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="60" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="100" y="78">ORAKZAI</text>
+                        
+                        <rect x="160" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="78">PASHTO</text>
+                        
+                        <rect x="260" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="300" y="78">LOCAL MEMORY</text>
+                        
+                        <rect x="360" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="78">ORAL TRADITION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The synthesis of Orakzai musical identity.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">A Direct Record: The Orakzai Folk Songs Study (2025)</h3>
+            <p>A major contribution to the documentation of Orakzai music is the 2025 study by **Dr. Shakir “Orakzai”** published in the *PASTO Quarterly*. The study identifies a body of folk songs associated with Orakzai communities, exploring their themes, structures, and methods of oral transmission. It provides a direct record of songs remembered by elders and transmitted through generations.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="100" y="10" width="300" height="35" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">DR. SHAKIR ORAKZAI STUDY (2025)</text>
+                        <text x="250" y="40" font-size="6">“The Orakzai Folk Songs” — PASTO Quarterly</text>
+                        
+                        <path d="M250 45 L150 75" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 45 L350 75" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="80" y="75" width="140" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="150" y="92">ORAL TRANSMISSION</text>
+                        
+                        <rect x="280" y="75" width="140" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="350" y="92">THEMATIC LANDSCAPE</text>
+                        
+                        <path d="M150 100 L250 130" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M350 100 L250 130" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="180" y="130" width="140" height="20" rx="2" fill="rgba(107,79,58,0.6)"/>
+                        <text x="250" y="143" font-weight="bold">CULTURAL RECORD</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Methodological focus of the 2025 Orakzai folk-song study.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Tekai: An Orakzai-Specific Structure</h3>
+            <p>The study documents a specific structural element in Orakzai folk songs known as **Tekai**. Many Orakzai folk songs are structured so that **Tappas** (traditional folk verses) can be inserted between sections. These inserted verses, identified as Tekai, allow for the interaction of established melody and spontaneous poetic expression.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="45" width="100" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="100" y="65">MAIN SONG</text>
+                        
+                        <path d="M150 60 L200 60" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        
+                        <rect x="200" y="45" width="100" height="30" rx="2" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                        <text x="250" y="60" font-weight="bold">TEKAI</text>
+                        <text x="250" y="70" font-size="6">(INSERTION)</text>
+                        
+                        <path d="M300 60 L350 60" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        
+                        <rect x="350" y="45" width="100" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="400" y="65">TAPPA (VERSE)</text>
+                        
+                        <defs>
+                            <marker id="arrow-61" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The structural integration of Tekai and Tappa in Orakzai songs.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Sail: Women’s Festive Gatherings</h3>
+            <p>The Orakzai folk-song study records a festive gathering of village women known as **Sail**. On Eid nights, young women would gather near springs or particular trees to play, sing, and recite folk verses. These gatherings provided a space for emotional and social expression through melody and frolic.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="250" y="20" font-weight="bold" fill="var(--gold)">SAIL: THE FESTIVE GATHERING</text>
+                        
+                        <rect x="50" y="40" width="120" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="110" y="57">EID NIGHT</text>
+                        
+                        <rect x="190" y="40" width="120" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="250" y="57">OUTDOOR SETTING</text>
+                        
+                        <rect x="330" y="40" width="120" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="390" y="57">COMMUNAL SINGING</text>
+                        
+                        <path d="M250 65 L250 95" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        
+                        <rect x="150" y="95" width="200" height="35" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="112" font-weight="bold">EMOTIONAL EXPRESSION</text>
+                        <text x="250" y="125" font-size="6">“Folk Verses &amp; Social Memory”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The social and emotional components of the Sail gathering.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Landscape &amp; Agriculture in Song</h3>
+            <p>Documented Orakzai folk songs are deeply connected to the local landscape and agricultural cycles. Songs refer to places like **Tirah** and **Daburi**, and describe seasonal weather such as snow and rain. Notably, the study records a folk song about the **wheat harvest**, showing that work was not merely economic activity but entered the local musical expression.<sup>1</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">LANDSCAPE IN SONG</text>
+                            <rect x="50" y="40" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="53">TIRAH / DABURI</text>
+                            <rect x="50" y="70" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="83">MOUNTAINS / SPRINGS</text>
+                            <rect x="50" y="100" width="200" height="20" rx="2" fill="rgba(18,59,42,0.9)"/>
+                            <text x="150" y="113">SNOW / RAIN</text>
+                            <path d="M150 120 L150 140" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                            <text x="150" y="155" font-weight="bold" fill="var(--gold)">MUSICAL MEMORY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Geographic references as cultural memory.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">HARVEST SONGS</text>
+                            <rect x="50" y="40" width="200" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="57">WHEAT HARVEST</text>
+                            <path d="M150 65 L150 90" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                            <rect x="50" y="90" width="200" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="107">WORK &amp; MELODY</text>
+                            <path d="M150 115 L150 140" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                            <text x="150" y="157" font-weight="bold" fill="var(--gold)">HOUSEHOLD MEMORY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The link between agricultural labor and musical expression.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Migration: The Memory of Delhi</h3>
+            <p>Migration also leaves its mark on folk music. The Orakzai folk-song study discusses a song referring to **Delhi**, interpreted as memory of historical Pashtun travel for livelihoods. This shows how distant journeys and cities become part of the portable cultural memory of a people.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="40" y="50">HOME</text>
+                        <path d="M70 50 L100 50" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        <text x="135" y="50">JOURNEY</text>
+                        <path d="M170 50 L200 50" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        <text x="245" y="50">DELHI (CITY)</text>
+                        <path d="M290 50 L320 50" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        <text x="360" y="50">SONG</text>
+                        <path d="M400 50 L430 50" stroke="var(--gold)" marker-end="url(#arrow-61)"/>
+                        <text x="470" y="50" font-weight="bold" fill="var(--gold)">MEMORY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pathway of migration memory in folk song.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Pashto Music: The Wider World</h3>
+            <p>While Orakzai songs contain local memories, they exist within the broader Pashtun musical tradition. This tradition includes various poetic and song forms, each with its own social and ceremonial role.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="175" y="10" width="150" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">PASHTO MUSIC FORMS</text>
+                        
+                        <path d="M250 35 L100 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L200 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L300 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="50" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="95" y="83">TAPPA</text>
+                        
+                        <rect x="155" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="83">CHARBETA</text>
+                        
+                        <rect x="255" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="300" y="83">NEEMKAI</text>
+                        
+                        <rect x="355" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="83">BADALA</text>
+                        
+                        <text x="250" y="120" font-size="7" fill="rgba(255,255,255,0.7)">“A rich taxonomy of folk expression”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Major forms of Pashto folk music.”</p>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Musical Element</th>
+                            <th>Orakzai-specific</th>
+                            <th>Pashtun-wide</th>
+                            <th>Regional</th>
+                            <th>Evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tekai (Structure)</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Orakzai (2025) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Sail (Gathering)</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Orakzai (2025) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Tappa (Verse)</td>
+                            <td>Common Practice</td>
+                            <td>Standard <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>Universal</td>
+                            <td>AIPS [2]</td>
+                        </tr>
+                        <tr>
+                            <td>Rubab (Instrument)</td>
+                            <td>Common Practice</td>
+                            <td>Standard <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>Regional <span class="evidence-badge badge-regional">KP</span></td>
+                            <td>AIPS [2]</td>
+                        </tr>
+                        <tr>
+                            <td>Spring Mela Concerts</td>
+                            <td>Documented <span class="evidence-badge badge-contemporary">Modern</span></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Radio Pakistan (2024) [3]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Instruments: Traditional &amp; Modern</h3>
+            <p>The **Rubab** is the most iconic instrument associated with Pashto music, serving as the soulful accompaniment to folk verses. Other traditional instruments include the **Mangay** (clay pot percussion) and **Zerbaghali**. In modern times, the harmonium, tabla, and electronic production have become part of the contemporary Orakzai musical landscape.<sup>2</sup><sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="125" y="20" font-weight="bold" fill="var(--gold)">TRADITIONAL</text>
+                        <text x="375" y="20" font-weight="bold" fill="var(--gold)">MODERN / REGIONAL</text>
+                        
+                        <rect x="50" y="40" width="150" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="125" y="53">RUBAB (STRINGS)</text>
+                        
+                        <rect x="50" y="70" width="150" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="125" y="83">MANGAY (PERCUSSION)</text>
+                        
+                        <rect x="300" y="40" width="150" height="20" rx="2" fill="rgba(107,79,58,0.6)"/>
+                        <text x="375" y="53">HARMONIUM</text>
+                        
+                        <rect x="300" y="70" width="150" height="20" rx="2" fill="rgba(107,79,58,0.6)"/>
+                        <text x="375" y="83">TABLA / KEYBOARD</text>
+                        
+                        <path d="M250 40 L250 120" stroke="var(--gold)" stroke-dasharray="4,2"/>
+                        <text x="250" y="140" font-size="7" fill="rgba(255,255,255,0.7)">“The evolution of the musical repertoire”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Instruments of the Orakzai and regional Pashtun tradition.”</p>
+            </div>
+
+            <div class="caution-box">
+                <strong>CONTEMPORARY EVENT EVIDENCE:</strong> The 2024 Orakzai Spring Mela included music concerts as part of a modern festival program. This demonstrates contemporary public musical activity in Orakzai but should not be treated as evidence of an ancient tribal festival-music tradition.
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Music is a form of survival. When a people has faced displacement and silence, a song becomes a way to claim a space in the world. For the Orakzai, folk songs are not just entertainment; they are the vessels of memory. A Tappa recited at a wedding or a Tekai inserted into a harvest song connects the individual to the land and the tribe. Traditions evolve—modern instruments replace older ones, and digital archives replace oral repetition—but the human need to sing our history remains unchanged. As long as the melody continues, the memory of the valley will never be lost.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“SOMETIMES HISTORY IS PRESERVED THROUGH MELODY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            61
+        </footer>
+    </div>
+</body>
+</html>

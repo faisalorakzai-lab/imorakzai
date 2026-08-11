@@ -357,3 +357,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering commensal tables, food evidence ladders, agricultural pathways, and digital memory archives.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by FAO in Pakistan (2018), Historical Records of the North-West Frontier, and Tapper & Tapper (1986).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 61: Orakzai Music
+- **Research Sources**: Detailed citations are available in `book/sources/page-061-orakzai-music.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering musical memory pathways, the Tekai structure, Sail gathering models, and the landscape-to-song framework.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Dr. Shakir Orakzai (2025), AIPS, and official reports on the 2024 Spring Mela.
+- **License**: Content is proprietary to the author; visual design is project-specific.

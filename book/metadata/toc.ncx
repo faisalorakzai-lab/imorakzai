@@ -246,5 +246,9 @@
       <navLabel><text>Traditional Food</text></navLabel>
       <content src="../pages/page-060-traditional-food.html"/>
     </navPoint>
+    <navPoint id="navPoint-61" playOrder="60">
+      <navLabel><text>Orakzai Music</text></navLabel>
+      <content src="../pages/page-061-orakzai-music.html"/>
+    </navPoint>
   </navMap>
 </ncx>
