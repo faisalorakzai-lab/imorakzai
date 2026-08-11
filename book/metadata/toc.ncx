@@ -186,5 +186,9 @@
       <navLabel><text>Climate &amp; Environment</text></navLabel>
       <content src="../pages/page-045-climate-environment.html"/>
     </navPoint>
+    <navPoint id="navPoint-46" playOrder="45">
+      <navLabel><text>Traditional Settlements</text></navLabel>
+      <content src="../pages/page-046-traditional-settlements.html"/>
+    </navPoint>
   </navMap>
 </ncx>

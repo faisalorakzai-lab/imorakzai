@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Traditional Settlements</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .table-container {
+            margin: 2rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            background: rgba(18, 59, 42, 0.04);
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page settlements-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 200, 800 100" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <path d="M0 300 Q 400 400, 800 300" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <defs>
+                    <pattern id="settle-pattern" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <path d="M 0 50 L 100 50" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#settle-pattern)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 46</h3>
+            <h2>TRADITIONAL SETTLEMENTS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where landscape became home.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Before roads connected distant towns, before concrete became the dominant building material, settlement followed the landscape. People built where the terrain allowed. They looked for access to water, workable land, routes and protection. A settlement was not simply a collection of houses. It was a system.</p>
+            
+            <p>Continuing the geographical sequence from mountains, valleys, water, climate, and environment established in preceding chapters, the built environment of Orakzai represents an intricate adaptation to topography. Traditional settlements emerged as functional responses to the constraints and opportunities of a rugged mountain terrain.<sup>1</sup><sup>2</sup></p>
+
+            <!-- 1. HERO VISUAL: SETTLEMENT SYSTEM -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Mountain Ridge -->
+                    <path d="M 50 80 L 300 30 L 550 80" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="300" y="20" fill="var(--gold)" font-size="8" text-anchor="middle">MOUNTAIN RIDGE</text>
+                    
+                    <!-- Valley & Watercourse -->
+                    <path d="M 300 30 Q 300 100, 300 140" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2 2"/>
+                    <text x="325" y="90" fill="rgba(255,255,255,0.6)" font-size="7">VALLEY &amp; WATERCOURSE</text>
+                    
+                    <!-- Fields & Houses -->
+                    <rect x="220" y="160" width="160" height="40" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="184" fill="#fff" font-size="8" text-anchor="middle">FIELDS &amp; HOUSES</text>
+                    
+                    <path d="M 300 200 L 300 230" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                    
+                    <rect x="220" y="230" width="160" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="248" fill="#fff" font-size="8" text-anchor="middle">COMMUNITY SPACE</text>
+
+                    <defs>
+                        <marker id="arrow-46" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Structural hierarchy from mountain ridge and valley watercourse to fields, houses, and community space.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">What Is a Traditional Settlement?</h3>
+            
+            <p>The term "traditional settlement" does not necessarily mean ancient. It refers to patterns of settlement and built environment that developed before, or alongside, modern urban infrastructure and construction systems. These patterns reflect collective knowledge, material availability, and social organization refined over generations.<sup>2</sup><sup>3</sup></p>
+
+            <!-- 2. SETTLEMENT PATTERN FORMATION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="40" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="95" y="53" fill="#fff" font-size="7" text-anchor="middle">TRADITION</text>
+                    
+                    <text x="170" y="53" fill="var(--gold)" font-size="12" text-anchor="middle">+</text>
+                    
+                    <rect x="190" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.7)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="245" y="53" fill="#fff" font-size="7" text-anchor="middle">LANDSCAPE</text>
+                    
+                    <text x="320" y="53" fill="var(--gold)" font-size="12" text-anchor="middle">+</text>
+                    
+                    <rect x="340" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="395" y="53" fill="#fff" font-size="7" text-anchor="middle">LOCAL NEEDS</text>
+                    
+                    <path d="M 450 50 L 480 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                    
+                    <rect x="480" y="30" width="100" height="40" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="530" y="53" fill="#fff" font-size="7" text-anchor="middle">SETTLEMENT</text>
+                    <text x="530" y="63" fill="#fff" font-size="7" text-anchor="middle">PATTERN</text>
+                </svg>
+                <p class="diagram-caption">“Synthesis of tradition, landscape, and local needs into settlement patterns.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Landscape &amp; Water First</h3>
+            
+            <p>Mountainous terrain strictly circumscribes where permanent habitation can be established. Settlements naturally gravitate toward valley floors, terraced slopes, and areas within reach of perennial watercourses like the Mastura River and Khanki Toi. Proximity to water ensures household survival, livestock maintenance, and agricultural irrigation.<sup>1</sup><sup>4</sup></p>
+
+            <!-- 3. LANDSCAPE TO SETTLEMENT MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff">
+                        <rect x="20" y="25" width="80" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="60" y="43" text-anchor="middle">MOUNTAINS</text>
+                        
+                        <path d="M 100 40 L 130 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                        
+                        <rect x="130" y="25" width="80" height="30" rx="3" fill="rgba(18, 59, 42, 0.7)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="170" y="43" text-anchor="middle">SLOPE</text>
+                        
+                        <path d="M 210 40 L 240 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                        
+                        <rect x="240" y="25" width="90" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="285" y="43" text-anchor="middle">ACCESSIBLE LAND</text>
+                        
+                        <path d="M 330 40 L 360 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                        
+                        <rect x="360" y="25" width="90" height="30" rx="3" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="405" y="43" text-anchor="middle">VALLEY / TERRACE</text>
+                        
+                        <path d="M 450 40 L 480 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                        
+                        <rect x="480" y="25" width="100" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="530" y="43" text-anchor="middle">SETTLEMENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Progression from mountain slope and terrace to permanent settlement.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Settlement Density &amp; Clustered Communities</h3>
+            
+            <p>Settlement density in Orakzai varies widely depending on local terrain, agricultural capacity, and kinship ties. While some households occupy isolated positions near fields, many traditional habitations are clustered. Clustering allowed families belonging to the same *Khel* (clan) to share resources, maintain collective security, and preserve arable land for cultivation.<sup>2</sup><sup>5</sup></p>
+
+            <!-- 4. SETTLEMENT DENSITY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="25" width="140" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="120" y="43" fill="#fff" font-size="8" text-anchor="middle">LOW DENSITY (Dispersed)</text>
+                    
+                    <path d="M 190 40 L 220 40" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2 2"/>
+                    
+                    <rect x="220" y="25" width="160" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="43" fill="var(--gold)" font-size="8" font-weight="bold" text-anchor="middle">CLUSTERED (Khel / Family)</text>
+                    
+                    <path d="M 380 40 L 410 40" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2 2"/>
+                    
+                    <rect x="410" y="25" width="140" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="480" y="43" fill="#fff" font-size="8" text-anchor="middle">DENSE (Basin Centers)</text>
+                </svg>
+                <p class="diagram-caption">“Spectrum of settlement density from dispersed homesteads to clustered community cores.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Vernacular Architecture: Stone, Mud &amp; Timber</h3>
+            
+            <p>Architectural surveys in the wider Tirah and Orakzai region indicate that traditional residential construction relies heavily on local materials. Approximately 49% of traditional structures utilize stone masonry and mud, while others incorporate compacted earth and timber for ceilings, doors, and window frames, offering insulation against harsh winter conditions.<sup>3</sup><sup>4</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Architectural Element</th>
+                            <th>Traditional Material</th>
+                            <th>Functional Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Walls</strong></td>
+                            <td>Stone masonry and mud mortar [3]</td>
+                            <td>Structural strength, thermal mass, defensive barrier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ceilings &amp; Roofs</strong></td>
+                            <td>Timber beams, brushwood, and compacted earth [4]</td>
+                            <td>Insulation against winter cold; weight distribution</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Courtyards</strong></td>
+                            <td>Open walled enclosure</td>
+                            <td>Private family space, light, ventilation, domestic work</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Apertures</strong></td>
+                            <td>Narrow wooden doors and small windows</td>
+                            <td>Climate defense, security, and privacy control</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">The Residential Compound &amp; Communal Spaces</h3>
+            
+            <p>The fundamental unit of Orakzai residential life is the compound—a walled enclosure (*Kala*) that organizes living quarters, storage for grain and fodder, and livestock housing around a central courtyard. Beyond individual homes, settlements incorporate pivotal communal institutions: the **Hujra** (male guest house and community center) and the **Mosque**, which serve as the anchors of social and spiritual life.<sup>2</sup><sup>5</sup></p>
+
+            <!-- 5. COMPOUND & COMMUNITARIAN MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="40" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="95" y="48" fill="#fff" font-size="7" text-anchor="middle">HOUSEHOLDS</text>
+                    
+                    <path d="M 150 45 L 190 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                    
+                    <rect x="190" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="245" y="48" fill="#fff" font-size="7" text-anchor="middle">COMPOUND (KALA)</text>
+                    
+                    <path d="M 300 45 L 340 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                    
+                    <rect x="340" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="395" y="48" fill="#fff" font-size="7" text-anchor="middle">HUJRA / MOSQUE</text>
+                    
+                    <path d="M 450 45 L 490 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-46)"/>
+                    
+                    <rect x="490" y="30" width="80" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="530" y="48" fill="#fff" font-size="7" text-anchor="middle">COMMUNITY</text>
+                </svg>
+                <p class="diagram-caption">“Organizational scale from individual households to compounds, public spaces, and community.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>A house in Orakzai was never just four walls of stone and mud. It was built to lean against the mountain, to shelter against the winter frost, and to open its doors to kin and traveler alike. The stones we stacked came from the very slopes we walked upon. In every wall and every courtyard, our ancestors inscribed an unbreakable contract with the land: we live where the mountain permits, and we build to endure.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“The stone of the mountain became the walls of the home.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            46
+        </footer>
+    </div>
+</body>
+</html>

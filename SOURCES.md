@@ -267,3 +267,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering environmental system models, climate vs. weather distinctions, seasonal circular graphics, and orographic precipitation loops.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Scientific Reports (2026), PMD, World Bank, and KP Government environmental data.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 46: Traditional Settlements
+- **Research Sources**: Detailed citations are available in `book/sources/page-046-traditional-settlements.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering settlement system models, water-settlement links, terrace/slope conceptual models, density variations, and communal space relationships.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King's monograph, UN-Habitat data, and KP Government records.
+- **License**: Content is proprietary to the author; visual design is project-specific.

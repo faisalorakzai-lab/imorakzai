@@ -57,6 +57,7 @@
     <item id="page-043" href="../pages/page-043-mountains-of-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="page-044" href="../pages/page-044-valleys-rivers.html" media-type="application/xhtml+xml"/>
     <item id="page-045" href="../pages/page-045-climate-environment.html" media-type="application/xhtml+xml"/>
+    <item id="page-046" href="../pages/page-046-traditional-settlements.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -105,5 +106,6 @@
     <itemref idref="page-043"/>
     <itemref idref="page-044"/>
     <itemref idref="page-045"/>
+    <itemref idref="page-046"/>
   </spine>
 </package>
