@@ -270,5 +270,9 @@
       <navLabel><text>The Role of Elders</text></navLabel>
       <content src="../pages/page-066-the-role-of-elders.html"/>
     </navPoint>
+    <navPoint id="navPoint-67" playOrder="66">
+      <navLabel><text>The Role of Women</text></navLabel>
+      <content src="../pages/page-067-the-role-of-women.html"/>
+    </navPoint>
   </navMap>
 </ncx>

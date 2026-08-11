@@ -393,3 +393,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the Mashar-Kishar dynamic, the social cohesion model, the Malik institutional framework, and the intergenerational transmission workflow.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by contemporary social cohesion studies (Alam, 2024), ethnographic research on Orakzai villages (Infinity Press), and anthropological analysis (Ahmed, 1980).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 67: The Role of Women
+- **Research Sources**: Detailed citations are available in `book/sources/page-067-the-role-of-women.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the multigenerational identity hero, the role-mapping framework, the agriculture-to-security pathway, and the intergenerational transmission model.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by conflict prevention studies (Naseer, 2026), Orakzai-specific proverbial research (Orakzai, 2025), and 2023 Census data.
+- **License**: Content is proprietary to the author; visual design is project-specific.
