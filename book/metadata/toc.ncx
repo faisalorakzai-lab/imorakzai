@@ -90,5 +90,9 @@
       <navLabel><text>Nang — Honour</text></navLabel>
       <content src="../pages/page-021-nang-honour.html"/>
     </navPoint>
+    <navPoint id="navPoint-22" playOrder="21">
+      <navLabel><text>Ghairat — Dignity</text></navLabel>
+      <content src="../pages/page-022-ghairat-dignity.html"/>
+    </navPoint>
   </navMap>
 </ncx>

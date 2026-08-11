@@ -123,3 +123,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the nang framework, comparison with badal, and trust-building cycles.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from M. Jamil Hanifi (Encyclopaedia Iranica), Nancy Hatch Dupree (Encyclopaedia Iranica), Lutz Rzehak (Afghanistan Analysts Network), and Mikhail Pelevin (Cambridge University Press).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 22: Ghairat — Dignity
+- **Research Sources**: Detailed citations are available in `book/sources/page-022-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the ghairat core model, distinction from nang, and modern responsibility frameworks.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Lutz Rzehak (Afghanistan Analysts Network), Noor Sanauddin (University of Glasgow), and Dr. Anoosh W. Khan (University of Peshawar).
+- **License**: Content is proprietary to the author; visual design is project-specific.
