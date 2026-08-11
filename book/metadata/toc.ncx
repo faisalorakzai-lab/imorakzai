@@ -230,5 +230,9 @@
       <navLabel><text>Orakzai Weddings</text></navLabel>
       <content src="../pages/page-056-orakzai-weddings.html"/>
     </navPoint>
+    <navPoint id="navPoint-57" playOrder="56">
+      <navLabel><text>Birth &amp; Family Traditions</text></navLabel>
+      <content src="../pages/page-057-birth-family-traditions.html"/>
+    </navPoint>
   </navMap>
 </ncx>

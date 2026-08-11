@@ -333,3 +333,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering wedding ecosystems, family involvement, kinship bonds, and digital adaptation frameworks.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), W. Asghar (2024), J. Jany (2020), and N. A. Shinwari (2025).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 57: Birth & Family Traditions
+- **Research Sources**: Detailed citations are available in `book/sources/page-057-birth-family-traditions.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering birth ecosystems, naming identity, family trees, and generational memory transmission.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), Oxford Dictionary of Islam, and N. Naseer (2026).
+- **License**: Content is proprietary to the author; visual design is project-specific.
