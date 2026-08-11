@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Stories of Orakzai Elders</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-hist: #123B2A;
+            --badge-oral: #B59654;
+            --badge-fam: #6B4F3A;
+            --badge-comm: #77746B;
+            --badge-folk: #8B4513;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-hist { background: var(--badge-hist); }
+        .badge-oral { background: var(--badge-oral); color: var(--charcoal); }
+        .badge-fam { background: var(--badge-fam); }
+        .badge-comm { background: var(--badge-comm); }
+        .badge-folk { background: var(--badge-folk); }
+        .badge-unverified { background: #333; border: 1px solid #555; }
+        
+        .interview-box {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .q-a-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .q-card {
+            padding: 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+        .q-bad { background: rgba(255, 0, 0, 0.05); border: 1px solid rgba(255, 0, 0, 0.2); }
+        .q-good { background: rgba(0, 255, 0, 0.05); border: 1px solid rgba(0, 255, 0, 0.2); }
+    </style>
+</head>
+<body>
+    <div class="content-page oral-history-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 64</h3>
+            <h2>STORIES OF ORAKZAI ELDERS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“When memory speaks, history gains another voice.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">History is not preserved only in archives. Sometimes it survives in a voice. An elder may remember a road before it was paved, a village before migration changed it, a market before modern shops appeared, or a family gathering that happened decades ago. Some memories are personal. Some belong to an entire family. Some are repeated across a village. And some have become stories whose original details are difficult to verify. For the Orakzai, elders can therefore be important carriers of memory. Their stories can help preserve language, places, occupations, customs, relationships and experiences that may never have been written down. But memory and history are not identical. A remembered story deserves to be recorded with respect. It also deserves to be identified honestly. What can be independently verified should be documented as history. What comes from a person's memory should remain oral history. What cannot yet be verified should remain a research question. The purpose is not to weaken the story. It is to preserve both the story and the truth about what kind of evidence it represents.</p>
+
+            <!-- HERO: ELDER & YOUTH (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Hujra Setting (Abstract) -->
+                        <path d="M50 300 L550 300" stroke="var(--gray)" stroke-width="2"/>
+                        <rect x="100" y="200" width="100" height="100" fill="rgba(107,79,58,0.2)" stroke="var(--earth)"/>
+                        <rect x="400" y="200" width="100" height="100" fill="rgba(107,79,58,0.2)" stroke="var(--earth)"/>
+                        
+                        <!-- Elder (Abstract) -->
+                        <circle cx="200" cy="220" r="25" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <path d="M180 280 Q 200 240, 220 280 Z" fill="var(--gold)" opacity="0.5"/>
+                        
+                        <!-- Youth (Abstract) -->
+                        <circle cx="400" cy="250" r="20" fill="rgba(18,59,42,0.3)" stroke="var(--forest)"/>
+                        <path d="M385 300 Q 400 270, 415 300 Z" fill="var(--forest)" opacity="0.5"/>
+                        
+                        <!-- Tea Cup -->
+                        <path d="M290 280 L310 280 L315 260 L285 260 Z" fill="rgba(255,255,255,0.2)" stroke="#fff"/>
+                        <path d="M300 255 Q 305 245, 300 235" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+                        
+                        <!-- Mountain Valley -->
+                        <path d="M0 150 L100 80 L250 150 L400 80 L600 150 L600 350 L0 350 Z" fill="rgba(18,59,42,0.05)"/>
+                        
+                        <!-- Recording Device (Abstract) -->
+                        <rect x="350" y="285" width="20" height="10" rx="2" fill="#333"/>
+                        <circle cx="360" cy="290" r="2" fill="red"/>
+                        
+                        <text x="300" y="40" font-size="16" font-weight="bold" fill="var(--gold)">STORIES OF ORAKZAI ELDERS</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255,255,255,0.7)">“When memory speaks, history gains another voice.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The intergenerational transmission of memory in a traditional Orakzai setting.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Oral History?</h3>
+            <p>Oral history is the collection and preservation of people's recollections through recorded testimony and structured interviews. Unlike written history, which often focuses on official documents and political leaders, oral history captures the lived experiences of ordinary individuals. It preserves not just the "what" of history, but the "how"—the emotions, the language, and the local context that documents often miss.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <text x="40" y="60">PERSON</text>
+                        <path d="M65 60 L85 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="115" y="60">MEMORY</text>
+                        <path d="M145 60 L165 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="195" y="60">INTERVIEW</text>
+                        <path d="M225 60 L245 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="280" y="60">RECORDING</text>
+                        <path d="M315 60 L335 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="370" y="60">ARCHIVE</text>
+                        <path d="M400 60 L420 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="460" y="60" font-weight="bold" fill="var(--gold)">GENERATIONS</text>
+                        
+                        <defs>
+                            <marker id="arrow-64" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The transformation of individual memory into communal heritage.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Evidence Classification</h3>
+            <p>A memory can be sincere without every detail being historically accurate. Time can affect dates, names, and the exact sequence of events. This does not make the testimony worthless; it means the testimony must be appropriately classified. Responsible documentation requires us to label the type of evidence we are presenting.</p>
+
+            <div class="evidence-grid">
+                <span class="badge badge-hist">Documented History</span>
+                <span class="badge badge-oral">Oral History</span>
+                <span class="badge badge-fam">Family Memory</span>
+                <span class="badge badge-comm">Community Memory</span>
+                <span class="badge badge-folk">Folk Story / Legend</span>
+                <span class="badge badge-unverified">Unverified</span>
+            </div>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="150" cy="50" r="30" fill="rgba(181,150,84,0.2)" stroke="var(--gold)"/>
+                        <text x="150" y="55">MEMORY</text>
+                        
+                        <circle cx="350" cy="50" r="30" fill="rgba(18,59,42,0.2)" stroke="var(--forest)"/>
+                        <text x="350" y="55">ARCHIVE</text>
+                        
+                        <path d="M250 80 L250 110" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        
+                        <rect x="150" y="110" width="200" height="30" rx="2" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                        <text x="250" y="130" font-weight="bold">RICHER HISTORY</text>
+                        
+                        <text x="250" y="95" font-size="7">SYNTHESIS</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Memory and archive as complementary pillars of historical understanding.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Orakzai Elder: A Carrier of Heritage</h3>
+            <p>Elders in Orakzai society are not a single uniform group. They include family matriarchs and patriarchs, religious scholars, farmers who know the land's history, and traders who remember the old market routes. Their importance lies in their ability to bridge the gap between the ancestral past and the digital present. They preserve not only stories but the very language and values that define Orakzai identity.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">ORAKZAI ELDER</text>
+                        
+                        <path d="M200 22 L100 60" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M225 35 L175 60" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path x="250" y="35" d="M250 35 L250 60" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M275 35 L325 60" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M300 22 L400 60" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <text x="100" y="75">LANGUAGE</text>
+                        <text x="175" y="75">LAND MEMORY</text>
+                        <text x="250" y="75">TRADITIONS</text>
+                        <text x="325" y="75">GENEALOGY</text>
+                        <text x="400" y="75">VALUES</text>
+                        
+                        <rect x="150" y="120" width="200" height="35" rx="2" fill="rgba(18,59,42,0.4)" stroke="var(--forest)"/>
+                        <text x="250" y="137" font-weight="bold">ORAL HERITAGE</text>
+                        <text x="250" y="148" font-size="6">“distilled through decades of experience”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The multi-dimensional contributions of elders to tribal heritage.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Social Setting: The Hujra</h3>
+            <p>The traditional guesthouse, or Hujra, has historically been the primary social setting for intergenerational communication. It is here that youth listen to the conversations of elders, learning about the tribe's history, the nuances of Pashto proverbs, and the practicalities of communal life. While urbanization has changed these patterns, the Hujra remains a powerful symbol of social memory.<sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <path d="M50 120 L450 120" stroke="var(--gray)" stroke-width="1"/>
+                        <rect x="200" y="40" width="100" height="80" fill="rgba(107,79,58,0.1)" stroke="var(--earth)"/>
+                        
+                        <text x="120" y="70">ELDER (Mashray)</text>
+                        <path d="M160 70 L200 70" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        
+                        <text x="250" y="85" font-weight="bold">CONVERSATION</text>
+                        
+                        <path d="M300 70 L340 70" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="380" y="70">YOUTH (Kishray)</text>
+                        
+                        <text x="250" y="140" font-size="7">“Hujra as a learning hub and transmission space.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The flow of knowledge in the communal Hujra.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Migration and Displacement</h3>
+            <p>Migration is a significant theme in Orakzai oral history. Elders remember the process of leaving home—whether for economic opportunity, education, or because of conflict-related displacement. These stories record the emotional weight of separation, the challenges of temporary settlements, and the resilience required to return and rebuild. These accounts provide a human face to the data found in humanitarian reports.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="70" y="40">CONFLICT / NEED</text>
+                        <path d="M70 50 L70 90" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="70" y="110">DISPLACEMENT</text>
+                        
+                        <path d="M110 110 L190 110" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="250" y="110">MEMORY / ADAPTATION</text>
+                        
+                        <path d="M310 110 L390 110" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="430" y="110">REBUILDING</text>
+                        
+                        <path d="M430 90 L430 50" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="430" y="40">RECOVERY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The cycle of displacement and resilience in oral history.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Legend: The Lost Son (Orakzai)</h3>
+            <p>One of the most enduring stories in the Orakzai oral tradition is the legend of their origin. According to local folk stories, the tribe takes its name from an ancestor who was a "lost son" (Sikandar Shah). While historical archives record the administrative details of the tribe, this legend remains a core part of how Orakzai communities understand their own identity and name.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="40" width="120" height="40" rx="4" fill="rgba(139,69,19,0.2)" stroke="var(--badge-folk)"/>
+                        <text x="110" y="65" font-weight="bold">SIKANDAR SHAH</text>
+                        
+                        <path d="M170 60 L220 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        
+                        <rect x="220" y="40" width="120" height="40" rx="4" fill="rgba(139,69,19,0.2)" stroke="var(--badge-folk)"/>
+                        <text x="280" y="65" font-weight="bold">"THE LOST SON"</text>
+                        
+                        <path d="M340 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        
+                        <rect x="390" y="40" width="80" height="40" rx="4" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="430" y="65" font-weight="bold">ORAKZAI</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The legendary etymology of the Orakzai name.”</p>
+            </div>
+
+            <div class="interview-box">
+                <h3 style="color: var(--gold); margin-bottom: 1rem;">How to Interview an Elder</h3>
+                <p style="font-size: 0.85rem;">Preserving oral history requires trust and structured inquiry. Use these guidelines to record family or community memories effectively.</p>
+                <div class="q-a-grid">
+                    <div class="q-card q-bad">
+                        <strong>BAD QUESTION:</strong><br>
+                        “Was this the traditional Orakzai custom?”<br>
+                        <em>(Leading question; assumes a single tradition.)</em>
+                    </div>
+                    <div class="q-card q-good">
+                        <strong>GOOD QUESTION:</strong><br>
+                        “What do you remember people doing during weddings when you were young?”<br>
+                        <em>(Open-ended; focuses on personal memory.)</em>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Digital Preservation</h3>
+            <p>Modern technology offers new ways to preserve oral history. Smartphones, voice recordings, and digital archives allow younger generations to record their elders' stories with precision. This synthesis of ancient memory and modern tools ensures that the voices of the past remain accessible to future generations.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="100" y="40">ELDER MEMORY</text>
+                        <text x="100" y="80">VOICE</text>
+                        <path d="M150 60 L200 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        
+                        <rect x="200" y="40" width="100" height="40" rx="2" fill="rgba(181,150,84,0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="65">DIGITAL ARCHIVE</text>
+                        
+                        <path d="M300 60 L350 60" stroke="var(--gold)" marker-end="url(#arrow-64)"/>
+                        <text x="400" y="40">FUTURE</text>
+                        <text x="400" y="80">GENERATIONS</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The digital bridge for oral heritage.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>When an elder speaks, a library burns—if no one is there to listen. In Orakzai, our history has always been more than what is written in colonial monographs or government records. It is the story of the "lost son," the memory of the Tirah valley springs, and the sound of the Rabab at a wedding forty years ago. By recording these stories, we are not just collecting data; we are honoring the people who carried our identity through time. A story is a gift of memory. Our responsibility is to receive it with respect, document it with care, and ensure that the voice of the elder is never lost to silence.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“MEMORY IS THE ANCHOR OF IDENTITY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            64
+        </footer>
+    </div>
+</body>
+</html>

@@ -375,3 +375,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the language-to-identity pathway, dialect classification, evidence ladders, and thematic proverb grids.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by *Rohi Mataluna* (Tair & Edwards, 2009) and linguistic research by Nasir (2022).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 64: Stories of Orakzai Elders
+- **Research Sources**: Detailed citations are available in `book/sources/page-064-stories-of-orakzai-elders.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the oral history workflow, memory-to-archive hierarchy, Hujra-based transmission models, and evidence badges.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by colonial-era monographs (King, 1900), modern ethnographic studies (Naseer, 2026), and anthropological analysis (Ahmed, 1980).
+- **License**: Content is proprietary to the author; visual design is project-specific.
