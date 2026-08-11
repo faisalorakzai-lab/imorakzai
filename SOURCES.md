@@ -75,3 +75,9 @@
 - **Visual Elements**: Custom SVG conceptual tribal network illustration.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Encyclopædia Britannica, and historical ethnographies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 14: The Pashtun Tribal Confederations
+- **Research Sources**: Detailed citations are available in `book/sources/page-014-sources.md`.
+- **Visual Elements**: Custom SVG hierarchical network illustration.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Daniel Balland (*Encyclopaedia Iranica*), M. Jamil Hanifi (*Encyclopaedia Iranica*), Robert Nichols (*Oxford Research Encyclopedia*), and anthropological studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.

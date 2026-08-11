@@ -25,6 +25,7 @@
     <item id="page-011" href="../pages/page-011-origins-of-the-pashtun-people.html" media-type="application/xhtml+xml"/>
     <item id="page-012" href="../pages/page-012-pashtun-tribal-society.html" media-type="application/xhtml+xml"/>
     <item id="page-013" href="../pages/page-013-major-pashtun-tribal-landscape.html" media-type="application/xhtml+xml"/>
+    <item id="page-014" href="../pages/page-014-pashtun-tribal-confederations.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -41,5 +42,6 @@
     <itemref idref="page-011"/>
     <itemref idref="page-012"/>
     <itemref idref="page-013"/>
+    <itemref idref="page-014"/>
   </spine>
 </package>
