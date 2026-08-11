@@ -38,5 +38,9 @@
       <navLabel><text>My Connection to Orakzai Identity</text></navLabel>
       <content src="../pages/page-007-my-connection-to-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-9" playOrder="8">
+      <navLabel><text>The Pashtun World</text></navLabel>
+      <content src="../pages/page-009-the-pashtun-world.html"/>
+    </navPoint>
   </navMap>
 </ncx>

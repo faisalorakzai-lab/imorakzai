@@ -45,3 +45,9 @@
 - **Source**: Original creation for Faisal Orakzai.
 - **License**: MIT / Project-specific.
 - **Content**: Original autobiographical text provided by the author.
+
+## Page 9: The Pashtun World
+- **Research Sources**: Detailed citations are available in `book/sources/page-009-sources.md`.
+- **Visual Elements**: Custom SVG design featuring conceptual cultural-geographic illustration (mountains, valleys, cities, digital grid).
+- **Content**: Original text by Faisal Orakzai, supported by authoritative research from Encyclopaedia Iranica, Encyclopædia Britannica, and ethnographic studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.
