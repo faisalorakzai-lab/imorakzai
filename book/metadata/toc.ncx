@@ -254,5 +254,9 @@
       <navLabel><text>Attan &amp; Traditional Dance</text></navLabel>
       <content src="../pages/page-062-attan-traditional-dance.html"/>
     </navPoint>
+    <navPoint id="navPoint-63" playOrder="62">
+      <navLabel><text>Pashto Proverbs</text></navLabel>
+      <content src="../pages/page-063-pashto-proverbs.html"/>
+    </navPoint>
   </navMap>
 </ncx>

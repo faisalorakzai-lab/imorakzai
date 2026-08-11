@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Pashto Proverbs</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .proverb-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .proverb-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 4px;
+            padding: 1.5rem;
+            position: relative;
+        }
+        .proverb-pashto {
+            font-family: 'Noto Naskh Arabic', serif;
+            font-size: 1.4rem;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            direction: rtl;
+            text-align: right;
+        }
+        .proverb-translit {
+            font-size: 0.85rem;
+            color: var(--gray);
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        .proverb-translation {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+        .proverb-meaning {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.8);
+            border-top: 1px solid rgba(181, 150, 84, 0.1);
+            padding-top: 0.5rem;
+        }
+        .evidence-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        .badge-orakzai { background: var(--gold); color: var(--charcoal); }
+        .badge-pashtun { background: var(--forest); color: var(--ivory); }
+        .badge-regional { background: var(--gray); color: var(--ivory); }
+        .caution-box {
+            border-left: 4px solid var(--earth);
+            background: rgba(107, 79, 58, 0.1);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page proverbs-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 63</h3>
+            <h2>PASHTO PROVERBS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“A few words can carry generations of experience.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Some knowledge is written in books. Some is carried in conversations. A proverb can travel from a grandmother to a child, from a father to a son, from a neighbour to a neighbour, and from one generation to the next without ever being written down. A few words can contain a warning. A sentence can carry humor. A familiar expression can preserve an observation about human nature. For Pashto-speaking communities, proverbs form part of a wider oral tradition in which language carries experience. For the Orakzai, these expressions may live in family conversations, village memory, gatherings and everyday speech. But language crosses boundaries. A proverb spoken in Orakzai may also be known elsewhere in the Pashto world. The task is therefore not to claim every saying as uniquely Orakzai. It is to understand what the words mean, where they are documented, how they travel, and what they reveal about the people who use them.</p>
+
+            <!-- HERO: MANUSCRIPT & SPEECH (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Open Manuscript -->
+                        <path d="M100 250 Q 300 280, 500 250 L 550 100 Q 300 130, 50 100 Z" fill="rgba(107,79,58,0.2)" stroke="var(--earth)" stroke-width="1"/>
+                        <path d="M300 115 L 300 265" stroke="var(--earth)" stroke-width="0.5" stroke-dasharray="2,2"/>
+                        
+                        <!-- Abstract Calligraphic Forms -->
+                        <path d="M150 150 Q 200 130, 250 150" fill="none" stroke="var(--gold)" stroke-width="2" opacity="0.6"/>
+                        <path d="M350 180 Q 400 200, 450 180" fill="none" stroke="var(--gold)" stroke-width="2" opacity="0.6"/>
+                        
+                        <!-- Speech Bubbles (Abstract) -->
+                        <circle cx="150" cy="80" r="20" fill="rgba(181,150,84,0.1)" stroke="var(--gold)" stroke-width="0.5"/>
+                        <circle cx="450" cy="80" r="25" fill="rgba(181,150,84,0.1)" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <!-- Mountain Silhouette -->
+                        <path d="M0 300 L150 200 L300 300 L450 200 L600 300 L600 350 L0 350 Z" fill="rgba(18,59,42,0.1)"/>
+                        
+                        <text x="300" y="50" font-size="16" font-weight="bold" fill="var(--gold)">PASHTO PROVERBS</text>
+                        <text x="300" y="70" font-size="8" fill="rgba(255,255,255,0.7)">“A few words can carry generations of experience.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The convergence of written record, oral speech, and ancestral landscape.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is a Proverb?</h3>
+            <p>Academically, a proverb is a short, conventional expression that communicates wisdom, observation, advice, warning, humor, or social commentary. Proverbs are the distilled essence of a community's shared experience, refined through repetition and transmission over centuries. They are context-dependent, meaning their interpretation can shift based on the speaker, the audience, and the situation.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">EXPERIENCE</text>
+                        <path d="M85 60 L120 60" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        <text x="160" y="60">LANGUAGE</text>
+                        <path d="M200 60 L235 60" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        <text x="285" y="60">SHORT EXPRESSION</text>
+                        <path d="M340 60 L375 60" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        <text x="410" y="60">MEMORY</text>
+                        <path d="M440 60 L465 60" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        <text x="485" y="60" font-weight="bold" fill="var(--gold)">REPETITION</text>
+                        
+                        <defs>
+                            <marker id="arrow-63" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The formation of proverbial wisdom.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Linguistic Context: The Orakzai Dialect</h3>
+            <p>Orakzai Pashto belongs to the **Middle Pashto** or **Pakhto** dialect group, sharing phonetic characteristics with the dialects of Bangash and Dawarwala. This regional grouping is characterized by specific vowel shifts and consonant realizations. While many proverbs are Pashtun-wide, the way they are spoken in Orakzai reflects the unique linguistic landscape of the district.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="175" y="10" width="150" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">MIDDLE PASHTO / PAKHTO</text>
+                        
+                        <path d="M250 35 L100 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L250 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="50" y="70" width="100" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="100" y="87">ORAKZAI</text>
+                        
+                        <rect x="200" y="70" width="100" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="250" y="87">BANGASH</text>
+                        
+                        <rect x="350" y="70" width="100" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="87">DAWARWALA</text>
+                        
+                        <rect x="150" y="120" width="200" height="35" rx="2" fill="rgba(107,79,58,0.4)" stroke="var(--earth)"/>
+                        <text x="250" y="137" font-weight="bold">PHONETIC GROUPING</text>
+                        <text x="250" y="148" font-size="6">“Shared Consonants &amp; Vowel Shifts”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The linguistic placement of the Orakzai dialect.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Curated Collection: Thematic Proverb Grid</h3>
+            <p>The following proverbs are curated from academic collections, including *Rohi Mataluna* (Tair & Edwards, 2009). They represent the core themes of Pashtun and Orakzai oral wisdom.</p>
+
+            <div class="proverb-grid">
+                <!-- WISDOM -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Wisdom</span>
+                    <div class="proverb-pashto">وخت د هر غم دوا دى</div>
+                    <div class="proverb-translit">Wakt da har gham dawa day.</div>
+                    <div class="proverb-translation">“Time is the medicine for every grief.”</div>
+                    <div class="proverb-meaning">An observation on the healing nature of time and the necessity of patience in facing loss.</div>
+                </div>
+
+                <!-- HONOR -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Honor / Ghairat</span>
+                    <div class="proverb-pashto">د ښځې ستر د سړي غیرت دی</div>
+                    <div class="proverb-translit">Da khaze satra da nari ghairat de.</div>
+                    <div class="proverb-translation">“A woman's modesty is a man's honor.”</div>
+                    <div class="proverb-meaning">Reflects the cultural linkage between gendered social behavior and collective tribal honor (Nang).</div>
+                </div>
+
+                <!-- HOSPITALITY -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Hospitality</span>
+                    <div class="proverb-pashto">اول اطعام، پسې کلام</div>
+                    <div class="proverb-translit">Awal ataam, pase kalaam.</div>
+                    <div class="proverb-translation">“First food, then talk.”</div>
+                    <div class="proverb-meaning">A fundamental rule of hospitality: a guest's physical needs must be met before engaging in business or conversation.</div>
+                </div>
+
+                <!-- PATIENCE -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Patience</span>
+                    <div class="proverb-pashto">صبر تلخ دی خو میوه یې خوږه ده</div>
+                    <div class="proverb-translit">Sabr talkh day kho mewa ye khozha da.</div>
+                    <div class="proverb-translation">“Patience is bitter but its fruit is sweet.”</div>
+                    <div class="proverb-meaning">Encourages endurance through hardship with the promise of future reward.</div>
+                </div>
+
+                <!-- IDENTITY -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Origin / Lineage</span>
+                    <div class="proverb-pashto">اصل ته خطا نشته، کم اصل ته وفا نشته</div>
+                    <div class="proverb-translit">Asal ta khata nishta, kam asal ta wafa nishta.</div>
+                    <div class="proverb-translation">“No error in the original, no loyalty in the base.”</div>
+                    <div class="proverb-meaning">Stresses the importance of noble lineage and the belief that character is rooted in ancestry.</div>
+                </div>
+                
+                <!-- PATRIOTISM -->
+                <div class="proverb-card">
+                    <span class="evidence-badge badge-pashtun">Home / Patriotism</span>
+                    <div class="proverb-pashto">هر چاته خپل وطن کشمیر دی</div>
+                    <div class="proverb-translit">Har chata khpal watan kashmir de.</div>
+                    <div class="proverb-translation">“For everyone, their own country is Kashmir.”</div>
+                    <div class="proverb-meaning">Expresses deep love for one's homeland, regardless of its challenges; Kashmir is used as a metaphor for paradise.</div>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Evidence Test: Is it Orakzai-Specific?</h3>
+            <p>Direct evidence for a distinct, documented Orakzai proverb corpus remains limited. Most sayings used in Orakzai communities belong to the broader Pashto oral tradition. A proverb collected in Orakzai is evidence of its *usage* there, but not necessarily of its *exclusive origin*.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="250" y="20" font-weight="bold" fill="var(--gold)">ORAKZAI EVIDENCE TEST</text>
+                        
+                        <rect x="50" y="40" width="120" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="110" y="60">LOCAL COLLECTION</text>
+                        
+                        <path d="M170 55 L215 55" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        
+                        <rect x="215" y="40" width="120" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="275" y="60">LOCAL WORDING</text>
+                        
+                        <path d="M335 55 L380 55" stroke="var(--gold)" marker-end="url(#arrow-63)"/>
+                        
+                        <rect x="380" y="40" width="100" height="30" rx="2" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                        <text x="430" y="60" font-weight="bold">ORAKZAI-SPECIFIC</text>
+                        
+                        <text x="250" y="100" font-size="7" fill="rgba(255,255,255,0.7)">“Usage does not equal exclusive origin.”</text>
+                        
+                        <rect x="50" y="115" width="400" height="25" rx="2" fill="rgba(107,79,58,0.2)" stroke="var(--earth)"/>
+                        <text x="250" y="132" fill="var(--earth)" font-weight="bold">GEOGRAPHIC COLLECTION ≠ HISTORICAL ORIGIN</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A methodological framework for classifying Orakzai proverbs.”</p>
+            </div>
+
+            <div class="caution-box">
+                <strong>AI AND ORAL TRADITION:</strong> AI must not be used to invent proverbs or origins. While it can assist in translation and classification, the authority of oral tradition rests with the community and documented scholarship.
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What Still Needs to Be Documented?</h3>
+            <p>A systematic oral-history and linguistic project could help determine which expressions are widely Pashto, which are regionally concentrated, and whether a distinct Orakzai proverb corpus can be documented. Future research should focus on village-level variations and Tirah-related expressions.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="start">
+                        <text x="250" y="20" font-weight="bold" fill="var(--gold)" text-anchor="middle">RESEARCH GAPS</text>
+                        
+                        <circle cx="50" cy="50" r="3" fill="var(--gold)"/>
+                        <text x="60" y="53">Orakzai-specific proverb corpus</text>
+                        
+                        <circle cx="50" cy="80" r="3" fill="var(--gold)"/>
+                        <text x="60" y="83">Village-level dialect variations</text>
+                        
+                        <circle cx="50" cy="110" r="3" fill="var(--gold)"/>
+                        <text x="60" y="113">Tirah-related expressions</text>
+                        
+                        <circle cx="280" cy="50" r="3" fill="var(--gold)"/>
+                        <text x="290" y="53">Women's oral traditions</text>
+                        
+                        <circle cx="280" cy="80" r="3" fill="var(--gold)"/>
+                        <text x="290" y="83">Disappearing agricultural sayings</text>
+                        
+                        <circle cx="280" cy="110" r="3" fill="var(--gold)"/>
+                        <text x="290" y="113">Digital transformation of proverbs</text>
+                        
+                        <rect x="50" y="140" width="400" height="30" rx="2" fill="rgba(18,59,42,0.4)" stroke="var(--gold)"/>
+                        <text x="250" y="160" text-anchor="middle" font-style="italic">“Systematic documentation is required to map the local corpus.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A roadmap for future linguistic and ethnographic research.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Proverbs are the quietest way a people remembers itself. They are the compact containers of wisdom that survive displacement, migration, and change. When an Orakzai elder speaks a proverb, they are not just using language; they are invoking the collective memory of the valley. While many of these sayings belong to the broader Pashtun world, their usage in Orakzai family life makes them ours. A proverb is not a law, but a cultural expression—a way to understand what we value, what we fear, and what we consider worth passing on to the next generation. As long as these words are spoken, the memory of our ancestors remains alive in our conversations.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“WORDS ARE THE distilled ESSENCE OF MEMORY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            63
+        </footer>
+    </div>
+</body>
+</html>

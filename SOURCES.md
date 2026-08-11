@@ -369,3 +369,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the rhythm-to-memory pathway, Attan's geography, the evidence ladder, and community participation models.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by contemporary reports on the 2024 Spring Mela and academic studies by Hussain (2025) and Kakar (2025).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 63: Pashto Proverbs
+- **Research Sources**: Detailed citations are available in `book/sources/page-063-pashto-proverbs.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the language-to-identity pathway, dialect classification, evidence ladders, and thematic proverb grids.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by *Rohi Mataluna* (Tair & Edwards, 2009) and linguistic research by Nasir (2022).
+- **License**: Content is proprietary to the author; visual design is project-specific.
