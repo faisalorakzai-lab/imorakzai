@@ -150,5 +150,9 @@
       <navLabel><text>Orakzai Tribal Leadership</text></navLabel>
       <content src="../pages/page-036-orakzai-tribal-leadership.html"/>
     </navPoint>
+    <navPoint id="navPoint-37" playOrder="36">
+      <navLabel><text>Jirga Among the Orakzai</text></navLabel>
+      <content src="../pages/page-037-jirga-among-the-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>

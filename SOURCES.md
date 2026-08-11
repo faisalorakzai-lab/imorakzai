@@ -213,3 +213,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering leadership networks, Maliki timelines, intermediary models, and the 2018 constitutional transition.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Sarfraz Khan, and constitutional records.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 37: Jirga Among the Orakzai
+- **Research Sources**: Detailed citations are available in `book/sources/page-037-jirga-among-the-orakzai.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering the jirga decision cycle, Orakzai section participation, FCR vs. customary models, and the 2018 constitutional transition.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, academic scholarship on Pashtun governance, and constitutional records.
+- **License**: Content is proprietary to the author; visual design is project-specific.
