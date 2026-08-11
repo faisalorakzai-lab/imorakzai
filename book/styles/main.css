@@ -283,3 +283,92 @@ body {
         font-size: 1rem;
     }
 }
+
+/* Author's Note Page Styles */
+.authors-note-page .section-label {
+    font-family: var(--font-serif);
+    font-size: 0.9rem !important;
+    letter-spacing: 0.2rem !important;
+    font-weight: 400;
+}
+
+.author-intro {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+.portrait-container {
+    flex: 0 0 25%;
+    max-width: 25%;
+    order: 2; /* Move to the right side */
+}
+
+.author-portrait {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--muted-brown);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+.intro-text {
+    flex: 1;
+    order: 1;
+}
+
+.note-content p {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: var(--text-color);
+}
+
+.core-message {
+    margin: 3rem 0;
+    text-align: center;
+    border-top: 1px solid var(--accent-gold);
+    border-bottom: 1px solid var(--accent-gold);
+    padding: 1.5rem 0;
+}
+
+.core-message p {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-style: italic;
+    color: var(--accent-gold);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.authors-note-page .signature {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: 2rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .author-intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .portrait-container {
+        flex: 0 0 50%;
+        max-width: 50%;
+        order: 0;
+        margin-bottom: 2rem;
+    }
+    .note-content p {
+        text-align: left;
+    }
+    .core-message p {
+        font-size: 1.2rem;
+    }
+}

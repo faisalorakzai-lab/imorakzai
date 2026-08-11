@@ -22,5 +22,9 @@
       <navLabel><text>Dedication</text></navLabel>
       <content src="../pages/page-003-dedication.html"/>
     </navPoint>
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel><text>Author’s Note</text></navLabel>
+      <content src="../pages/page-004-authors-note.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -20,3 +20,9 @@
 - **Background Graphic**: Custom SVG mountain silhouette and geometric pattern.
 - **License**: MIT / Project-specific (Original creation for Faisal Orakzai).
 - **Content**: Original text provided by the author.
+
+## Page 4: Author’s Note
+- **Author Portrait**: `book/images/author/faisal-orakzai-author.jpg`
+- **Source**: Provided directly by the author (Faisal Orakzai).
+- **License**: Proprietary / Author-owned.
+- **Content**: Original text provided by the author.
