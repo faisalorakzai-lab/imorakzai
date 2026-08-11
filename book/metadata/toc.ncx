@@ -170,5 +170,9 @@
       <navLabel><text>Orakzai Territory</text></navLabel>
       <content src="../pages/page-041-orakzai-territory.html"/>
     </navPoint>
+    <navPoint id="navPoint-42" playOrder="41">
+      <navLabel><text>Geography of Orakzai</text></navLabel>
+      <content src="../pages/page-042-geography-of-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -53,6 +53,7 @@
     <item id="page-039" href="../pages/page-039-orakzai-social-structure.html" media-type="application/xhtml+xml"/>
     <item id="page-040" href="../pages/page-040-orakzai-family-kinship.html" media-type="application/xhtml+xml"/>
     <item id="page-041" href="../pages/page-041-orakzai-territory.html" media-type="application/xhtml+xml"/>
+    <item id="page-042" href="../pages/page-042-geography-of-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -97,5 +98,6 @@
     <itemref idref="page-039"/>
     <itemref idref="page-040"/>
     <itemref idref="page-041"/>
+    <itemref idref="page-042"/>
   </spine>
 </package>

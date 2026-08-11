@@ -243,3 +243,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering the historical homeland map, geography-to-identity models, elevation profiles, and route networks.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, official district records, and historical gazetteers.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 42: Geography of Orakzai
+- **Research Sources**: Detailed citations are available in `book/sources/page-042-geography-of-orakzai.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering topographic compositions, elevation profiles, slope cross-sections, and seasonal geography.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Pakistan Bureau of Statistics, UN Women, and Lucas White King's historical monograph.
+- **License**: Content is proprietary to the author; visual design is project-specific.

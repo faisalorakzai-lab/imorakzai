@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Geography of Orakzai</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .info-card {
+            background: rgba(18, 59, 42, 0.1);
+            border-left: 3px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .info-card h4 {
+            color: var(--gold);
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            font-size: 0.85rem;
+        }
+        .info-item span {
+            display: block;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+        }
+        .four-panel {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .panel {
+            background: rgba(18, 59, 42, 0.06);
+            border: 1px solid rgba(18, 59, 42, 0.2);
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .panel h5 {
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        .panel p {
+            font-size: 0.75rem;
+            line-height: 1.4;
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .info-grid, .four-panel {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page geography-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 C 200 50, 400 150, 800 100" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <path d="M0 200 C 200 150, 400 250, 800 200" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <path d="M0 300 C 200 250, 400 350, 800 300" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <defs>
+                    <pattern id="topo-pattern" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <path d="M 0 50 Q 25 40, 50 50 T 100 50" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#topo-pattern)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 42</h3>
+            <h2>GEOGRAPHY OF ORAKZAI</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Mountains, valleys, water, climate and human settlement.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Geography is not simply the shape of a place on a map. It is the relationship between land, water, climate, elevation, movement and human settlement. Orakzai is a mountainous region whose physical geography has influenced where people live, how they travel, how land is used, and how communities remain connected.</p>
+            
+            <p>Geography influences human life without determining culture by itself. The physical environment provides the stage upon which the Orakzai people have built their history, adapting their livelihoods and social structures to the high ridges and fertile valleys of their homeland.<sup>1</sup><sup>2</sup></p>
+
+            <!-- 1. HERO VISUAL: GEOGRAPHY OF ORAKZAI -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Contour lines -->
+                    <g fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1">
+                        <path d="M50 250 Q 150 150, 300 200 T 550 150"/>
+                        <path d="M50 230 Q 150 130, 300 180 T 550 130"/>
+                        <path d="M50 210 Q 150 110, 300 160 T 550 110"/>
+                    </g>
+                    
+                    <!-- Nodes -->
+                    <g transform="translate(300, 150)">
+                        <circle cx="0" cy="-80" r="30" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="0" y="-77" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">MOUNTAIN RIDGES</text>
+                        
+                        <path d="M0 -50 L0 -20" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                        
+                        <circle cx="0" cy="10" r="25" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="0" y="13" fill="#fff" font-size="8" text-anchor="middle">VALLEYS</text>
+                        
+                        <path d="M0 35 L0 65" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                        
+                        <circle cx="0" cy="90" r="20" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="0" y="93" fill="#fff" font-size="7" text-anchor="middle">STREAMS</text>
+                    </g>
+                    
+                    <g transform="translate(150, 150)">
+                        <rect x="-40" y="0" width="80" height="25" rx="3" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="0" y="15" fill="#fff" font-size="7" text-anchor="middle">SETTLEMENTS</text>
+                    </g>
+                    
+                    <g transform="translate(450, 150)">
+                        <rect x="-40" y="0" width="80" height="25" rx="3" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="0" y="15" fill="#fff" font-size="7" text-anchor="middle">ROADS / ROUTES</text>
+                    </g>
+
+                    <defs>
+                        <marker id="arrow-42" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Stylized topographic landscape informed by the relationship between terrain and human infrastructure.”</p>
+            </div>
+
+            <section class="info-card">
+                <h4>GEOGRAPHIC PROFILE</h4>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span>REGION</span>
+                        Khyber Pakhtunkhwa, Pakistan
+                    </div>
+                    <div class="info-item">
+                        <span>LANDSCAPE</span>
+                        Predominantly mountainous / hilly terrain
+                    </div>
+                    <div class="info-item">
+                        <span>AREA</span>
+                        1,538 sq km (PBS, 2023)<sup>1</sup>
+                    </div>
+                    <div class="info-item">
+                        <span>POPULATION</span>
+                        387,561 (Census 2023)<sup>1</sup>
+                    </div>
+                    <div class="info-item">
+                        <span>TEHSILS</span>
+                        Central, Ismailzai, Lower, Upper Orakzai<sup>2</sup>
+                    </div>
+                    <div class="info-item">
+                        <span>ELEVATION</span>
+                        6,000 to 7,000 ft (approx. 2,100m) peaks<sup>4</sup>
+                    </div>
+                </div>
+            </section>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Topography &amp; Elevation</h3>
+            
+            <p>The topography of Orakzai is defined by a series of parallel mountain ranges and high ridges separated by fertile valleys. The elevation varies significantly, with peaks in the **Karagh Ghar** and **Samana Range** commanding the landscape. These high ridges influence travel, settlement, and agriculture, creating a naturally segmented but interconnected social world.<sup>3</sup><sup>5</sup></p>
+
+            <!-- 2. ELEVATION PROFILE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 130 L 150 30 L 250 100 L 350 40 L 450 110 L 550 130" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                    
+                    <text x="150" y="20" fill="#fff" font-size="8" text-anchor="middle">HIGH RIDGES (6,000-7,000 ft)</text>
+                    <path d="M150 35 L150 65" stroke="rgba(181, 150, 84, 0.5)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                    
+                    <text x="250" y="120" fill="var(--gold)" font-size="7" text-anchor="middle">VALLEYS</text>
+                    <path d="M250 105 L250 135" stroke="rgba(181, 150, 84, 0.5)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                    
+                    <text x="450" y="125" fill="rgba(255,255,255,0.6)" font-size="7" text-anchor="middle">LOWER TERRAIN</text>
+                </svg>
+                <p class="diagram-caption">“Elevation profile illustrating the transition from high ridges to valley floors.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Mountains &amp; Valleys</h3>
+            
+            <p>The principal valleys—**Mastura**, **Khanki**, **Kharmana**, and **Bara**—serve as the primary areas for settlement and agriculture. These valleys are sheltered by the surrounding mountains, providing access to water and cultivable land. Historically, each valley developed its own community character while remaining part of the wider Orakzai tribal network.<sup>3</sup><sup>4</sup></p>
+
+            <!-- 3. VALLEY-RIDGE MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 20 L200 100 L300 20" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="100" y="15" fill="rgba(255,255,255,0.6)" font-size="7" text-anchor="middle">RIDGE</text>
+                    <text x="300" y="15" fill="rgba(255,255,255,0.6)" font-size="7" text-anchor="middle">RIDGE</text>
+                    <text x="200" y="110" fill="var(--gold)" font-size="8" font-weight="bold" text-anchor="middle">VALLEY</text>
+                    
+                    <g transform="translate(400, 60)">
+                        <text x="0" y="-15" fill="#fff" font-size="7" text-anchor="start">VALLEY + WATER</text>
+                        <text x="0" y="0" fill="#fff" font-size="7" text-anchor="start">+ CULTIVABLE LAND</text>
+                        <path d="M0 10 L40 10" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                        <text x="50" y="13" fill="var(--gold)" font-size="8" font-weight="bold" text-anchor="start">SETTLEMENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Conceptual model of the valley as a nexus for settlement.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Slopes &amp; Land Use</h3>
+            
+            <p>Slope gradient is a critical factor in Orakzai geography. Steep slopes limit flat land for construction and large-scale farming, leading to the development of terraced agriculture and settlements perched on valley sides. Valley floors, where land is more level and water more accessible, support higher settlement density.<sup>2</sup><sup>5</sup></p>
+
+            <!-- 4. SLOPE CROSS-SECTION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 20 L200 130 L550 130" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="100" y="60" fill="#fff" font-size="7" text-anchor="middle" transform="rotate(35, 100, 60)">STEEP SLOPE</text>
+                    <text x="375" y="145" fill="#fff" font-size="7" text-anchor="middle">VALLEY FLOOR</text>
+                    
+                    <g transform="translate(100, 100)">
+                        <text x="0" y="0" fill="rgba(255,255,255,0.6)" font-size="6" text-anchor="middle">LIMITED FLAT LAND</text>
+                    </g>
+                    <g transform="translate(400, 110)">
+                        <text x="0" y="0" fill="var(--gold)" font-size="7" text-anchor="middle">GREATER SETTLEMENT POTENTIAL</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Cross-section model showing the geographic logic of land use.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Water Geography</h3>
+            
+            <p>Water is the lifeblood of the region. The **Mastura River** and **Khanki Toi** are the primary perennial streams, originating in the western hills and flowing eastward. These rivers, along with seasonal watercourses and springs, provide the necessary hydration for drinking, livestock, and the 11.5% of land that is cultivated.<sup>2</sup><sup>4</sup></p>
+
+            <!-- 5. WATERSHED CONCEPT -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="300" cy="60" r="40" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4 2"/>
+                    <text x="300" y="63" fill="var(--gold)" font-size="9" font-weight="bold" text-anchor="middle">WATER</text>
+                    
+                    <g font-size="7" fill="#fff">
+                        <text x="300" y="15" text-anchor="middle">DRINKING</text>
+                        <text x="450" y="63" text-anchor="start">AGRICULTURE</text>
+                        <text x="300" y="110" text-anchor="middle">LIVESTOCK</text>
+                        <text x="150" y="63" text-anchor="end">SETTLEMENT</text>
+                    </g>
+                    
+                    <path d="M300 25 L300 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                    <path d="M410 60 L340 60" stroke="var(--gold)" stroke-width="1" marker-start="url(#arrow-42)"/>
+                    <path d="M300 95 L300 75" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                    <path d="M190 60 L260 60" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-42)"/>
+                </svg>
+                <p class="diagram-caption">“The central role of water in supporting multiple dimensions of regional life.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Climate &amp; Seasons</h3>
+            
+            <p>The climate of Orakzai is influenced by its varied elevation. Winters can be severe, with significant snowfall in the higher Tirah regions, while summers remain relatively temperate in the upper valleys. Seasonal variations dictate the rhythm of agricultural life and movement.<sup>2</sup><sup>5</sup></p>
+
+            <!-- 6. CLIMATE FACTORS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <text x="100" y="55" fill="#fff" font-size="8" text-anchor="middle">ELEVATION</text>
+                    <text x="200" y="55" fill="#fff" font-size="8" text-anchor="middle">+</text>
+                    <text x="300" y="55" fill="#fff" font-size="8" text-anchor="middle">SEASON</text>
+                    <text x="400" y="55" fill="#fff" font-size="8" text-anchor="middle">+</text>
+                    <text x="500" y="55" fill="#fff" font-size="8" text-anchor="middle">PRECIPITATION</text>
+                    
+                    <path d="M100 70 Q 300 120, 500 70" fill="none" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-42)"/>
+                    <text x="300" y="110" fill="var(--gold)" font-size="9" font-weight="bold" text-anchor="middle">LOCAL CLIMATE</text>
+                </svg>
+                <p class="diagram-caption">“The interactive factors determining the regional climatic environment.”</p>
+            </div>
+
+            <div class="four-panel">
+                <div class="panel">
+                    <h5>WINTER</h5>
+                    <p>Significant snowfall in upper regions; limited movement; domestic focus.</p>
+                </div>
+                <div class="panel">
+                    <h5>SPRING</h5>
+                    <p>Thawing snow; replenishment of watercourses; beginning of cultivation.</p>
+                </div>
+                <div class="panel">
+                    <h5>SUMMER</h5>
+                    <p>Temperate in upper valleys; peak agricultural activity; seasonal rainfall.</p>
+                </div>
+                <div class="panel">
+                    <h5>AUTUMN</h5>
+                    <p>Harvest period; preparation for winter; changing vegetation colors.</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Ecological Layers</h3>
+            
+            <p>The region's vegetation reflects its mountainous character, with forest cover (approx. 3.5%) featuring species like *Pinus wallichiana*. Fertile valleys support fruit orchards, including walnut, apricot, and apple trees, which are integral to the local economy and diet.<sup>2</sup><sup>5</sup></p>
+
+            <!-- 7. ECOLOGICAL LAYERS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="20" width="500" height="20" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="33" fill="#fff" font-size="8" text-anchor="middle">WOODLAND / FOREST (PINUS WALLICHIANA)</text>
+                    
+                    <rect x="50" y="50" width="500" height="20" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="63" fill="#fff" font-size="8" text-anchor="middle">SHRUBS / GRASSLAND</text>
+                    
+                    <rect x="50" y="80" width="500" height="20" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="93" fill="#fff" font-size="8" text-anchor="middle">AGRICULTURAL VEGETATION / ORCHARDS</text>
+                </svg>
+                <p class="diagram-caption">“The vertical distribution of vegetation types based on elevation and land use.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>To know the geography of Orakzai is to understand the rhythm of life itself. The steepness of the slopes taught us patience; the flow of the Mastura River taught us continuity. We are a people of the ridges and the valleys—our homes are built into the mountains, and our orchards are a testament to our labor. The land is not just a place where we reside; it is a partner in our survival, a silent witness to the generations that have come before and those yet to follow.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“The mountain gives us our name, but the valley gives us our life.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            42
+        </footer>
+    </div>
+</body>
+</html>
