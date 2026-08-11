@@ -154,5 +154,9 @@
       <navLabel><text>Jirga Among the Orakzai</text></navLabel>
       <content src="../pages/page-037-jirga-among-the-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-38" playOrder="37">
+      <navLabel><text>Traditional Orakzai Governance</text></navLabel>
+      <content src="../pages/page-038-traditional-orakzai-governance.html"/>
+    </navPoint>
   </navMap>
 </ncx>

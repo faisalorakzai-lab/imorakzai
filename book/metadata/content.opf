@@ -49,6 +49,7 @@
     <item id="page-035" href="../pages/page-035-tribal-clans-lineages.html" media-type="application/xhtml+xml"/>
     <item id="page-036" href="../pages/page-036-orakzai-tribal-leadership.html" media-type="application/xhtml+xml"/>
     <item id="page-037" href="../pages/page-037-jirga-among-the-orakzai.html" media-type="application/xhtml+xml"/>
+    <item id="page-038" href="../pages/page-038-traditional-orakzai-governance.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -89,5 +90,6 @@
     <itemref idref="page-035"/>
     <itemref idref="page-036"/>
     <itemref idref="page-037"/>
+    <itemref idref="page-038"/>
   </spine>
 </package>

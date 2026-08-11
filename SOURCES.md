@@ -219,3 +219,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering the jirga decision cycle, Orakzai section participation, FCR vs. customary models, and the 2018 constitutional transition.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, academic scholarship on Pashtun governance, and constitutional records.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 38: Traditional Orakzai Governance
+- **Research Sources**: Detailed citations are available in `book/sources/page-038-traditional-orakzai-governance.md`.
+- **Visual Elements**: 35+ custom SVG logic diagrams covering decentralized governance networks, Rewaj models, kinship foundations, and the transition to modern state institutions.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, academic research on Pashtun customary governance, and constitutional records.
+- **License**: Content is proprietary to the author; visual design is project-specific.
