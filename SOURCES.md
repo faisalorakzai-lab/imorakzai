@@ -99,3 +99,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the Pashtunwali framework and normative tenets.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Akbar S. Ahmed, eHRAF, and anthropological studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 18: Melmastia — Hospitality
+- **Research Sources**: Detailed citations are available in `book/sources/page-018-melmastia-hospitality.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the guest-host relationship, food sharing, and the hujra network.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Akbar S. Ahmed, eHRAF, and sociological studies on diaspora adaptation.
+- **License**: Content is proprietary to the author; visual design is project-specific.
