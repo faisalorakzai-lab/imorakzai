@@ -282,5 +282,9 @@
       <navLabel><text>Education in Traditional Society</text></navLabel>
       <content src="../pages/page-069-education-in-traditional-society.html"/>
     </navPoint>
+    <navPoint id="navPoint-70" playOrder="69">
+      <navLabel><text>Religion &amp; Community Life</text></navLabel>
+      <content src="../pages/page-070-religion-community-life.html"/>
+    </navPoint>
   </navMap>
 </ncx>

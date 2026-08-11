@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Religion & Community Life</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-islamic: #006400;
+            --badge-orakzai: #123B2A;
+            --badge-pashtun: #B59654;
+            --badge-regional: #6B4F3A;
+            --badge-family: #77746B;
+            --badge-historical: #2F4F4F;
+            --badge-contemporary: #8B4513;
+            --badge-institutional: #4682B4;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-islamic { background: var(--badge-islamic); }
+        .badge-orakzai { background: var(--badge-orakzai); }
+        .badge-pashtun { background: var(--badge-pashtun); color: var(--charcoal); }
+        .badge-regional { background: var(--badge-regional); }
+        .badge-family { background: var(--badge-family); }
+        .badge-historical { background: var(--badge-historical); }
+        .badge-contemporary { background: var(--badge-contemporary); }
+        .badge-institutional { background: var(--badge-institutional); }
+        
+        .practice-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .practice-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page religion-community-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 70</h3>
+            <h2>RELIGION & COMMUNITY LIFE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Faith becomes part of community through practice.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Religion does not exist only inside a place of worship. For many communities, faith becomes visible in everyday life: in prayer, in family relationships, in charity, in hospitality, in mourning, in celebration, in education, and in the responsibilities people feel toward one another. For the Orakzai, Islam forms an important part of the cultural and social landscape. But faith and culture are not identical. Some practices come directly from Islamic teachings. Others come from Pashtun social traditions. Some belong to particular families or villages. Others have developed through modern institutions. Understanding community life therefore requires more than listing religious practices. It requires asking where each practice comes from, how it changed, and how people experienced it. Religion can provide a shared moral vocabulary. Community life gives that vocabulary a social form.</p>
+
+            <!-- HERO: RELIGION-COMMUNITY HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Horizon at Dusk -->
+                        <path d="M0 300 L150 200 L300 280 L450 150 L600 300 Z" fill="rgba(18, 59, 42, 0.2)"/>
+                        
+                        <!-- Ground/Village Plane -->
+                        <rect x="0" y="300" width="600" height="100" fill="rgba(23, 26, 23, 0.5)"/>
+                        
+                        <!-- Central Mosque Silhouette -->
+                        <path d="M250 300 L350 300 L350 250 Q 300 200, 250 250 Z" fill="rgba(0, 100, 0, 0.15)" stroke="var(--badge-islamic)"/>
+                        <circle cx="300" cy="230" r="10" fill="none" stroke="var(--badge-islamic)"/>
+                        <path d="M290 230 L310 230 M300 220 L300 240" stroke="var(--badge-islamic)" stroke-width="0.5" opacity="0.5"/>
+                        
+                        <!-- People Walking Toward Mosque -->
+                        <g opacity="0.6">
+                            <circle cx="200" cy="350" r="4" fill="var(--ivory)"/>
+                            <path d="M200 354 L200 370 M195 360 L205 360" stroke="var(--ivory)" stroke-width="1"/>
+                            
+                            <circle cx="220" cy="360" r="3" fill="var(--ivory)"/>
+                            <path d="M220 363 L220 375 M217 368 L223 368" stroke="var(--ivory)" stroke-width="0.8"/>
+                            
+                            <circle cx="400" cy="350" r="4" fill="var(--ivory)"/>
+                            <path d="M400 354 L400 370 M395 360 L405 360" stroke="var(--ivory)" stroke-width="1"/>
+                        </g>
+                        
+                        <!-- Family Home Silhouettes -->
+                        <rect x="50" y="320" width="80" height="40" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <rect x="470" y="320" width="80" height="40" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        
+                        <!-- Lantern/Light Motif -->
+                        <circle cx="300" cy="100" r="40" fill="rgba(181, 150, 84, 0.05)"/>
+                        <path d="M290 90 Q 300 70, 310 90 L310 110 Q 300 130, 290 110 Z" fill="none" stroke="var(--gold)" stroke-width="1"/>
+                        <circle cx="300" cy="100" r="2" fill="var(--gold)"/>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">RELIGION & COMMUNITY LIFE</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“Faith becomes part of community through practice.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A spatial model of the mosque as the spiritual and social center of Orakzai community life.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Religion in the Community</h3>
+            <p>Religion in Orakzai society is a multi-dimensional framework that influences belief, worship, ethics, and social relationships. While its primary function is spiritual, it provides a moral vocabulary that shapes family life, education, charity, and collective responsibility. This influence creates a cycle where faith informs practice, and practice reinforces community bonds.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="100" width="100" height="40" rx="4" fill="rgba(0, 100, 0, 0.2)" stroke="var(--badge-islamic)"/>
+                        <text x="250" y="125" font-weight="bold">FAITH</text>
+                        
+                        <!-- Branches -->
+                        <path d="M250 100 L250 40" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="250" y="35">WORSHIP</text>
+                        
+                        <path d="M280 100 L350 50" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="360" y="45">ETHICS</text>
+                        
+                        <path d="M300 110 L400 80" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="430" y="85">FAMILY</text>
+                        
+                        <path d="M300 130 L400 160" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="430" y="170">EDUCATION</text>
+                        
+                        <path d="M280 140 L350 190" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="360" y="205">CHARITY</text>
+                        
+                        <path d="M250 140 L250 200" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="250" y="215">COMMUNITY</text>
+                        
+                        <path d="M220 140 L150 190" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        <text x="140" y="205">MEMORY</text>
+                        
+                        <defs>
+                            <marker id="arrow-70" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The multifaceted influence of faith on the dimensions of community life.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-islamic">Islamic Teaching</span>
+                <span class="badge badge-orakzai">Orakzai-Specific</span>
+                <span class="badge badge-pashtun">Pashtun-Wide</span>
+                <span class="badge badge-regional">Regional</span>
+                <span class="badge badge-family">Family-Custom</span>
+                <span class="badge badge-historical">Historical</span>
+                <span class="badge badge-contemporary">Contemporary</span>
+                <span class="badge badge-institutional">Institutional</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Intersection of Faith and Culture</h3>
+            <p>In Orakzai, as in much of the Pashtun world, faith and culture are deeply intertwined but conceptually distinct. Islamic teachings provide the foundation for belief and worship, while Pashtun social traditions provide the form for community practice. Practices like hospitality (*Melmastia*), marriage customs, and funeral gatherings often sit at the overlap, where religious requirements are expressed through cultural forms. It is essential to distinguish between what is required by faith and what is inherited through custom.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <!-- Islamic Teaching Circle -->
+                        <circle cx="180" cy="100" r="70" fill="rgba(0, 100, 0, 0.1)" stroke="var(--badge-islamic)"/>
+                        <text x="150" y="100" font-weight="bold">ISLAMIC TEACHING</text>
+                        
+                        <!-- Cultural Practice Circle -->
+                        <circle cx="320" cy="100" r="70" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="350" y="100" font-weight="bold">CULTURAL PRACTICE</text>
+                        
+                        <!-- Overlap Area -->
+                        <text x="250" y="100" font-weight="bold" fill="var(--ivory)">COMMUNITY LIFE</text>
+                        
+                        <!-- Examples -->
+                        <text x="250" y="70" font-size="6" fill="rgba(255,255,255,0.7)">Hospitality</text>
+                        <text x="250" y="85" font-size="6" fill="rgba(255,255,255,0.7)">Marriage Customs</text>
+                        <text x="250" y="115" font-size="6" fill="rgba(255,255,255,0.7)">Funeral Rites</text>
+                        <text x="250" y="130" font-size="6" fill="rgba(255,255,255,0.7)">Charity (Zakat)</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conceptual overlap between religious teaching and cultural practice.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Mosque as a Community Institution</h3>
+            <p>The mosque (*Masjid*) is the primary institutional anchor of community life. Beyond its role as a place of worship, it serves as a center for religious education, a venue for community announcements, and a hub for coordinating charity. Friday prayers (*Jumu'ah*) represent the weekly peak of communal gathering, where spiritual guidance through the sermon (*Khutbah*) meets social interaction and collective decision-making. The mosque provides the spatial framework for communal responsibility.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="190" y="40" width="120" height="40" rx="2" fill="rgba(0, 100, 0, 0.2)" stroke="var(--badge-islamic)"/>
+                        <text x="250" y="60" font-weight="bold">MOSQUE (MASJID)</text>
+                        <text x="250" y="72" font-size="6">Community Institution</text>
+                        
+                        <path d="M250 80 L250 110" stroke="var(--gray)" marker-end="url(#arrow-70)"/>
+                        
+                        <!-- Functions -->
+                        <g transform="translate(100, 120)">
+                            <circle cx="0" cy="0" r="20" fill="rgba(0, 100, 0, 0.1)" stroke="var(--badge-islamic)"/>
+                            <text x="0" y="5">WORSHIP</text>
+                        </g>
+                        <g transform="translate(200, 120)">
+                            <circle cx="0" cy="0" r="20" fill="rgba(70, 130, 180, 0.1)" stroke="var(--badge-institutional)"/>
+                            <text x="0" y="5">EDUCATION</text>
+                        </g>
+                        <g transform="translate(300, 120)">
+                            <circle cx="0" cy="0" r="20" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                            <text x="0" y="5">COMMUNITY</text>
+                        </g>
+                        <g transform="translate(400, 120)">
+                            <circle cx="0" cy="0" r="20" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                            <text x="0" y="5">SERVICE</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The multi-functional roles of the mosque in Orakzai society.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Madrasa Education and Moral Development</h3>
+            <p>In Orakzai, religious schools (*Deeni Madaris*) are viewed by many parents as essential for the spiritual and moral development of their children. Research by Habib et al. (2026) highlights that madrasas teach not just Qur'anic literacy, but also social ethics and a sense of belonging to the wider Muslim community (*Ummah*). These institutions provide a formal educational pathway that runs alongside or complements secular schooling, ensuring the continuity of religious knowledge across generations.<sup>1</sup></p>
+
+            <div class="practice-panel">
+                <div class="practice-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Spiritual Literacy</h4>
+                    <p style="font-size: 0.85rem;">Learning to read, recite, and memorize the Qur'an as a foundational life skill.</p>
+                </div>
+                <div class="practice-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Moral Guidance</h4>
+                    <p style="font-size: 0.85rem;">Acquiring the ethical framework of Islamic jurisprudence and social conduct.</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Charity, Zakat, and Social Security</h3>
+            <p>Charity is a cornerstone of religious practice that has direct social consequences. Zakat (obligatory charity) and Sadaqah (voluntary charity) serve as vital tools for social security in Orakzai. During the month of Ramadan, these practices peak, providing support for eligible recipients and reinforcing the principle of collective responsibility. This religious obligation ensures that the welfare of the community is not left to chance but is a built-in feature of the social system.<sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">FAITH</text>
+                        <path d="M80 60 L120 60" stroke="var(--gold)" marker-end="url(#arrow-70)"/>
+                        
+                        <text x="160" y="60">WORSHIP</text>
+                        <path d="M200 60 L240 60" stroke="var(--gold)" marker-end="url(#arrow-70)"/>
+                        
+                        <rect x="240" y="40" width="160" height="40" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="320" y="60" font-weight="bold">COMMUNITY RESPONSIBILITY</text>
+                        <text x="320" y="72" font-size="6">(Zakat & Sadaqah)</text>
+                        
+                        <path d="M400 60 L440 60" stroke="var(--gold)" marker-end="url(#arrow-70)"/>
+                        <text x="470" y="60">STABILITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pathway from individual faith to community social security.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>We often talk about religion as a set of rules, but in Orakzai, religion is a set of relationships. It is the relationship between the individual and the Creator, but it is also the relationship between the neighbor and the neighbor, the elder and the youth, the rich and the poor. Our faith is woven into the very fabric of our community life. It gives us a shared language for justice, a shared rhythm for celebration, and a shared comfort in times of mourning. As we navigate the modern world, the challenge is to keep this spirit of collective responsibility alive. Religion in Orakzai is not just about the mosque; it is about the heart of the community beating in unison with the principles of faith.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“FAITH IS THE ANCHOR OF THE COMMUNITY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            70
+        </footer>
+    </div>
+</body>
+</html>

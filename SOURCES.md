@@ -411,3 +411,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the traditional education hero, the Hujra learning model, the ecological knowledge pathway, and the intergenerational memory flow.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by ecological studies (Ahmad et al., 2026), Hujra research (2026), and ethnographic records (Ahmed, 1980).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 70: Religion & Community Life
+- **Research Sources**: Detailed citations are available in `book/sources/page-070-religion-community-life.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the religion-community hero, the faith-practice-responsibility model, the mosque institutional framework, and the intergenerational transmission of faith.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by studies on Orakzai madrasas (Habib et al., 2026), social cohesion research (Alam et al., 2024), and regional religious studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.
