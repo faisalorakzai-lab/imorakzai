@@ -146,5 +146,9 @@
       <navLabel><text>Tribal Clans &amp; Lineages</text></navLabel>
       <content src="../pages/page-035-tribal-clans-lineages.html"/>
     </navPoint>
+    <navPoint id="navPoint-36" playOrder="35">
+      <navLabel><text>Orakzai Tribal Leadership</text></navLabel>
+      <content src="../pages/page-036-orakzai-tribal-leadership.html"/>
+    </navPoint>
   </navMap>
 </ncx>

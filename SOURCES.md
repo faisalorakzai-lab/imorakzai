@@ -207,3 +207,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering tribal identity layers, clan vs. lineage models, source confidence systems, and digital preservation workflows.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Encyclopaedia Iranica, and modern institutional research.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 36: Orakzai Tribal Leadership
+- **Research Sources**: Detailed citations are available in `book/sources/page-036-orakzai-tribal-leadership.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering leadership networks, Maliki timelines, intermediary models, and the 2018 constitutional transition.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Sarfraz Khan, and constitutional records.
+- **License**: Content is proprietary to the author; visual design is project-specific.
