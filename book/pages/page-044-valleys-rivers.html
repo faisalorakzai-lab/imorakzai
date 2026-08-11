@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Valleys &amp; Rivers</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .table-container {
+            margin: 2rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            background: rgba(18, 59, 42, 0.04);
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page valleys-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 200, 800 100" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <path d="M0 300 Q 400 400, 800 300" fill="none" stroke="rgba(18, 59, 42, 0.05)" stroke-width="1" />
+                <defs>
+                    <pattern id="river-topo" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <path d="M 0 50 Q 50 40, 100 50" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#river-topo)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 44</h3>
+            <h2>VALLEYS &amp; RIVERS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where mountains become water, and water becomes landscape.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Between the mountains are the valleys. Through the valleys, water finds its way across the landscape. In Orakzai, the relationship between mountain, water and valley has long shaped where people could settle, cultivate land and move between communities. A river is not only a line on a map. It is part of a geographic system.</p>
+            
+            <p>Following the mountainous elevation framework established on the preceding page, the territory's hydrological network acts as the connective tissue of human geography. Valleys and watercourses provide the resources necessary for permanent settlement, agricultural productivity, and communal interaction.<sup>1</sup><sup>2</sup></p>
+
+            <!-- 1. HERO VISUAL: VALLEYS & RIVERS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Mountain background -->
+                    <path d="M 50 100 L 200 40 L 350 90 L 500 50 L 550 100 Z" fill="rgba(18, 59, 42, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <!-- Descending watercourses -->
+                    <path d="M 200 70 Q 250 120, 300 150 T 400 220" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="4 2"/>
+                    <path d="M 350 90 Q 320 140, 300 150 T 200 220" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    
+                    <text x="300" y="30" fill="var(--gold)" font-size="10" font-weight="bold" text-anchor="middle">VALLEYS &amp; RIVERS</text>
+                    <text x="300" y="245" fill="#fff" font-size="8" text-anchor="middle">MOUNTAIN RUNOFF → WATERCOURSES → VALLEYS → SETTLEMENT</text>
+                </svg>
+                <p class="diagram-caption">“Hydrological landscape composition illustrating mountain runoff descending into valley river systems.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">The Geographic Hydrological System</h3>
+            
+            <p>The movement of water through Orakzai follows a rigorous geographic logic. Precipitation and melting snow upon the high mountain ridges generate surface runoff. This runoff feeds smaller streams and seasonal tributaries, which converge into major watercourses like the Mastura River and Khanki Toi, carving out fertile valley corridors where human settlement and agriculture take root.<sup>2</sup><sup>3</sup></p>
+
+            <!-- 2. GEOGRAPHIC SYSTEM MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff">
+                        <rect x="10" y="35" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="45" y="53" text-anchor="middle">MOUNTAIN</text>
+                        
+                        <path d="M80 50 L110 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                        
+                        <rect x="110" y="35" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.7)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="145" y="53" text-anchor="middle">RUNOFF</text>
+                        
+                        <path d="M180 50 L210 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                        
+                        <rect x="210" y="35" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="245" y="53" text-anchor="middle">STREAM</text>
+                        
+                        <path d="M280 50 L310 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                        
+                        <rect x="310" y="35" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="345" y="53" text-anchor="middle">RIVER</text>
+                        
+                        <path d="M380 50 L410 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                        
+                        <rect x="410" y="35" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="445" y="53" text-anchor="middle">VALLEY</text>
+                        
+                        <path d="M480 50 L510 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                        
+                        <rect x="510" y="35" width="80" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="550" y="53" text-anchor="middle">SETTLEMENT</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-44" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Conceptual hydrological model linking mountain runoff to valley settlement.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Orakzai's Major Valleys</h3>
+            
+            <p>Official administrative and geographical records identify three primary valley systems within the territory: the **Khanki Valley**, the **Mastura Valley**, and the **Khurmana Valley**. Each valley acts as a distinct geographic basin, supporting local agricultural production and providing foundational territory for major Orakzai tribal sections.<sup>1</sup><sup>2</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Valley Name</th>
+                            <th>Primary Watercourse</th>
+                            <th>Geographic Location</th>
+                            <th>Historical &amp; Economic Significance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Mastura Valley</strong></td>
+                            <td>Mastura River</td>
+                            <td>Central Orakzai sector</td>
+                            <td>Core agricultural basin; extensive settlement density [2] [3]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Khanki Valley</strong></td>
+                            <td>Khanki Toi</td>
+                            <td>Southern/Central basin</td>
+                            <td>Major valley corridor between Samana and Karagh Ghar [1] [2]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Khurmana Valley</strong></td>
+                            <td>Khurmana River</td>
+                            <td>Western territory near Kurram</td>
+                            <td>Rugged transit corridor; historical western tribal lands [1] [3]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Khanki Valley &amp; Khanki Toi</h3>
+            
+            <p>The **Khanki Valley** is traversed by the **Khanki Toi**, a major watercourse originating near Mount Mitta in the western highlands. In regional nomenclature, *Toi* denotes a stream or river channel. The Khanki Toi flows eastward, eventually serving as a primary source feeder for the Kohat Toi system. The valley floor provides vital agricultural land flanked by the Samana Range.<sup>1</sup><sup>3</sup></p>
+
+            <!-- 3. KHANKI VALLEY CROSS-SECTION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 100 L 200 30 L 300 90 L 400 30 L 550 100" fill="none" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="200" y="20" fill="rgba(255,255,255,0.6)" font-size="7" text-anchor="middle">SAMANA / RIDGE</text>
+                    <text x="400" y="20" fill="rgba(255,255,255,0.6)" font-size="7" text-anchor="middle">KARAGH GHAR / RIDGE</text>
+                    <text x="300" y="80" fill="var(--gold)" font-size="8" font-weight="bold" text-anchor="middle">KHANKI VALLEY &amp; TOI</text>
+                </svg>
+                <p class="diagram-caption">“Cross-section model of the Khanki Valley flanked by high mountain ridges.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Mastura Valley &amp; River</h3>
+            
+            <p>The **Mastura Valley** represents the heartland of central Orakzai. Fed by the **Mastura River**—which also originates near the high western peaks—the valley is characterized by wide alluvial terraces and small agricultural plains on both riverbanks. The Mastura River ultimately flows eastward to join the Bara River system, linking Orakzai hydrology directly with the Peshawar basin drainage.<sup>2</sup><sup>4</sup></p>
+
+            <!-- 4. MASTURA RIVER FLOW MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="30" y="30" width="100" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="80" y="48" fill="#fff" font-size="7" text-anchor="middle">WESTERN HEADWATERS</text>
+                    
+                    <path d="M130 45 L170 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="170" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="225" y="48" fill="#fff" font-size="7" text-anchor="middle">MASTURA RIVER</text>
+                    
+                    <path d="M280 45 L320 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="320" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="375" y="48" fill="#fff" font-size="7" text-anchor="middle">MASTURA VALLEY</text>
+                    
+                    <path d="M430 45 L470 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="470" y="30" width="100" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="520" y="48" fill="#fff" font-size="7" text-anchor="middle">BARA RIVER</text>
+                </svg>
+                <p class="diagram-caption">“Flow sequence from western headwaters through the Mastura Valley to the Bara River.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Khurmana Valley &amp; Seasonal Watercourses</h3>
+            
+            <p>The **Khurmana Valley** forms a rugged western corridor near the Kurram border, watered by the Khurmana stream system which flows toward the Kurram River. Across the wider territory, particularly in the southwest, numerous dry watercourses and seasonal streams remain dry for much of the year, carrying sudden runoff only during heavy rainfall events.<sup>1</sup><sup>3</sup></p>
+
+            <!-- 5. SEASONAL WATERCOURSE MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="40" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="95" y="48" fill="#fff" font-size="7" text-anchor="middle">DRY CHANNEL</text>
+                    
+                    <path d="M150 45 L190 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="190" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.7)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="245" y="48" fill="#fff" font-size="7" text-anchor="middle">RAINFALL EVENT</text>
+                    
+                    <path d="M300 45 L340 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="340" y="30" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="395" y="48" fill="#fff" font-size="7" text-anchor="middle">TEMPORARY RUNOFF</text>
+                    
+                    <path d="M450 45 L490 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="490" y="30" width="80" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="530" y="48" fill="#fff" font-size="7" text-anchor="middle">VALLEY</text>
+                </svg>
+                <p class="diagram-caption">“Hydrological model of seasonal watercourses and intermittent rainfall runoff.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Water, Settlement &amp; Agriculture</h3>
+            
+            <p>In a mountainous region, water availability dictates the distribution of human habitation and arable farming. Approximately 11.5% of Orakzai land is cultivated, concentrated primarily along the valley floors where perennial streams and valley-floor soils permit irrigation for wheat, maize, and fruit orchards.<sup>2</sup><sup>4</sup></p>
+
+            <!-- 6. WATER & AGRICULTURE MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50" y="30" width="120" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="110" y="48" fill="#fff" font-size="7" text-anchor="middle">PERENNIAL WATER</text>
+                    
+                    <path d="M170 45 L220 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="220" y="30" width="160" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="48" fill="#fff" font-size="7" text-anchor="middle">VALLEY-FLOOR IRRIGATION</text>
+                    
+                    <path d="M380 45 L430 45" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-44)"/>
+                    
+                    <rect x="430" y="30" width="120" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="490" y="48" fill="#fff" font-size="7" text-anchor="middle">CULTIVATION / ORCHARDS</text>
+                </svg>
+                <p class="diagram-caption">“Direct relationship between perennial water availability and agricultural cultivation.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The valleys of Orakzai are where history found a place to rest. While the mountains gave us defense and shelter, it was the Mastura and the Khanki Toi that gave us life. Along their banks, our villages grew, our fields were planted, and our communities flourished. A valley is more than fertile ground; it is the physical home where the Orakzai story is nourished every single day.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“The mountains may shape our horizon, but the rivers shape our hearths.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            44
+        </footer>
+    </div>
+</body>
+</html>

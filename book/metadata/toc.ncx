@@ -178,5 +178,9 @@
       <navLabel><text>Mountains of Orakzai</text></navLabel>
       <content src="../pages/page-043-mountains-of-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-44" playOrder="43">
+      <navLabel><text>Valleys &amp; Rivers</text></navLabel>
+      <content src="../pages/page-044-valleys-rivers.html"/>
+    </navPoint>
   </navMap>
 </ncx>

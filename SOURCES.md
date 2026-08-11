@@ -255,3 +255,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering layered mountain contour compositions, west-to-east elevation models, and terminology hierarchies.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP-BOIT, Pakistan Almanac, and historical monographs by Lucas White King.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 44: Valleys & Rivers
+- **Research Sources**: Detailed citations are available in `book/sources/page-044-valleys-rivers.md`.
+- **Visual Elements**: 35+ custom SVG logic diagrams covering hydrological landscape compositions, conceptual geographic systems, valley cross-sections, and river-flow models.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP-BOIT, historical gazetteers, and Lucas White King's monograph.
+- **License**: Content is proprietary to the author; visual design is project-specific.
