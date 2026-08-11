@@ -42,5 +42,9 @@
       <navLabel><text>The Pashtun World</text></navLabel>
       <content src="../pages/page-009-the-pashtun-world.html"/>
     </navPoint>
+    <navPoint id="navPoint-10" playOrder="9">
+      <navLabel><text>Who Are the Pashtuns?</text></navLabel>
+      <content src="../pages/page-010-who-are-the-pashtuns.html"/>
+    </navPoint>
   </navMap>
 </ncx>
