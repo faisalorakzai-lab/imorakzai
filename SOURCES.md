@@ -105,3 +105,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the guest-host relationship, food sharing, and the hujra network.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Akbar S. Ahmed, eHRAF, and sociological studies on diaspora adaptation.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 19: Nanawatai — Protection & Forgiveness
+- **Research Sources**: Detailed citations are available in `book/sources/page-019-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating conflict pathways, historical timelines, and institutional comparisons.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Mikhail Pelevin (Cambridge University Press, 2022) and Encyclopaedia Iranica.
+- **License**: Content is proprietary to the author; visual design is project-specific.

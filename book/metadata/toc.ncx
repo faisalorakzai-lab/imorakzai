@@ -78,5 +78,9 @@
       <navLabel><text>Melmastia — Hospitality</text></navLabel>
       <content src="../pages/page-018-melmastia-hospitality.html"/>
     </navPoint>
+    <navPoint id="navPoint-19" playOrder="18">
+      <navLabel><text>Nanawatai — Protection &amp; Forgiveness</text></navLabel>
+      <content src="../pages/page-019-nanawatai-protection-forgiveness.html"/>
+    </navPoint>
   </navMap>
 </ncx>
