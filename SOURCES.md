@@ -111,3 +111,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating conflict pathways, historical timelines, and institutional comparisons.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Mikhail Pelevin (Cambridge University Press, 2022) and Encyclopaedia Iranica.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 20: Jirga — Traditional Governance
+- **Research Sources**: Detailed citations are available in `book/sources/page-020-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating deliberation flow, institutional distinctions (maraka vs. jirga vs. loya jirga), and circular seating.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from M. Jamil Hanifi (Encyclopaedia Iranica), Akbar S. Ahmed, Fredrik Barth, and Sir L. White King.
+- **License**: Content is proprietary to the author; visual design is project-specific.

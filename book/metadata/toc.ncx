@@ -82,5 +82,9 @@
       <navLabel><text>Nanawatai — Protection &amp; Forgiveness</text></navLabel>
       <content src="../pages/page-019-nanawatai-protection-forgiveness.html"/>
     </navPoint>
+    <navPoint id="navPoint-20" playOrder="19">
+      <navLabel><text>Jirga — Traditional Governance</text></navLabel>
+      <content src="../pages/page-020-jirga-traditional-governance.html"/>
+    </navPoint>
   </navMap>
 </ncx>
