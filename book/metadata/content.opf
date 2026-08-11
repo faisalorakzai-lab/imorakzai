@@ -27,6 +27,7 @@
     <item id="page-013" href="../pages/page-013-major-pashtun-tribal-landscape.html" media-type="application/xhtml+xml"/>
     <item id="page-014" href="../pages/page-014-pashtun-tribal-confederations.html" media-type="application/xhtml+xml"/>
     <item id="page-015" href="../pages/page-015-karlani-pashtuns.html" media-type="application/xhtml+xml"/>
+    <item id="page-016" href="../pages/page-016-orakzai-within-karlani.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -45,5 +46,6 @@
     <itemref idref="page-013"/>
     <itemref idref="page-014"/>
     <itemref idref="page-015"/>
+    <itemref idref="page-016"/>
   </spine>
 </package>

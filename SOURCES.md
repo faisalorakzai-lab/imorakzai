@@ -87,3 +87,9 @@
 - **Visual Elements**: Custom SVG Karlani tribal & mountain geographic network illustration.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Charles M. Kieffer (*Encyclopaedia Iranica*), Daniel Balland (*Encyclopaedia Iranica*), and Robert Nichols (*Oxford Research Encyclopedia*).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 16: Orakzai Within the Karlani System
+- **Research Sources**: Detailed citations are available in `book/sources/page-016-sources.md`.
+- **Visual Elements**: Custom SVG identity hierarchy and geographic network illustration.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Oxford Research Encyclopedia, and University of Malakand dialectological studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.

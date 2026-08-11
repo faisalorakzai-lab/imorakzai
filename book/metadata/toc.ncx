@@ -66,5 +66,9 @@
       <navLabel><text>Karlani Pashtuns</text></navLabel>
       <content src="../pages/page-015-karlani-pashtuns.html"/>
     </navPoint>
+    <navPoint id="navPoint-16" playOrder="15">
+      <navLabel><text>Orakzai Within the Karlani System</text></navLabel>
+      <content src="../pages/page-016-orakzai-within-karlani.html"/>
+    </navPoint>
   </navMap>
 </ncx>
