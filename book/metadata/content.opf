@@ -76,6 +76,7 @@
     <item id="page-062" href="../pages/page-062-attan-traditional-dance.html" media-type="application/xhtml+xml"/>
     <item id="page-063" href="../pages/page-063-pashto-proverbs.html" media-type="application/xhtml+xml"/>
     <item id="page-064" href="../pages/page-064-stories-of-orakzai-elders.html" media-type="application/xhtml+xml"/>
+    <item id="page-065" href="../pages/page-065-oral-traditions-storytelling.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -143,5 +144,6 @@
     <itemref idref="page-062"/>
     <itemref idref="page-063"/>
     <itemref idref="page-064"/>
+    <itemref idref="page-065"/>
   </spine>
 </package>

@@ -381,3 +381,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the oral history workflow, memory-to-archive hierarchy, Hujra-based transmission models, and evidence badges.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by colonial-era monographs (King, 1900), modern ethnographic studies (Naseer, 2026), and anthropological analysis (Ahmed, 1980).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 65: Oral Traditions & Storytelling
+- **Research Sources**: Detailed citations are available in `book/sources/page-065-oral-traditions-storytelling.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the transmission workflow, storytelling hierarchies, evidence badges, and digital bridge models.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by dialectal folklore collections (Kreyenbroek & Marzolph, 2010), literary history (Kushev, 1997), and modern ethnographic fieldwork (Naseer, 2026).
+- **License**: Content is proprietary to the author; visual design is project-specific.

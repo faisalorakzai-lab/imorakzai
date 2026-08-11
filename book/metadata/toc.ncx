@@ -225,7 +225,8 @@
     <navPoint id="navPoint-55" playOrder="54">
       <navLabel><text>Turban &amp; Cultural Identity</text></navLabel>
       <content src="../pages/page-055-turban-cultural-identity.html"/>
-    </navPoint>    <navPoint id="navPoint-56" playOrder="55">
+    </navPoint>
+    <navPoint id="navPoint-56" playOrder="55">
       <navLabel><text>Orakzai Weddings</text></navLabel>
       <content src="../pages/page-056-orakzai-weddings.html"/>
     </navPoint>
@@ -260,6 +261,10 @@
     <navPoint id="navPoint-64" playOrder="63">
       <navLabel><text>Stories of Orakzai Elders</text></navLabel>
       <content src="../pages/page-064-stories-of-orakzai-elders.html"/>
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="64">
+      <navLabel><text>Oral Traditions &amp; Storytelling</text></navLabel>
+      <content src="../pages/page-065-oral-traditions-storytelling.html"/>
     </navPoint>
   </navMap>
 </ncx>
