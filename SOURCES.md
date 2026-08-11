@@ -303,3 +303,9 @@
 - **Visual Elements**: 65+ custom SVG logic diagrams covering cultural systems, transmission models, and heritage geometry.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Scientific Reports (2026), Pashto Journal (2025), and Human Nature Journal of Social Sciences (2024).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 52: Orakzai Traditions
+- **Research Sources**: Detailed citations are available in `book/sources/page-052-orakzai-traditions.md`.
+- **Visual Elements**: 65+ custom SVG logic diagrams covering Jirga models, folk song transmission, life-cycle rituals, and digital preservation.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Muhammad Khalil (2025), Dr. Shakir Orakzai (2025/26), and Zamin et al. (2026).
+- **License**: Content is proprietary to the author; visual design is project-specific.

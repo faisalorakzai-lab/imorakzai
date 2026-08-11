@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Traditions</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-box {
+            background: rgba(181, 150, 84, 0.05);
+            border-left: 4px solid var(--gold);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page traditions-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 150, 800 100" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 400 Q 400 450, 800 400" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 52</h3>
+            <h2>ORAKZAI TRADITIONS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“What is remembered becomes meaningful when it is practiced.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">A tradition is something people do often enough for it to become part of collective memory. It may be a way of welcoming a guest. A way of gathering. A way of resolving disagreement. A wedding practice. A song. A meal. A craft. A story told by an elder. Or knowledge about the land passed from one generation to the next. Traditions do not survive simply because they are old. They survive because people continue to practice them.</p>
+
+            <p>Building upon the broader cultural systems examined on Page 51, Page 52 focuses specifically on Orakzai traditions as active practices. Grounded in recent academic research—including Muhammad Khalil's 2025 study on the Orakzai Jirga system, Dr. Shakir Orakzai's 2025/26 research on local folk songs, and Zamin et al.'s 2026 ethnobotanical survey—this page explores how memory translates into practice, transmission, adaptation, and continuity.<sup>1</sup><sup>2</sup><sup>3</sup></p>
+
+            <!-- HERO: TRANSMISSION & CONTINUITY (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="30" y="20" width="70" height="25" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="65" y="36">ELDER</text>
+                        <path d="M100 32 L130 32" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="130" y="20" width="70" height="25" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="165" y="36">STORY</text>
+                        <path d="M200 32 L230 32" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="230" y="20" width="70" height="25" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="265" y="36">FAMILY</text>
+                        <path d="M300 32 L330 32" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="330" y="20" width="70" height="25" rx="2" fill="rgba(18,59,42,0.9)" stroke="var(--gold)"/>
+                        <text x="365" y="36">COMMUNITY</text>
+                        <path d="M400 32 L430 32" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="430" y="20" width="70" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="465" y="36">YOUTH</text>
+                        <path d="M500 32 L530 32" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="530" y="20" width="50" height="25" rx="2" fill="rgba(18,59,42,0.9)" stroke="var(--gold)"/>
+                        <text x="555" y="36">FUTURE</text>
+                        
+                        <path d="M300 55 L300 95" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="150" y="95" width="300" height="35" rx="3" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="300" y="116" font-size="9" font-weight="bold" fill="var(--gold)">MEMORY BECOMES PRACTICE</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-52" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Circular transmission model from elder memory to future practice.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Tradition vs. Culture</h3>
+            <p>While culture represents the broader system of meaning, values, and language, tradition refers specifically to practices, customs, and knowledge transmitted across generations. Culture contains traditions, but not every cultural practice is an ancient custom; traditions continually evolve in response to changing historical conditions.</p>
+
+            <div class="grid-container">
+                <!-- Diagram 2: Culture vs Tradition -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="50" y="15" width="200" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="31">CULTURE (SYSTEM OF MEANING)</text>
+                            
+                            <path d="M150 42 L150 58" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            
+                            <rect x="50" y="58" width="200" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="74">TRADITIONS (ACTIVE PRACTICES)</text>
+                            
+                            <path d="M150 85 L150 98" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            
+                            <text x="150" y="115" font-size="6" fill="var(--gold)">TRANSMITTED ACROSS GENERATIONS</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Hierarchical relationship between culture and active traditions.”</p>
+                </div>
+
+                <!-- Diagram 3: Evidence Scale -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="75" y="10" width="150" height="18" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="22">DOCUMENTED SCHOLARSHIP</text>
+                            
+                            <rect x="75" y="33" width="150" height="18" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="45">ACADEMIC &amp; ARCHIVAL</text>
+                            
+                            <rect x="75" y="56" width="150" height="18" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="68">ETHNOGRAPHIC STUDY</text>
+                            
+                            <rect x="75" y="79" width="150" height="18" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="91">LOCAL ORAL TRADITION</text>
+                            
+                            <rect x="75" y="102" width="150" height="18" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="114" fill="var(--gold)">UNVERIFIED CLAIM</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Methodological evidence scale for evaluating traditional claims.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Core Orakzai Traditions: Governance and Social Institutions</h3>
+            <p>Among the documented traditions of Orakzai District, the <em>jirga</em> council, hospitality (<em>melmastia</em>), sanctuary (<em>nanawatai</em>), and the <em>hujra</em> represent enduring institutional practices. Recent academic studies highlight how these traditions function as mechanisms of community consultation and conflict resolution.<sup>1</sup><sup>2</sup></p>
+
+            <div class="grid-container">
+                <!-- Diagram 10: Orakzai Jirga Model -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">COMMUNITY DISPUTE</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">ELDER CONSULTATION</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">JIRGA ASSEMBLY</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">RECONCILIATION [1]</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Jirga consultation and decision-making model in Orakzai [1].”</p>
+                </div>
+
+                <!-- Diagram 4: Hujra Model -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">HUJRA SPACE</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">COMMUNITY GATHERING</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">DIALOGUE &amp; MUSIC</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">CULTURAL MEMORY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The Hujra as a traditional space for community interaction.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Traditional Ecological Knowledge (TEK) &amp; Ethnobotany</h3>
+            <p>Ethnobotanical research in Orakzai District documents 123 wild plant species utilized for traditional medicine, sustenance, and ecological management. Indigenous knowledge systems preserve plant names and medicinal uses across generations, bridging mountain geography with survival practices.<sup>3</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Scientific Name</th>
+                            <th>Local Name (Pashto)</th>
+                            <th>Traditional Use</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><em>Olea europaea</em> subsp. <em>cuspidata</em></td>
+                            <td>Khowa</td>
+                            <td>Wild olive; timber, oil, and cultural symbolism</td>
+                            <td>Zamin et al. (2026) [3]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Berberis lycium</em></td>
+                            <td>Ziar larki</td>
+                            <td>Barberry; traditional medicinal roots and fruit</td>
+                            <td>Zamin et al. (2026) [3]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Daphne papyracea</em></td>
+                            <td>-</td>
+                            <td>Traditional bark application for soothing remedies</td>
+                            <td>Zamin et al. (2026) [3]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Salix babylonica</em></td>
+                            <td>Wala</td>
+                            <td>Willow; traditional basketry and tool-making</td>
+                            <td>Zamin et al. (2026) [3]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Diagram 21: Ecological Knowledge Model -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="65" y="33">MOUNTAIN LAND</text>
+                        <path d="M110 30 L130 30" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="130" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="175" y="33">PLANT OBSERVATION</text>
+                        <path d="M220 30 L240 30" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="240" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="285" y="33">TRADITIONAL USE</text>
+                        <path d="M330 30 L350 30" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="350" y="15" width="100" height="30" rx="2" fill="rgba(18,59,42,0.9)" stroke="var(--gold)"/>
+                        <text x="400" y="33">INTERGENERATIONAL</text>
+                        <path d="M450 30 L470 30" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="470" y="15" width="110" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="525" y="33">ECOLOGICAL HERITAGE [3]</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Traditional ecological knowledge transmission framework [3].”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Modern Preservation &amp; Digital Transmission</h3>
+            <p>As younger generations navigate modernization, digital tools—such as smartphone recordings, online archives, and AI-assisted Pashto transcription—offer new methods for preserving oral history, folk songs, and genealogical memory without losing the authentic voice of the community.</p>
+
+            <!-- Diagram 43: Digital Transmission -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 70" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="30" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.5)" stroke="var(--gold)"/>
+                        <text x="75" y="38">ELDER NARRATIVE</text>
+                        
+                        <path d="M120 35 L150 35" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="150" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="195" y="38">DIGITAL RECORDING</text>
+                        
+                        <path d="M240 35 L270 35" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="270" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="315" y="38">AUDIO / VIDEO ARCHIVE</text>
+                        
+                        <path d="M360 35 L390 35" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="390" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="435" y="38">ONLINE PLATFORMS</text>
+                        
+                        <path d="M480 35 L510 35" stroke="var(--gold)" marker-end="url(#arrow-52)"/>
+                        
+                        <rect x="510" y="20" width="70" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="545" y="38">FUTURE YOUTH</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Digital transmission pathway for oral history and folklore preservation.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Traditions are not glass museum pieces to be locked away and handled only with gloves. They are living tools. A jirga resolves a dispute because people respect the process. A folk song is sung because someone remembers the rhythm. A plant is used because an ancestor tested its healing properties and passed the secret down. When we study Orakzai traditions, we are not looking backward into a dead past; we are looking at how a people have continuously solved the puzzle of living together in rugged mountain terrain. The future of our traditions does not depend on freezing them in time. It depends on understanding their spirit and practicing them with wisdom in a changing world.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“WHAT IS REMEMBERED BECOMES MEANINGFUL WHEN IT IS PRACTICED.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            52
+        </footer>
+    </div>
+</body>
+</html>

@@ -210,5 +210,9 @@
       <navLabel><text>Orakzai Culture</text></navLabel>
       <content src="../pages/page-051-orakzai-culture.html"/>
     </navPoint>
+    <navPoint id="navPoint-52" playOrder="51">
+      <navLabel><text>Orakzai Traditions</text></navLabel>
+      <content src="../pages/page-052-orakzai-traditions.html"/>
+    </navPoint>
   </navMap>
 </ncx>
