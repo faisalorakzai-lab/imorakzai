@@ -46,5 +46,9 @@
       <navLabel><text>Who Are the Pashtuns?</text></navLabel>
       <content src="../pages/page-010-who-are-the-pashtuns.html"/>
     </navPoint>
+    <navPoint id="navPoint-11" playOrder="10">
+      <navLabel><text>Origins of the Pashtun People</text></navLabel>
+      <content src="../pages/page-011-origins-of-the-pashtun-people.html"/>
+    </navPoint>
   </navMap>
 </ncx>

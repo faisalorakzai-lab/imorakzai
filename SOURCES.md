@@ -57,3 +57,9 @@
 - **Visual Elements**: Custom SVG network/map-inspired design connecting key identity concepts.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Encyclopædia Britannica, and anthropological studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 11: Origins of the Pashtun People
+- **Research Sources**: Detailed citations are available in `book/sources/page-011-sources.md`.
+- **Visual Elements**: Custom SVG historical-archaeological illustration featuring mountain strata and timeline grids.
+- **Content**: Original text by Faisal Orakzai, supported by rigorous academic scholarship from Encyclopaedia Iranica, Encyclopædia Britannica, and historical ethnography.
+- **License**: Content is proprietary to the author; visual design is project-specific.
