@@ -399,3 +399,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the multigenerational identity hero, the role-mapping framework, the agriculture-to-security pathway, and the intergenerational transmission model.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by conflict prevention studies (Naseer, 2026), Orakzai-specific proverbial research (Orakzai, 2025), and 2023 Census data.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 68: Youth in Orakzai Society
+- **Research Sources**: Detailed citations are available in `book/sources/page-068-youth-in-orakzai-society.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the youth identity hero, the intergenerational memory flow, the multilingual youth model, and the digital cultural archive workflow.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by social cohesion studies (Alam, 2024), peacebuilding research (Ullah, 2025), and 2023 Census data.
+- **License**: Content is proprietary to the author; visual design is project-specific.

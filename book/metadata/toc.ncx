@@ -274,5 +274,9 @@
       <navLabel><text>The Role of Women</text></navLabel>
       <content src="../pages/page-067-the-role-of-women.html"/>
     </navPoint>
+    <navPoint id="navPoint-68" playOrder="67">
+      <navLabel><text>Youth in Orakzai Society</text></navLabel>
+      <content src="../pages/page-068-youth-in-orakzai-society.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Youth in Orakzai Society</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-orakzai: #123B2A;
+            --badge-pashtun: #B59654;
+            --badge-regional: #6B4F3A;
+            --badge-family: #77746B;
+            --badge-contemporary: #8B4513;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-orakzai { background: var(--badge-orakzai); }
+        .badge-pashtun { background: var(--badge-pashtun); color: var(--charcoal); }
+        .badge-regional { background: var(--badge-regional); }
+        .badge-family { background: var(--badge-family); }
+        .badge-contemporary { background: var(--badge-contemporary); }
+        
+        .aspiration-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .aspiration-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page youth-society-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 68</h3>
+            <h2>YOUTH IN ORAKZAI SOCIETY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“A new generation carries an old memory into a changing world.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Every generation inherits a world it did not create. And every generation changes the world it inherits. For young people in Orakzai communities, that space between inheritance and change can be especially important. They may grow up hearing Pashto at home while studying in another language at school. They may know stories from grandparents while communicating with friends through a smartphone. They may participate in Eid, weddings and family gatherings while building careers in cities far from the mountains. They may respect traditions while asking questions about which traditions should continue. Youth therefore are not simply the future of Orakzai. They are part of its present. They study. They work. They play. They migrate. They create businesses. They use technology. They preserve culture. And sometimes, they redefine it. The story of Orakzai youth is therefore a story of continuity, choice and change.</p>
+
+            <!-- HERO: YOUTH IDENTITY HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Backdrop -->
+                        <path d="M0 400 L150 250 L300 350 L450 200 L600 400 Z" fill="rgba(18, 59, 42, 0.2)"/>
+                        
+                        <!-- Road to Horizon -->
+                        <path d="M250 400 L350 400 L310 300 L290 300 Z" fill="rgba(119, 116, 107, 0.1)" stroke="var(--gray)"/>
+                        
+                        <!-- Youth Group (Abstract) -->
+                        <circle cx="200" cy="320" r="20" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                        <circle cx="300" cy="310" r="22" fill="rgba(18, 59, 42, 0.3)" stroke="var(--forest)"/>
+                        <circle cx="400" cy="320" r="20" fill="rgba(107, 79, 58, 0.3)" stroke="var(--earth)"/>
+                        
+                        <!-- Symbols of Modernity & Tradition -->
+                        <g opacity="0.6">
+                            <!-- Book (Education) -->
+                            <rect x="190" y="280" width="20" height="15" fill="none" stroke="#fff" stroke-width="0.5"/>
+                            <!-- Laptop (Innovation) -->
+                            <rect x="290" y="260" width="20" height="12" fill="none" stroke="#fff"/>
+                            <path d="M290 272 L310 272 L315 280 L285 280 Z" fill="none" stroke="#fff"/>
+                            <!-- Smartphone (Connection) -->
+                            <rect x="395" y="285" width="8" height="14" rx="1" fill="none" stroke="#fff"/>
+                            <!-- Cricket Bat/Ball (Sports) -->
+                            <path d="M245 350 L255 350 L255 330 L245 330 Z" fill="none" stroke="#fff"/>
+                            <circle cx="250" cy="360" r="3" fill="none" stroke="#fff"/>
+                        </g>
+                        
+                        <!-- Sound Wave Motif (Communication) -->
+                        <path d="M150 320 Q 300 250, 450 320" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2,2">
+                            <animate attributeName="stroke-dashoffset" from="20" to="0" dur="4s" repeatCount="indefinite"/>
+                        </path>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">YOUTH IN ORAKZAI SOCIETY</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“A new generation carries an old memory into a changing world.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The synthesis of tradition, innovation, and future aspirations among Orakzai youth.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Experience of Youth</h3>
+            <p>The definition of "youth" varies, but it is fundamentally a social stage defined by the transition from dependence to responsibility. For Orakzai youth, this experience is shaped by age, generation, and the specific social context of their family and village. They navigate a world where traditional expectations of guidance and honor coexist with modern choices in education, career, and digital participation.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="100" cy="50" r="30" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="100" y="55">AGE</text>
+                        
+                        <circle cx="200" cy="50" r="30" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="200" y="55">GENERATION</text>
+                        
+                        <circle cx="300" cy="50" r="30" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                        <text x="300" y="55">LIFE STAGE</text>
+                        
+                        <circle cx="400" cy="50" r="30" fill="rgba(119, 116, 107, 0.1)" stroke="var(--gray)"/>
+                        <text x="400" y="55">CONTEXT</text>
+                        
+                        <path d="M250 85 L250 110" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="150" y="110" width="200" height="30" rx="4" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="130" font-weight="bold">YOUTH EXPERIENCE</text>
+                        
+                        <defs>
+                            <marker id="arrow-68" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The demographic and social components of the youth experience.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-orakzai">Orakzai-Specific</span>
+                <span class="badge badge-pashtun">Pashtun-Wide</span>
+                <span class="badge badge-regional">Regional</span>
+                <span class="badge badge-family">Family-Specific</span>
+                <span class="badge badge-contemporary">Contemporary</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Social Cohesion and Community Role</h3>
+            <p>Young people in Orakzai are active participants in community life. Research by J. Alam (2024) identifies youth as "local supporters" who play a vital role in promoting social cohesion. They act as bridges during community transitions, helping to stabilize the social fabric through civic participation and peacebuilding efforts. This role is often facilitated by modern platforms like FM radio, which provides a space for youth engagement and dialogue.<sup>1,2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="40" width="120" height="40" rx="2" fill="rgba(18, 59, 42, 0.2)" stroke="var(--forest)"/>
+                        <text x="110" y="60" font-weight="bold">LOCAL SUPPORTERS</text>
+                        <text x="110" y="72" font-size="6">Youth Civic Action</text>
+                        
+                        <path d="M170 60 L220 60" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="220" y="40" width="120" height="40" rx="2" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="280" y="60" font-weight="bold">SOCIAL COHESION</text>
+                        <text x="280" y="72" font-size="6">Stability & Peace</text>
+                        
+                        <path d="M340 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="390" y="40" width="100" height="40" rx="2" fill="rgba(107, 79, 58, 0.2)" stroke="var(--earth)"/>
+                        <text x="440" y="65" font-weight="bold">DISTRICT FUTURE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The role of youth in maintaining and building social cohesion in Orakzai.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Education and Aspirations</h3>
+            <p>Education is the primary vehicle for youth aspiration. While Orakzai faces significant educational disparities—with female literacy below 30% (2023 Census)—the drive for learning remains strong. Young people pursue medicine, engineering, and technology, often migrating to urban centers for higher education. This pursuit creates a cycle of knowledge acquisition that benefits both the individual and their home community.<sup>4,5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="80" y="50">EDUCATION</text>
+                        <path d="M120 50 L160 50" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <text x="200" y="50">KNOWLEDGE</text>
+                        <path d="M240 50 L280 50" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <text x="320" y="50">SKILLS</text>
+                        <path d="M360 50 L400 50" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <text x="440" y="50" font-weight="bold">OPPORTUNITY</text>
+                        
+                        <path d="M80 70 L440 70" stroke="var(--gold)" stroke-dasharray="2,2"/>
+                        <text x="260" y="85">ASPIRATION PATHWAY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The education-to-opportunity model for Orakzai youth.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Sports and Physical Culture</h3>
+            <p>Sports are a cornerstone of youth life in Orakzai. The 2024 and 2026 Spring Festivals documented high participation in both traditional sports like kabaddi and wrestling, and modern ones like volleyball and cricket. Successes such as Sajawal Ali's 2026 gold medal in volleyball demonstrate the talent and potential of the district's youth. Sports serve as a platform for intergenerational gathering, tribal pride, and physical development.<sup>3</sup></p>
+
+            <div class="aspiration-panel">
+                <div class="aspiration-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Traditional Sports</h4>
+                    <p style="font-size: 0.85rem;">Preserving heritage through Kabaddi, Wrestling, and Horse/Camel dances at festivals.</p>
+                </div>
+                <div class="aspiration-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Modern Excellence</h4>
+                    <p style="font-size: 0.85rem;">Achieving national success in Volleyball and Cricket, bridging Orakzai with Pakistan's sports scene.</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Digital Identity and Cultural Archiving</h3>
+            <p>Technology has created a new information space for Orakzai youth. They use social media and smartphones not just for communication, but for cultural preservation. By recording elders, documenting family histories, and digitizing Pashto poetry, young people have become the active archivists of their heritage. AI is emerging as a supportive tool for transcription and translation, though its use requires careful verification to ensure cultural accuracy.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="80" y="40">ELDER STORY</text>
+                        <path d="M80 50 L80 80" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="30" y="80" width="100" height="30" rx="2" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="80" y="100">YOUTH LISTENER</text>
+                        
+                        <path d="M130 95 L180 95" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="180" y="80" width="100" height="30" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="230" y="100">DIGITAL RECORD</text>
+                        
+                        <path d="M280 95 L330 95" stroke="var(--gold)" marker-end="url(#arrow-68)"/>
+                        
+                        <rect x="330" y="80" width="100" height="30" rx="2" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                        <text x="380" y="100">FUTURE ARCHIVE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The intergenerational archiving workflow enabled by youth and technology.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Youth is often called the future, but in Orakzai, youth is the vibrant heartbeat of the present. Our young people are navigating a world of unprecedented change—from the mountain valleys to the digital frontier. They carry the weight of ancestral memory while building the infrastructure of tomorrow. Their responsibility is not just to preserve the past, but to adapt it, to question it respectfully, and to ensure that Orakzai identity remains relevant in a globalized world. To be Orakzai and young is to be a bridge between worlds. In their success, their learning, and their resilience, we see the enduring strength of our people.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“INNOVATION IS THE FRUIT OF TRADITION.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            68
+        </footer>
+    </div>
+</body>
+</html>

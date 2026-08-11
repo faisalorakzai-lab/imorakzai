@@ -79,6 +79,7 @@
     <item id="page-065" href="../pages/page-065-oral-traditions-storytelling.html" media-type="application/xhtml+xml"/>
     <item id="page-066" href="../pages/page-066-the-role-of-elders.html" media-type="application/xhtml+xml"/>
     <item id="page-067" href="../pages/page-067-the-role-of-women.html" media-type="application/xhtml+xml"/>
+    <item id="page-068" href="../pages/page-068-youth-in-orakzai-society.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -149,5 +150,6 @@
     <itemref idref="page-065"/>
     <itemref idref="page-066"/>
     <itemref idref="page-067"/>
+    <itemref idref="page-068"/>
   </spine>
 </package>
