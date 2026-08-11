@@ -130,5 +130,9 @@
       <navLabel><text>The Orakzai Tribe</text></navLabel>
       <content src="../pages/page-031-the-orakzai-tribe.html"/>
     </navPoint>
+    <navPoint id="navPoint-32" playOrder="31">
+      <navLabel><text>Origins of the Orakzai</text></navLabel>
+      <content src="../pages/page-032-origins-of-the-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>
