@@ -50,5 +50,9 @@
       <navLabel><text>Origins of the Pashtun People</text></navLabel>
       <content src="../pages/page-011-origins-of-the-pashtun-people.html"/>
     </navPoint>
+    <navPoint id="navPoint-12" playOrder="11">
+      <navLabel><text>Pashtun Tribal Society</text></navLabel>
+      <content src="../pages/page-012-pashtun-tribal-society.html"/>
+    </navPoint>
   </navMap>
 </ncx>

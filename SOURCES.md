@@ -63,3 +63,9 @@
 - **Visual Elements**: Custom SVG historical-archaeological illustration featuring mountain strata and timeline grids.
 - **Content**: Original text by Faisal Orakzai, supported by rigorous academic scholarship from Encyclopaedia Iranica, Encyclopædia Britannica, and historical ethnography.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 12: Pashtun Tribal Society
+- **Research Sources**: Detailed citations are available in `book/sources/page-012-sources.md`.
+- **Visual Elements**: Custom SVG kinship and lineage network illustration.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Encyclopædia Britannica, eHRAF, and anthropological studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.
