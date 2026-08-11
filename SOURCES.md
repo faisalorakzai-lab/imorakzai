@@ -327,3 +327,9 @@
 - **Visual Elements**: 45+ custom SVG logic diagrams covering turban ecosystems, terminology, social status, and digital preservation frameworks.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Encyclopaedia Iranica, S. Dawar (2013), A. S. Ahmed (1980), and C. Lindholm (1996).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 56: Orakzai Weddings
+- **Research Sources**: Detailed citations are available in `book/sources/page-056-orakzai-weddings.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering wedding ecosystems, family involvement, kinship bonds, and digital adaptation frameworks.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), W. Asghar (2024), J. Jany (2020), and N. A. Shinwari (2025).
+- **License**: Content is proprietary to the author; visual design is project-specific.

@@ -226,5 +226,9 @@
       <navLabel><text>Turban &amp; Cultural Identity</text></navLabel>
       <content src="../pages/page-055-turban-cultural-identity.html"/>
     </navPoint>
+    <navPoint id="navPoint-56" playOrder="55">
+      <navLabel><text>Orakzai Weddings</text></navLabel>
+      <content src="../pages/page-056-orakzai-weddings.html"/>
+    </navPoint>
   </navMap>
 </ncx>
