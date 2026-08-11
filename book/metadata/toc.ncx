@@ -238,5 +238,9 @@
       <navLabel><text>Funerals &amp; Community Traditions</text></navLabel>
       <content src="../pages/page-058-funerals-community-traditions.html"/>
     </navPoint>
+    <navPoint id="navPoint-59" playOrder="58">
+      <navLabel><text>Festivals &amp; Celebrations</text></navLabel>
+      <content src="../pages/page-059-festivals-celebrations.html"/>
+    </navPoint>
   </navMap>
 </ncx>

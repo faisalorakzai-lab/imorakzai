@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Festivals & Celebrations</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+        .evidence-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+        .badge-orakzai { background: var(--gold); color: var(--charcoal); }
+        .badge-pashtun { background: var(--forest); color: var(--ivory); }
+        .badge-islamic { background: var(--earth); color: var(--ivory); }
+        .badge-regional { background: var(--gray); color: var(--ivory); }
+        .badge-contemporary { background: #333; color: #ccc; }
+        .caution-box {
+            border-left: 4px solid var(--earth);
+            background: rgba(107, 79, 58, 0.1);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page festival-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 250 Q 400 300, 800 250" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 650 Q 400 700, 800 650" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 59</h3>
+            <h2>FESTIVALS &amp; CELEBRATIONS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“When communities gather, culture becomes visible.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Celebration is one of the ways a community remembers that life is more than its difficulties. A festival can bring families together. A religious holiday can turn neighbours into guests. A sporting event can gather generations around the same field. A spring celebration can reconnect people with a landscape. And sometimes, a modern festival becomes a new way of expressing an older sense of community. For the Orakzai, celebration exists at several levels: faith, family, hospitality, community, season, sport, and cultural identity. But not every celebration has the same history. Some are religious. Some are regional. Some are modern. Some survive mainly through family memory.</p>
+
+            <!-- HERO: FESTIVAL VALLEY (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Valley Background -->
+                        <path d="M0 160 Q 150 100, 300 160 Q 450 100, 600 160 L600 240 L0 240 Z" fill="rgba(18,59,42,0.2)"/>
+                        
+                        <!-- Central Circular Gathering -->
+                        <circle cx="300" cy="180" r="45" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-dasharray="4,2"/>
+                        <circle cx="300" cy="180" r="15" fill="rgba(181,150,84,0.3)"/>
+                        
+                        <!-- Symbolic Elements around circle -->
+                        <text x="300" y="145" font-size="10" fill="var(--gold)">★</text> <!-- Crescent/Star symbol -->
+                        <text x="260" y="175" font-size="10" fill="var(--gold)">☕</text> <!-- Tea Cup -->
+                        <text x="340" y="175" font-size="10" fill="var(--gold)">⚽</text> <!-- Sports ball -->
+                        <text x="300" y="215" font-size="10" fill="var(--gold)">👥</text> <!-- Family -->
+                        
+                        <text x="300" y="40" font-size="14" font-weight="bold" fill="var(--gold)">COMMUNITY GATHERING</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255,255,255,0.7)">“Faith, Family, Sport, and Season”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A central valley gathering uniting faith, sport, and tradition.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is a Festival?</h3>
+            <p>Festivals are multifaceted social phenomena. They can be religious obligations, seasonal markers, athletic competitions, or contemporary cultural programs. Understanding an Orakzai festival requires looking at its underlying motivations and historical roots.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">FESTIVAL</text>
+                        
+                        <path d="M250 35 L100 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L200 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L300 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="60" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="100" y="78">FAITH</text>
+                        
+                        <rect x="160" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="78">SEASON</text>
+                        
+                        <rect x="260" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="300" y="78">SPORT</text>
+                        
+                        <rect x="360" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="78">COMMUNITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The diverse dimensions of festive gatherings.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Religious Festivals: Eid-ul-Fitr &amp; Eid-ul-Adha</h3>
+            <p>The primary religious celebrations for Orakzai families, as for Muslims worldwide, are **Eid-ul-Fitr** (marking the conclusion of Ramadan) and **Eid-ul-Adha** (associated with the pilgrimage and the commemoration of Prophet Ibrahim's obedience). These are fundamental Islamic observances combined with Pashtun community practices and local family customs.</p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">EID-UL-FITR</text>
+                            <rect x="50" y="40" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="53">RAMADAN CONCLUSION</text>
+                            <path d="M150 60 L150 80" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                            <rect x="50" y="80" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">EID PRAYER &amp; CHARITY</text>
+                            <path d="M150 100 L150 120" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                            <rect x="50" y="120" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="137" font-weight="bold">FAMILY &amp; GREETINGS</text>
+                        </g>
+                        <defs>
+                            <marker id="arrow-59" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </svg>
+                    <p class="diagram-caption">“The sequence of Eid-ul-Fitr celebrations.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">EID-UL-ADHA</text>
+                            <rect x="50" y="40" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="53">SACRIFICE (QURBANI)</text>
+                            <path d="M150 60 L150 80" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                            <rect x="50" y="80" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">SHARING MEAT</text>
+                            <path d="M150 100 L150 120" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                            <rect x="50" y="120" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="137" font-weight="bold">COMMUNITY HOSPITALITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The structure of Eid-ul-Adha observances.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Eid, Hujra &amp; Hospitality</h3>
+            <p>During religious holidays, the Pashtun **Hujra** (community guesthouse) takes on an active social role. Ethnographic scholarship documents how men gather in the Hujra after Eid prayers to exchange greetings, drink tea, and welcome visitors. This blends Islamic fellowship with traditional Pashtun hospitality (**Melmastia**).<sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="40" y="50">EID</text>
+                        <path d="M70 50 L100 50" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                        <text x="135" y="50">HUJRA</text>
+                        <path d="M170 50 L200 50" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                        <text x="240" y="50">GREETING</text>
+                        <path d="M280 50 L310 50" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                        <text x="350" y="50">COMMUNITY</text>
+                        <path d="M390 50 L420 50" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                        <text x="460" y="50" font-weight="bold" fill="var(--gold)">HOSPITALITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pathway from Eid prayers to community hospitality in the Hujra.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Orakzai Spring Festival (Jashan-e-Baharan 2024)</h3>
+            <p>A notable documented event in recent years is the three-day **Spring Mela / Jashan-e-Baharan** organized in the Orakzai District (at Kharasha-Khwa Storikhel) in June 2024. Sponsored with involvement from local administration and cultural authorities, this festival featured traditional sports (wrestling, kabaddi, stone lifting, tug of war), modern sporting events (jeep races, motorcycle races, paragliding, cricket, football, volleyball), horse and camel performances, and cultural food and craft stalls.<sup>1</sup><sup>4</sup></p>
+
+            <div class="caution-box">
+                <strong>CRITICAL DISTINCTION:</strong> This documented event should not automatically be treated as an ancient Orakzai festival. It is evidence of contemporary cultural programming in Orakzai that brings local traditions, sport, and public celebration together.
+            </div>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="175" y="10" width="150" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="30" font-weight="bold">JASHAN-E-BAHARAN 2024</text>
+                        
+                        <path d="M250 40 L125 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 40 L250 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 40 L375 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="60" y="70" width="130" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="125" y="87">TRADITIONAL SPORTS</text>
+                        
+                        <rect x="185" y="70" width="130" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="250" y="87">MODERN RACING &amp; FLIGHT</text>
+                        
+                        <rect x="310" y="70" width="130" height="25" rx="2" fill="rgba(107,79,58,0.6)"/>
+                        <text x="375" y="87">CULTURAL STALLS</text>
+                        
+                        <path d="M250 95 L250 115" stroke="var(--gold)" marker-end="url(#arrow-59)"/>
+                        <rect x="150" y="115" width="200" height="30" rx="2" fill="rgba(18,59,42,0.9)"/>
+                        <text x="250" y="133" font-weight="bold" fill="var(--gold)">CONTEMPORARY FESTIVAL</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The structure of the 2024 Orakzai Spring Festival.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Traditional &amp; Regional Sports</h3>
+            <p>Traditional sports such as **Kabaddi**, **Wrestling (Pehlwani)**, and **Stone Lifting** have deep roots across Khyber Pakhtunkhwa and Pakistan. These events serve as tests of physical strength, community spectacle, and intergenerational gathering during regional fairs and festivals.<sup>1</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">STRENGTH &amp; SKILL SPORTS</text>
+                            <rect x="50" y="40" width="200" height="22" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="55">TRADITIONAL WRESTLING</text>
+                            <rect x="50" y="70" width="200" height="22" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="85">KABADDI</text>
+                            <rect x="50" y="100" width="200" height="22" rx="2" fill="rgba(18,59,42,0.9)"/>
+                            <text x="150" y="115">STONE LIFTING</text>
+                            <rect x="50" y="130" width="200" height="22" rx="2" fill="rgba(107,79,58,0.7)"/>
+                            <text x="150" y="145">TUG OF WAR</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Core athletic events in traditional festivals.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">SPORT FUNCTIONS</text>
+                            <circle cx="150" cy="80" r="45" fill="rgba(181,150,84,0.2)" stroke="var(--gold)"/>
+                            <text x="150" y="75" font-weight="bold">SPECTACLE</text>
+                            <text x="150" y="90" font-size="6">COMMUNITY BONDING</text>
+                            <rect x="80" y="140" width="140" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="157">INTERGENERATIONAL GATHERING</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The social role of sports in community life.”</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Festival / Practice</th>
+                            <th>Orakzai-specific</th>
+                            <th>Pashtun-wide</th>
+                            <th>Islamic</th>
+                            <th>Regional</th>
+                            <th>Evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Eid-ul-Fitr &amp; Eid-ul-Adha</td>
+                            <td>Common Practice</td>
+                            <td>Standard</td>
+                            <td>Mandatory <span class="evidence-badge badge-islamic">Islamic</span></td>
+                            <td>Universal</td>
+                            <td>Religious Tradition</td>
+                        </tr>
+                        <tr>
+                            <td>Hujra Eid Gatherings</td>
+                            <td>Documented <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>Core Institution</td>
+                            <td>-</td>
+                            <td>Regional</td>
+                            <td>Hussain (2025) [3]</td>
+                        </tr>
+                        <tr>
+                            <td>Jashan-e-Baharan 2024</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>Modern Event</td>
+                            <td>-</td>
+                            <td>KP Province</td>
+                            <td>KPCTA (2024) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Traditional Wrestling / Kabaddi</td>
+                            <td>Common <span class="evidence-badge badge-regional">Regional</span></td>
+                            <td>Popular</td>
+                            <td>-</td>
+                            <td>South Asia</td>
+                            <td>Dawn (2024) [4]</td>
+                        </tr>
+                        <tr>
+                            <td>Attan Dance</td>
+                            <td>Common <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>National Dance</td>
+                            <td>-</td>
+                            <td>Afghanistan/KP</td>
+                            <td>Ahmed (1980) [2]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Celebration is not a luxury. It is a necessity. In a society that has endured decades of hardship, displacement, and political turmoil, the ability to gather, to play, to feast, and to celebrate is an act of resilience. When people stand shoulder-to-shoulder at an Eid gathering in a village hujra, when generations cheer for a kabaddi match or a stone-lifting contest at a spring mela, or when families share tea under the mountain sky, they are affirming that life continues. Festivals change over time. Old rituals evolve, new sports are introduced, and official programs replace spontaneous gatherings. But the underlying human need remains identical: to be together, to share joy, and to pass the warmth of community to the next generation.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“WHEN COMMUNITIES GATHER, CULTURE BECOMES VISIBLE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            59
+        </footer>
+    </div>
+</body>
+</html>

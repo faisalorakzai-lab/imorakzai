@@ -345,3 +345,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering communal farewells, life-cycle transitions, Islamic funeral frameworks, and community support networks.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), N. A. Shinwari (2025), S. A. Akbar (2013), and M. Aadil & R. Shahzaib (2024).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 59: Festivals & Celebrations
+- **Research Sources**: Detailed citations are available in `book/sources/page-059-festivals-celebrations.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering festival ecosystems, Islamic frameworks, Hujra Eid traditions, and contemporary festival structures.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP Culture and Tourism Authority (2024), Akbar S. Ahmed (1980), and K. Hussain (2025).
+- **License**: Content is proprietary to the author; visual design is project-specific.
