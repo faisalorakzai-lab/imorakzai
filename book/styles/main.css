@@ -198,3 +198,88 @@ body {
     font-size: 0.9rem;
     color: var(--muted-brown);
 }
+
+/* Dedication Page Styles */
+.dedication-page {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.dedication-page .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.dedication-page .background-overlay svg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.dedication-label {
+    font-family: var(--font-serif);
+    font-size: 0.8rem !important;
+    letter-spacing: 0.3rem !important;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.dedication-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.dedication-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dedication-text p {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.dedication-text .opening {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.dedication-text .emphasis {
+    font-size: 2.5rem;
+    color: var(--accent-gold);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.dedication-text .signature {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: var(--muted-brown);
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .dedication-text .emphasis {
+        font-size: 2rem;
+    }
+    .dedication-text p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:faisal-orakzai-im-orakzai-2026</dc:identifier>
+    <dc:title>I’M ORAKZAI</dc:title>
+    <dc:creator>Faisal Orakzai</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:publisher>Faisal Orakzai</dc:publisher>
+    <dc:date>2026-08-11</dc:date>
+    <meta property="dcterms:modified">2026-08-11T12:00:00Z</meta>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style" href="../styles/main.css" media-type="text/css"/>
+    <item id="cover-image" href="../images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="page-001" href="../pages/page-001-title.html" media-type="application/xhtml+xml"/>
+    <item id="page-002" href="../pages/page-002-copyright.html" media-type="application/xhtml+xml"/>
+    <item id="page-003" href="../pages/page-003-dedication.html" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="page-001"/>
+    <itemref idref="page-002"/>
+    <itemref idref="page-003"/>
+  </spine>
+</package>

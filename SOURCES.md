@@ -15,3 +15,8 @@
 ## Page 2: Copyright & Publication Information
 - **Assets**: No external images or third-party assets were used on this page.
 - **Content**: Original text provided by the author.
+
+## Page 3: Dedication
+- **Background Graphic**: Custom SVG mountain silhouette and geometric pattern.
+- **License**: MIT / Project-specific (Original creation for Faisal Orakzai).
+- **Content**: Original text provided by the author.
