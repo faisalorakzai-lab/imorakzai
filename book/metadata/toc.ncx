@@ -94,5 +94,9 @@
       <navLabel><text>Ghairat — Dignity</text></navLabel>
       <content src="../pages/page-022-ghairat-dignity.html"/>
     </navPoint>
+    <navPoint id="navPoint-23" playOrder="22">
+      <navLabel><text>Badal — Justice &amp; Revenge</text></navLabel>
+      <content src="../pages/page-023-badal-justice-revenge.html"/>
+    </navPoint>
   </navMap>
 </ncx>

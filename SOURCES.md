@@ -129,3 +129,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the ghairat core model, distinction from nang, and modern responsibility frameworks.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Lutz Rzehak (Afghanistan Analysts Network), Noor Sanauddin (University of Glasgow), and Dr. Anoosh W. Khan (University of Peshawar).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 23: Badal — Justice & Revenge
+- **Research Sources**: Detailed citations are available in `book/sources/page-023-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the badal framework, comparison between revenge and customary redress, and conflict resolution pathways.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Bruce L. Benson and Zafar R. Siddiqui (2014), Anders Widmark (2010), and Lutz Rzehak (2011).
+- **License**: Content is proprietary to the author; visual design is project-specific.
