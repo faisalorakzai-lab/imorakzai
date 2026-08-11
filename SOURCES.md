@@ -405,3 +405,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the youth identity hero, the intergenerational memory flow, the multilingual youth model, and the digital cultural archive workflow.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by social cohesion studies (Alam, 2024), peacebuilding research (Ullah, 2025), and 2023 Census data.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 69: Education in Traditional Society
+- **Research Sources**: Detailed citations are available in `book/sources/page-069-education-in-traditional-society.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the traditional education hero, the Hujra learning model, the ecological knowledge pathway, and the intergenerational memory flow.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by ecological studies (Ahmad et al., 2026), Hujra research (2026), and ethnographic records (Ahmed, 1980).
+- **License**: Content is proprietary to the author; visual design is project-specific.

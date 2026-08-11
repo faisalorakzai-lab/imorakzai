@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Education in Traditional Society</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-orakzai: #123B2A;
+            --badge-pashtun: #B59654;
+            --badge-regional: #6B4F3A;
+            --badge-islamic: #006400;
+            --badge-family: #77746B;
+            --badge-oral: #8B4513;
+            --badge-historical: #2F4F4F;
+            --badge-institutional: #4682B4;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-orakzai { background: var(--badge-orakzai); }
+        .badge-pashtun { background: var(--badge-pashtun); color: var(--charcoal); }
+        .badge-regional { background: var(--badge-regional); }
+        .badge-islamic { background: var(--badge-islamic); }
+        .badge-family { background: var(--badge-family); }
+        .badge-oral { background: var(--badge-oral); }
+        .badge-historical { background: var(--badge-historical); }
+        .badge-institutional { background: var(--badge-institutional); }
+        
+        .learning-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .learning-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page education-traditional-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 69</h3>
+            <h2>EDUCATION IN TRADITIONAL SOCIETY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Before the classroom, there was the community.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Before education was measured by classrooms, examinations and certificates, people learned in many other ways. A child learned language at home. A young person watched an elder work. A student memorized verses. A farmer learned by observing seasons and land. An apprentice learned by doing. A child heard stories before learning to write them. Religious knowledge could be taught through the mosque, madrasa, family and teacher. Social knowledge was learned through participation. In traditional Orakzai society, as in many communities, education was therefore not necessarily a separate institution. It could be woven into everyday life. Learning happened through listening, watching, repetition, practice, memory and responsibility. But traditional education was not one single system. It differed by family, village, religious institution, occupation, gender, period and access to teachers. Understanding this distinction is essential. The history of education is not simply the history of schools. It is also the history of how knowledge moved from one generation to another.</p>
+
+            <!-- HERO: TRADITIONAL EDUCATION HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Backdrop -->
+                        <path d="M0 400 L120 250 L280 350 L480 220 L600 400 Z" fill="rgba(18, 59, 42, 0.2)"/>
+                        
+                        <!-- Village Path -->
+                        <path d="M100 380 Q 300 350, 500 380" fill="none" stroke="var(--gray)" stroke-width="1" stroke-dasharray="4,4"/>
+                        
+                        <!-- Mosque Silhouette -->
+                        <path d="M450 350 L550 350 L550 300 Q 500 250, 450 300 Z" fill="rgba(0, 100, 0, 0.15)" stroke="var(--badge-islamic)"/>
+                        <circle cx="500" cy="280" r="10" fill="none" stroke="var(--badge-islamic)"/>
+                        
+                        <!-- Hujra/Home Silhouette -->
+                        <rect x="50" y="300" width="100" height="50" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        
+                        <!-- Learning Scenes -->
+                        <!-- Elder and Child -->
+                        <g transform="translate(150, 320)">
+                            <circle cx="0" cy="0" r="15" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                            <circle cx="25" cy="10" r="10" fill="rgba(119, 116, 107, 0.3)" stroke="var(--gray)"/>
+                            <text x="12" y="-20" font-size="7">TRANSMISSION</text>
+                        </g>
+                        
+                        <!-- Craft/Apprenticeship -->
+                        <g transform="translate(300, 340)">
+                            <rect x="-15" y="-10" width="30" height="20" fill="rgba(107, 79, 58, 0.2)" stroke="var(--earth)"/>
+                            <text x="0" y="-20" font-size="7">PRACTICE</text>
+                        </g>
+                        
+                        <!-- Open Book/Manuscript -->
+                        <path d="M280 200 L320 200 L325 220 L275 220 Z" fill="none" stroke="#fff" stroke-width="0.5"/>
+                        <line x1="300" y1="200" x2="300" y2="220" stroke="#fff" stroke-width="0.5"/>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">EDUCATION IN TRADITIONAL SOCIETY</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“Before the classroom, there was the community.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A spatial and social model of traditional knowledge transmission in Orakzai.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Defining Traditional Education</h3>
+            <p>Traditional education does not necessarily mean "education without knowledge." Instead, it refers to the diverse systems of knowledge transmitted outside of modern standardized school systems. These systems include formal elements, such as religious instruction in madrasas, and informal elements, such as apprenticeship in agriculture or crafts. It is a holistic framework where family, religion, oral tradition, and community participation intersect to form a complete knowledge system.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="175" y="100" width="150" height="40" rx="4" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="125" font-weight="bold">TRADITIONAL EDUCATION</text>
+                        
+                        <!-- Branches -->
+                        <path d="M250 100 L250 40" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="250" y="35">FAMILY</text>
+                        
+                        <path d="M280 100 L350 50" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="360" y="45">RELIGION</text>
+                        
+                        <path d="M325 110 L400 80" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="430" y="85">ORAL TRADITION</text>
+                        
+                        <path d="M325 130 L400 160" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="430" y="170">APPRENTICESHIP</text>
+                        
+                        <path d="M280 140 L350 190" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="360" y="205">COMMUNITY</text>
+                        
+                        <path x="250" y="140" d="M250 140 L250 200" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="250" y="215">OBSERVATION</text>
+                        
+                        <path d="M220 140 L150 190" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="140" y="205">PRACTICE</text>
+                        
+                        <defs>
+                            <marker id="arrow-69" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The components of the traditional educational framework.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-orakzai">Orakzai-Specific</span>
+                <span class="badge badge-pashtun">Pashtun-Wide</span>
+                <span class="badge badge-regional">Regional</span>
+                <span class="badge badge-islamic">Islamic</span>
+                <span class="badge badge-family">Family-Specific</span>
+                <span class="badge badge-oral">Oral History</span>
+                <span class="badge badge-historical">Historical</span>
+                <span class="badge badge-institutional">Institutional</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The First Classroom: The Family</h3>
+            <p>The home (*Kor*) serves as the primary environment for early childhood education. Within the family, a child learns the foundations of identity: language, manners (*Adab*), basic religious rituals, and social responsibilities. This learning happens not through formal lessons, but through a continuous cycle of observation, imitation, and practice. A child watches their parents and siblings, copies their actions, and gradually masters the skills necessary for family and community life.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">CHILD</text>
+                        <path d="M80 60 L120 60" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="150" y="60">FAMILY</text>
+                        <path d="M180 60 L220 60" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="250" y="60">OBSERVATION</text>
+                        <path d="M290 60 L330 60" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="360" y="60">PRACTICE</text>
+                        <path d="M400 60 L440 60" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="470" y="60" font-weight="bold">KNOWLEDGE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pedagogical cycle of family-based learning.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Hujra: A Social Academy</h3>
+            <p>The Hujra is documented as a vital "Learning Hub" for Pashtun youth. It serves as a social academy where young men learn the complexities of tribal history, conflict resolution, and community leadership. By listening to the conversations of elders and observing the conduct of guests, youth acquire the "soft skills" of Pashtunwali—hospitality, negotiation, and social ethics. It is a space where oral history is not just remembered, but practiced and transmitted to the next generation.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="40" width="120" height="40" rx="2" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="110" y="60" font-weight="bold">HUJRA ACADEMY</text>
+                        <text x="110" y="72" font-size="6">Social Hub</text>
+                        
+                        <path d="M170 60 L220 60" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        
+                        <circle cx="250" cy="60" r="25" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="250" y="65">CONDUCT</text>
+                        
+                        <path d="M280 60 L330 60" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        
+                        <rect x="330" y="40" width="120" height="40" rx="2" fill="rgba(107, 79, 58, 0.2)" stroke="var(--earth)"/>
+                        <text x="390" y="60" font-weight="bold">LEADERSHIP</text>
+                        <text x="390" y="72" font-size="6">Community Skill</text>
+                        
+                        <path d="M250 85 L250 120" stroke="var(--gray)" marker-end="url(#arrow-69)"/>
+                        <text x="250" y="135">SOCIAL WISDOM</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The Hujra as a multi-dimensional educational institution.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Ecological Knowledge and Observation</h3>
+            <p>Traditional education in Orakzai is deeply connected to the land. Orakzai tribes possess sophisticated Traditional Ecological Knowledge (TEK), particularly regarding wild food and medicinal plants. Research by Ahmad et al. (2026) documents how this knowledge is passed down through direct observation and seasonal practice. A young person learns to identify, harvest, and conserve plant species by working alongside elders in the subtropical and temperate forests of the district.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="80" y="50">LAND</text>
+                        <path d="M110 50 L150 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="190" y="50">OBSERVATION</text>
+                        <path d="M230 50 L270 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="310" y="50">USAGE</text>
+                        <path d="M350 50 L390 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="440" y="50" font-weight="bold">CONSERVATION</text>
+                        
+                        <path d="M80 70 L440 70" stroke="var(--forest)" stroke-dasharray="2,2"/>
+                        <text x="260" y="85">TRADITIONAL ECOLOGICAL KNOWLEDGE (TEK)</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The transmission pathway of land-based ecological wisdom in Orakzai.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Mosque and Madrasa: The Religious Hub</h3>
+            <p>Religious education has historically provided the primary framework for formal literacy and moral guidance. Mosques serve as local centers for learning basic Islamic principles, while madrasas offer more advanced instruction. In Orakzai, institutions like *Madrasa Anwar-ul-Islam* have historically been centers for religious scholarship. This system emphasizes memorization (*Hifz*), recitation, and the study of ethics, providing a shared moral language for the community.<sup>4</sup></p>
+
+            <div class="learning-panel">
+                <div class="learning-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Mosque Learning</h4>
+                    <p style="font-size: 0.85rem;">Foundational religious literacy, prayer, and community ethics taught at the village level.</p>
+                </div>
+                <div class="learning-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Madrasa Education</h4>
+                    <p style="font-size: 0.85rem;">Advanced study of theology, law, and manuscripts in specialized institutions.</p>
+                </div>
+            </div>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="100" cy="50" r="30" fill="rgba(0, 100, 0, 0.1)" stroke="var(--badge-islamic)"/>
+                        <text x="100" y="55">FAITH</text>
+                        
+                        <path d="M130 50 L180 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <circle cx="210" cy="50" r="30" fill="rgba(70, 130, 180, 0.1)" stroke="var(--badge-institutional)"/>
+                        <text x="210" y="55">LITERACY</text>
+                        
+                        <path d="M240 50 L290 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <circle cx="320" cy="50" r="30" fill="rgba(119, 116, 107, 0.1)" stroke="var(--gray)"/>
+                        <text x="320" y="55">ETHICS</text>
+                        
+                        <path d="M210 80 L210 110" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        <text x="210" y="125">COMMUNITY SERVICE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The institutional framework of religious and moral education.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Oral Tradition and Memory</h3>
+            <p>Oral tradition is the quietest way a people remembers itself. Through storytelling, poetry, and proverbs (*Mataloona*), social wisdom is condensed and transmitted. Memory is not just a passive storage of facts, but an active educational tool. A young person listens, memorizes, repeats, and eventually understands the deeper meanings of the narratives they inherit. This oral archive ensures that tribal history and Pashtun ethics survive across generations without the need for written certificates.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="80" y="50">LISTEN</text>
+                        <path d="M110 50 L150 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="190" y="50">MEMORIZE</text>
+                        <path d="M230 50 L270 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="310" y="50">REPEAT</text>
+                        <path d="M350 50 L390 50" stroke="var(--gold)" marker-end="url(#arrow-69)"/>
+                        
+                        <text x="440" y="50" font-weight="bold">TRANSMIT</text>
+                        
+                        <path d="M80 70 L440 70" stroke="var(--badge-oral)" stroke-dasharray="2,2"/>
+                        <text x="260" y="85">ORAL KNOWLEDGE SYSTEM</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The cognitive and social workflow of oral education.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>We often think of education as something that begins when we enter a school and ends when we graduate. But in the Orakzai valley, education has always been a lifelong journey. It is the story our grandfather tells us in the Hujra; it is the way our mother teaches us the language of our land; it is the silence of the mosque where we learn our faith. Traditional education was never just about facts—it was about becoming a responsible member of the community. Today, as we build modern schools and universities, we must not forget these older ways of learning. The future of Orakzai education lies in the balance: honoring the wisdom of our elders while embracing the tools of the modern world. We are not just students of books; we are students of our heritage.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“KNOWLEDGE IS THE LIGHT OF THE SOUL.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            69
+        </footer>
+    </div>
+</body>
+</html>

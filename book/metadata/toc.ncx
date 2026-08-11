@@ -278,5 +278,9 @@
       <navLabel><text>Youth in Orakzai Society</text></navLabel>
       <content src="../pages/page-068-youth-in-orakzai-society.html"/>
     </navPoint>
+    <navPoint id="navPoint-69" playOrder="68">
+      <navLabel><text>Education in Traditional Society</text></navLabel>
+      <content src="../pages/page-069-education-in-traditional-society.html"/>
+    </navPoint>
   </navMap>
 </ncx>
