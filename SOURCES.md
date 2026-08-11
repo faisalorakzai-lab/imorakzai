@@ -339,3 +339,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering birth ecosystems, naming identity, family trees, and generational memory transmission.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), Oxford Dictionary of Islam, and N. Naseer (2026).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 58: Funerals & Community Traditions
+- **Research Sources**: Detailed citations are available in `book/sources/page-058-funerals-community-traditions.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering communal farewells, life-cycle transitions, Islamic funeral frameworks, and community support networks.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), N. A. Shinwari (2025), S. A. Akbar (2013), and M. Aadil & R. Shahzaib (2024).
+- **License**: Content is proprietary to the author; visual design is project-specific.
