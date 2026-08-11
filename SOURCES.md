@@ -195,3 +195,9 @@
 - **Visual Elements**: 28+ custom SVG logic diagrams covering tribal hierarchies, Karlani lineages, source comparisons, and responsible genealogy workflows.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Nimat Allah al-Harawi, Olaf Caroe, and the University of Malakand.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 34: Orakzai Sub-Tribes
+- **Research Sources**: Detailed citations are available in `book/sources/page-034-orakzai-sub-tribes.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering tribal hierarchies, major sections (highlighting Mamozai and Ali Khel), source comparisons, and geographic associations.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, Encyclopaedia Britannica, and modern institutional research.
+- **License**: Content is proprietary to the author; visual design is project-specific.

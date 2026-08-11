@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Sub-Tribes</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .research-box {
+            border-left: 3px solid var(--gold);
+            background: rgba(181, 150, 84, 0.05);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-size: 0.95rem;
+        }
+        .dual-column {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .dual-column > div {
+            flex: 1;
+            background: rgba(18, 59, 42, 0.06);
+            border: 1px solid rgba(18, 59, 42, 0.2);
+            padding: 1.5rem;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .dual-column {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page sub-tribes-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Radial Network & Section Motif -->
+                <circle cx="400" cy="500" r="300" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="2" />
+                <circle cx="400" cy="500" r="200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1.5" />
+                <path d="M400 200 L400 800 M100 500 L700 500 M188 288 L612 712 M188 712 L612 288" stroke="rgba(18, 59, 42, 0.04)" stroke-width="1" />
+                <defs>
+                    <pattern id="subtribes-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="500" width="800" height="500" fill="url(#subtribes-grid)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 34</h3>
+            <h2>ORAKZAI SUB-TRIBES</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Sections, clans and the structure of a tribal community.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <div class="visual-progression" style="margin-bottom: 3rem;">
+                <span>Tribe</span>
+                <span>Sections</span>
+                <span>Clans</span>
+                <span>Lineages</span>
+                <span>Families</span>
+            </div>
+
+            <p class="opening-statement">The name Orakzai describes a wider tribal community, but within that community are many smaller identities. Families identify themselves through sections, clans, lineages, villages, or ancestral names.</p>
+            
+            <p>Historical and administrative records reveal a complex internal structure rather than a single simple hierarchy. Terms have also been recorded differently across periods and sources by chroniclers and administrators such as Lucas White King in his 1900 monograph on the Orakzai. Among the numerous sections documented in historical literature, two major branches stand out prominently by virtue of their demographic size, territorial scope, and historical influence: the **Ali Khel** and the **Mamozai**.<sup>1</sup><sup>2</sup><sup>3</sup></p>
+
+            <!-- 1. ORAKZAI HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="200" y="10" width="200" height="24" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="26" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ORAKZAI TRIBE</text>
+                    <path d="M300 34 L300 44" stroke="var(--gold)" stroke-width="1" marker-end="url(#gold-arrow-34)"/>
+
+                    <rect x="200" y="44" width="200" height="24" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="60" fill="#fff" font-size="10" text-anchor="middle">MAJOR SECTIONS (TAPS)</text>
+                    <path d="M300 68 L300 78" stroke="var(--gold)" stroke-width="1" marker-end="url(#gold-arrow-34)"/>
+
+                    <rect x="200" y="78" width="200" height="24" rx="3" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="94" fill="#fff" font-size="10" text-anchor="middle">SUB-SECTIONS &amp; CLANS (KHELS)</text>
+                    <path d="M300 102 L300 112" stroke="var(--gold)" stroke-width="1" marker-end="url(#gold-arrow-34)"/>
+
+                    <rect x="200" y="112" width="200" height="24" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="128" fill="#fff" font-size="10" text-anchor="middle">LINEAGES &amp; FAMILIES</text>
+
+                    <defs>
+                        <marker id="gold-arrow-34" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 2 L 10 5 L 0 8 z" fill="#B59654"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“The nested structural hierarchy of Orakzai tribal organization.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Prominent Sections: Ali Khel and Mamozai</h3>
+            
+            <p>Within the broad spectrum of Orakzai tribal organization, historical surveys and contemporary ethnographic data identify the **Ali Khel** and the **Mamozai** as two of the largest and most influential sections. The Ali Khel, traditionally occupying extensive territories in Upper Orakzai, have historically formed major jirgas and community leadership networks. Similarly, the Mamozai—who form a cornerstone of Upper Orakzai tribal structure and represent the author's own ancestral lineage—play a vital role in regional governance, social cohesion, and cultural preservation.<sup>3</sup><sup>4</sup></p>
+
+            <!-- HERO / MAJOR GROUPS RADIAL GRAPHIC -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="300" cy="100" r="45" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="300" y="104" fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">ORAKZAI</text>
+
+                    <!-- Connected sections -->
+                    <line x1="300" y1="55" x2="300" y2="25" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="230" y="5" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="18" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">ALI KHEL (Largest)</text>
+
+                    <line x1="340" y1="70" x2="440" y2="35" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="380" y="20" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="450" y="33" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">MAMOZAI (Major Section)</text>
+
+                    <line x1="345" y1="100" x2="450" y2="100" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="420" y="90" width="130" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="485" y="103" fill="#fff" font-size="9" text-anchor="middle">ISMAILZAI</text>
+
+                    <line x1="340" y1="130" x2="440" y2="165" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="380" y="155" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="450" y="168" fill="#fff" font-size="9" text-anchor="middle">DAULATZAI</text>
+
+                    <line x1="300" y1="145" x2="300" y2="175" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="230" y="175" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="300" y="188" fill="#fff" font-size="9" text-anchor="middle">MUHAMMAD KHEL</text>
+
+                    <line x1="260" y1="130" x2="160" y2="165" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="80" y="155" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="150" y="168" fill="#fff" font-size="9" text-anchor="middle">MASSUZAI</text>
+
+                    <line x1="255" y1="100" x2="150" y2="100" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="50" y="90" width="130" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="115" y="103" fill="#fff" font-size="9" text-anchor="middle">LASHKARZAI</text>
+
+                    <line x1="260" y1="70" x2="160" y2="35" stroke="var(--gold)" stroke-width="1"/>
+                    <rect x="80" y="20" width="140" height="20" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="150" y="33" fill="#fff" font-size="9" text-anchor="middle">STURI KHEL</text>
+                </svg>
+                <p class="diagram-caption">“Major Orakzai tribal sections documented in historical monographs and ethnographic surveys.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Historical Sources and Terminology</h3>
+            
+            <p>British administrative records—most notably Sir Lucas White King's 1900 <em>Monograph on the Orakzai Country and Clans</em>—provide detailed mappings of these groups, distinguishing between core tribal sections and associated communities (ham-saya groups such as the Mishti and Sheikhan). However, historical classifications must be interpreted as administrative and ethnographic snapshots rather than rigid corporate structures.<sup>1</sup><sup>5</sup></p>
+
+            <!-- SOURCE COMPARISON TABLE REPRESENTATION -->
+            <div class="logic-diagram" style="text-align: left; font-size: 0.85rem;">
+                <h4 style="color: var(--gold); margin-bottom: 1rem; text-align: center;">HISTORICAL SOURCE CLASSIFICATION MATRIX</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; border-top: 1px solid rgba(181, 150, 84, 0.3); padding-top: 1rem;">
+                    <div>
+                        <strong style="color: var(--gold);">Ali Khel</strong>
+                        <p style="margin-top: 0.3rem; color: rgba(255,255,255,0.8);">Classified in British records as one of the largest Upper Orakzai sections; prominent in regional jirgas.</p>
+                    </div>
+                    <div>
+                        <strong style="color: var(--gold);">Mamozai</strong>
+                        <p style="margin-top: 0.3rem; color: rgba(255,255,255,0.8);">Major Upper Orakzai section; densely settled across highland valleys; vital ancestral clan.</p>
+                    </div>
+                    <div>
+                        <strong style="color: var(--gold);">Ismailzai / Daulatzai</strong>
+                        <p style="margin-top: 0.3rem; color: rgba(255,255,255,0.8);">Foundational historical sections documented in 19th-century frontier intelligence monographs.</p>
+                    </div>
+                </div>
+                <p class="diagram-caption" style="text-align: center; margin-top: 1.5rem;">“Comparative overview of primary Orakzai tribal sections from authoritative historical records.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>When I hear an Orakzai introduce himself through a smaller tribal or family identity—whether as Mamozai, Ali Khel, or another historic section—I do not hear a division from the wider tribe. I hear another layer of the same history. A name tells us where a family remembers its roots, which community it belongs to, which relationships shaped its past, and how that identity was carried forward. The larger name is Orakzai. Inside it are many smaller histories. Understanding those histories does not divide the story; it makes the story deeper.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“One tribe. Many names. Generations of memory.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            34
+        </footer>
+    </div>
+</body>
+</html>
