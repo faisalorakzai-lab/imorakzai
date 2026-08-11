@@ -34,5 +34,9 @@
       <navLabel><text>The Meaning of Orakzai</text></navLabel>
       <content src="../pages/page-006-the-meaning-of-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel><text>My Connection to Orakzai Identity</text></navLabel>
+      <content src="../pages/page-007-my-connection-to-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>

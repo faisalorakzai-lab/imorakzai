@@ -38,3 +38,10 @@
 - **Visual Elements**: Custom SVG design featuring a mountain silhouette of Tirah and a subtle digital grid.
 - **Content**: Original text by Faisal Orakzai, supported by historical research into the "lost son" tradition.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 7: My Connection to Orakzai Identity
+- **Research Sources**: Detailed notes are available in `book/sources/page-007-sources.md`.
+- **Visual Elements**: Custom SVG journey graphic (mountain contour transitioning to digital grid).
+- **Source**: Original creation for Faisal Orakzai.
+- **License**: MIT / Project-specific.
+- **Content**: Original autobiographical text provided by the author.

@@ -544,7 +544,8 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.meaning-page .visual-progression {
+.meaning-page .visual-progression,
+.connection-page .visual-progression {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -555,11 +556,13 @@ body {
     text-transform: uppercase;
 }
 
-.meaning-page .visual-progression span {
+.meaning-page .visual-progression span,
+.connection-page .visual-progression span {
     position: relative;
 }
 
-.meaning-page .visual-progression span:not(:last-child)::after {
+.meaning-page .visual-progression span:not(:last-child)::after,
+.connection-page .visual-progression span:not(:last-child)::after {
     content: '→';
     margin-left: 1.5rem;
     opacity: 0.5;
@@ -615,11 +618,13 @@ body {
     .meaning-page .subtitle-meaning {
         font-size: 1.4rem;
     }
-    .meaning-page .visual-progression {
+    .meaning-page .visual-progression,
+    .connection-page .visual-progression {
         flex-wrap: wrap;
         gap: 0.5rem;
     }
-    .meaning-page .visual-progression span:not(:last-child)::after {
+    .meaning-page .visual-progression span:not(:last-child)::after,
+    .connection-page .visual-progression span:not(:last-child)::after {
         margin-left: 0.5rem;
     }
 }
