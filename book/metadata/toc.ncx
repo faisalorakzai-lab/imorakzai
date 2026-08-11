@@ -134,5 +134,9 @@
       <navLabel><text>Origins of the Orakzai</text></navLabel>
       <content src="../pages/page-032-origins-of-the-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-33" playOrder="32">
+      <navLabel><text>Orakzai Tribal Genealogy</text></navLabel>
+      <content src="../pages/page-033-orakzai-tribal-genealogy.html"/>
+    </navPoint>
   </navMap>
 </ncx>

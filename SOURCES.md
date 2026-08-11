@@ -189,3 +189,9 @@
 - **Visual Elements**: 25+ custom SVG logic diagrams covering origin layers, Karlani frameworks, genealogy vs. evidence models, and historical timelines.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, the Journal of the Royal Asiatic Society, and the University of Malakand.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 33: Orakzai Tribal Genealogy
+- **Research Sources**: Detailed citations are available in `book/sources/page-033-orakzai-tribal-genealogy.md`.
+- **Visual Elements**: 28+ custom SVG logic diagrams covering tribal hierarchies, Karlani lineages, source comparisons, and responsible genealogy workflows.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Nimat Allah al-Harawi, Olaf Caroe, and the University of Malakand.
+- **License**: Content is proprietary to the author; visual design is project-specific.

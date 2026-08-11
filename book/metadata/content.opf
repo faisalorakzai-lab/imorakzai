@@ -44,6 +44,7 @@
     <item id="page-030" href="../pages/page-030-preserving-tribal-memory.html" media-type="application/xhtml+xml"/>
     <item id="page-031" href="../pages/page-031-the-orakzai-tribe.html" media-type="application/xhtml+xml"/>
     <item id="page-032" href="../pages/page-032-origins-of-the-orakzai.html" media-type="application/xhtml+xml"/>
+    <item id="page-033" href="../pages/page-033-orakzai-tribal-genealogy.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -79,5 +80,6 @@
     <itemref idref="page-030"/>
     <itemref idref="page-031"/>
     <itemref idref="page-032"/>
+    <itemref idref="page-033"/>
   </spine>
 </package>
