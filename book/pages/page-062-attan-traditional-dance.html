@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Attan & Traditional Dance</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container { grid-template-columns: 1fr; }
+        }
+        .evidence-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+        .badge-orakzai { background: var(--gold); color: var(--charcoal); }
+        .badge-pashtun { background: var(--forest); color: var(--ivory); }
+        .badge-regional { background: var(--gray); color: var(--ivory); }
+        .badge-contemporary { background: #333; color: #ccc; }
+        .caution-box {
+            border-left: 4px solid var(--earth);
+            background: rgba(107, 79, 58, 0.1);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page dance-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="400" cy="300" r="250" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5" />
+                <circle cx="400" cy="300" r="200" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5" />
+                <circle cx="400" cy="300" r="150" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="0.5" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 62</h3>
+            <h2>ATTAN &amp; TRADITIONAL DANCE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“When rhythm becomes movement, memory becomes visible.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Some traditions are heard. Others are seen. Dance turns rhythm into movement. A circle becomes a gathering. A beat becomes coordination. And a celebration becomes something the body remembers. Among Pashtun communities, Attan is one of the best-known forms of traditional dance. But its cultural geography is larger than any single tribe or district. For the Orakzai, questions about dance therefore require care. Which movements are directly documented? Which belong to the wider Pashtun world? Which appear in modern festivals? Which survive through weddings and family memory? And which traditions still need to be documented? The goal is not to claim ownership of a tradition without evidence. It is to understand how movement, music, celebration and identity intersect.</p>
+
+            <!-- HERO: ATTAN CIRCLE (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Background: Mountain Valley at Dusk -->
+                        <path d="M0 200 L150 120 L300 200 L450 120 L600 200 L600 350 L0 350 Z" fill="rgba(18,59,42,0.2)"/>
+                        
+                        <!-- Village Lights -->
+                        <circle cx="100" cy="250" r="1.5" fill="var(--gold)" opacity="0.6"/>
+                        <circle cx="120" cy="260" r="1" fill="var(--gold)" opacity="0.4"/>
+                        <circle cx="500" cy="240" r="1.5" fill="var(--gold)" opacity="0.6"/>
+                        
+                        <!-- Dancers Circle (Abstract) -->
+                        <g transform="translate(300, 250)">
+                            <!-- Outer Motion Arcs -->
+                            <circle cx="0" cy="0" r="80" fill="none" stroke="rgba(181,150,84,0.1)" stroke-width="1" stroke-dasharray="10,5"/>
+                            
+                            <!-- Rhythmic Core -->
+                            <circle cx="0" cy="0" r="20" fill="rgba(181,150,84,0.2)" stroke="var(--gold)" stroke-width="0.5"/>
+                            <text x="0" y="4" font-size="6" fill="var(--gold)">RHYTHM</text>
+                            
+                            <!-- Abstract Dancers -->
+                            <g>
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/> <!-- Dancer 1 -->
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                                <path d="M-10 -75 Q 0 -85, 10 -75" fill="none" stroke="var(--gold)" stroke-width="0.5"/> <!-- Motion -->
+                            </g>
+                            <g transform="rotate(45)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(90)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(135)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(180)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(225)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(270)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                            <g transform="rotate(315)">
+                                <circle cx="0" cy="-80" r="8" fill="var(--ivory)" opacity="0.8"/>
+                                <path d="M0 -72 L0 -60" stroke="var(--ivory)" stroke-width="1.5"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Text Elements -->
+                        <text x="300" y="40" font-size="16" font-weight="bold" fill="var(--gold)">ATTAN &amp; TRADITIONAL DANCE</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255,255,255,0.7)">“When rhythm becomes movement, memory becomes visible.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The Attan circle: a synthesis of rhythm, movement, and community.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Traditional Dance?</h3>
+            <p>Traditional dance is not just entertainment; it is a system of movement that functions as celebration, social interaction, and identity. It is the point where rhythm meets the body, and where the individual joins the collective. For the Orakzai, dance exists as a layered practice—partly local, partly regional, and deeply connected to the wider Pashtun world.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="45" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="90" y="65">RHYTHM</text>
+                        <text x="145" y="65" font-size="12">+</text>
+                        <rect x="160" y="45" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="65">MOVEMENT</text>
+                        <text x="255" y="65" font-size="12">+</text>
+                        <rect x="270" y="45" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="310" y="65">PEOPLE</text>
+                        <text x="365" y="65" font-size="12">=</text>
+                        <rect x="380" y="45" width="80" height="30" rx="2" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                        <text x="420" y="65" font-weight="bold">DANCE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The fundamental components of traditional dance.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Attan?</h3>
+            <p>Attan is a traditional dance associated broadly with Pashtun and neighboring regional cultures. Characterized by a circular formation and rhythmic, coordinated movements, it serves as a powerful symbol of communal participation. While it has deep historical roots, it is not a monolithic practice; variations exist across tribes and regions, reflecting the diversity of the Pashtun landscape.<sup>2</sup><sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="175" y="10" width="150" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">ATTAN'S GEOGRAPHY</text>
+                        
+                        <path d="M250 35 L100 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L200 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L300 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 70" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="50" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="95" y="83">AFGHANISTAN</text>
+                        
+                        <rect x="155" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="83">KHYBER PAKHTUNKHWA</text>
+                        
+                        <rect x="255" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="300" y="83">PASHTUN REGIONS</text>
+                        
+                        <rect x="355" y="70" width="90" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="83">CROSS-BORDER</text>
+                        
+                        <path d="M250 90 L250 120" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        <rect x="150" y="120" width="200" height="25" rx="2" fill="rgba(107,79,58,0.6)"/>
+                        <text x="250" y="137" font-weight="bold">MULTIPLE FORMS OF ATTAN</text>
+                        
+                        <defs>
+                            <marker id="arrow-62" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The broad geographic and cultural space of Attan.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Is Attan Orakzai?</h3>
+            <p>Attan should not be classified as an exclusively Orakzai tradition. It is associated with a much wider Pashtun and regional cultural world. Orakzai participation in Attan, where directly documented, should be understood as part of that wider tradition. While Orakzai communities identify strongly with Attan, claiming exclusive ownership without evidence would be historically inaccurate.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="45" width="120" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="110" y="65">WIDER TRADITION</text>
+                        
+                        <path d="M170 60 L220 60" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        
+                        <rect x="220" y="45" width="120" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="280" y="65">LOCAL PARTICIPATION</text>
+                        
+                        <path d="M340 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        
+                        <rect x="390" y="45" width="80" height="30" rx="2" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                        <text x="430" y="65" font-weight="bold">ORAKZAI CONTEXT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Understanding Orakzai participation within the wider Attan tradition.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Rhythm &amp; Movement</h3>
+            <p>Rhythm is the engine of Attan. It is built on a foundation of beat, repetition, and coordination. The Dhol (traditional drum) often provides the pulse, guiding the dancers as they move in unison. This connection between rhythm and movement creates a state of collective coordination that defines the dance.<sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="50">BEAT</text>
+                        <path d="M80 50 L120 50" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        <text x="170" y="50">REPETITION</text>
+                        <path d="M220 50 L260 50" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        <text x="320" y="50">COORDINATION</text>
+                        <path d="M380 50 L420 50" stroke="var(--gold)" marker-end="url(#arrow-62)"/>
+                        <text x="460" y="50" font-weight="bold" fill="var(--gold)">MOVEMENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The rhythmic progression of Attan.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Evidence Test: Orakzai Spring Mela (2024)</h3>
+            <p>The documented 2024 Orakzai Spring Mela (Jashan-e-Baharan) provides contemporary evidence of public cultural programming. While music concerts and traditional sports were explicitly documented, the inclusion of Attan at this specific event requires careful source verification. Available official reporting documents music concerts, but does not by itself establish that Attan was performed at the event.<sup>1</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Evidence Category</th>
+                            <th>Status</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Traditional Dance Performances</td>
+                            <td><span class="evidence-badge badge-contemporary">Documented</span></td>
+                            <td>Dawn (2024) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Horse &amp; Camel Dances</td>
+                            <td><span class="evidence-badge badge-contemporary">Documented</span></td>
+                            <td>Express Tribune (2024) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Specific "Orakzai Attan" Style</td>
+                            <td><span class="evidence-badge badge-regional">Unverified</span></td>
+                            <td>No direct academic source</td>
+                        </tr>
+                        <tr>
+                            <td>Pashtun-Wide Attan Participation</td>
+                            <td><span class="evidence-badge badge-pashtun">High Confidence</span></td>
+                            <td>General Ethnography</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Identity &amp; Ownership</h3>
+            <p>Cultural identity is layered. A dancer can participate simultaneously in Orakzai culture, Pashtun culture, and regional KP culture. A community can strongly identify with a tradition like Attan without having exclusively invented it. This distinction between cultural connection and exclusive ownership is essential for a responsible understanding of heritage.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="250" cy="80" r="70" fill="none" stroke="rgba(181,150,84,0.2)" stroke-width="1"/>
+                        <text x="250" y="25" fill="var(--gold)" font-weight="bold">IDENTITY LAYERS</text>
+                        
+                        <circle cx="250" cy="80" r="50" fill="none" stroke="rgba(181,150,84,0.4)" stroke-width="1"/>
+                        <circle cx="250" cy="80" r="30" fill="none" stroke="rgba(181,150,84,0.6)" stroke-width="1"/>
+                        
+                        <text x="250" y="83" font-size="6">ORAKZAI</text>
+                        <text x="250" y="105" font-size="6">PASHTUN</text>
+                        <text x="250" y="125" font-size="6">REGIONAL / KP</text>
+                        
+                        <rect x="350" y="60" width="120" height="40" rx="2" fill="rgba(107,79,58,0.2)" stroke="var(--earth)"/>
+                        <text x="410" y="78" fill="var(--earth)" font-weight="bold">CONNECTION</text>
+                        <text x="410" y="90" fill="var(--earth)" font-size="12">≠</text>
+                        <text x="410" y="102" fill="var(--earth)" font-weight="bold">OWNERSHIP</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The layered nature of cultural identity and tradition.”</p>
+            </div>
+
+            <div class="caution-box">
+                <strong>ETHICAL PRESERVATION:</strong> Responsible heritage documentation requires consent and context. Digital visibility (social media) does not automatically prove historical authenticity. AI must not be used to invent origins or historical performers.
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What Still Needs to Be Documented?</h3>
+            <p>Direct fieldwork is still needed to determine whether distinctive Orakzai dance forms, terminology, or performance conventions existed beyond participation in the wider Pashtun tradition. Identifying historical Orakzai dance traditions, village-level practices, and local dance terminology remains a priority for future research.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="start">
+                        <text x="200" y="20" font-weight="bold" fill="var(--gold)" text-anchor="middle">RESEARCH GAPS</text>
+                        
+                        <circle cx="50" cy="50" r="3" fill="var(--gold)"/>
+                        <text x="60" y="53">Local dance terminology</text>
+                        
+                        <circle cx="50" cy="70" r="3" fill="var(--gold)"/>
+                        <text x="60" y="73">Variations in Upper vs Lower Orakzai</text>
+                        
+                        <circle cx="50" cy="90" r="3" fill="var(--gold)"/>
+                        <text x="60" y="93">Tirah-area traditions</text>
+                        
+                        <circle cx="50" cy="110" r="3" fill="var(--gold)"/>
+                        <text x="60" y="113">Women's dance traditions (Private context)</text>
+                        
+                        <circle cx="280" cy="50" r="3" fill="var(--gold)"/>
+                        <text x="290" y="53">Elders' memories of old gatherings</text>
+                        
+                        <circle cx="280" cy="70" r="3" fill="var(--gold)"/>
+                        <text x="290" y="73">Changes after displacement/migration</text>
+                        
+                        <circle cx="280" cy="90" r="3" fill="var(--gold)"/>
+                        <text x="290" y="93">Digital transformation of tradition</text>
+                        
+                        <circle cx="280" cy="110" r="3" fill="var(--gold)"/>
+                        <text x="290" y="113">Archival visual/audio footage</text>
+                        
+                        <rect x="50" y="140" width="400" height="40" rx="2" fill="rgba(18,59,42,0.4)" stroke="var(--gold)"/>
+                        <text x="250" y="165" text-anchor="middle" font-style="italic">“Fieldwork is required to uncover local specificities.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A roadmap for future Orakzai dance documentation.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Dance is memory made visible. A rhythm begins. People gather. Bodies move together. For a moment, individual movement becomes collective expression. Attan belongs to a much wider Pashtun and regional cultural world, and I do not believe Orakzai identity becomes stronger by claiming every tradition as uniquely ours. It becomes stronger by understanding our place within a larger heritage. Whether in a mountain village, a wedding hall, or a digital archive, the act of dancing is an act of remembering. As long as the circle remains, the culture lives.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“DANCE IS MEMORY MADE VISIBLE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            62
+        </footer>
+    </div>
+</body>
+</html>

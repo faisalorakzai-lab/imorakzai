@@ -250,5 +250,9 @@
       <navLabel><text>Orakzai Music</text></navLabel>
       <content src="../pages/page-061-orakzai-music.html"/>
     </navPoint>
+    <navPoint id="navPoint-62" playOrder="61">
+      <navLabel><text>Attan &amp; Traditional Dance</text></navLabel>
+      <content src="../pages/page-062-attan-traditional-dance.html"/>
+    </navPoint>
   </navMap>
 </ncx>
