@@ -118,5 +118,9 @@
       <navLabel><text>Pashto Poetry</text></navLabel>
       <content src="../pages/page-028-pashto-poetry.html"/>
     </navPoint>
+    <navPoint id="navPoint-29" playOrder="28">
+      <navLabel><text>Pashtun Oral History</text></navLabel>
+      <content src="../pages/page-029-pashtun-oral-history.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -165,3 +165,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the human experience-to-memory poetic framework and oral vs. written transmission pillars.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from D.N. MacKenzie (1958), Encyclopaedia Iranica, and Sergei Andreyev (2010).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 29: Pashtun Oral History
+- **Research Sources**: Detailed citations are available in `book/sources/page-029-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating oral testimony frameworks and historical source triangulation models.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from the Oral History Association, Alessandro Portelli, and Encyclopaedia Iranica.
+- **License**: Content is proprietary to the author; visual design is project-specific.
