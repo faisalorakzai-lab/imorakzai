@@ -71,6 +71,7 @@
     <item id="page-057" href="../pages/page-057-birth-family-traditions.html" media-type="application/xhtml+xml"/>
     <item id="page-058" href="../pages/page-058-funerals-community-traditions.html" media-type="application/xhtml+xml"/>
     <item id="page-059" href="../pages/page-059-festivals-celebrations.html" media-type="application/xhtml+xml"/>
+    <item id="page-060" href="../pages/page-060-traditional-food.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -133,5 +134,6 @@
     <itemref idref="page-057"/>
     <itemref idref="page-058"/>
     <itemref idref="page-059"/>
+    <itemref idref="page-060"/>
   </spine>
 </package>

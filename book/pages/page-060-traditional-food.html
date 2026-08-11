@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Traditional Food</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+        .evidence-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+        .badge-orakzai { background: var(--gold); color: var(--charcoal); }
+        .badge-pashtun { background: var(--forest); color: var(--ivory); }
+        .badge-islamic { background: var(--earth); color: var(--ivory); }
+        .badge-regional { background: var(--gray); color: var(--ivory); }
+        .badge-contemporary { background: #333; color: #ccc; }
+        .caution-box {
+            border-left: 4px solid var(--earth);
+            background: rgba(107, 79, 58, 0.1);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page food-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 600 Q 400 650, 800 600" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 60</h3>
+            <h2>TRADITIONAL FOOD</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where land, family and hospitality meet.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Food is one of the quietest ways a people remembers itself. A loaf of bread can carry the memory of a household. A meal can tell the story of the land that produced it. A cup of tea can turn a visitor into a guest. A shared platter can bring generations around the same table. For the Orakzai, food belongs to several worlds at once: land, agriculture, family, hospitality, religion, season, trade, and memory. But food history must be handled carefully. Not every dish eaten by Orakzai families is uniquely Orakzai. Some foods belong to the wider Pashtun world. Some belong to the broader cuisine of Khyber Pakhtunkhwa. Some have travelled across Afghanistan, Central Asia, South Asia and the wider region. And some recipes survive only inside individual families. The purpose of this page is not to invent a perfect Orakzai menu. It is to document what can be supported, identify what remains uncertain, and preserve the food memories that still live in homes and communities.</p>
+
+            <!-- HERO: FOOD LANDSCAPE (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Horizon -->
+                        <path d="M0 120 Q 300 80, 600 120 L600 280 L0 280 Z" fill="rgba(18,59,42,0.15)"/>
+                        
+                        <!-- Communal Table / Thaal -->
+                        <ellipse cx="300" cy="200" rx="120" ry="60" fill="rgba(181,150,84,0.1)" stroke="var(--gold)" stroke-width="1.5"/>
+                        
+                        <!-- Symbolic Food Items on Thaal -->
+                        <rect x="240" y="180" width="40" height="10" rx="2" fill="var(--ivory)"/> <!-- Bread -->
+                        <text x="260" y="188" font-size="6" fill="var(--charcoal)">BREAD</text>
+                        
+                        <circle cx="340" cy="190" r="15" fill="rgba(107,79,58,0.6)"/> <!-- Meat Dish -->
+                        <text x="340" y="193" font-size="6">MEAT</text>
+                        
+                        <rect x="290" y="210" width="20" height="20" rx="2" fill="var(--gold)"/> <!-- Maize -->
+                        <text x="300" y="222" font-size="6" fill="var(--charcoal)">MAIZE</text>
+                        
+                        <!-- Tea Cup -->
+                        <path d="M450 180 L470 180 L465 200 L455 200 Z" fill="rgba(18,59,42,0.8)"/>
+                        <path d="M470 185 Q 480 190, 470 195" fill="none" stroke="var(--gold)"/>
+                        
+                        <!-- Silhouettes -->
+                        <g opacity="0.4">
+                            <circle cx="150" cy="240" r="10" fill="var(--ivory)"/>
+                            <path d="M150 250 L150 270" stroke="var(--ivory)"/>
+                            <circle cx="450" cy="240" r="10" fill="var(--ivory)"/>
+                            <path d="M450 250 L450 270" stroke="var(--ivory)"/>
+                        </g>
+                        
+                        <text x="300" y="40" font-size="14" font-weight="bold" fill="var(--gold)">THE COMMENSAL TABLE</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255,255,255,0.7)">“Land, Family, and Hospitality in a Single Meal”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The shared table as the center of Orakzai social life.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What Does “Traditional Food” Mean?</h3>
+            <p>Traditional food is a dynamic system involving ingredients, recipes, preservation methods, and serving customs. It is not a static relic of the past but a living memory that adapts to new agricultural realities and household changes.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="27" font-weight="bold">TRADITIONAL FOOD</text>
+                        
+                        <path d="M250 35 L100 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L200 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L300 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        <path d="M250 35 L400 65" stroke="var(--gold)" stroke-width="0.5"/>
+                        
+                        <rect x="60" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="100" y="78">INGREDIENTS</text>
+                        
+                        <rect x="160" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="78">RECIPES</text>
+                        
+                        <rect x="260" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="300" y="78">HOSPITALITY</text>
+                        
+                        <rect x="360" y="65" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="400" y="78">MEMORY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The components of a culinary tradition.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Evidence Problem: What Do We Actually Know?</h3>
+            <p>Culinary history often relies on oral tradition and household memory. To maintain academic rigor, this page distinguishes between direct Orakzai documentation, broader Pashtun ethnographic evidence, and regional KP food systems.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="250" y="20" font-weight="bold" fill="var(--gold)">THE DISH EVIDENCE LADDER</text>
+                        
+                        <rect x="100" y="35" width="300" height="20" rx="2" fill="rgba(181,150,84,0.4)"/>
+                        <text x="250" y="48">LEVEL 1: DIRECT ORAKZAI HISTORICAL EVIDENCE</text>
+                        
+                        <rect x="100" y="60" width="300" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="250" y="73">LEVEL 2: PASHTUN-WIDE ETHNOGRAPHY</text>
+                        
+                        <rect x="100" y="85" width="300" height="20" rx="2" fill="rgba(18,59,42,0.4)"/>
+                        <text x="250" y="98">LEVEL 3: REGIONAL KP DOCUMENTATION</text>
+                        
+                        <rect x="100" y="110" width="300" height="20" rx="2" fill="rgba(107,79,58,0.4)"/>
+                        <text x="250" y="123">LEVEL 4: ORAL / FAMILY MEMORY</text>
+                        
+                        <text x="250" y="150" font-size="7" fill="rgba(255,255,255,0.7)">“EVIDENCE ≠ ASSUMPTION”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The methodological framework for identifying traditional food.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Orakzai Staple Foods</h3>
+            <p>Historical and official sources identify three primary staples for the Orakzai population: **Maize**, **Wheat Bread**, and **Meat**. These staples reflect the region's agricultural capacity and its livestock-based economy.<sup>2</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">MAIZE (STAPLE)</text>
+                            <rect x="50" y="40" width="200" height="25" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="57">PRIMARY CROP</text>
+                            <path d="M150 65 L150 85" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <rect x="50" y="85" width="200" height="25" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="102">HOUSEHOLD FOOD SECURITY</text>
+                            <path d="M150 110 L150 130" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <rect x="50" y="130" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="147" font-weight="bold">DAILY CONSUMPTION</text>
+                        </g>
+                        <defs>
+                            <marker id="arrow-60" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </svg>
+                    <p class="diagram-caption">“Maize as a foundation of Orakzai food security.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">WHEAT &amp; BREAD</text>
+                            <text x="150" y="45">WHEAT CULTIVATION</text>
+                            <path d="M150 50 L150 70" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <text x="150" y="85">FLOUR (OORA)</text>
+                            <path d="M150 90 L150 110" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <text x="150" y="125" font-weight="bold">BREAD (DODAI)</text>
+                            <text x="150" y="155" font-size="6" fill="rgba(255,255,255,0.7)">“The linear pathway from field to table”</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The process of bread production in the household.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Food &amp; Hospitality (Melmastia)</h3>
+            <p>Food is intrinsic to Pashtun hospitality. The obligation to offer tea, food, and shelter to a guest is a fundamental part of the tribal code. This practice of commensality (eating together) serves as a symbolic means of creating and maintaining social bonds.<sup>3</sup><sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="40" y="50">GUEST</text>
+                        <path d="M70 50 L100 50" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                        <text x="135" y="50">WELCOME</text>
+                        <path d="M170 50 L200 50" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                        <text x="240" y="50">TEA</text>
+                        <path d="M280 50 L310 50" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                        <text x="350" y="50">MEAL</text>
+                        <path d="M390 50 L420 50" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                        <text x="465" y="50" font-weight="bold" fill="var(--gold)">COMMUNITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The hospitality model: from greeting to community bonding.”</p>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food / Crop</th>
+                            <th>Orakzai-specific</th>
+                            <th>Pashtun-wide</th>
+                            <th>Regional</th>
+                            <th>Confidence</th>
+                            <th>Evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maize (Staple)</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>Standard</td>
+                            <td>Standard</td>
+                            <td>High</td>
+                            <td>FAO (2018) [1]</td>
+                        </tr>
+                        <tr>
+                            <td>Wheat Bread</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>Standard</td>
+                            <td>Standard</td>
+                            <td>High</td>
+                            <td>Historical Records [2]</td>
+                        </tr>
+                        <tr>
+                            <td>Meat (Staple)</td>
+                            <td>Documented <span class="evidence-badge badge-orakzai">Orakzai</span></td>
+                            <td>Standard</td>
+                            <td>Standard</td>
+                            <td>High</td>
+                            <td>Historical Records [2]</td>
+                        </tr>
+                        <tr>
+                            <td>Chapli Kabab</td>
+                            <td>-</td>
+                            <td>Common <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>Regional <span class="evidence-badge badge-regional">KP</span></td>
+                            <td>Medium</td>
+                            <td>General Ethnography</td>
+                        </tr>
+                        <tr>
+                            <td>Tea (Hospitality)</td>
+                            <td>Common Practice</td>
+                            <td>Standard <span class="evidence-badge badge-pashtun">Pashtun</span></td>
+                            <td>Standard</td>
+                            <td>High</td>
+                            <td>Ahmed (1980) [5]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Modern Adaptation &amp; Memory</h3>
+            <p>Urbanization and migration have introduced Orakzai families to city markets and standardized regional cuisines. While recipes travel with families, the core values of hospitality and shared meals remain. Digital archives and social media now serve as new spaces for preserving family food heritage.<sup>1</sup><sup>4</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">FOOD MEMORY ARCHIVE</text>
+                            <rect x="50" y="40" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="53">RECIPE (ORAL/FAMILY)</text>
+                            <path d="M150 60 L150 80" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <rect x="50" y="80" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">DIGITAL PHOTO / VIDEO</text>
+                            <path d="M150 100 L150 120" stroke="var(--gold)" marker-end="url(#arrow-60)"/>
+                            <rect x="50" y="120" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="137" font-weight="bold" fill="var(--gold)">FUTURE GENERATION</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Preserving culinary heritage through digital memory.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">AI &amp; HERITAGE</text>
+                            <circle cx="150" cy="80" r="45" fill="rgba(181,150,84,0.2)" stroke="var(--gold)"/>
+                            <text x="150" y="75" font-weight="bold">AI TOOL</text>
+                            <text x="150" y="90" font-size="6">TRANSCRIPTION / SEARCH</text>
+                            <path d="M150 125 L150 145" stroke="var(--earth)" stroke-width="2"/>
+                            <text x="150" y="160" font-size="8" fill="var(--earth)" font-weight="bold">≠ MEMORY AUTHORITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Responsible AI as a tool, not a source of truth.”</p>
+                </div>
+            </div>
+
+            <div class="caution-box">
+                <strong>REGIONAL DOES NOT MEAN ORAKZAI-SPECIFIC:</strong> Popularity of a dish in Khyber Pakhtunkhwa (e.g., Chapli Kabab, Kabuli Pulao) does not establish its historical Orakzai origin. These are regional foods consumed by Orakzai families rather than uniquely tribal inventions.
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Food is more than nutrition. It is the language of the home. When we sit around a shared platter, we are not just eating; we are participating in a tradition of trust and equality. For an Orakzai, a simple meal of maize bread and tea is a connection to the soil and to the ancestors who tilled it. Traditions change—new ingredients arrive, families move to cities, and old methods evolve. But the underlying act of sharing a meal remains one of the most powerful ways we affirm our identity and our commitment to one another.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“FOOD IS THE QUIETEST WAY A PEOPLE REMEMBERS ITSELF.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            60
+        </footer>
+    </div>
+</body>
+</html>

@@ -351,3 +351,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering festival ecosystems, Islamic frameworks, Hujra Eid traditions, and contemporary festival structures.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP Culture and Tourism Authority (2024), Akbar S. Ahmed (1980), and K. Hussain (2025).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 60: Traditional Food
+- **Research Sources**: Detailed citations are available in `book/sources/page-060-traditional-food.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering commensal tables, food evidence ladders, agricultural pathways, and digital memory archives.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by FAO in Pakistan (2018), Historical Records of the North-West Frontier, and Tapper & Tapper (1986).
+- **License**: Content is proprietary to the author; visual design is project-specific.
