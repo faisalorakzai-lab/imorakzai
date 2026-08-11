@@ -93,3 +93,9 @@
 - **Visual Elements**: Custom SVG identity hierarchy and geographic network illustration.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Oxford Research Encyclopedia, and University of Malakand dialectological studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 17: Pashtunwali — The Code of Life
+- **Research Sources**: Detailed citations are available in `book/sources/page-017-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the Pashtunwali framework and normative tenets.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Akbar S. Ahmed, eHRAF, and anthropological studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.

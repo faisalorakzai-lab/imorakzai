@@ -70,5 +70,9 @@
       <navLabel><text>Orakzai Within the Karlani System</text></navLabel>
       <content src="../pages/page-016-orakzai-within-karlani.html"/>
     </navPoint>
+    <navPoint id="navPoint-17" playOrder="16">
+      <navLabel><text>Pashtunwali — The Code of Life</text></navLabel>
+      <content src="../pages/page-017-pashtunwali.html"/>
+    </navPoint>
   </navMap>
 </ncx>
