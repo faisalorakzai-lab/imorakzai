@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Hospitality</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        .reflection-box {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page hospitality-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 600 Q 400 650, 800 600" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 53</h3>
+            <h2>ORAKZAI HOSPITALITY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where a guest becomes part of the moment.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Hospitality begins before the food is served. It begins with recognition. A guest arrives, and the household or community must decide how to receive them. In Pashtun culture, this principle is widely known as melmastia. For the Orakzai, as part of the wider Pashtun cultural world, hospitality has existed within a social environment shaped by family, kinship, community institutions, geography and tradition. But hospitality is not a single ritual. It can be a cup of tea. A meal. A place to sit. A conversation. A night's shelter. A visit to the hujra. Or simply the expectation that a guest should be treated with dignity. The form can change. The principle can remain.</p>
+
+            <!-- HERO: ORAKZAI HOSPITALITY (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <!-- Background: Mountain Home Concept -->
+                        <path d="M50 100 L150 40 L250 100 Z" fill="rgba(107,79,58,0.2)" stroke="var(--gold)" stroke-width="0.5"/>
+                        <rect x="120" y="70" width="60" height="30" fill="rgba(245,240,230,0.1)" stroke="var(--gold)"/>
+                        <text x="150" y="88" fill="var(--gold)">OPEN DOOR</text>
+                        
+                        <!-- Elements: Tea, Dastarkhan -->
+                        <circle cx="350" cy="70" r="25" fill="rgba(18,59,42,0.3)" stroke="var(--gold)"/>
+                        <text x="350" y="73">TEA</text>
+                        
+                        <rect x="420" y="50" width="100" height="40" rx="2" fill="rgba(181,150,84,0.1)" stroke="var(--gold)"/>
+                        <text x="470" y="73">DASTARKHAN</text>
+                        
+                        <!-- Actors: Host and Guest -->
+                        <g transform="translate(150, 160)">
+                            <rect x="-40" y="0" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                            <text x="0" y="18">HOST</text>
+                        </g>
+                        
+                        <path d="M190 175 L410 175" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-53)"/>
+                        <text x="300" y="165" font-size="10" font-weight="bold" fill="var(--gold)">MELMASTIA</text>
+                        
+                        <g transform="translate(450, 160)">
+                            <rect x="-40" y="0" width="80" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="0" y="18">GUEST</text>
+                        </g>
+                        
+                        <text x="300" y="210" font-size="7" font-style="italic" fill="rgba(255,255,255,0.6)">“Recognition, Welcome, and Shared Space”</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-53" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Orakzai Hospitality: A synthesis of place, presence, and practice.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">What is Melmastia?</h3>
+            <p>Melmastia (مېلمستیا) is commonly translated as hospitality, but academic literature describes it as a core principle of Pashtunwali with meanings broader than simple friendliness. In Pashtun cultural discourse, it is a social contract involving deep respect and obligations. Traditionally, it includes welcoming guests, generosity, social recognition, and protection.<sup>1</sup><sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="10" y="35" width="60" height="25" rx="2" fill="rgba(18,59,42,0.5)"/>
+                        <text x="40" y="50">GUEST</text>
+                        <path d="M70 47.5 L90 47.5" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="90" y="35" width="70" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="125" y="50">RECOGNITION</text>
+                        <path d="M160 47.5 L180 47.5" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="180" y="35" width="60" height="25" rx="2" fill="rgba(18,59,42,0.7)"/>
+                        <text x="210" y="50">WELCOME</text>
+                        <path d="M240 47.5 L260 47.5" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="260" y="35" width="60" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="290" y="50">RESPECT</text>
+                        <path d="M320 47.5 L340 47.5" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="340" y="35" width="60" height="25" rx="2" fill="rgba(18,59,42,0.9)"/>
+                        <text x="370" y="50">CARE</text>
+                        <path d="M400 47.5 L420 47.5" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="420" y="35" width="70" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="455" y="50" fill="var(--gold)">RELATIONSHIP</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Hospitality as a social relationship, not merely entertainment.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">The Participants: Guest and Host</h3>
+            <p>The categories of guests vary from family and kin to strangers and travelers. While Pashtun scholarship notes that treatment may differ based on the guest's relationship to the host, the underlying obligation of respect remains. In Orakzai villages, such as Mirbak, the Malik (tribal leader) carries a specific responsibility to maintain a Hujra for public hospitality.<sup>3</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">CATEGORIES OF GUESTS</text>
+                            <circle cx="150" cy="80" r="30" fill="rgba(18,59,42,0.4)" stroke="var(--gold)"/>
+                            <text x="150" y="83">STRANGER</text>
+                            
+                            <circle cx="90" cy="60" r="25" fill="rgba(18,59,42,0.5)"/>
+                            <text x="90" y="63">KIN</text>
+                            
+                            <circle cx="210" cy="60" r="25" fill="rgba(18,59,42,0.5)"/>
+                            <text x="210" y="63">FRIEND</text>
+                            
+                            <circle cx="90" cy="110" r="25" fill="rgba(18,59,42,0.6)"/>
+                            <text x="90" y="113">TRAVELER</text>
+                            
+                            <circle cx="210" cy="110" r="25" fill="rgba(18,59,42,0.6)"/>
+                            <text x="210" y="113">FAMILY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Documented categories of guests in Pashtun social structures.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="20" font-weight="bold" fill="var(--gold)">ROLES OF THE HOST</text>
+                            <rect x="100" y="35" width="100" height="15" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="45">GREETING &amp; SEATING</text>
+                            <rect x="100" y="55" width="100" height="15" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="65">OFFERING TEA</text>
+                            <rect x="100" y="75" width="100" height="15" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="85">CONVERSATION</text>
+                            <rect x="100" y="95" width="100" height="15" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="105">SHARING FOOD</text>
+                            <rect x="100" y="115" width="100" height="15" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="125" fill="var(--gold)">PRACTICAL ASSISTANCE</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Documented roles of the host in a traditional reception.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">The Dastarkhan and Tea</h3>
+            <p>Sharing a meal on the Dastarkhan is a symbolic bond of peace and recognition. Tea service is a shared regional Pashtun hospitality practice, often the first offering to a guest. These rituals facilitate conversation and social connection.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 60" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="10" y="15" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="50" y="33">FOOD</text>
+                        <path d="M90 30 L110 30" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="110" y="15" width="80" height="30" rx="2" fill="rgba(18,59,42,0.7)"/>
+                        <text x="150" y="33">SHARED SPACE</text>
+                        <path d="M190 30 L210 30" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="210" y="15" width="80" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="250" y="33">CONVERSATION</text>
+                        <path d="M290 30 L310 30" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="310" y="15" width="80" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="350" y="33" fill="var(--gold)">SOCIAL CONNECTION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The Dastarkhan as a catalyst for social bonding.”</p>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Practice</th>
+                            <th>Evidence Type</th>
+                            <th>Geographic Scope</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Offering Tea</td>
+                            <td>Documented regional staple</td>
+                            <td>Pashtun-wide / Orakzai</td>
+                        </tr>
+                        <tr>
+                            <td>Sharing Dastarkhan</td>
+                            <td>Core Pashtunwali ritual</td>
+                            <td>Pashtun-wide</td>
+                        </tr>
+                        <tr>
+                            <td>Hujra Reception</td>
+                            <td>Documented social institution</td>
+                            <td>Regional (Orakzai villages)</td>
+                        </tr>
+                        <tr>
+                            <td>Generosity (Sakhawat)</td>
+                            <td>Moral/Cultural ideal</td>
+                            <td>Pashtun-wide</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Spaces of Hospitality: Hujra and Home</h3>
+            <p>Hospitality occurs in both public and private spaces. The Hujra remains a central social institution for receiving guests in a communal setting, while the home serves as the primary space for family and kin. These spaces are part of a wider community life system including Jirga and kinship networks.<sup>1</sup><sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="20" width="80" height="25" rx="2" fill="rgba(18,59,42,0.5)"/>
+                        <text x="90" y="35">HOSPITALITY</text>
+                        
+                        <rect x="150" y="20" width="80" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="190" y="35">JIRGA</text>
+                        
+                        <rect x="250" y="20" width="80" height="25" rx="2" fill="rgba(18,59,42,0.7)"/>
+                        <text x="290" y="35">HUJRA</text>
+                        
+                        <rect x="350" y="20" width="80" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="390" y="35">KINSHIP</text>
+                        
+                        <path d="M250 50 L250 80" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-53)"/>
+                        
+                        <rect x="150" y="80" width="200" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="98" font-weight="bold" fill="var(--gold)">COMMUNITY LIFE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Community life model based on documented Pashtun social institutions.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Modern Adaptations and Migration</h3>
+            <p>Traditional hospitality faces challenges from modern security constraints and urbanization. Insecurity in former FATA has affected the traditional ideal of welcoming unknown guests. However, migrants in cities like Karachi and Peshawar adapt these practices, preserving hospitality as a key part of their diaspora identity.<sup>2</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">ANCESTRAL HOME</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">MIGRATION</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">NEW SOCIAL ENV.</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">ADAPTED HOSPITALITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Adaptation of hospitality through migration and urbanization.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">INVITATION</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">VIDEO CALL / MSG</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">VISIT &amp; MEAL</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-53)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">DIGITAL MEMORY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Digital hospitality: A modern interpretive framework.”</p>
+                </div>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Hospitality is more than just a tradition; it is a way of seeing the other person. When we open our doors or share a cup of tea, we are saying that the guest is worthy of our time and respect. In Orakzai, this practice has survived through centuries of change because it is rooted in the dignity of the human connection. Whether in a mountain Hujra or a modern city apartment, the spirit of Melmastia remains a bridge between people. It is our way of making the world a little smaller and a lot more meaningful.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“HOSPITALITY BEGINS BEFORE THE FOOD IS SERVED.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            53
+        </footer>
+    </div>
+</body>
+</html>

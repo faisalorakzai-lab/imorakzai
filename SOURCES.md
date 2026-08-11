@@ -309,3 +309,9 @@
 - **Visual Elements**: 65+ custom SVG logic diagrams covering Jirga models, folk song transmission, life-cycle rituals, and digital preservation.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Muhammad Khalil (2025), Dr. Shakir Orakzai (2025/26), and Zamin et al. (2026).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 53: Orakzai Hospitality
+- **Research Sources**: Detailed citations are available in `book/sources/page-053-orakzai-hospitality.md`.
+- **Visual Elements**: 65+ custom SVG logic diagrams covering the guest-host relationship, Hujra-based hospitality, security-tradition models, and digital adaptation.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), J. Ullah (2019), and Orakzai-specific ethnographic studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.

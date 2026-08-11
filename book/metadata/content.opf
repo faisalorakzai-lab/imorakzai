@@ -64,6 +64,7 @@
     <item id="page-050" href="../pages/page-050-orakzai-markets.html" media-type="application/xhtml+xml"/>
     <item id="page-051" href="../pages/page-051-orakzai-culture.html" media-type="application/xhtml+xml"/>
     <item id="page-052" href="../pages/page-052-orakzai-traditions.html" media-type="application/xhtml+xml"/>
+    <item id="page-053" href="../pages/page-053-orakzai-hospitality.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -119,5 +120,6 @@
     <itemref idref="page-050"/>
     <itemref idref="page-051"/>
     <itemref idref="page-052"/>
+    <itemref idref="page-053"/>
   </spine>
 </package>
