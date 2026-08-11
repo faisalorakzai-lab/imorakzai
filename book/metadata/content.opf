@@ -41,6 +41,7 @@
     <item id="page-027" href="../pages/page-027-pashtun-language-literature.html" media-type="application/xhtml+xml"/>
     <item id="page-028" href="../pages/page-028-pashto-poetry.html" media-type="application/xhtml+xml"/>
     <item id="page-029" href="../pages/page-029-pashtun-oral-history.html" media-type="application/xhtml+xml"/>
+    <item id="page-030" href="../pages/page-030-preserving-tribal-memory.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -73,5 +74,6 @@
     <itemref idref="page-027"/>
     <itemref idref="page-028"/>
     <itemref idref="page-029"/>
+    <itemref idref="page-030"/>
   </spine>
 </package>

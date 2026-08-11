@@ -171,3 +171,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating oral testimony frameworks and historical source triangulation models.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from the Oral History Association, Alessandro Portelli, and Encyclopaedia Iranica.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 30: Preserving Tribal Memory
+- **Research Sources**: Detailed citations are available in `book/sources/page-030-preserving-tribal-memory.md`.
+- **Visual Elements**: 22+ custom SVG logic diagrams covering archival workflows, digital preservation (3-2-1 rule), metadata structures, and identity models.
+- **Content**: Original synthesis by Faisal Orakzai, grounded in institutional guidelines from the Oral History Association, UNESCO, and the Digital Preservation Coalition.
+- **License**: Content is proprietary to the author; visual design is project-specific.

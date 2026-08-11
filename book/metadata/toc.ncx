@@ -122,5 +122,9 @@
       <navLabel><text>Pashtun Oral History</text></navLabel>
       <content src="../pages/page-029-pashtun-oral-history.html"/>
     </navPoint>
+    <navPoint id="navPoint-30" playOrder="29">
+      <navLabel><text>Preserving Tribal Memory</text></navLabel>
+      <content src="../pages/page-030-preserving-tribal-memory.html"/>
+    </navPoint>
   </navMap>
 </ncx>
