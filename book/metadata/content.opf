@@ -32,6 +32,7 @@
     <item id="page-018" href="../pages/page-018-melmastia-hospitality.html" media-type="application/xhtml+xml"/>
     <item id="page-019" href="../pages/page-019-nanawatai-protection-forgiveness.html" media-type="application/xhtml+xml"/>
     <item id="page-020" href="../pages/page-020-jirga-traditional-governance.html" media-type="application/xhtml+xml"/>
+    <item id="page-021" href="../pages/page-021-nang-honour.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -55,5 +56,6 @@
     <itemref idref="page-018"/>
     <itemref idref="page-019"/>
     <itemref idref="page-020"/>
+    <itemref idref="page-021"/>
   </spine>
 </package>

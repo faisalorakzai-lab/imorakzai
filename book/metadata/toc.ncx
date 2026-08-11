@@ -86,5 +86,9 @@
       <navLabel><text>Jirga — Traditional Governance</text></navLabel>
       <content src="../pages/page-020-jirga-traditional-governance.html"/>
     </navPoint>
+    <navPoint id="navPoint-21" playOrder="20">
+      <navLabel><text>Nang — Honour</text></navLabel>
+      <content src="../pages/page-021-nang-honour.html"/>
+    </navPoint>
   </navMap>
 </ncx>

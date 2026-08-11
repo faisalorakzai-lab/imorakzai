@@ -117,3 +117,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating deliberation flow, institutional distinctions (maraka vs. jirga vs. loya jirga), and circular seating.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from M. Jamil Hanifi (Encyclopaedia Iranica), Akbar S. Ahmed, Fredrik Barth, and Sir L. White King.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 21: Nang — Honour
+- **Research Sources**: Detailed citations are available in `book/sources/page-021-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the nang framework, comparison with badal, and trust-building cycles.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from M. Jamil Hanifi (Encyclopaedia Iranica), Nancy Hatch Dupree (Encyclopaedia Iranica), Lutz Rzehak (Afghanistan Analysts Network), and Mikhail Pelevin (Cambridge University Press).
+- **License**: Content is proprietary to the author; visual design is project-specific.
