@@ -166,5 +166,9 @@
       <navLabel><text>Orakzai Family &amp; Kinship</text></navLabel>
       <content src="../pages/page-040-orakzai-family-kinship.html"/>
     </navPoint>
+    <navPoint id="navPoint-41" playOrder="40">
+      <navLabel><text>Orakzai Territory</text></navLabel>
+      <content src="../pages/page-041-orakzai-territory.html"/>
+    </navPoint>
   </navMap>
 </ncx>

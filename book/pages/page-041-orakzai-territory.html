@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Territory</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .dual-column {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .dual-column > div {
+            flex: 1;
+            background: rgba(18, 59, 42, 0.06);
+            border: 1px solid rgba(18, 59, 42, 0.2);
+            padding: 1.5rem;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .dual-column {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page territory-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="400" cy="500" r="380" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="2" />
+                <path d="M400 100 L400 900 M100 500 L700 500" stroke="rgba(181, 150, 84, 0.03)" stroke-width="1" />
+                <defs>
+                    <pattern id="territory-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#territory-grid)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 41</h3>
+            <h2>ORAKZAI TERRITORY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Geography, landscape, and the historical homeland.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">A people are often remembered through their names. But every name also has a landscape behind it. For the Orakzai, that landscape is a country of mountains, valleys, ridges, streams, passes, and settlements in the northwestern borderlands of the Indian subcontinent.</p>
+            
+            <p>Geography did not simply provide a backdrop to Orakzai history. It shaped movement. It shaped settlement. It influenced communication. It affected agriculture, trade, and security. And over generations, the landscape became part of collective memory and identity.<sup>1</sup><sup>3</sup></p>
+
+            <!-- 1. HERO MAP GRAPHIC: CONCEPTUAL ORAKZAI TERRITORY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background terrain contours -->
+                    <path d="M50 200 Q 150 150, 250 180 T 450 130 T 550 190" fill="none" stroke="rgba(18, 59, 42, 0.3)" stroke-width="1.5"/>
+                    <path d="M50 160 Q 150 110, 250 140 T 450 90 T 550 150" fill="none" stroke="rgba(18, 59, 42, 0.3)" stroke-width="1.5"/>
+                    <path d="M50 120 Q 150 70, 250 100 T 450 50 T 550 110" fill="none" stroke="rgba(18, 59, 42, 0.3)" stroke-width="1.5"/>
+                    
+                    <!-- Boundaries / Core region -->
+                    <ellipse cx="300" cy="130" rx="160" ry="70" fill="rgba(18, 59, 42, 0.15)" stroke="var(--gold)" stroke-width="2" stroke-dasharray="6 3"/>
+                    
+                    <text x="300" y="115" fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">ORAKZAI COUNTRY</text>
+                    <text x="300" y="135" fill="var(--gold)" font-size="8" text-anchor="middle">TIRAH HEARTLAND (MASTURA &amp; KHANKI VALLEYS)</text>
+                    
+                    <!-- Neighbors -->
+                    <text x="90" y="130" fill="rgba(255,255,255,0.6)" font-size="8" text-anchor="middle">KURRAM</text>
+                    <text x="510" y="130" fill="rgba(255,255,255,0.6)" font-size="8" text-anchor="middle">KOHAT / PESHAWAR</text>
+                    <text x="300" y="40" fill="rgba(255,255,255,0.6)" font-size="8" text-anchor="middle">KHYBER</text>
+                </svg>
+                <p class="diagram-caption">“Conceptual map of the historical Orakzai homeland and surrounding border regions.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Geography to Identity</h3>
+            
+            <p>The relationship between geography and society can be understood as a progressive chain of influence: mountains and river valleys determined where settlements could take root, which in turn shaped community networks, historical movements, and cultural memory.<sup>1</sup><sup>4</sup></p>
+
+            <!-- 2. GEOGRAPHY -> IDENTITY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="25" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="45" y="43" fill="#fff" font-size="7" text-anchor="middle">MOUNTAINS</text>
+                    
+                    <path d="M80 40 L105 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="105" y="25" width="70" height="30" rx="3" fill="rgba(18, 59, 42, 0.7)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="140" y="43" fill="#fff" font-size="7" text-anchor="middle">VALLEYS</text>
+                    
+                    <path d="M175 40 L200 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="200" y="25" width="80" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="240" y="43" fill="#fff" font-size="7" text-anchor="middle">SETTLEMENTS</text>
+                    
+                    <path d="M280 40 L305 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="305" y="25" width="80" height="30" rx="3" fill="rgba(18, 59, 42, 0.5)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="345" y="43" fill="#fff" font-size="7" text-anchor="middle">COMMUNITIES</text>
+                    
+                    <path d="M385 40 L410 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="410" y="25" width="75" height="30" rx="3" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="447" y="43" fill="#fff" font-size="7" text-anchor="middle">MEMORY</text>
+                    
+                    <path d="M485 40 L510 40" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="510" y="25" width="80" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="550" y="43" fill="#fff" font-size="7" font-weight="bold" text-anchor="middle">IDENTITY</text>
+
+                    <defs>
+                        <marker id="arrow-41" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Geography influences social life, but does not determine identity by itself.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Historical Territory vs. Modern District</h3>
+            
+            <p>It is vital to distinguish between historical "Orakzai country"—a tribal homeland defined by valleys and customary sectional boundaries—and the modern administrative **Orakzai District** established within Khyber Pakhtunkhwa following the 2018 constitutional merger. Spanning approximately 700 square miles, the region is bordered by Kurram to the west, Khyber to the north, Peshawar to the east, and Kohat/Hangu to the south.<sup>2</sup><sup>3</sup></p>
+
+            <!-- 3. HISTORICAL TERRITORY VS MODERN DISTRICT -->
+            <div class="logic-diagram">
+                <div class="dual-column">
+                    <div style="text-align: left;">
+                        <h4 style="color: var(--gold); margin-bottom: 0.5rem; font-size: 0.9rem;">HISTORICAL ORAKZAI COUNTRY</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 1.4;">
+                            <li>• Tribal Homeland &amp; Valleys</li>
+                            <li>• Customary Sectional Boundaries</li>
+                            <li>• Tirah Heartlands (Mastura &amp; Khanki)</li>
+                        </ul>
+                    </div>
+                    <div style="text-align: left;">
+                        <h4 style="color: var(--gold); margin-bottom: 0.5rem; font-size: 0.9rem;">MODERN ORAKZAI DISTRICT</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 1.4;">
+                            <li>• ~700 Square Miles Administrative Area</li>
+                            <li>• Merged into Khyber Pakhtunkhwa (2018)</li>
+                            <li>• Constitutional &amp; Civic Governance</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="diagram-caption">“Distinguishing between historical tribal territory and modern administrative boundaries.”</p>
+            </div>
+
+            <!-- 4. ELEVATION PROFILE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 100 Q 150 20, 250 80 T 450 40 T 550 100 Z" fill="rgba(18, 59, 42, 0.3)" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="250" y="55" fill="#fff" font-size="8" text-anchor="middle">SAMANA RANGE / MOUNTAIN RIDGES</text>
+                    <text x="150" y="90" fill="var(--gold)" font-size="7" text-anchor="middle">MASTURA VALLEY</text>
+                    <text x="380" y="90" fill="var(--gold)" font-size="7" text-anchor="middle">KHANKI VALLEY</text>
+                </svg>
+                <p class="diagram-caption>“Conceptual elevation profile showing parallel ranges and central river valleys.”</p>
+            </div>
+
+            <!-- 5. WATER AND SETTLEMENT -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="75" y="53" fill="#fff" font-size="8" text-anchor="middle">WATER RESOURCES</text>
+                    
+                    <path d="M130 50 L170 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="170" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="225" y="53" fill="#fff" font-size="8" text-anchor="middle">SETTLEMENTS</text>
+                    
+                    <path d="M280 50 L320 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="320" y="35" width="110" height="30" rx="3" fill="rgba(18, 59, 42, 0.4)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="375" y="53" fill="#fff" font-size="8" text-anchor="middle">AGRICULTURE</text>
+                    
+                    <path d="M430 50 L470 50" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-41)"/>
+                    
+                    <rect x="470" y="35" width="110" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="525" y="53" fill="#fff" font-size="8" text-anchor="middle">COMMUNITY</text>
+                </svg>
+                <p class="diagram-caption">“The foundational role of river systems in supporting local habitation and agriculture.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>When I examine the map of Orakzai country, I do not see mere coordinates or administrative borders. I see the Mastura and Khanki valleys where generations of families built homes, farmed terraces, and gathered in village hujras. The mountains and rivers were witnesses to our history—they defined our isolation and our resilience. Understanding our territory means recognizing that our identity is rooted not just in abstract ancestry, but in the enduring earth of our ancestral homeland.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“A people’s history is written in their memories, but its foundation is laid in their land.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            41
+        </footer>
+    </div>
+</body>
+</html>
