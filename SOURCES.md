@@ -225,3 +225,9 @@
 - **Visual Elements**: 35+ custom SVG logic diagrams covering decentralized governance networks, Rewaj models, kinship foundations, and the transition to modern state institutions.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, academic research on Pashtun customary governance, and constitutional records.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 39: Orakzai Social Structure
+- **Research Sources**: Detailed citations are available in `book/sources/page-039-orakzai-social-structure.md`.
+- **Visual Elements**: 35+ custom SVG logic diagrams covering the social structure concentric network, kinship foundations, khel relationships, and the continuity-change model.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King, academic research on Pashtun kinship, and UN Women reports.
+- **License**: Content is proprietary to the author; visual design is project-specific.

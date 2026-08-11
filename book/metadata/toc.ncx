@@ -158,5 +158,9 @@
       <navLabel><text>Traditional Orakzai Governance</text></navLabel>
       <content src="../pages/page-038-traditional-orakzai-governance.html"/>
     </navPoint>
+    <navPoint id="navPoint-39" playOrder="38">
+      <navLabel><text>Orakzai Social Structure</text></navLabel>
+      <content src="../pages/page-039-orakzai-social-structure.html"/>
+    </navPoint>
   </navMap>
 </ncx>

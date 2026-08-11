@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Social Structure</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 2rem 1.5rem;
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.05rem;
+        }
+        .dual-column {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .dual-column > div {
+            flex: 1;
+            background: rgba(18, 59, 42, 0.06);
+            border: 1px solid rgba(18, 59, 42, 0.2);
+            padding: 1.5rem;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .dual-column {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page social-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="400" cy="500" r="380" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="2" />
+                <path d="M400 100 L400 900 M100 500 L700 500" stroke="rgba(181, 150, 84, 0.03)" stroke-width="1" />
+                <defs>
+                    <pattern id="social-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(18, 59, 42, 0.04)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect x="0" y="0" width="800" height="1000" fill="url(#social-grid)" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 39</h3>
+            <h2>ORAKZAI SOCIAL STRUCTURE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Relationships, kinship frameworks, and the organization of community life.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">A society is more than the territory it occupies. It is also the network of relationships through which people understand family, ancestry, responsibility, and belonging. For the Orakzai, these relationships have historically been shaped by household, kinship, smaller social groups, tribal sections, and the wider community.</p>
+            
+            <p>These layers were not always rigid. They could overlap, change over time, and take different forms from one locality to another. But together they provide a useful way to understand how Orakzai social life was organized.<sup>1</sup><sup>2</sup></p>
+
+            <!-- 1. HERO LOGIC GRAPHIC: CONCENTRIC SOCIAL NETWORK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="300" cy="150" r="130" fill="none" stroke="rgba(181, 150, 84, 0.15)" stroke-width="1"/>
+                    <circle cx="300" cy="150" r="100" fill="none" stroke="rgba(18, 59, 42, 0.2)" stroke-width="1"/>
+                    <circle cx="300" cy="150" r="70" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="1"/>
+                    <circle cx="300" cy="150" r="40" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1.5"/>
+                    <text x="300" y="146" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">PERSON</text>
+                    <text x="300" y="160" fill="var(--gold)" font-size="7" text-anchor="middle">&amp; HOUSEHOLD</text>
+
+                    <!-- Labels for Rings -->
+                    <text x="300" y="70" fill="rgba(255,255,255,0.8)" font-size="8" text-anchor="middle">FAMILY &amp; KINSHIP</text>
+                    <text x="300" y="42" fill="rgba(255,255,255,0.8)" font-size="8" text-anchor="middle">KHEL / CLAN</text>
+                    <text x="300" y="12" fill="var(--gold)" font-size="8" font-weight="bold" text-anchor="middle">TRIBAL SECTION &amp; ORAKZAI COMMUNITY</text>
+                </svg>
+                <p class="diagram-caption">“An analytical model of social belonging; historical structures varied by locality, period, and family.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Kinship and Belonging</h3>
+            
+            <p>Kinship provided an important social framework through which people understood belonging, obligations, and mutual support. However, kinship was not only about claimed genealogy; it shaped everyday social expectations, marriage networks, and cooperative security. Academic research by anthropologists and historians highlights that Orakzai social organization combined residential unity at the *khel* level with broader tribal section ties.<sup>3</sup><sup>5</sup></p>
+
+            <!-- 2. KINSHIP MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="35" width="100" height="30" rx="3" fill="rgba(18, 59, 42, 0.8)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="70" y="53" fill="#fff" font-size="9" text-anchor="middle">ANCESTRY</text>
+                    
+                    <path d="M120 50 L160 50" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-39)"/>
+                    
+                    <rect x="160" y="35" width="100" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="210" y="53" fill="#fff" font-size="9" text-anchor="middle">KINSHIP</text>
+                    
+                    <path d="M260 50 L300 50" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-39)"/>
+                    
+                    <rect x="300" y="35" width="100" height="30" rx="3" fill="rgba(18, 59, 42, 0.6)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="350" y="53" fill="#fff" font-size="9" text-anchor="middle">RELATIONSHIP</text>
+                    
+                    <path d="M400 50 L440 50" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-39)"/>
+                    
+                    <rect x="440" y="35" width="135" height="30" rx="3" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)" stroke-width="1"/>
+                    <text x="507" y="53" fill="#fff" font-size="9" text-anchor="middle">BELONGING</text>
+
+                    <defs>
+                        <marker id="arrow-39" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“From shared ancestry to active social belonging and responsibility.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2.5rem 0 1.2rem; letter-spacing: 0.15rem; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); display: inline-block; padding-bottom: 0.3rem;">Tradition vs. Modern Transformation</h3>
+            
+            <p>Social structure is not static. As urbanization, education, professional careers, digital communication, and global migration reshape Orakzai society, traditional kinship and family networks adapt to new environments. While physical communities may disperse across cities and global diasporas, cultural identity and family connections persist through modern communication networks.<sup>4</sup></p>
+
+            <!-- 3. TRADITION VS MODERNITY -->
+            <div class="logic-diagram">
+                <div class="dual-column">
+                    <div style="text-align: left;">
+                        <h4 style="color: var(--gold); margin-bottom: 0.5rem; font-size: 0.9rem;">TRADITIONAL STRUCTURES</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 1.4;">
+                            <li>• Kinship &amp; Household Networks</li>
+                            <li>• Localized Khel Communities</li>
+                            <li>• Oral Memory &amp; Tradition</li>
+                            <li>• Customary Social Obligations</li>
+                        </ul>
+                    </div>
+                    <div style="text-align: left;">
+                        <h4 style="color: var(--gold); margin-bottom: 0.5rem; font-size: 0.9rem;">MODERN TRANSFORMATION</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 1.4;">
+                            <li>• Education &amp; Professional Careers</li>
+                            <li>• Urbanization &amp; Regional Mobility</li>
+                            <li>• Digital Communication &amp; Diaspora</li>
+                            <li>• Constitutional &amp; Civic Institutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="diagram-caption">“Continuity and change in Orakzai social life across generations.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>When I think about social structure, I do not see a chart of names and clans. I see relationships: a family teaching a child a language, an elder remembering a story, a household supporting a relative, a community maintaining a connection after migration, and a young person carrying an old name into a completely new world. For me, that is the deeper meaning of social structure. It is not only how people are grouped; it is how people remain connected.</p>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.2rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-style: italic;">“A community survives not only through its history, but through the relationships that carry that history forward.”</p>
+                <p style="font-size: 0.8rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            39
+        </footer>
+    </div>
+</body>
+</html>
