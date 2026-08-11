@@ -249,3 +249,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering topographic compositions, elevation profiles, slope cross-sections, and seasonal geography.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Pakistan Bureau of Statistics, UN Women, and Lucas White King's historical monograph.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 43: Mountains of Orakzai
+- **Research Sources**: Detailed citations are available in `book/sources/page-043-mountains-of-orakzai.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering layered mountain contour compositions, west-to-east elevation models, and terminology hierarchies.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP-BOIT, Pakistan Almanac, and historical monographs by Lucas White King.
+- **License**: Content is proprietary to the author; visual design is project-specific.
