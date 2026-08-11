@@ -159,3 +159,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the language-to-identity framework and classical-to-digital literary pillars.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Sergei Andreyev, and D.N. MacKenzie (1958).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 28: Pashto Poetry
+- **Research Sources**: Detailed citations are available in `book/sources/page-028-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the human experience-to-memory poetic framework and oral vs. written transmission pillars.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from D.N. MacKenzie (1958), Encyclopaedia Iranica, and Sergei Andreyev (2010).
+- **License**: Content is proprietary to the author; visual design is project-specific.
