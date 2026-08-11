@@ -61,6 +61,7 @@
     <item id="page-047" href="../pages/page-047-agriculture-land.html" media-type="application/xhtml+xml"/>
     <item id="page-048" href="../pages/page-048-livestock-rural-economy.html" media-type="application/xhtml+xml"/>
     <item id="page-049" href="../pages/page-049-traditional-trades.html" media-type="application/xhtml+xml"/>
+    <item id="page-050" href="../pages/page-050-orakzai-markets.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -113,5 +114,6 @@
     <itemref idref="page-047"/>
     <itemref idref="page-048"/>
     <itemref idref="page-049"/>
+    <itemref idref="page-050"/>
   </spine>
 </package>

@@ -202,5 +202,9 @@
       <navLabel><text>Traditional Trades</text></navLabel>
       <content src="../pages/page-049-traditional-trades.html"/>
     </navPoint>
+    <navPoint id="navPoint-50" playOrder="49">
+      <navLabel><text>Orakzai Markets</text></navLabel>
+      <content src="../pages/page-050-orakzai-markets.html"/>
+    </navPoint>
   </navMap>
 </ncx>

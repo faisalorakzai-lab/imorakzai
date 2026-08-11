@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Markets</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.75rem;
+            font-size: 0.8rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-box {
+            background: rgba(181, 150, 84, 0.05);
+            border-left: 4px solid var(--gold);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page markets-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 150, 800 100" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 400 Q 400 450, 800 400" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 50</h3>
+            <h2>ORAKZAI MARKETS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where goods, people and livelihoods meet.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">A market is more than a place where something is bought. It is a meeting point. A farmer brings a crop. A livestock owner brings an animal. A craftsperson brings something made by hand. A trader brings goods from somewhere else. A household arrives with a need. For a moment, all of these journeys meet in one place. That is what makes a market part of a community’s economic life.</p>
+            
+            <p>Following the economic progression from traditional trades (Page 49), Page 50 examines Orakzai markets as systems of exchange. Markets in the district function as the vital nexus between local production and regional trade, shaped by the unique geography of the mountain valleys and the evolving commercial infrastructure of the merged areas.<sup>1</sup><sup>2</sup></p>
+
+            <!-- HERO: TOPOGRAPHIC MARKET FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <path d="M50 40 L100 20 L150 40 L100 60 Z" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="100" y="43">MOUNTAIN</text>
+                        
+                        <path d="M100 60 L150 100" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-50)"/>
+                        
+                        <rect x="110" y="100" width="80" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="150" y="118">SETTLEMENT</text>
+                        
+                        <path d="M190 115 L240 115" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-50)"/>
+                        
+                        <rect x="240" y="100" width="80" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="280" y="118">BAZAAR</text>
+                        
+                        <path d="M320 115 L370 115" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-50)"/>
+                        
+                        <path d="M370 110 L450 110" stroke="var(--gold)" stroke-width="2" stroke-dasharray="4 2"/>
+                        <text x="410" y="105" font-size="6">ROAD</text>
+                        
+                        <rect x="450" y="100" width="100" height="30" rx="2" fill="rgba(18,59,42,0.9)" stroke="var(--gold)"/>
+                        <text x="500" y="118">REGIONAL MARKET</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-50" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Topographic progression from mountain production to regional market exchange.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">What Is a Market?</h3>
+            <p>A market is a system where buyers and sellers exchange goods or services. In the Orakzai context, this system ranges from individual shops to clustered bazaars and regional trade routes. Understanding the hierarchy of these spaces is essential to understanding the district's economic life.</p>
+
+            <!-- MARKET HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <circle cx="75" cy="60" r="35" fill="rgba(18,59,42,0.4)" stroke="var(--gold)"/>
+                        <text x="75" y="63">SHOP</text>
+                        <text x="75" y="110" fill="var(--gold)">Point of Sale</text>
+                        
+                        <circle cx="225" cy="60" r="40" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="225" y="63">BAZAAR</text>
+                        <text x="225" y="110" fill="var(--gold)">Shop Network</text>
+                        
+                        <circle cx="375" cy="60" r="45" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="375" y="63">MARKET</text>
+                        <text x="375" y="110" fill="var(--gold)">Exchange System</text>
+                        
+                        <circle cx="525" cy="60" r="50" fill="rgba(181,150,84,0.2)" stroke="var(--gold)"/>
+                        <text x="525" y="63">TRADE ROUTE</text>
+                        <text x="525" y="110" fill="var(--gold)">Movement</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Four-part logic distinguishing individual points of sale from broader systems of exchange.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Market Centres</h3>
+            <p>Verified commercial hubs in Orakzai are concentrated in administrative centers and strategic valley junctions. Kalaya Bazaar serves as the primary district hub, while Ghiljo Bazaar anchors the Upper Orakzai economy.<sup>1</sup><sup>2</sup><sup>4</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Market Name</th>
+                            <th>Location</th>
+                            <th>Type</th>
+                            <th>Documented Function</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Kalaya Bazaar</strong></td>
+                            <td>Lower Orakzai</td>
+                            <td>District Market</td>
+                            <td>Commercial hub, administrative center, banking [1] [4] [5]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ghiljo Bazaar</strong></td>
+                            <td>Upper Orakzai</td>
+                            <td>Tehsil Market</td>
+                            <td>Community market, administrative center [2]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dabori Bazaar</strong></td>
+                            <td>Upper Orakzai</td>
+                            <td>Local Bazaar</td>
+                            <td>Local community exchange</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mishti Mela</strong></td>
+                            <td>Near Kalaya</td>
+                            <td>Local Market</td>
+                            <td>Regional settlement hub</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid-container">
+                <!-- GEOGRAPHY TO ACCESS -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="8" fill="#fff" text-anchor="middle">
+                            <rect x="20" y="20" width="110" height="25" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                            <text x="75" y="35">MOUNTAINS</text>
+                            <rect x="170" y="20" width="110" height="25" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                            <text x="225" y="35">VALLEYS</text>
+                            <rect x="20" y="65" width="110" height="25" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                            <text x="75" y="80">ROADS</text>
+                            <rect x="170" y="65" width="110" height="25" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                            <text x="225" y="80">SETTLEMENTS</text>
+                            
+                            <path d="M150 90 L150 140" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="75" y="140" width="150" height="35" rx="3" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="162" font-weight="bold" fill="var(--gold)">MARKET ACCESS</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Geographic factors determining market access.”</p>
+                </div>
+
+                <!-- MARKET NETWORK -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">HOUSEHOLD</text>
+                            <path d="M150 30 L150 45" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="100" y="45" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="58">LOCAL MARKET</text>
+                            <path d="M150 65 L150 80" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="100" y="80" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">DISTRICT MARKET</text>
+                            <path d="M150 100 L150 115" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="100" y="115" width="100" height="20" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="128">REGIONAL MARKET</text>
+                            <path d="M150 135 L150 150" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="100" y="150" width="100" height="20" rx="2" fill="rgba(181,150,84,0.3)"/>
+                            <text x="150" y="163">URBAN MARKET</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Conceptual market network levels.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Modern Commerce &amp; Digital Future</h3>
+            <p>The Orakzai economy is transitioning from traditional physical bazaars toward digital integration. The 2024 Spring Mela highlighted the potential for tourism and cultural commerce, while mobile technology is opening conceptual pathways for e-commerce and diaspora trade.<sup>3</sup><sup>6</sup></p>
+
+            <!-- BAZAAR TO DIGITAL TIMELINE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="50" y1="50" x2="550" y2="50" stroke="var(--gold)" stroke-width="1"/>
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <circle cx="50" cy="50" r="4" fill="var(--gold)"/>
+                        <text x="50" y="75">LOCAL BAZAAR</text>
+                        
+                        <circle cx="175" cy="50" r="4" fill="var(--gold)"/>
+                        <text x="175" y="75">REGIONAL MARKET</text>
+                        
+                        <circle cx="300" cy="50" r="4" fill="var(--gold)"/>
+                        <text x="300" y="75">URBAN RETAIL</text>
+                        
+                        <circle cx="425" cy="50" r="4" fill="var(--gold)"/>
+                        <text x="425" y="75">MODERN COMMERCE</text>
+                        
+                        <circle cx="550" cy="50" r="4" fill="var(--gold)"/>
+                        <text x="550" y="75">ONLINE MARKETPLACE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Conceptual timeline of market evolution in Orakzai.”</p>
+            </div>
+
+            <div class="grid-container">
+                <!-- BLOCKCHAIN CONCEPT -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="20" y="60" width="50" height="30" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="45" y="78">PRODUCT</text>
+                            <path d="M70 75 L90 75" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="90" y="60" width="60" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="120" y="78">DIGITAL RECORD</text>
+                            <path d="M150 75 L170 75" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="170" y="60" width="50" height="30" rx="2" fill="rgba(181,150,84,0.3)"/>
+                            <text x="195" y="78">BLOCKCHAIN</text>
+                            <path d="M220 75 L240 75" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="240" y="60" width="50" height="30" rx="2" fill="rgba(18,59,42,0.9)"/>
+                            <text x="265" y="78">TRACEABLE</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Conceptual blockchain application for product provenance.”</p>
+                </div>
+
+                <!-- AI CONCEPT -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="20" y="60" width="60" height="30" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="50" y="78">MARKET DATA</text>
+                            <path d="M80 75 L110 75" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <circle cx="140" cy="75" r="25" fill="rgba(181,150,84,0.4)" stroke="var(--gold)"/>
+                            <text x="140" y="78" font-weight="bold">AI</text>
+                            
+                            <path d="M165 75 L195 75" stroke="var(--gold)" marker-end="url(#arrow-50)"/>
+                            
+                            <rect x="195" y="60" width="85" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="237" y="78">BUSINESS INSIGHT</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Conceptual AI-driven market insight model.”</p>
+                </div>
+            </div>
+
+            <div class="data-box" style="border-left-color: var(--gray); background: rgba(119, 116, 107, 0.05);">
+                <h4 style="color: var(--gray);">The Data Gap</h4>
+                <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7);">Publicly accessible district-level market statistics for Orakzai, such as annual turnover, shop counts, and daily transaction volumes, remain limited. Current economic analysis relies on qualitative assessments of commercial hubs and conceptual models of regional trade networks.</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>A market is one of the simplest ideas in an economy. Someone has something. Someone else needs it. Between them stands a system of exchange. In the mountains, that system may begin with a small shop, a weekly gathering, a livestock transaction or a farmer carrying goods toward a nearby settlement. Over time, roads change. Cities grow. Phones connect people. Digital payments become possible. Markets begin to extend beyond geography. But the basic idea remains. People exchange value with other people. For me, the future of Orakzai commerce should not require choosing between heritage and technology. The local market can remain part of the story while new markets open beyond the mountains. The bazaar can become digital. The local product can find a distant customer. And a traditional economy can learn to operate in a modern world without forgetting where it began.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“MARKETS CONNECT PEOPLE BEFORE THEY CONNECT PRODUCTS.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            50
+        </footer>
+    </div>
+</body>
+</html>

@@ -291,3 +291,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering craft-to-market chains, mazri preparation cycles, embroidery frameworks, and evidence hierarchy matrices.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Pakistan Almanac, FATA Sustainable Development Plan, UN Women, and academic ethnobotanical studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 50: Orakzai Markets
+- **Research Sources**: Detailed citations are available in `book/sources/page-050-orakzai-markets.md`.
+- **Visual Elements**: 60+ custom SVG logic diagrams covering market systems, bazaar-to-digital timelines, and topographic map aesthetics.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP Government Land Use Plans, Pakistan Almanac, and Radio Pakistan reports.
+- **License**: Content is proprietary to the author; visual design is project-specific.
