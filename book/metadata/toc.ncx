@@ -62,5 +62,9 @@
       <navLabel><text>The Pashtun Tribal Confederations</text></navLabel>
       <content src="../pages/page-014-pashtun-tribal-confederations.html"/>
     </navPoint>
+    <navPoint id="navPoint-15" playOrder="14">
+      <navLabel><text>Karlani Pashtuns</text></navLabel>
+      <content src="../pages/page-015-karlani-pashtuns.html"/>
+    </navPoint>
   </navMap>
 </ncx>

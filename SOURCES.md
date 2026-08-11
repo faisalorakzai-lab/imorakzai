@@ -81,3 +81,9 @@
 - **Visual Elements**: Custom SVG hierarchical network illustration.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Daniel Balland (*Encyclopaedia Iranica*), M. Jamil Hanifi (*Encyclopaedia Iranica*), Robert Nichols (*Oxford Research Encyclopedia*), and anthropological studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 15: Karlani Pashtuns
+- **Research Sources**: Detailed citations are available in `book/sources/page-015-sources.md`.
+- **Visual Elements**: Custom SVG Karlani tribal & mountain geographic network illustration.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Charles M. Kieffer (*Encyclopaedia Iranica*), Daniel Balland (*Encyclopaedia Iranica*), and Robert Nichols (*Oxford Research Encyclopedia*).
+- **License**: Content is proprietary to the author; visual design is project-specific.
