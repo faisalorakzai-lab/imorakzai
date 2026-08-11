@@ -54,5 +54,9 @@
       <navLabel><text>Pashtun Tribal Society</text></navLabel>
       <content src="../pages/page-012-pashtun-tribal-society.html"/>
     </navPoint>
+    <navPoint id="navPoint-13" playOrder="12">
+      <navLabel><text>Major Pashtun Tribes</text></navLabel>
+      <content src="../pages/page-013-major-pashtun-tribal-landscape.html"/>
+    </navPoint>
   </navMap>
 </ncx>
