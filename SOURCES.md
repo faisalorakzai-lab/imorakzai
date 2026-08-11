@@ -297,3 +297,9 @@
 - **Visual Elements**: 60+ custom SVG logic diagrams covering market systems, bazaar-to-digital timelines, and topographic map aesthetics.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by KP Government Land Use Plans, Pakistan Almanac, and Radio Pakistan reports.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 51: Orakzai Culture
+- **Research Sources**: Detailed citations are available in `book/sources/page-051-orakzai-culture.md`.
+- **Visual Elements**: 65+ custom SVG logic diagrams covering cultural systems, transmission models, and heritage geometry.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Scientific Reports (2026), Pashto Journal (2025), and Human Nature Journal of Social Sciences (2024).
+- **License**: Content is proprietary to the author; visual design is project-specific.

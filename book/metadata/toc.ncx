@@ -206,5 +206,9 @@
       <navLabel><text>Orakzai Markets</text></navLabel>
       <content src="../pages/page-050-orakzai-markets.html"/>
     </navPoint>
+    <navPoint id="navPoint-51" playOrder="50">
+      <navLabel><text>Orakzai Culture</text></navLabel>
+      <content src="../pages/page-051-orakzai-culture.html"/>
+    </navPoint>
   </navMap>
 </ncx>

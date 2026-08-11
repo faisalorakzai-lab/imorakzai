@@ -7,7 +7,7 @@
     <dc:language>en</dc:language>
     <dc:publisher>Faisal Orakzai</dc:publisher>
     <dc:date>2026-08-11</dc:date>
-    <meta property="dcterms:modified">2026-08-11T12:00:00Z</meta>
+    <meta property="dcterms:modified">2026-08-11T13:00:00Z</meta>
   </metadata>
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -62,6 +62,7 @@
     <item id="page-048" href="../pages/page-048-livestock-rural-economy.html" media-type="application/xhtml+xml"/>
     <item id="page-049" href="../pages/page-049-traditional-trades.html" media-type="application/xhtml+xml"/>
     <item id="page-050" href="../pages/page-050-orakzai-markets.html" media-type="application/xhtml+xml"/>
+    <item id="page-051" href="../pages/page-051-orakzai-culture.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -115,5 +116,6 @@
     <itemref idref="page-048"/>
     <itemref idref="page-049"/>
     <itemref idref="page-050"/>
+    <itemref idref="page-051"/>
   </spine>
 </package>

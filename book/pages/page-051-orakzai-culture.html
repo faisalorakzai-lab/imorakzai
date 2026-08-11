@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Culture</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-box {
+            background: rgba(181, 150, 84, 0.05);
+            border-left: 4px solid var(--gold);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page culture-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 100 Q 400 150, 800 100" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 400 Q 400 450, 800 400" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 51</h3>
+            <h2>ORAKZAI CULTURE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“A living heritage between memory and change.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Culture is not a museum. It is a way people remember, speak, eat, celebrate, welcome, disagree, cooperate, raise families and understand their place in the world. For the Orakzai, culture has developed within a Pashtun social environment, but it has also been shaped by particular mountains, valleys, settlements, families, histories and experiences. Some traditions are widely shared with other Pashtun communities. Others are local. And some survive mainly through memory. To understand Orakzai culture, these layers have to be kept together without pretending that they are all the same.</p>
+
+            <!-- HERO: 9-PART CULTURAL SYNTHESIS (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="45" y="33">MOUNTAINS</text>
+                        <rect x="80" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="105" y="33">HOME</text>
+                        <rect x="140" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="165" y="33">LANGUAGE</text>
+                        <rect x="200" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="225" y="33">FAMILY</text>
+                        <rect x="260" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="285" y="33">JIRGA</text>
+                        <rect x="320" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="345" y="33">HUJRA</text>
+                        <rect x="380" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="405" y="33">POETRY</text>
+                        <rect x="440" y="20" width="50" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="465" y="33">LAND</text>
+                        <rect x="500" y="20" width="80" height="20" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="540" y="33">FUTURE</text>
+                        
+                        <path d="M300 45 L300 95" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="150" y="95" width="300" height="40" rx="4" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="300" y="119" font-size="10" font-weight="bold" fill="var(--gold)">CULTURE AS A LIVING SYSTEM</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-51" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“Synthesis of Orakzai cultural pillars converging into a living system.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">What Is Culture?</h3>
+            <p>Culture encompasses language, values, practices, memory, social relationships, material life, and adaptation. No single custom defines a culture. Instead, it is an evolving framework through which communities interpret their environment and sustain their collective identity.</p>
+
+            <div class="grid-container">
+                <!-- Diagram 2: Culture Elements -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="20" y="20" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="60" y="33">LANGUAGE</text>
+                            <rect x="110" y="20" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="33">VALUES</text>
+                            <rect x="200" y="20" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="240" y="33">PRACTICES</text>
+                            
+                            <rect x="20" y="55" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="60" y="68">MEMORY</text>
+                            <rect x="110" y="55" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="68">RELATIONSHIPS</text>
+                            <rect x="200" y="55" width="80" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="240" y="68">MATERIAL LIFE</text>
+                            
+                            <path d="M150 85 L150 100" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="75" y="100" width="150" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="116" font-weight="bold" fill="var(--gold)">CULTURE</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Multi-dimensional composition of cultural life.”</p>
+                </div>
+
+                <!-- Diagram 3: Pashtun World to Orakzai Identity -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="50" y="10" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">PASHTUN CULTURAL WORLD</text>
+                            <path d="M150 30 L150 45" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            
+                            <rect x="50" y="45" width="200" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="58">REGIONAL VARIATION</text>
+                            <path d="M150 65 L150 80" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            
+                            <rect x="50" y="80" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">ORAKZAI EXPERIENCE</text>
+                            <path d="M150 100 L150 115" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            
+                            <rect x="50" y="115" width="200" height="20" rx="2" fill="rgba(181,150,84,0.3)"/>
+                            <text x="150" y="128">LOCAL IDENTITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“From broader Pashtun traditions to localized Orakzai experience.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Shared, Regional, and Local Culture</h3>
+            <p>Orakzai culture operates across three distinct layers: shared practices found widely among Pashtuns, regional patterns associated with the former FATA and Khyber Pakhtunkhwa, and specific local traditions documented within the Orakzai tribal structure.</p>
+
+            <!-- Diagram 4: Three-Layer Model -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="30" y="20" width="150" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="105" y="38">SHARED (PASHTUN)</text>
+                        
+                        <path d="M185 35 L225 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="225" y="20" width="150" height="30" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="300" y="38">REGIONAL (FATA / KP)</text>
+                        
+                        <path d="M375 35 L415 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="415" y="20" width="150" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="490" y="38">LOCAL (ORAKZAI)</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Three-layer methodological model distinguishing shared, regional, and local culture.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Language, Family, and Kinship</h3>
+            <p>Pashto serves as the primary medium for thought, poetry, and social interaction, connecting daily speech to intergenerational memory. Family and kinship structures provide the foundational architecture of mutual support and social obligation.</p>
+
+            <div class="grid-container">
+                <!-- Diagram 5: Language to Identity -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="23">LANGUAGE</text>
+                            <path d="M150 30 L150 45" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="45" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="58">STORY</text>
+                            <path d="M150 65 L150 80" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="80" width="100" height="20" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="93">MEMORY</text>
+                            <path d="M150 100 L150 115" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="115" width="100" height="20" rx="2" fill="rgba(181,150,84,0.3)"/>
+                            <text x="150" y="128">IDENTITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Language as the pathway to cultural memory and identity.”</p>
+                </div>
+
+                <!-- Diagram 6: Family & Kinship Hierarchy -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">INDIVIDUAL</text>
+                            <path d="M150 30 L150 45" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="45" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="58">FAMILY</text>
+                            <path d="M150 65 L150 80" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="80" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">EXTENDED KIN</text>
+                            <path d="M150 100 L150 115" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="115" width="100" height="20" rx="2" fill="rgba(181,150,84,0.3)"/>
+                            <text x="150" y="128">CLAN / COMMUNITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Nested spheres of social obligation from individual to community.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Core Social Institutions: Hospitality, Jirga, and Hujra</h3>
+            <p>Cultural practices such as <em>melmastia</em> (hospitality), <em>nanawatai</em> (protection and sanctuary), the <em>jirga</em> council, and the <em>hujra</em> (community guest house) form the institutional backbone of Orakzai society. Recent sociological and historical research confirms their ongoing role in conflict resolution and social cohesion.<sup>2</sup><sup>3</sup></p>
+
+            <div class="grid-container">
+                <!-- Diagram 8: Hospitality Model -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">GUEST</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">WELCOME</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">FOOD &amp; SHELTER</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">RELATIONSHIP</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Cultural model of hospitality (*melmastia*).”</p>
+                </div>
+
+                <!-- Diagram 10: Orakzai Jirga Model -->
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <rect x="100" y="10" width="100" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="23">COMMUNITY ISSUE</text>
+                            <path d="M150 30 L150 42" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="42" width="100" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="55">ELDER CONSULTATION</text>
+                            <path d="M150 62 L150 74" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="74" width="100" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="87">JIRGA ASSEMBLY</text>
+                            <path d="M150 94 L150 106" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                            <rect x="100" y="106" width="100" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="122" font-weight="bold" fill="var(--gold)">RECONCILIATION</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Jirga dispute resolution and decision-making model [2].”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Traditional Ecological Knowledge (TEK) &amp; Ethnobotany</h3>
+            <p>Recent scientific research in Orakzai District documents 123 wild plant species across 60 families utilized for traditional medicine, food, and ecological management. Plants such as wild olive (<em>Olea europaea</em> subsp. <em>cuspidata</em>) and barberry (<em>Berberis lycium</em>) exemplify the deep intersection between indigenous knowledge, mountain ecology, and cultural heritage.<sup>1</sup></p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Scientific Name</th>
+                            <th>Pashto Name</th>
+                            <th>Documented Use</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><em>Olea europaea</em> subsp. <em>cuspidata</em></td>
+                            <td>Khowa</td>
+                            <td>Wild olive; cultural significance, wood, and oil</td>
+                            <td>Zamin et al. (2026) [1]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Daphne papyracea</em></td>
+                            <td>-</td>
+                            <td>Traditional medicinal bark/root application</td>
+                            <td>Zamin et al. (2026) [1]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Berberis lycium</em></td>
+                            <td>Ziar larki</td>
+                            <td>Barberry; traditional medicinal uses</td>
+                            <td>Zamin et al. (2026) [1]</td>
+                        </tr>
+                        <tr>
+                            <td><em>Salix babylonica</em></td>
+                            <td>Wala</td>
+                            <td>Willow; traditional crafts and ecological use</td>
+                            <td>Zamin et al. (2026) [1]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Diagram 28: Land to Knowledge -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="65" y="33">LAND / GEOGRAPHY</text>
+                        <path d="M110 30 L130 30" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="130" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="175" y="33">PLANTS &amp; FLORA</text>
+                        <path d="M220 30 L240 30" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="240" y="15" width="90" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="285" y="33">TRADITIONAL USE</text>
+                        <path d="M330 30 L350 30" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="350" y="15" width="100" height="30" rx="2" fill="rgba(18,59,42,0.9)" stroke="var(--gold)"/>
+                        <text x="400" y="33">ECOLOGICAL KNOWLEDGE</text>
+                        <path d="M450 30 L470 30" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="470" y="15" width="110" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="525" y="33">CULTURAL HERITAGE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Traditional ecological knowledge framework linking land to cultural heritage [1].”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Cultural Continuity and Modern Transformation</h3>
+            <p>Culture is sustained through intergenerational transmission, language preservation, and adaptation to modern education, business, and technology. Younger generations utilize digital archives, social media, and AI tools to document Pashto poetry, oral history, and family genealogies without losing their ancestral roots.</p>
+
+            <!-- Diagram 44: Cultural Continuity (Main Logic Graphic) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 70" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="7" fill="#fff" text-anchor="middle">
+                        <rect x="30" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.5)" stroke="var(--gold)"/>
+                        <text x="75" y="38">PAST HERITAGE</text>
+                        
+                        <path d="M120 35 L150 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="150" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="195" y="38">TRIBAL MEMORY</text>
+                        
+                        <path d="M240 35 L270 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="270" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.7)" stroke="var(--gold)"/>
+                        <text x="315" y="38">PRESENT PRACTICE</text>
+                        
+                        <path d="M360 35 L390 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="390" y="20" width="90" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="435" y="38">ADAPTATION</text>
+                        
+                        <path d="M480 35 L510 35" stroke="var(--gold)" marker-end="url(#arrow-51)"/>
+                        
+                        <rect x="510" y="20" width="70" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="545" y="38">FUTURE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Core continuity model: from historical heritage to future adaptation.”</p>
+            </div>
+
+            <div class="data-box" style="border-left-color: var(--gold); background: rgba(181, 150, 84, 0.05);">
+                <h4 style="color: var(--gold);">An Identity Is Not a Stereotype</h4>
+                <p style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">Orakzai culture cannot be reduced to simplified tropes of mountains, conflict, or tribalism. It is a rich, multifaceted way of life encompassing family, language, education, poetry, hospitality, craftsmanship, and modern enterprise.</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>For me, culture is not simply what our ancestors left behind. It is also what each generation chooses to carry forward. A language can survive because someone continues to speak it. A story can survive because someone remembers it. A tradition can survive because someone teaches it. And a culture can remain alive because its people continue to adapt without forgetting who they are. Being Orakzai does not require living in the past. It requires understanding the past well enough to decide what should be carried into the future. That is the difference between remembering a culture and merely displaying it.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“CULTURE SURVIVES WHEN MEMORY BECOMES PRACTICE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            51
+        </footer>
+    </div>
+</body>
+</html>
