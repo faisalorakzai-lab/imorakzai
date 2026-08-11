@@ -218,5 +218,9 @@
       <navLabel><text>Orakzai Hospitality</text></navLabel>
       <content src="../pages/page-053-orakzai-hospitality.html"/>
     </navPoint>
+    <navPoint id="navPoint-54" playOrder="53">
+      <navLabel><text>Traditional Clothing</text></navLabel>
+      <content src="../pages/page-054-traditional-clothing.html"/>
+    </navPoint>
   </navMap>
 </ncx>

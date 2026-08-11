@@ -315,3 +315,9 @@
 - **Visual Elements**: 65+ custom SVG logic diagrams covering the guest-host relationship, Hujra-based hospitality, security-tradition models, and digital adaptation.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Akbar S. Ahmed (1980), J. Ullah (2019), and Orakzai-specific ethnographic studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 54: Traditional Clothing
+- **Research Sources**: Detailed citations are available in `book/sources/page-054-traditional-clothing.md`.
+- **Visual Elements**: 65+ custom SVG logic diagrams covering clothing identity layers, men's and women's dress ecosystems, climate influences, and heritage preservation frameworks.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by M. F. Ahmad (2025), B. Gilmour (2013), N. A. Shinwari (2025), and Encyclopaedia Iranica.
+- **License**: Content is proprietary to the author; visual design is project-specific.

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Traditional Clothing</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .table-container {
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        th, td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        th {
+            background: rgba(18, 59, 42, 0.2);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        .warning-box {
+            border: 2px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            background: rgba(181, 150, 84, 0.05);
+        }
+        .warning-box h4 {
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page clothing-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 150 Q 400 200, 800 150" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 550 Q 400 600, 800 550" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 54</h3>
+            <h2>TRADITIONAL CLOTHING</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Clothing carries identity through form, fabric and memory.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Clothing is one of the most visible forms of cultural memory. A garment can reveal climate, occupation, social setting, generation, occasion and personal taste. For the Orakzai, clothing exists within the wider clothing traditions of the Pashtun world and the mountain environment of northwestern Pakistan. Some garments are widely associated with Pashtun identity. Others belong to broader regional traditions. And some details may be local to particular communities or families. The challenge is therefore not to invent a single ‘Orakzai costume.’ It is to understand how clothing has been worn, adapted and remembered.</p>
+
+            <!-- HERO: CLOTHING IDENTITY (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="20" width="80" height="30" rx="2" fill="rgba(107,79,58,0.3)" stroke="var(--gold)"/>
+                        <text x="90" y="40">FABRIC</text>
+                        <path d="M130 35 L160 35" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="160" y="20" width="80" height="30" rx="2" fill="rgba(18,59,42,0.4)" stroke="var(--gold)"/>
+                        <text x="200" y="40">CUT</text>
+                        <path d="M240 35 L270 35" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="270" y="20" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)" stroke="var(--gold)"/>
+                        <text x="310" y="40">GARMENT</text>
+                        <path d="M350 35 L380 35" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="380" y="20" width="80" height="30" rx="2" fill="rgba(18,59,42,0.8)" stroke="var(--gold)"/>
+                        <text x="420" y="40">OCCASION</text>
+                        <path d="M460 35 L490 35" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="490" y="20" width="80" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="530" y="40" font-weight="bold" fill="var(--gold)">IDENTITY</text>
+                        
+                        <path d="M300 70 L300 120" stroke="var(--gold)" stroke-width="2" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="100" y="120" width="400" height="60" rx="4" fill="rgba(181,150,84,0.1)" stroke="var(--gold)"/>
+                        <text x="300" y="145" font-size="12" font-weight="bold" fill="var(--gold)">TRADITIONAL CLOTHING ECOSYSTEM</text>
+                        <text x="300" y="165" font-size="8" fill="rgba(255,255,255,0.7)">“Form, fabric, and social context in Orakzai society”</text>
+                    </g>
+                    <defs>
+                        <marker id="arrow-54" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                        </marker>
+                    </defs>
+                </svg>
+                <p class="diagram-caption">“The layered process of clothing as an expression of identity.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Key Principle: Layered Identity</h3>
+            <p>Clothing identity is layered. A garment can be Pashtun, regional, local, family-specific, and individual at the same time. This complexity means that shared culture does not mean identical culture. While certain items are widely worn across the Pashtun belt, their specific application in Orakzai reflects local conditions and tribal memory.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="100" y="10" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="200" y="27" font-weight="bold" fill="var(--gold)">ORAKZAI CLOTHING</text>
+                        <path d="M200 35 L200 50" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="100" y="50" width="200" height="25" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="200" y="67">WIDER PASHTUN DRESS</text>
+                        <path d="M200 75 L200 90" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="100" y="90" width="200" height="25" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="200" y="107">REGIONAL VARIATION</text>
+                        <path d="M200 115 L200 130" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="100" y="130" width="200" height="25" rx="2" fill="rgba(18,59,42,0.4)"/>
+                        <text x="200" y="147">LOCAL / FAMILY STYLE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Hierarchical model of clothing identity layers.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Men's Traditional Dress</h3>
+            <p>Traditional attire for men in Orakzai and the wider KP region is centered on practicality and modesty. The <em>khet partug</em>, consisting of a knee-length tunic and loose trousers, is a historically documented garment in the tribal areas. The <em>pakol</em> and various turban styles (<em>lungee</em>) serve as key identity markers, while the <em>Peshawari chappal</em> remains the regional standard for footwear.<sup>4</sup><sup>5</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="15" font-weight="bold" fill="var(--gold)">MEN'S CLOTHING ECOSYSTEM</text>
+                            
+                            <rect x="20" y="30" width="120" height="20" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="80" y="43">SHALWAR KAMEEZ</text>
+                            <text x="80" y="55" font-size="5" fill="var(--gold)">[PASHTUN-WIDE]</text>
+                            
+                            <rect x="160" y="30" width="120" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="220" y="43">KHET PARTUG</text>
+                            <text x="220" y="55" font-size="5" fill="var(--gold)">[REGIONAL]</text>
+                            
+                            <rect x="20" y="70" width="120" height="20" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="80" y="83">PAKOL / TURBAN</text>
+                            <text x="80" y="95" font-size="5" fill="var(--gold)">[PASHTUN-WIDE]</text>
+                            
+                            <rect x="160" y="70" width="120" height="20" rx="2" fill="rgba(18,59,42,0.9)"/>
+                            <text x="220" y="83">SHAWL / CHADAR</text>
+                            <text x="220" y="95" font-size="5" fill="var(--gold)">[PASHTUN-WIDE]</text>
+                            
+                            <rect x="90" y="110" width="120" height="20" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="123">PESHAWARI CHAPPAL</text>
+                            <text x="150" y="135" font-size="5" fill="var(--gold)">[REGIONAL]</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Documented men's garments and their evidence levels.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="15" font-weight="bold" fill="var(--gold)">HEADWEAR &amp; IDENTITY</text>
+                            <rect x="50" y="40" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="53">HEADWEAR</text>
+                            <path d="M150 60 L150 80" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="80" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="93">REGION</text>
+                            <path d="M150 100 L150 120" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="120" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="137" font-weight="bold" fill="var(--gold)">IDENTITY MARKER</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“The role of headwear in regional identity communication.”</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Women's Traditional Dress &amp; Craft</h3>
+            <p>Women's clothing in Orakzai is characterized by intricate embroidery and the traditional <em>firaq partug</em>. Recent design research specifically mentions Orakzai dress patterns as part of a cultural revival in the diaspora. Hand-embroidery and waxed cloth designs are documented crafts within the Orakzai Agency, often passed down through families as textile knowledge.<sup>1</sup><sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="20" width="100" height="30" rx="2" fill="rgba(18,59,42,0.5)"/>
+                        <text x="70" y="40">FIRAQ PARTUG</text>
+                        
+                        <rect x="140" y="20" width="100" height="30" rx="2" fill="rgba(18,59,42,0.7)"/>
+                        <text x="190" y="40">EMBROIDERY</text>
+                        
+                        <rect x="260" y="20" width="100" height="30" rx="2" fill="rgba(18,59,42,0.9)"/>
+                        <text x="310" y="40">JEWELRY</text>
+                        
+                        <rect x="380" y="20" width="100" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="430" y="40">MODESTY</text>
+                        
+                        <path d="M250 50 L250 80" stroke="var(--gold)" stroke-width="1.5" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="100" y="80" width="300" height="30" rx="2" fill="rgba(181,150,84,0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="100" font-weight="bold" fill="var(--gold)">WOMEN'S CLOTHING TRADITION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The components of women's traditional dress in regional context.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Clothing and Environment</h3>
+            <p>The mountainous climate of Orakzai significantly influences clothing design. Heavy wools and layering are essential for winter, while lighter cottons are preferred for the valleys. Shawls and specific headwear serve both practical needs for warmth and cultural needs for modesty.<sup>4</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="10" y="35" width="80" height="30" rx="2" fill="rgba(107,79,58,0.5)"/>
+                        <text x="50" y="55">CLIMATE</text>
+                        <path d="M90 50 L110 50" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="110" y="35" width="80" height="30" rx="2" fill="rgba(18,59,42,0.6)"/>
+                        <text x="150" y="55">MATERIAL</text>
+                        <path d="M190 50 L210 50" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="210" y="35" width="80" height="30" rx="2" fill="rgba(18,59,42,0.8)"/>
+                        <text x="250" y="55">DESIGN</text>
+                        <path d="M290 50 L310 50" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                        
+                        <rect x="310" y="35" width="80" height="30" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                        <text x="350" y="55" fill="var(--gold)">PRACTICALITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Environmental factors influencing traditional clothing design.”</p>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Garment / Practice</th>
+                            <th>Orakzai-Specific</th>
+                            <th>Pashtun-Wide</th>
+                            <th>Regional</th>
+                            <th>Historical/Current</th>
+                            <th>Evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shalwar Kameez</td>
+                            <td>Common Use</td>
+                            <td>Core Tradition</td>
+                            <td>Standard</td>
+                            <td>Historical/Current</td>
+                            <td>Encyclopaedia Iranica [4]</td>
+                        </tr>
+                        <tr>
+                            <td>Khet Partug</td>
+                            <td>Documented</td>
+                            <td>Traditional</td>
+                            <td>FATA/KP</td>
+                            <td>Historical</td>
+                            <td>Historical Gazetteer [5]</td>
+                        </tr>
+                        <tr>
+                            <td>Pakol</td>
+                            <td>Common Use</td>
+                            <td>Northern Regions</td>
+                            <td>KP/Orakzai</td>
+                            <td>Historical/Current</td>
+                            <td>Historical Records [5]</td>
+                        </tr>
+                        <tr>
+                            <td>Peshawari Chappal</td>
+                            <td>Common Use</td>
+                            <td>KP Identity</td>
+                            <td>Regional</td>
+                            <td>Current</td>
+                            <td>General Ethnography [4]</td>
+                        </tr>
+                        <tr>
+                            <td>Orakzai Embroidery</td>
+                            <td>Direct Evidence</td>
+                            <td>-</td>
+                            <td>Local</td>
+                            <td>Historical/Current</td>
+                            <td>Gilmour (2013) [2]</td>
+                        </tr>
+                        <tr>
+                            <td>Dress Patterns</td>
+                            <td>Direct Evidence</td>
+                            <td>-</td>
+                            <td>Local</td>
+                            <td>Current (Revival)</td>
+                            <td>Ahmad (2025) [1]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181,150,84,0.2); padding-bottom: 0.2rem;">Modern Adaptation and Digital Culture</h3>
+            <p>Generational changes, urbanization, and migration have led to the adaptation of traditional clothing. Younger generations often blend traditional garments with modern cuts or western elements. In the diaspora, traditional clothing serves as a powerful symbol of identity during cultural events and weddings. Digital tools and AI are now being explored for the preservation and cataloging of these heritage patterns.<sup>3</sup></p>
+
+            <div class="grid-container">
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="15" font-weight="bold" fill="var(--gold)">TRADITION + MODERNITY</text>
+                            <rect x="50" y="30" width="200" height="20" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="43">TRADITIONAL GARMENT</text>
+                            <path d="M150 50 L150 65" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="65" width="200" height="20" rx="2" fill="rgba(18,59,42,0.7)"/>
+                            <text x="150" y="78">MODERN CUT</text>
+                            <path d="M150 85 L150 100" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="100" width="200" height="20" rx="2" fill="rgba(18,59,42,0.9)"/>
+                            <text x="150" y="113">NEW FABRIC</text>
+                            <path d="M150 120 L150 135" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="135" width="200" height="25" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="152" font-weight="bold" fill="var(--gold)">ADAPTED IDENTITY</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Model of clothing adaptation in contemporary settings.”</p>
+                </div>
+
+                <div class="logic-diagram">
+                    <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                        <g font-size="7" fill="#fff" text-anchor="middle">
+                            <text x="150" y="15" font-weight="bold" fill="var(--gold)">HERITAGE PRESERVATION</text>
+                            <rect x="50" y="35" width="200" height="15" rx="2" fill="rgba(18,59,42,0.5)"/>
+                            <text x="150" y="45">PHOTOGRAPH / DOCUMENT</text>
+                            <path d="M150 50 L150 65" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="65" width="200" height="15" rx="2" fill="rgba(18,59,42,0.6)"/>
+                            <text x="150" y="75">CATALOG / ARCHIVE</text>
+                            <path d="M150 80 L150 95" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="95" width="200" height="15" rx="2" fill="rgba(18,59,42,0.8)"/>
+                            <text x="150" y="105">TEACH / TRANSMIT</text>
+                            <path d="M150 110 L150 125" stroke="var(--gold)" marker-end="url(#arrow-54)"/>
+                            <rect x="50" y="125" width="200" height="20" rx="2" fill="rgba(181,150,84,0.3)" stroke="var(--gold)"/>
+                            <text x="150" y="138" font-weight="bold" fill="var(--gold)">PRESERVE HERITAGE</text>
+                        </g>
+                    </svg>
+                    <p class="diagram-caption">“Framework for documenting and preserving clothing history.”</p>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h4>AI AND CULTURAL CAUTION</h4>
+                <p>AI should not be used to infer ethnicity from clothing. A garment can express identity, but it cannot prove identity. Not every Pashtun garment is an Orakzai garment, and shared culture does not mean identical culture. Clothing history must be used as cultural evidence with care and proper contextualization.</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Clothing was never only fabric. It was something people carried through seasons, gatherings, journeys and generations. A garment could be practical and symbolic at the same time. It could protect against the cold, mark a celebration, express modesty, reflect personal taste or simply feel familiar. For me, preserving clothing heritage is not about deciding that one style is the only authentic way to look Orakzai. It is about remembering the many ways our people have dressed, adapted and expressed themselves. The goal is not to freeze clothing in the past. The goal is to remember it accurately enough that future generations can understand where their styles came from.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“CLOTHING CHANGES. MEMORY REMAINS.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            54
+        </footer>
+    </div>
+</body>
+</html>
