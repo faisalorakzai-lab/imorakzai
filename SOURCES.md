@@ -387,3 +387,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the transmission workflow, storytelling hierarchies, evidence badges, and digital bridge models.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by dialectal folklore collections (Kreyenbroek & Marzolph, 2010), literary history (Kushev, 1997), and modern ethnographic fieldwork (Naseer, 2026).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 66: The Role of Elders
+- **Research Sources**: Detailed citations are available in `book/sources/page-066-the-role-of-elders.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the Mashar-Kishar dynamic, the social cohesion model, the Malik institutional framework, and the intergenerational transmission workflow.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by contemporary social cohesion studies (Alam, 2024), ethnographic research on Orakzai villages (Infinity Press), and anthropological analysis (Ahmed, 1980).
+- **License**: Content is proprietary to the author; visual design is project-specific.

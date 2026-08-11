@@ -266,5 +266,9 @@
       <navLabel><text>Oral Traditions &amp; Storytelling</text></navLabel>
       <content src="../pages/page-065-oral-traditions-storytelling.html"/>
     </navPoint>
+    <navPoint id="navPoint-66" playOrder="65">
+      <navLabel><text>The Role of Elders</text></navLabel>
+      <content src="../pages/page-066-the-role-of-elders.html"/>
+    </navPoint>
   </navMap>
 </ncx>

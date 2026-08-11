@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - The Role of Elders</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-orakzai: #123B2A;
+            --badge-pashtun: #B59654;
+            --badge-regional: #6B4F3A;
+            --badge-family: #77746B;
+            --badge-contemporary: #8B4513;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-orakzai { background: var(--badge-orakzai); }
+        .badge-pashtun { background: var(--badge-pashtun); color: var(--charcoal); }
+        .badge-regional { background: var(--badge-regional); }
+        .badge-family { background: var(--badge-family); }
+        .badge-contemporary { background: var(--badge-contemporary); }
+        
+        .role-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .role-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page elder-role-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 66</h3>
+            <h2>THE ROLE OF ELDERS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Memory becomes guidance when one generation speaks to another.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Every community has people who remember what others have forgotten. They remember names. They remember places. They remember families. They remember journeys, marriages, disputes, celebrations and losses. Sometimes they remember traditions that were never written down. These people are often the elders. In Orakzai society, as in many communities, elders can occupy an important place between generations. They may offer advice. They may preserve stories. They may welcome guests. They may help families resolve disagreements. They may represent community interests. And they may carry memories of a world that younger generations have never experienced. But respect for elders does not mean that every elder has the same authority, or that every memory is automatically historical fact. The role of an elder changes with family, village, education, migration, institutions and time. Understanding elders therefore means understanding both continuity and change.</p>
+
+            <!-- HERO: INTERGENERATIONAL GUIDANCE (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Backdrop -->
+                        <path d="M0 350 L100 200 L250 300 L450 180 L600 350 Z" fill="rgba(18, 59, 42, 0.2)"/>
+                        
+                        <!-- Hujra Setting (Abstract) -->
+                        <path d="M50 320 L550 320" stroke="var(--gray)" stroke-width="2"/>
+                        <rect x="150" y="250" width="300" height="70" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                        
+                        <!-- Elder (Mashar) -->
+                        <circle cx="220" cy="270" r="25" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                        <path d="M200 320 Q 220 290, 240 320 Z" fill="var(--gold)" opacity="0.5"/>
+                        
+                        <!-- Youth (Kishar) -->
+                        <circle cx="380" cy="285" r="20" fill="rgba(18, 59, 42, 0.3)" stroke="var(--forest)"/>
+                        <path d="M365 320 Q 380 300, 395 320 Z" fill="var(--forest)" opacity="0.5"/>
+                        
+                        <!-- Tea Cup -->
+                        <path d="M290 310 L310 310 L315 295 L285 295 Z" fill="rgba(255,255,255,0.2)" stroke="#fff"/>
+                        
+                        <!-- Open Notebook (Memory) -->
+                        <rect x="340" y="240" width="30" height="20" rx="2" fill="rgba(245, 240, 230, 0.1)" stroke="var(--ivory)"/>
+                        <path d="M355 240 L355 260" stroke="var(--ivory)" stroke-width="0.5"/>
+                        
+                        <!-- Connection Wave -->
+                        <path d="M250 270 Q 300 240, 350 270" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2,2">
+                            <animate attributeName="stroke-dashoffset" from="20" to="0" dur="3s" repeatCount="indefinite"/>
+                        </path>
+                        
+                        <text x="300" y="40" font-size="16" font-weight="bold" fill="var(--gold)">THE ROLE OF ELDERS</text>
+                        <text x="300" y="60" font-size="8" fill="rgba(255, 255, 255, 0.7)">“Memory becomes guidance when one generation speaks to another.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The intergenerational transmission of experience in Orakzai society.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Who is an Elder?</h3>
+            <p>The term "elder" (*Mashar*) in Orakzai and Pashtun society is not a single uniform title. It encompasses several overlapping roles, from family patriarchs and matriarchs to community representatives and religious scholars. While age is the foundational requirement, true elderhood is defined by a combination of experience, relationship, and community trust. Age alone does not grant decision-making power; it is the wisdom derived from experience that commands respect.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="100" cy="50" r="30" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="100" y="55">AGE</text>
+                        
+                        <circle cx="200" cy="50" r="30" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="200" y="55">EXPERIENCE</text>
+                        
+                        <circle cx="300" cy="50" r="30" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                        <text x="300" y="55">RELATIONSHIP</text>
+                        
+                        <circle cx="400" cy="50" r="30" fill="rgba(119, 116, 107, 0.1)" stroke="var(--gray)"/>
+                        <text x="400" y="55">TRUST</text>
+                        
+                        <path d="M250 85 L250 110" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <rect x="150" y="110" width="200" height="30" rx="4" fill="rgba(181, 150, 84, 0.3)" stroke="var(--gold)"/>
+                        <text x="250" y="130" font-weight="bold">POSSIBLE ELDER ROLE</text>
+                        
+                        <defs>
+                            <marker id="arrow-66" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The components of social authority in elderhood.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-orakzai">Orakzai-Specific</span>
+                <span class="badge badge-pashtun">Pashtun-Wide</span>
+                <span class="badge badge-regional">Regional</span>
+                <span class="badge badge-family">Family-Specific</span>
+                <span class="badge badge-contemporary">Contemporary</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Social Cohesion and Leadership</h3>
+            <p>Elders are primary actors in promoting social cohesion within the Orakzai district. Research by J. Alam (2024) identifies them as "local supporters" who stabilize community relations during times of transition or crisis. This leadership is often expressed through the Malik institution—traditional representatives who manage tribal affairs and interface with state structures. In villages such as Mirbak, Maliks remain central to communal governance and representation.<sup>1,3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="40" width="120" height="40" rx="2" fill="rgba(18, 59, 42, 0.2)" stroke="var(--forest)"/>
+                        <text x="110" y="60" font-weight="bold">MALIK SYSTEM</text>
+                        <text x="110" y="72" font-size="6">Traditional Representation</text>
+                        
+                        <path d="M170 60 L220 60" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <rect x="220" y="40" width="120" height="40" rx="2" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="280" y="60" font-weight="bold">SOCIAL COHESION</text>
+                        <text x="280" y="72" font-size="6">Stability & Balance</text>
+                        
+                        <path d="M340 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <rect x="390" y="40" width="100" height="40" rx="2" fill="rgba(107, 79, 58, 0.2)" stroke="var(--earth)"/>
+                        <text x="440" y="65" font-weight="bold">COMMUNITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The role of traditional leadership in maintaining district stability.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Mediation and Conflict Resolution</h3>
+            <p>One of the most critical roles of elders is mediation. Through the Jirga—a collective assembly of *Masharan*—disputes are resolved through deliberation rather than unilateral command. This process focuses on reconciliation (*Nanawatai*) and the restoration of social balance. While customary processes have limitations, they provide a mechanism for resolving local disagreements that formal legal systems may not always reach.<sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="80" y="60">DISAGREEMENT</text>
+                        <path d="M130 60 L180 60" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <rect x="180" y="40" width="140" height="40" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="60" font-weight="bold">ELDER MEDIATION</text>
+                        <text x="250" y="72" font-size="6">(Jirga / Consultation)</text>
+                        
+                        <path d="M320 60 L370 60" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        <text x="420" y="60">AGREEMENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The workflow of communal conflict resolution.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Women and Elderhood</h3>
+            <p>Elderhood is not exclusively a male domain. Elder women (*Grandmothers / Mothers*) hold significant authority within the household (*Kor*). Research by Noreen Naseer (2026) highlights their role as "early warning" systems for community safety, identifying tensions before they escalate. They are the primary transmitters of family history, lullabies, and domestic traditions to the next generation.<sup>2</sup></p>
+
+            <div class="role-panel">
+                <div class="role-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Domestic Authority</h4>
+                    <p style="font-size: 0.85rem;">Managing household affairs, family memory, and the upbringing of children.</p>
+                </div>
+                <div class="role-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Social Intelligence</h4>
+                    <p style="font-size: 0.85rem;">Serving as community sensors and conflict preventers through informal networks.</p>
+                </div>
+            </div>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="100" cy="75" r="30" fill="rgba(107, 79, 58, 0.2)" stroke="var(--earth)"/>
+                        <text x="100" y="80">ELDER WOMEN</text>
+                        
+                        <path d="M130 75 L180 75" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <rect x="180" y="45" width="140" height="60" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="65">FAMILY MEMORY</text>
+                        <text x="250" y="77">LANGUAGE</text>
+                        <text x="250" y="89">SAFETY GUIDANCE</text>
+                        
+                        <path d="M320 75 L370 75" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        <text x="430" y="75">NEXT GENERATION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The role of elder women in family and community resilience.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Modern Adaptation and Change</h3>
+            <p>The relationship between generations is changing. Education, technology, and migration have introduced new ways of knowing. Young people today may listen to their elders while also questioning and reinterpreting traditions through a modern lens. This is not necessarily a rejection of heritage but an adaptation. Continuity survives through the synthesis of ancient experience and modern access.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="100" y="40">TRADITION</text>
+                        <path d="M140 40 L360 40" stroke="var(--gold)" stroke-dasharray="2,2"/>
+                        <text x="400" y="40">CONTINUITY</text>
+                        
+                        <path d="M100 50 L250 90" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        <path d="M400 50 L250 90" stroke="var(--gold)" marker-end="url(#arrow-66)"/>
+                        
+                        <circle cx="250" cy="110" r="30" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="250" y="115">ADAPTATION</text>
+                        
+                        <text x="250" y="35" font-size="6">INTERGENERATIONAL DIALOGUE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The synthesis of tradition and modern questioning.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Respect for elders is a pillar of our society, but it is a pillar that must support the weight of the future as well as the past. In Orakzai, an elder's voice is a library of lived history—a record of the land before the roads, the families before the migration, and the values that have kept us together. But our responsibility as the younger generation is not just to obey; it is to listen, to record, and to understand. An elder's wisdom is a tool for navigation, not a fixed destination. By honoring our elders, we are not looking backward; we are ensuring that we have the guidance necessary to move forward with identity and purpose.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“EXPERIENCE IS THE ANCHOR OF WISDOM.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            66
+        </footer>
+    </div>
+</body>
+</html>
