@@ -198,5 +198,9 @@
       <navLabel><text>Livestock &amp; Rural Economy</text></navLabel>
       <content src="../pages/page-048-livestock-rural-economy.html"/>
     </navPoint>
+    <navPoint id="navPoint-49" playOrder="48">
+      <navLabel><text>Traditional Trades</text></navLabel>
+      <content src="../pages/page-049-traditional-trades.html"/>
+    </navPoint>
   </navMap>
 </ncx>

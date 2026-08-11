@@ -285,3 +285,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering rural economy systems, livestock-crop loops, historical data visualizations (2006 vs. 2024), and asset concept models.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by PBS Livestock Censuses (2006, 2024), FAO Pakistan, UN Women, and KP Government records.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 49: Traditional Trades
+- **Research Sources**: Detailed citations are available in `book/sources/page-049-traditional-trades.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering craft-to-market chains, mazri preparation cycles, embroidery frameworks, and evidence hierarchy matrices.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by Pakistan Almanac, FATA Sustainable Development Plan, UN Women, and academic ethnobotanical studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.
