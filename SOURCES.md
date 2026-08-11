@@ -141,3 +141,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the hujra core model, transmission of knowledge, and modern community evolution.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Akbar S. Ahmed (1980), Fredrik Barth (1959), and M. Jamil Hanifi (*Encyclopaedia Iranica*).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 25: Pashtun Family Structure
+- **Research Sources**: Detailed citations are available in `book/sources/page-025-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the individual-to-community network model and traditional proximity vs. global diaspora transformation.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Akbar S. Ahmed (1980), Fredrik Barth (1981), and Lutz Rzehak (2011).
+- **License**: Content is proprietary to the author; visual design is project-specific.
