@@ -38,6 +38,7 @@
     <item id="page-024" href="../pages/page-024-hujra-community-space.html" media-type="application/xhtml+xml"/>
     <item id="page-025" href="../pages/page-025-pashtun-family-structure.html" media-type="application/xhtml+xml"/>
     <item id="page-026" href="../pages/page-026-pashtun-brotherhood.html" media-type="application/xhtml+xml"/>
+    <item id="page-027" href="../pages/page-027-pashtun-language-literature.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -67,5 +68,6 @@
     <itemref idref="page-024"/>
     <itemref idref="page-025"/>
     <itemref idref="page-026"/>
+    <itemref idref="page-027"/>
   </spine>
 </package>

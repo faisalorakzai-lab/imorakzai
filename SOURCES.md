@@ -153,3 +153,9 @@
 - **Visual Elements**: Custom SVG logic diagrams illustrating the layered hierarchy of identity and the coexistence of solidarity and competition.
 - **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Joseph A. Tainter & Donald G. MacGregor (2011), Charles Lindholm (1986), and Akbar S. Ahmed (1976).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 27: Pashtun Language & Literature
+- **Research Sources**: Detailed citations are available in `book/sources/page-027-sources.md`.
+- **Visual Elements**: Custom SVG logic diagrams illustrating the language-to-identity framework and classical-to-digital literary pillars.
+- **Content**: Original text by Faisal Orakzai, supported by authoritative scholarship from Encyclopaedia Iranica, Sergei Andreyev, and D.N. MacKenzie (1958).
+- **License**: Content is proprietary to the author; visual design is project-specific.
