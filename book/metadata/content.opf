@@ -18,6 +18,7 @@
     <item id="page-003" href="../pages/page-003-dedication.html" media-type="application/xhtml+xml"/>
     <item id="page-004" href="../pages/page-004-authors-note.html" media-type="application/xhtml+xml"/>
     <item id="page-005" href="../pages/page-005-why-im-orakzai.html" media-type="application/xhtml+xml"/>
+    <item id="page-006" href="../pages/page-006-the-meaning-of-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -27,5 +28,6 @@
     <itemref idref="page-003"/>
     <itemref idref="page-004"/>
     <itemref idref="page-005"/>
+    <itemref idref="page-006"/>
   </spine>
 </package>

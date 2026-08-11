@@ -513,3 +513,113 @@ body {
         text-align: left;
     }
 }
+
+/* The Meaning of Orakzai Page Styles */
+.meaning-page {
+    position: relative;
+}
+
+.meaning-page .typographic-centerpiece {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 3rem 0;
+    border-top: 1px solid rgba(197, 160, 89, 0.3);
+    border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+.meaning-page .main-title {
+    font-family: var(--font-serif);
+    font-size: 3.5rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.meaning-page .subtitle-meaning {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--text-color);
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+
+.meaning-page .visual-progression {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+    color: var(--muted-brown);
+    text-transform: uppercase;
+}
+
+.meaning-page .visual-progression span {
+    position: relative;
+}
+
+.meaning-page .visual-progression span:not(:last-child)::after {
+    content: '→';
+    margin-left: 1.5rem;
+    opacity: 0.5;
+}
+
+.meaning-page .research-note {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--muted-brown);
+    background: rgba(93, 64, 55, 0.05);
+    padding: 1.5rem;
+    border-left: 2px solid var(--accent-gold);
+    margin: 3rem 0;
+}
+
+.meaning-page .footnotes {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(93, 64, 55, 0.2);
+    font-size: 0.8rem;
+    color: var(--muted-brown);
+}
+
+.meaning-page .footnotes ol {
+    padding-left: 1.2rem;
+}
+
+.meaning-page .footnotes li {
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.meaning-page .spelling-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.meaning-page .spelling-item {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--accent-gold);
+    border: 1px solid rgba(197, 160, 89, 0.1);
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .meaning-page .main-title {
+        font-size: 2.5rem;
+    }
+    .meaning-page .subtitle-meaning {
+        font-size: 1.4rem;
+    }
+    .meaning-page .visual-progression {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .meaning-page .visual-progression span:not(:last-child)::after {
+        margin-left: 0.5rem;
+    }
+}

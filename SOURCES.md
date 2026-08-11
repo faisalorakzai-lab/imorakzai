@@ -32,3 +32,9 @@
 - **Source**: Original creation for Faisal Orakzai.
 - **License**: MIT / Project-specific.
 - **Content**: Original personal essay provided by the author.
+
+## Page 6: The Meaning of Orakzai
+- **Research Sources**: Detailed citations are available in `book/sources/page-006-sources.md`.
+- **Visual Elements**: Custom SVG design featuring a mountain silhouette of Tirah and a subtle digital grid.
+- **Content**: Original text by Faisal Orakzai, supported by historical research into the "lost son" tradition.
+- **License**: Content is proprietary to the author; visual design is project-specific.
