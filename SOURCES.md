@@ -26,3 +26,9 @@
 - **Source**: Provided directly by the author (Faisal Orakzai).
 - **License**: Proprietary / Author-owned.
 - **Content**: Original text provided by the author.
+
+## Page 5: Why I’m Orakzai
+- **Visual Elements**: Custom SVG transition (mountain silhouette and digital grid).
+- **Source**: Original creation for Faisal Orakzai.
+- **License**: MIT / Project-specific.
+- **Content**: Original personal essay provided by the author.

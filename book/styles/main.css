@@ -372,3 +372,144 @@ body {
         font-size: 1.2rem;
     }
 }
+
+/* Why I’m Orakzai Page Styles */
+.why-page {
+    position: relative;
+}
+
+.transition-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.transition-background svg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.essay-title {
+    font-family: var(--font-serif);
+    font-size: 1.5rem !important;
+    letter-spacing: 0.15rem !important;
+    color: var(--accent-gold);
+}
+
+.essay-content {
+    z-index: 1;
+    position: relative;
+}
+
+.essay-content p {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.opening-statement {
+    font-size: 1.2rem !important;
+    font-style: italic;
+    color: var(--text-color);
+    border-left: 2px solid var(--accent-gold);
+    padding-left: 1.5rem;
+    margin: 2rem 0 !important;
+}
+
+.bridge {
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: var(--accent-gold);
+    text-align: center !important;
+}
+
+.highlight-future {
+    font-size: 1.3rem !important;
+    text-align: center !important;
+    color: var(--accent-gold);
+    margin: 2rem 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.negation-points {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.negation-points p {
+    text-align: center !important;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.core-question {
+    text-align: center !important;
+    margin: 3rem 0 !important;
+}
+
+.core-question span {
+    display: block;
+    font-size: 1.3rem;
+    color: var(--accent-gold);
+    margin-top: 0.5rem;
+}
+
+.final-statement {
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+}
+
+.signature-identity {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+    color: var(--accent-gold);
+    text-align: center !important;
+    margin-bottom: 4rem !important;
+    letter-spacing: 0.1rem;
+}
+
+.reflection-box {
+    background: rgba(93, 64, 55, 0.05);
+    padding: 2rem;
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    margin-top: 2rem;
+}
+
+.reflection-box h3 {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    color: var(--accent-gold);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.reflection-box p {
+    font-size: 0.95rem !important;
+    text-align: center !important;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.reflection-box p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .signature-identity {
+        font-size: 2.2rem !important;
+    }
+    .essay-content p {
+        text-align: left;
+    }
+}

@@ -26,5 +26,9 @@
       <navLabel><text>Author’s Note</text></navLabel>
       <content src="../pages/page-004-authors-note.html"/>
     </navPoint>
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel><text>Why I’m Orakzai</text></navLabel>
+      <content src="../pages/page-005-why-im-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>
