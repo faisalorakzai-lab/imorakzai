@@ -190,5 +190,9 @@
       <navLabel><text>Traditional Settlements</text></navLabel>
       <content src="../pages/page-046-traditional-settlements.html"/>
     </navPoint>
+    <navPoint id="navPoint-47" playOrder="46">
+      <navLabel><text>Agriculture &amp; Land</text></navLabel>
+      <content src="../pages/page-047-agriculture-land.html"/>
+    </navPoint>
   </navMap>
 </ncx>

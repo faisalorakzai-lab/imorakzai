@@ -273,3 +273,9 @@
 - **Visual Elements**: 30+ custom SVG logic diagrams covering settlement system models, water-settlement links, terrace/slope conceptual models, density variations, and communal space relationships.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by Lucas White King's monograph, UN-Habitat data, and KP Government records.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 47: Agriculture & Land
+- **Research Sources**: Detailed citations are available in `book/sources/page-047-agriculture-land.md`.
+- **Visual Elements**: 30+ custom SVG logic diagrams covering landscape-agriculture system models, irrigated vs. rain-fed comparisons, crop cycles, and livestock-economy loops.
+- **Content**: Original documentary synthesis by Faisal Orakzai, supported by PBS Agricultural Census, KP Agriculture Department, WFP, and Lucas White King's monograph.
+- **License**: Content is proprietary to the author; visual design is project-specific.
