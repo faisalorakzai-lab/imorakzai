@@ -107,3 +107,20 @@ body {
         font-size: 1.2rem;
     }
 }
+
+/* Print Specific Styles */
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    .title-page {
+        height: 100vh;
+        width: 100vw;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .title {
+        color: #c5a059 !important; /* Ensure gold color prints */
+    }
+}

@@ -15,4 +15,4 @@ A 200-page research-based book documenting Orakzai and Pashtun history, culture,
 Faisal Orakzai
 
 ## Goal
-To create a premium, publication-quality digital book (EPUB 3) that blends historical heritage with modern technology.
+To create a premium, publication-quality digital book (EPUB 3) and a high-quality print-ready version that blends historical heritage with modern technology.
