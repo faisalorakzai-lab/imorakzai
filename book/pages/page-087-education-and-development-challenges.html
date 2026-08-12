@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Education & Development Challenges</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-edu: #4A90E2;
+            --accent-health: #E67E22;
+            --accent-infra: #27AE60;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.8rem;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        .data-table th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .indicator-box {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .indicator-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+            text-align: center;
+        }
+        .indicator-value {
+            font-size: 1.5rem;
+            color: var(--gold);
+            font-weight: bold;
+            display: block;
+        }
+        .indicator-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0.05rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page development-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M50 0 L50 1000 M750 0 L750 1000" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" stroke-dasharray="10,5" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 87</h3>
+            <h2>EDUCATION & DEVELOPMENT CHALLENGES</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Building opportunity across mountains, communities and generations.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Education is often the first promise a society makes to its children. A classroom says that the future matters. A teacher says that knowledge can travel farther than geography. A road says that a school does not have to remain isolated. A clinic says that development is also about health. And a functioning institution says that public services can reach people wherever they live. For Orakzai, these promises have never existed separately. Mountains and valleys shaped access. Conflict disrupted lives. Displacement interrupted schooling. Economic pressures affected families. Administrative reforms changed how services were delivered. And communities continued to find ways to educate their children. The story of development in Orakzai is therefore not simply a story of what was missing; it is a story of geography, resilience, institutions, investment, setbacks and unfinished work.</p>
+
+            <!-- HERO: EDUCATION & DEVELOPMENT (Diagram 1-10) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Backdrop -->
+                        <path d="M50 250 L150 100 L250 200 L350 50 L450 180 L550 80 L600 250" fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1.5"/>
+                        
+                        <!-- School Symbol -->
+                        <g transform="translate(150, 220)">
+                            <rect x="-20" y="-15" width="40" height="30" rx="2" fill="rgba(74, 144, 226, 0.15)" stroke="var(--accent-edu)"/>
+                            <path d="M-20 -15 L0 -30 L20 -15 Z" fill="rgba(74, 144, 226, 0.15)" stroke="var(--accent-edu)"/>
+                            <text y="35" font-size="8">SCHOOL</text>
+                        </g>
+                        
+                        <!-- Road Path -->
+                        <path d="M50 300 C150 280, 300 320, 550 280" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5,3"/>
+                        
+                        <!-- Health Symbol -->
+                        <g transform="translate(450, 240)">
+                            <circle r="15" fill="rgba(230, 126, 34, 0.15)" stroke="var(--accent-health)"/>
+                            <path d="M-8 0 L8 0 M0 -8 L0 8" stroke="var(--accent-health)" stroke-width="2"/>
+                            <text y="30" font-size="8">HEALTH</text>
+                        </g>
+                        
+                        <!-- Infrastructure Symbol -->
+                        <g transform="translate(300, 150)">
+                            <path d="M-10 0 L10 0 M-5 -10 L5 -10 M-5 10 L5 10" stroke="var(--accent-infra)" stroke-width="1.5"/>
+                            <circle r="20" fill="none" stroke="var(--accent-infra)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="35" font-size="8">INFRASTRUCTURE</text>
+                        </g>
+                        
+                        <!-- Connectivity -->
+                        <path d="M100 50 Q300 20 500 50" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+                        <circle cx="300" cy="35" r="3" fill="var(--gold)"/>
+                        
+                        <text x="300" y="330" font-size="9" fill="var(--gold)">ORAKZAI DEVELOPMENT LANDSCAPE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Building opportunity across the Orakzai frontier.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What does Development mean?</h3>
+            <p>Development is a multi-dimensional process that extends beyond simple infrastructure. It is the integration of human capital (education and health) with institutional capacity and physical infrastructure to create sustainable opportunities. In Orakzai, development is the process of turning a landlocked frontier into a connected and productive district.<sup>3</sup> <sup>7</sup></p>
+
+            <!-- DIAGRAM 11-20: DEVELOPMENT COMPONENTS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="60" y="75">PEOPLE</text>
+                        <text x="110" y="75">+</text>
+                        
+                        <rect x="120" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="160" y="75">INSTITUTIONS</text>
+                        <text x="210" y="75">+</text>
+                        
+                        <rect x="220" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="260" y="75">INFRASTRUCTURE</text>
+                        <text x="310" y="75">+</text>
+                        
+                        <rect x="320" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="360" y="75">OPPORTUNITY</text>
+                        <text x="410" y="75">=</text>
+                        
+                        <rect x="420" y="50" width="60" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="450" y="75" font-weight="bold">DEV</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The logical equation of Orakzai's development.”</p>
+            </div>
+
+            <div class="indicator-box">
+                <div class="indicator-item">
+                    <span class="indicator-value">387,561</span>
+                    <span class="indicator-label">Population (2023)</span>
+                </div>
+                <div class="indicator-item">
+                    <span class="indicator-value">33.57%</span>
+                    <span class="indicator-label">Literacy (10+)</span>
+                </div>
+                <div class="indicator-item">
+                    <span class="indicator-value">100%</span>
+                    <span class="indicator-label">Rural Status</span>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Education: Access & Infrastructure</h3>
+            <p>Formal schooling in Orakzai has developed significantly since the Agency's creation in 1973, yet challenges remain in terms of infrastructure quality and student retention. According to the **2023-24 Annual School Census (ASC)**, the district has 449 primary schools, but the transition to middle and high school shows a sharp decline in availability, particularly for girls. Geography and distance remain primary barriers to consistent attendance.<sup>2</sup> <sup>7</sup></p>
+
+            <!-- DIAGRAM 21-30: SCHOOL ACCESS CHAIN -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <circle cx="50" cy="75" r="30" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                        <text x="50" y="78">HOME</text>
+                        <path d="M80 75 L120 75" stroke="var(--gold)" marker-end="url(#arrow-87)"/>
+                        
+                        <rect x="130" y="55" width="60" height="40" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="160" y="78">ROAD</text>
+                        <path d="M190 75 L230 75" stroke="var(--gold)" marker-end="url(#arrow-87)"/>
+                        
+                        <rect x="240" y="55" width="60" height="40" rx="2" fill="rgba(74, 144, 226, 0.1)" stroke="var(--accent-edu)"/>
+                        <text x="270" y="78">SCHOOL</text>
+                        <path d="M300 75 L340 75" stroke="var(--gold)" marker-end="url(#arrow-87)"/>
+                        
+                        <rect x="350" y="55" width="60" height="40" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="380" y="78">CLASSROOM</text>
+                        <path d="M410 75 L450 75" stroke="var(--gold)" marker-end="url(#arrow-87)"/>
+                        
+                        <circle cx="470" cy="75" r="20" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="470" y="78" font-weight="bold">LEARN</text>
+                        
+                        <defs>
+                            <marker id="arrow-87" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The physical and institutional chain of educational access.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Student Flow: The Challenge of Retention</h3>
+            <p>While primary school enrolment is growing, the district faces a significant **dropout rate of 27.1%** at the primary level. This is often driven by economic pressures, the lack of nearby secondary schools, and the impact of historical conflict-induced displacement. The promotion rate of 68.1% indicates a need for sustained quality improvements in the classroom.<sup>2</sup></p>
+
+            <!-- DIAGRAM 31-40: ENROLMENT VS DROPOUT -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff">
+                        <text x="200" y="20" text-anchor="middle" font-weight="bold">PRIMARY STUDENT FLOW (ASC 2023-24)</text>
+                        
+                        <rect x="50" y="50" width="300" height="20" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <rect x="50" y="50" width="204" height="20" rx="4" fill="rgba(39, 174, 96, 0.3)" stroke="var(--accent-infra)"/>
+                        <text x="152" y="63" text-anchor="middle">PROMOTION: 68.1%</text>
+                        
+                        <rect x="50" y="90" width="300" height="20" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <rect x="50" y="90" width="81" height="20" rx="4" fill="rgba(178, 34, 34, 0.3)" stroke="var(--badge-district)"/>
+                        <text x="90" y="103" text-anchor="middle">DROPOUT: 27.1%</text>
+                        
+                        <rect x="50" y="130" width="300" height="20" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <rect x="50" y="130" width="15" height="20" rx="4" fill="rgba(230, 126, 34, 0.3)" stroke="var(--accent-health)"/>
+                        <text x="75" y="143" text-anchor="middle">REPETITION: 4.7%</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Statistical breakdown of student progression in Orakzai primary schools.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Geography and Education: The Mountain Barrier</h3>
+            <p>Geography is not destiny, but it is a significant factor in Orakzai. The rugged terrain and scattered settlement patterns mean that distance to school is a major determinant of attendance, especially for girls. In some remote valleys, the nearest middle school may be hours away by foot, making transition after primary school difficult for many households.<sup>7</sup></p>
+
+            <!-- DIAGRAM 41-50: GEOGRAPHY-OPPORTUNITY LINK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">MOUNTAINS</text>
+                        <path d="M90 75 L130 75" stroke="var(--gray)" marker-end="url(#arrow-87)"/>
+                        
+                        <text x="170" y="75">DISTANCE</text>
+                        <path d="M210 75 L250 75" stroke="var(--gray)" marker-end="url(#arrow-87)"/>
+                        
+                        <text x="290" y="75">TRANSPORT</text>
+                        <path d="M330 75 L370 75" stroke="var(--gray)" marker-end="url(#arrow-87)"/>
+                        
+                        <text x="410" y="75">ACCESS</text>
+                        <path d="M450 75 L480 75" stroke="var(--gold)" marker-end="url(#arrow-87)"/>
+                        
+                        <text x="500" y="75" font-weight="bold" fill="var(--gold)">OPPORTUNITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“How geography mediates the path to opportunity.”</p>
+            </div>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Indicator</th>
+                        <th>Orakzai Value</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Primary Schools (Govt)</strong></td>
+                        <td>449</td>
+                        <td>ASC 2023-24</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Middle Schools (Govt)</strong></td>
+                        <td>83</td>
+                        <td>ASC 2023-24</td>
+                    </tr>
+                    <tr>
+                        <td><strong>High Schools (Govt)</strong></td>
+                        <td>37</td>
+                        <td>ASC 2023-24</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Literacy Rate (10+)</strong></td>
+                        <td>33.57%</td>
+                        <td>Census 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The story of development in Orakzai is not simply a story of what was missing; it is a story of resilience, institutions, and unfinished work. When I look at the statistics—the 33.57% literacy rate or the 27.1% dropout rate—I don't just see numbers; I see the lives of children in remote valleys whose potential is waiting for a road, a classroom, and a teacher. The transition from a special Agency to a regular District is a legal act, but development is a generational one. It requires a sustained promise that the children of Orakzai, no matter how high their mountain or how deep their valley, will have the same right to a future as any other child in Pakistan. The classroom is where that future begins.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“KNOWLEDGE TRAVELS FARTHER THAN GEOGRAPHY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Education & Development Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            87
+        </footer>
+    </div>
+</body>
+</html>

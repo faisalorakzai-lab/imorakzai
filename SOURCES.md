@@ -513,3 +513,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Administrative Evolution hero, the layers of authority model, the state vs. identity matrix, the customary authority hierarchy, the Political Agency hierarchy, and the Agency-to-District feature comparison.
 - **Content**: Deep analysis of the administrative changes in the Orakzai region from pre-colonial decentralized authority to the colonial indirect rule system, the FATA Agency framework, and the modern provincial district governance following the 2018 merger. Supported by the *Constitution of Pakistan*, *FCR 1901*, and academic research from *Akbar S. Ahmed (1980)* and the *International Journal of Social Sciences (2025)*.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 87: Education & Development Challenges
+- **Research Sources**: Detailed citations are available in `book/sources/page-087-education-and-development-challenges.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Education & Development hero, the development components model, the school access chain, the geography-opportunity link, and the enrolment vs. dropout comparison.
+- **Content**: Detailed analysis of Orakzai's education and development landscape using the *2023 Population Census* and *2023-24 Annual School Census (ASC)* data. Covers literacy rates, school infrastructure, health facilities, and post-merger development frameworks (AIP). Supported by research from the *World Bank (2026)* and *UN Women (2020)*.
+- **License**: Content is proprietary to the author; visual design is project-specific.
