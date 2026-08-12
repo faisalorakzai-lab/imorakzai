@@ -141,6 +141,7 @@
     <item id="page-127" href="../pages/page-127-ai-and-finance.html" media-type="application/xhtml+xml"/>
     <item id="page-128" href="../pages/page-128-ai-and-government.html" media-type="application/xhtml+xml"/>
     <item id="page-129" href="../pages/page-129-ai-governance.html" media-type="application/xhtml+xml"/>
+    <item id="page-130" href="../pages/page-130-the-future-of-artificial-intelligence.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -273,5 +274,6 @@
     <itemref idref="page-127"/>
     <itemref idref="page-128"/>
     <itemref idref="page-129"/>
+    <itemref idref="page-130"/>
   </spine>
 </package>

@@ -522,5 +522,9 @@
       <navLabel><text>AI Governance</text></navLabel>
       <content src="../pages/page-129-ai-governance.html"/>
     </navPoint>
+    <navPoint id="navPoint-130" playOrder="129">
+      <navLabel><text>The Future of AI</text></navLabel>
+      <content src="../pages/page-130-the-future-of-artificial-intelligence.html"/>
+    </navPoint>
   </navMap>
 </ncx>
