@@ -1341,3 +1341,16 @@ The content is grounded in 2026 reports from the National Foundation for America
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official NFAP, SBP, PID, and OPC reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 156: Diaspora Investment
+
+Page 156 examines the transition of the Pakistani diaspora's economic contribution from consumption-based remittances to capital-based investment. It details the 2026 performance of the Roshan Digital Account (RDA), including the $13.647 billion cumulative inflow and the 52% YoY growth in July 2026. The page frames the "Capital Formation Model," distinguishing between household support and productive investment in startups, SMEs, manufacturing, and infrastructure.
+
+The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), TechDestiNation, and industry monitoring groups. It discusses the role of diaspora "Angels" and venture capital, the importance of corporate governance and due diligence, and the use of the SIFC as a regulatory enabler. The Orakzai context is integrated to show how valley natives abroad invest in regional solar energy and AgriTech, bridging the gap between global capital and local tribal development.
+
+- **Research Sources**: Detailed bibliographic records and a Diaspora Investment evidence matrix are available in `book/sources/page-156-diaspora-investment.md`; research notes and methodological findings are in `book/sources/page-156-research-notes.md`.
+- **Visual Elements**: 115 original responsive SVG elements: one premium Diaspora Capital Hero and 114 numbered accessible logic-atlas cards. The atlas covers capital formation pathways, investment types (Angel, VC, SME, Real Estate), sectoral opportunities (FinTech, SaaS, AI, AgriTech), and the relationship between transparency, governance, and national growth.
+- **Content**: Evidence-led narrative connects Page 155 to the specific financial mechanisms of global engagement. It frames the diaspora as a strategic asset class for sovereign economic development.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, MOITT, and financial monitoring reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

@@ -626,5 +626,9 @@
       <navLabel><text>Global Pakistani Talent</text></navLabel>
       <content src="../pages/page-155-global-pakistani-talent.html"/>
     </navPoint>
+    <navPoint id="navPoint-156" playOrder="155">
+      <navLabel><text>Diaspora Investment</text></navLabel>
+      <content src="../pages/page-156-diaspora-investment.html"/>
+    </navPoint>
   </navMap>
 </ncx>
