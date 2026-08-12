@@ -478,5 +478,9 @@
       <navLabel><text>Software &amp; Digital Infrastructure</text></navLabel>
       <content src="../pages/page-118-software-digital-infrastructure.html"/>
     </navPoint>
+    <navPoint id="navPoint-119" playOrder="118">
+      <navLabel><text>Cloud Computing</text></navLabel>
+      <content src="../pages/page-119-cloud-computing.html"/>
+    </navPoint>
   </navMap>
 </ncx>
