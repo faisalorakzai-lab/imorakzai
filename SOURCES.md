@@ -964,3 +964,16 @@ The content is grounded in 2026 reports from the Ministry of IT & Telecommunicat
 - **Evidence Boundary**: Statistics are derived from official MoITT, NCAI, and MNFSR reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 127 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 127: AI & Finance
+
+Page 127 examines the transformation of the financial sector through artificial intelligence, focusing on intelligent banking, fraud detection, and financial inclusion. It analyzes Pakistan's institutional research capacity, highlighting the NCAI Smart City Lab and associated fintech initiatives at NED University Karachi, alongside the State Bank of Pakistan's (SBP) 2026 regulatory framework for AI in financial services. The page emphasizes that while AI can process vast volumes of financial data, human trust and accountability remain the foundation of the financial system.
+
+The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), the National Centre of Artificial Intelligence (NCAI), and peer-reviewed research on AI-driven fraud detection in Pakistan's banking sector. It explores the potential for AI to expand financial access through digital credit scoring and personalized assistants, particularly in rural regions like Orakzai. A personal case study of Faisal Orakzai illustrates the generational shift toward building secure, scalable financial data architectures that bridge traditional knowledge and global technology.
+
+- **Research Sources**: Detailed bibliographic records and a finance AI evidence matrix are available in `book/sources/page-127-ai-and-finance.md`; research notes and methodological findings are in `book/sources/page-127-research-notes.md`.
+- **Visual Elements**: 109 original responsive SVG elements: one premium AI Finance Hero and 108 numbered accessible logic-atlas cards. The atlas covers fraud detection workflows, KYC verification models, credit risk architectures, and digital assistant loops.
+- **Content**: Evidence-led narrative connects Pages 49, 50, 103-110, and 111-126. It frames financial AI as a tool for economic empowerment and national resilience.
+- **Evidence Boundary**: Statistics are derived from official SBP, NCAI, and industry reports (Indus AI 2026). Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 128 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
