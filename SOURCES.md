@@ -1185,3 +1185,16 @@ The content is grounded in 2026 reports from the ITU, MoITT, and the Pakistan Di
 - **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 144 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 144: Blockchain & National Infrastructure
+
+Page 144 examines the underlying architecture of distributed networks as a new infrastructure layer for recording transactions, coordinating digital assets, and creating programmable networks. It analyzes the blockchain infrastructure stack, focusing on the transition from purely institutional trust to cryptographic verification and protocol-based consensus. The page highlights Pakistan's significant regulatory milestones, including the enactment of the Virtual Assets Act 2026 and the establishment of the Pakistan Virtual Assets Regulatory Authority (PVARA).
+
+The content is grounded in 2026 reports from PVARA, the State Bank of Pakistan (SBP), and official government announcements regarding the lifting of the 8-year crypto banking ban in April 2026. It discusses the practical applications of blockchain in national systems, such as the wholesale CBDC pilot, land record digitization projects, and the proposed National Bitcoin Reserve. A personal case study of Faisal Orakzai illustrates the generational shift toward advocating for blockchain as a "shared record layer" to empower local communities through secure, verifiable, and sovereign digital foundations.
+
+- **Research Sources**: Detailed bibliographic records and a blockchain infrastructure evidence matrix are available in `book/sources/page-144-blockchain-and-national-infrastructure.md`; research notes and methodological findings are in `book/sources/page-144-research-notes.md`.
+- **Visual Elements**: 114 original responsive SVG elements: one premium Blockchain Infrastructure Hero and 113 numbered accessible logic-atlas cards. The atlas covers the infrastructure stack, centralized vs. distributed comparisons, digital signature workflows, and hybrid national system architectures.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-143. It frames blockchain as a tool for strategic resilience and a new layer of national digital public infrastructure.
+- **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 145 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

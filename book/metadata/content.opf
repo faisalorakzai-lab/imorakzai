@@ -155,6 +155,7 @@
     <item id="page-141" href="../pages/page-141-digital-sovereignty.html" media-type="application/xhtml+xml"/>
     <item id="page-142" href="../pages/page-142-sovereign-technology.html" media-type="application/xhtml+xml"/>
     <item id="page-143" href="../pages/page-143-national-digital-infrastructure.html" media-type="application/xhtml+xml"/>
+    <item id="page-144" href="../pages/page-144-blockchain-and-national-infrastructure.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -301,5 +302,6 @@
     <itemref idref="page-141"/>
     <itemref idref="page-142"/>
     <itemref idref="page-143"/>
+    <itemref idref="page-144"/>
   </spine>
 </package>

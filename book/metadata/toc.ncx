@@ -578,5 +578,9 @@
       <navLabel><text>National Digital Infrastructure</text></navLabel>
       <content src="../pages/page-143-national-digital-infrastructure.html"/>
     </navPoint>
+    <navPoint id="navPoint-144" playOrder="143">
+      <navLabel><text>Blockchain & National Infrastructure</text></navLabel>
+      <content src="../pages/page-144-blockchain-and-national-infrastructure.html"/>
+    </navPoint>
   </navMap>
 </ncx>
