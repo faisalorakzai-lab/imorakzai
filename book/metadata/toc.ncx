@@ -534,5 +534,9 @@
       <navLabel><text>Understanding Decentralization</text></navLabel>
       <content src="../pages/page-132-understanding-decentralization.html"/>
     </navPoint>
+    <navPoint id="navPoint-133" playOrder="132">
+      <navLabel><text>Bitcoin &amp; Digital Money</text></navLabel>
+      <content src="../pages/page-133-bitcoin-and-digital-money.html"/>
+    </navPoint>
   </navMap>
 </ncx>

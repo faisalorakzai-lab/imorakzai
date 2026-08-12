@@ -144,6 +144,7 @@
     <item id="page-130" href="../pages/page-130-the-future-of-artificial-intelligence.html" media-type="application/xhtml+xml"/>
     <item id="page-131" href="../pages/page-131-blockchain-technology.html" media-type="application/xhtml+xml"/>
     <item id="page-132" href="../pages/page-132-understanding-decentralization.html" media-type="application/xhtml+xml"/>
+    <item id="page-133" href="../pages/page-133-bitcoin-and-digital-money.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -279,5 +280,6 @@
     <itemref idref="page-130"/>
     <itemref idref="page-131"/>
     <itemref idref="page-132"/>
+    <itemref idref="page-133"/>
   </spine>
 </package>
