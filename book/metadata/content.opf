@@ -137,6 +137,7 @@
     <item id="page-123" href="../pages/page-123-ai-in-pakistan.html" media-type="application/xhtml+xml"/>
     <item id="page-124" href="../pages/page-124-ai-and-education.html" media-type="application/xhtml+xml"/>
     <item id="page-125" href="../pages/page-125-ai-and-healthcare.html" media-type="application/xhtml+xml"/>
+    <item id="page-126" href="../pages/page-126-ai-and-agriculture.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -265,5 +266,6 @@
     <itemref idref="page-123"/>
     <itemref idref="page-124"/>
     <itemref idref="page-125"/>
+    <itemref idref="page-126"/>
   </spine>
 </package>

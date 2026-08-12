@@ -951,3 +951,16 @@ The content is grounded in 2026 reports from the Ministry of National Health Ser
 - **Evidence Boundary**: Statistics are derived from official MoNHSRC, NCAI, and industry reports (Indus AI 2026). Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 126 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 126: AI & Agriculture
+
+Page 126 examines the transformation of agriculture through artificial intelligence, focusing on precision farming, resource management, and rural livelihoods. It analyzes Pakistan's institutional research capacity, highlighting the NCAI Intelligent Field Robotics Lab (IFRL) at NUST Islamabad and its 2026 innovations in autonomous field monitoring and precision spraying. The page emphasizes that while AI can process large volumes of agricultural data, human farmers remain responsible for decision-making and land stewardship.
+
+The content is grounded in 2026 reports from the Ministry of IT & Telecommunication (MoITT), the National Centre of Artificial Intelligence (NCAI), and the AgriChain Nexus research framework. It explores the potential for AI to address Pakistan's water scarcity and climate resilience challenges through smart irrigation and weather intelligence. A personal case study of Faisal Orakzai illustrates the generational shift toward building integrated, data-driven agricultural systems that bridge the gap between traditional knowledge and global technology.
+
+- **Research Sources**: Detailed bibliographic records and an agriculture AI evidence matrix are available in `book/sources/page-126-ai-and-agriculture.md`; research notes and methodological findings are in `book/sources/page-126-research-notes.md`.
+- **Visual Elements**: 108 original responsive SVG elements: one premium AI Agriculture Hero and 107 numbered accessible logic-atlas cards. The atlas covers precision farming models, smart irrigation loops, drone monitoring pipelines, and agricultural supply chain architectures.
+- **Content**: Evidence-led narrative connects Pages 47, 48, 103-110, and 111-125. It frames agricultural AI as a tool for food security and rural empowerment.
+- **Evidence Boundary**: Statistics are derived from official MoITT, NCAI, and MNFSR reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 127 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

@@ -506,5 +506,9 @@
       <navLabel><text>AI &amp; Healthcare</text></navLabel>
       <content src="../pages/page-125-ai-and-healthcare.html"/>
     </navPoint>
+    <navPoint id="navPoint-126" playOrder="125">
+      <navLabel><text>AI &amp; Agriculture</text></navLabel>
+      <content src="../pages/page-126-ai-and-agriculture.html"/>
+    </navPoint>
   </navMap>
 </ncx>
