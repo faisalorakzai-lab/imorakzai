@@ -17,6 +17,7 @@
     <item id="page-002" href="../pages/page-002-copyright.html" media-type="application/xhtml+xml"/>
     <item id="page-003" href="../pages/page-003-dedication.html" media-type="application/xhtml+xml"/>
     <item id="page-004" href="../pages/page-004-authors-note.html" media-type="application/xhtml+xml"/>
+    <item id="contents" href="../pages/contents.html" media-type="application/xhtml+xml"/>
     <item id="page-005" href="../pages/page-005-why-im-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="page-006" href="../pages/page-006-the-meaning-of-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="page-007" href="../pages/page-007-my-connection-to-orakzai.html" media-type="application/xhtml+xml"/>
@@ -183,6 +184,7 @@
     <itemref idref="page-002"/>
     <itemref idref="page-003"/>
     <itemref idref="page-004"/>
+    <itemref idref="contents"/>
     <itemref idref="page-005"/>
     <itemref idref="page-006"/>
     <itemref idref="page-007"/>
