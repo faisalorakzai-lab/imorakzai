@@ -1250,3 +1250,16 @@ The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), F
 - **Evidence Boundary**: Statistics and institutional events are derived from official SBP, technical, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 149: The Internet of Value
+
+Page 149 explores the transition from the "Internet of Information" to the "Internet of Value" (IoV), detailing how digital networks are evolving to move economic value—money, ownership, and credentials—with the same ease as information. It analyzes the convergence of blockchain, AI, digital identity, and tokenization, highlighting Pakistan's 2026 milestones, including the rise of its ITU ID score to 67.7 and the strategic goals of the National Digital Masterplan.
+
+The content is grounded in 2026 reports from J.P. Morgan, Arthur D. Little, and official government maturity indices. It discusses the "Money as Software" concept, the rise of AI agents in on-chain commerce, and the role of Raast as the foundational rail for the IoV in Pakistan. The Orakzai context is integrated to illustrate how the IoV empowers the diaspora and regional entrepreneurs by enabling seamless, secure, and programmable cross-border value transfer.
+
+- **Research Sources**: Detailed bibliographic records and an Internet of Value evidence matrix are available in `book/sources/page-149-the-internet-of-value.md`; research notes and methodological findings are in `book/sources/page-149-research-notes.md`.
+- **Visual Elements**: 110 original responsive SVG elements: one premium Internet of Value Hero and 109 numbered accessible logic-atlas cards. The atlas covers the IoV stack, info-vs-value models, universal wallet architectures, and the relationship between AI agents and programmable value.
+- **Content**: Evidence-led narrative connects Page 148 to the broader global digital economy. It frames the IoV as the ultimate equalizer for regional and national financial sovereignty.
+- **Evidence Boundary**: Statistics and institutional events are derived from official ITU, PDA, technical, and industry reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

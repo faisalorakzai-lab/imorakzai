@@ -598,5 +598,9 @@
       <navLabel><text>Financial Infrastructure of the Future</text></navLabel>
       <content src="../pages/page-148-financial-infrastructure-of-the-future.html"/>
     </navPoint>
+    <navPoint id="navPoint-149" playOrder="148">
+      <navLabel><text>The Internet of Value</text></navLabel>
+      <content src="../pages/page-149-the-internet-of-value.html"/>
+    </navPoint>
   </navMap>
 </ncx>
