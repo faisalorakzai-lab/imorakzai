@@ -537,3 +537,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Diaspora hero, the diaspora formation model, the migration classification matrix, the IDP movement flow, the return migration cycle, and the trans-local identity network.
 - **Content**: Comprehensive analysis of the Orakzai diaspora as a living social network. Based on *UNHCR* and *IDMC* reports on conflict-induced displacement (2009–2011), academic studies on the Pashtun diaspora (Bukhari, Ul Hassan), and ethnographic research on urban hubs in Karachi, Peshawar, and the Gulf. Explores the maintenance of identity across distance through language, kinship, and digital connection.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 91: Orakzai in Modern Pakistan
+- **Research Sources**: Detailed citations are available in `book/sources/page-091-orakzai-in-modern-pakistan.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Modern Orakzai hero, the identity synthesis model, the constitutional transition timeline (1947–2018), the administrative district hierarchy, the judicial transition (FCR to Courts), and the 2023 census dashboard.
+- **Content**: Comprehensive analysis of Orakzai as a district within modern Pakistan. Based on the *25th Constitutional Amendment (2018)*, *District Courts Orakzai* records, and the *2023 Digital Census* data. Explores the transition from the FATA era to provincial integration, the establishment of formal judiciary and administration, and the synthesis of tribal identity with national citizenship.
+- **License**: Content is proprietary to the author; visual design is project-specific.

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai in Modern Pakistan</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-state: #006633; /* Pakistan Green */
+            --accent-civic: #4682B4;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .stat-dashboard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+            text-align: center;
+        }
+        .stat-val {
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+        }
+        .stat-lab {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+            color: var(--gray);
+        }
+        .transition-matrix {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.75rem;
+        }
+        .transition-matrix th, .transition-matrix td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        .transition-matrix th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.65rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page modern-pakistan-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 500 Q400 450 800 500" fill="none" stroke="rgba(0, 102, 51, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 91</h3>
+            <h2>ORAKZAI IN MODERN PAKISTAN</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“From a historic frontier region to a district within a changing Pakistan.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Modern Orakzai is part of a Pakistan that has changed repeatedly within living memory. The mountains remain. The valleys remain. Family names, languages and memories remain. But the political and administrative world around them has changed. Orakzai was once governed within the former system of the Federally Administered Tribal Areas. In 2018, that constitutional arrangement changed. The former FATA territories were merged with Khyber Pakhtunkhwa. Orakzai became a district of the province. Courts, provincial departments, elections, development institutions and public administration increasingly became part of the same constitutional framework that governs the rest of Khyber Pakhtunkhwa. But integration is not a single event. It is a process. And modern Orakzai is still being shaped by the relationship between history, citizenship, institutions, development and community life.</p>
+
+            <!-- HERO: ORAKZAI IN MODERN PAKISTAN (Diagram 1-25) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Background: Pakistan Map Outline (Subtle) -->
+                        <path d="M400 50 L450 80 L500 150 L480 250 L400 300 L300 280 L250 200 L300 100 Z" fill="none" stroke="rgba(0, 102, 51, 0.1)" stroke-width="1"/>
+                        
+                        <!-- Mountain Transition to Civic -->
+                        <path d="M50 280 L120 180 L200 240 L280 150 L350 280" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                        <text x="120" y="300" fill="var(--gold)">HIGHLAND HERITAGE</text>
+                        
+                        <!-- Civic Elements -->
+                        <g transform="translate(450, 150)">
+                            <rect x="-40" y="-30" width="80" height="60" rx="4" fill="none" stroke="var(--accent-civic)" stroke-width="1.5"/>
+                            <text y="-10" font-weight="bold">DISTRICT</text>
+                            <text y="5">COURTS</text>
+                            <text y="20">SCHOOLS</text>
+                        </g>
+                        
+                        <!-- Connection: Mobile/Digital -->
+                        <path d="M350 200 Q400 180 410 150" fill="none" stroke="var(--accent-civic)" stroke-width="1" stroke-dasharray="4,2"/>
+                        <circle cx="410" cy="150" r="3" fill="var(--accent-civic)"/>
+                        
+                        <!-- The Merger Bridge -->
+                        <path d="M250 200 L410 150" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-91)"/>
+                        <text x="330" y="170" fill="var(--gold)" font-size="8">25th AMENDMENT</text>
+                        
+                        <defs>
+                            <marker id="arrow-91" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The structural integration of Orakzai into the Pakistani civic landscape.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What does “Modern Orakzai” mean?</h3>
+            <p>Modernity in Orakzai does not mean abandoning cultural identity. Instead, it is a synthesis where tradition meets the state, law, and technology. A community can maintain its language, family structures, and hospitality while simultaneously participating in formal education, digital communication, and national politics.<sup>7</sup></p>
+
+            <!-- DIAGRAM 26-35: IDENTITY SYNTHESIS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- tradition -->
+                        <circle cx="100" cy="75" r="40" fill="none" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="100" y="70">TRADITION</text>
+                        <text x="100" y="82" font-size="7">(Language, Kinship)</text>
+                        
+                        <!-- state -->
+                        <circle cx="400" cy="75" r="40" fill="none" stroke="var(--accent-civic)" stroke-width="1"/>
+                        <text x="400" y="70">STATE</text>
+                        <text x="400" y="82" font-size="7">(Law, Citizenship)</text>
+                        
+                        <!-- synthesis -->
+                        <path d="M140 75 L360 75" stroke="var(--gray)" stroke-dasharray="4,2"/>
+                        <rect x="210" y="55" width="80" height="40" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="75" font-weight="bold">MODERN</text>
+                        <text x="250" y="85" font-weight="bold">ORAKZAI</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The synthesis of tradition and statehood in the modern Orakzai identity.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The 2018 Merger</h3>
+            <p>The 25th Constitutional Amendment of 2018 was the defining moment for modern Orakzai. It abolished the former Federally Administered Tribal Areas (FATA) and merged the region into Khyber Pakhtunkhwa province. This transformation brought the district into the same constitutional, legal, and administrative framework that governs the rest of Pakistan.<sup>1</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 36-45: CONSTITUTIONAL TRANSITION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">1947</text>
+                        <path d="M80 60 L120 60" stroke="var(--gray)" marker-end="url(#arrow-91)"/>
+                        <text x="160" y="60">FATA ERA</text>
+                        <path d="M210 60 L250 60" stroke="var(--gold)" stroke-width="2" marker-end="url(#arrow-91)"/>
+                        <text x="300" y="60" font-weight="bold">2018 MERGER</text>
+                        <path d="M360 60 L400 60" stroke="var(--accent-state)" marker-end="url(#arrow-91)"/>
+                        <text x="450" y="60">KP DISTRICT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The timeline of Orakzai's constitutional journey.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Administrative Structure</h3>
+            <p>Today, Orakzai is a district within the Kohat Division. It is headed by a Deputy Commissioner (DC) and is subdivided into four tehsils: Lower Orakzai, Upper Orakzai, Central Orakzai, and Ismailzai. This structure replaces the former Political Agency system with a standard provincial administrative hierarchy.<sup>5</sup></p>
+
+            <!-- DIAGRAM 46-55: DISTRICT HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="120" y="20" width="160" height="30" rx="2" fill="rgba(0, 102, 51, 0.1)" stroke="var(--accent-state)"/>
+                        <text x="200" y="40">DEPUTY COMMISSIONER</text>
+                        
+                        <path d="M200 50 L200 70" stroke="var(--gray)"/>
+                        
+                        <rect x="140" y="70" width="120" height="25" rx="2" fill="none" stroke="var(--gray)"/>
+                        <text x="200" y="87">ASSISTANT COMMISSIONERS</text>
+                        
+                        <path d="M200 95 L200 115 L100 115 L100 130 M200 115 L300 115 L300 130" stroke="var(--gray)" fill="none"/>
+                        
+                        <g transform="translate(50, 130)">
+                            <text x="0" y="15">UPPER</text>
+                            <text x="0" y="27">ORAKZAI</text>
+                        </g>
+                        <g transform="translate(150, 130)">
+                            <text x="0" y="15">LOWER</text>
+                            <text x="0" y="27">ORAKZAI</text>
+                        </g>
+                        <g transform="translate(250, 130)">
+                            <text x="0" y="15">CENTRAL</text>
+                            <text x="0" y="27">ORAKZAI</text>
+                        </g>
+                        <g transform="translate(350, 130)">
+                            <text x="0" y="15">ISMAILZAI</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The administrative subdivision of Orakzai District.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Justice and the Rule of Law</h3>
+            <p>One of the most profound changes has been the establishment of the formal judiciary. District Courts Orakzai became operational in February 2019 at Baber Mela, marking the end of the Frontier Crimes Regulation (FCR) and the beginning of constitutional judicial access for all residents.<sup>2</sup></p>
+
+            <!-- DIAGRAM 56-65: JUDICIAL TRANSITION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="60" y="60">FCR ERA</text>
+                        <path d="M100 60 L160 60" stroke="var(--earth)" marker-end="url(#arrow-91)"/>
+                        <text x="250" y="60" font-weight="bold" fill="var(--gold)">CONSTITUTIONAL COURTS (2019)</text>
+                        <path d="M340 60 L400 60" stroke="var(--accent-civic)" marker-end="url(#arrow-91)"/>
+                        <text x="450" y="60">FORMAL JUSTICE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The shift from customary/administrative justice to the formal rule of law.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The 2023 Census Dashboard</h3>
+            <p>The 2023 Digital Census provides the most current demographic profile of the district. While Orakzai remains entirely rural in its locality classification, its population density and household size reflect a community deeply rooted in its valley floors.<sup>3</sup></p>
+
+            <div class="stat-dashboard">
+                <div class="stat-card">
+                    <span class="stat-val">387,561</span>
+                    <span class="stat-lab">Total Population</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-val">7.4</span>
+                    <span class="stat-lab">Avg Household Size</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-val">0</span>
+                    <span class="stat-lab">Urban Population</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-val">252</span>
+                    <span class="stat-lab">Persons per km²</span>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Political Participation</h3>
+            <p>Integration has also brought direct political representation. Residents now vote for their own representatives in the National Assembly (NA-36) and the Khyber Pakhtunkhwa Provincial Assembly (PK-94), ensuring their voice is heard in the legislative halls of the province and the nation.<sup>4</sup></p>
+
+            <!-- DIAGRAM 66-75: POLITICAL FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">COMMUNITY</text>
+                        <path d="M90 60 L130 60" stroke="var(--gray)" marker-end="url(#arrow-91)"/>
+                        <text x="170" y="60">VOTER</text>
+                        <path d="M210 60 L250 60" stroke="var(--gray)" marker-end="url(#arrow-91)"/>
+                        <text x="300" y="60">ELECTION</text>
+                        <path d="M350 60 L390 60" stroke="var(--gray)" marker-end="url(#arrow-91)"/>
+                        <text x="450" y="60" font-weight="bold" fill="var(--gold)">REPRESENTATION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The chain of political participation in the modern electoral system.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Modernity is not an end point; it is a conversation. For Orakzai, being part of modern Pakistan means finding a way to carry the strength of our history into the structure of the modern state. The 2018 merger was a landmark, but the real work happens every day in the classrooms, the courtrooms, and the council halls. We are no longer a frontier to be managed; we are a district to be served. Integration is about more than laws and boundaries; it is about ensuring that every child in the Orakzai valleys has the same rights and opportunities as a child in Peshawar or Islamabad. We are Orakzai, and we are Pakistan—and in that synthesis, we find our future.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“WE ARE ORAKZAI, AND WE ARE PAKISTAN.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Integration & Identity Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            91
+        </footer>
+    </div>
+</body>
+</html>

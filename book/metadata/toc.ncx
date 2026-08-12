@@ -366,5 +366,9 @@
       <navLabel><text>Orakzai Diaspora</text></navLabel>
       <content src="../pages/page-090-orakzai-diaspora.html"/>
     </navPoint>
+    <navPoint id="navPoint-91" playOrder="90">
+      <navLabel><text>Orakzai in Modern Pakistan</text></navLabel>
+      <content src="../pages/page-091-orakzai-in-modern-pakistan.html"/>
+    </navPoint>
   </navMap>
 </ncx>
