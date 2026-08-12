@@ -691,3 +691,16 @@ The page uses international standards from UNESCO, the Digital Preservation Coal
 - **Evidence Boundary**: No existing "Orakzai Digital Archive" is claimed; it is presented as a proposed conceptual framework. Digital copies are identified as surrogates of physical originals. AI-generated reconstructions are strictly excluded from historical evidence.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 106 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 106: Digitizing Tribal Archives
+
+Page 106 explores the identification, digitization, cataloguing, and responsible access of tribal, family, community, and institutional records. It emphasizes that "tribal archives" are diverse and require community-centered ethical frameworks that prioritize provenance and informed consent over mere publication.
+
+The page draws on international standards from UNESCO and the Digital Preservation Coalition (DPC), academic research on metadata as radical care, and empirical projects like the UCLA Modern Endangered Archives Program (MEAP) which documents Sufi shrine manuscripts in Pashtun regions. It establishes clear boundaries between digitization and authenticity, ensuring that digital copies are treated as surrogates and that community sovereignty is respected.
+
+- **Research Sources**: Detailed citations and claim boundaries are available in `book/sources/page-106-digitizing-tribal-archives.md`; research notes and methodological findings are in `book/sources/page-106-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Digitizing Tribal Archives Hero and 100 numbered accessible logic-atlas cards. The atlas covers archival types, digitization workflows, Pashto script challenges, OCR limitations, metadata standards, provenance chains, backup strategies (3-2-1), AI archival assistance, and community governance frameworks.
+- **Content**: Evidence-led narrative connects Pages 71-80, 89, 90, 97-99, 103, 104, and 105. It provides a practical framework for identifying and preserving vulnerable records while maintaining strict evidence discipline.
+- **Evidence Boundary**: No specific Orakzai archival collections are invented. Digitization is not presented as an automatic proof of historical truth. Personal identification documents and sensitive family data are excluded from open publication. AI tools are strictly defined as assistants, not authorities.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 107 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

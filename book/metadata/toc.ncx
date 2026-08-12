@@ -426,5 +426,9 @@
       <navLabel><text>Digital Preservation of History</text></navLabel>
       <content src="../pages/page-105-digital-preservation-of-history.html"/>
     </navPoint>
+    <navPoint id="navPoint-106" playOrder="105">
+      <navLabel><text>Digitizing Tribal Archives</text></navLabel>
+      <content src="../pages/page-106-digitizing-tribal-archives.html"/>
+    </navPoint>
   </navMap>
 </ncx>
