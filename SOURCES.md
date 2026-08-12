@@ -477,3 +477,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the multiple sources hero, the evidence chain, independent corroboration models, triangulation (temporal, geographic, methodological), scale of evidence, and case studies (Food, Tradition, Place).
 - **Content**: Methodological analysis of historical reconstruction through multiple evidence streams, supported by *History, Theory, Methods* (2014), *Nature Scientific Reports* (2026), and academic studies on women's oral histories in Orakzai (2025).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 81: Orakzai During the Creation of Pakistan
+- **Research Sources**: Detailed citations are available in `book/sources/page-081-orakzai-during-the-creation-of-pakistan.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the 1947 transition hero, the constitutional lapse of paramountcy, NWFP referendum vs. tribal status, Jinnah's tribal agreements, and the continuity of the Frontier Crimes Regulation (FCR).
+- **Content**: Historical analysis of the 1947 transition from British rule to Pakistan, focusing on the unique legal and administrative status of Orakzai (then part of FR Kohat). Supported by the *Indian Independence Act 1947*, *History and Sociology of South Asia* (2014), and academic studies on FATA's constitutional history (2020).
+- **License**: Content is proprietary to the author; visual design is project-specific.
