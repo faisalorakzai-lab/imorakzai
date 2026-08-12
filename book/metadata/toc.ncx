@@ -566,5 +566,9 @@
       <navLabel><text>The Future of Web3</text></navLabel>
       <content src="../pages/page-140-the-future-of-web3.html"/>
     </navPoint>
+    <navPoint id="navPoint-141" playOrder="140">
+      <navLabel><text>Digital Sovereignty</text></navLabel>
+      <content src="../pages/page-141-digital-sovereignty.html"/>
+    </navPoint>
   </navMap>
 </ncx>

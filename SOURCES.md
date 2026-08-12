@@ -1146,3 +1146,16 @@ The content is grounded in 2026 reports from The Business Research Company, Fort
 - **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 141 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 141: Digital Sovereignty
+
+Page 141 examines the ability of a country, institution, or community to maintain meaningful control over its digital foundations. It analyzes the dimensions of digital sovereignty, focusing on the intersection of data, networks, computing, software, AI, and cybersecurity. The page highlights Pakistan's strategic push toward digital sovereignty, including the launch of the National Data Governance Policy 2026, the approval of the National AI Policy 2025, and the rollout of the National Semiconductor Plan.
+
+The content is grounded in 2026 reports from the Pakistan Digital Authority (PDA), Ignite National Technology Fund, and industry analyses of domestic infrastructure development. It discusses the transition from foreign cloud reliance to domestic Tier-III data centers, the necessity of sovereign AI infrastructure, and the role of Digital Public Infrastructure (DPI) in building a resilient digital state. A personal case study of Faisal Orakzai illustrates the generational shift toward "Sovereignty-by-Design," prioritizing local control over strategic digital resources.
+
+- **Research Sources**: Detailed bibliographic records and a digital sovereignty evidence matrix are available in `book/sources/page-141-digital-sovereignty.md`; research notes and methodological findings are in `book/sources/page-141-research-notes.md`.
+- **Visual Elements**: 116 original responsive SVG elements: one premium Digital Sovereignty Hero and 115 numbered accessible logic-atlas cards. The atlas covers dimensions of sovereignty, sovereign cloud architecture, AI capability stacks, and national DPI models.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-140. It frames digital sovereignty as a tool for national empowerment and individual autonomy.
+- **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 142 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
