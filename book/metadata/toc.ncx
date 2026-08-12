@@ -318,5 +318,9 @@
       <navLabel><text>Orakzai &amp; the Wider Frontier</text></navLabel>
       <content src="../pages/page-078-orakzai-and-the-wider-frontier.html"/>
     </navPoint>
+    <navPoint id="navPoint-79" playOrder="78">
+      <navLabel><text>Colonial Records &amp; Historical Sources</text></navLabel>
+      <content src="../pages/page-079-colonial-records-and-historical-sources.html"/>
+    </navPoint>
   </navMap>
 </ncx>

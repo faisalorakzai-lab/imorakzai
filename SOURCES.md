@@ -465,3 +465,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the wider frontier hero, frontier architecture, Orakzai geography, neighboring tribal connections (Afridi, Bangash), Tirah-Kohat-Hangu routes, trade networks, kinship across space, the digital frontier, and the post-2018 transition.
 - **Content**: Original historical and regional analysis by Faisal Orakzai, supported by colonial gazetteers (Kohat, 1883), military records of the Tirah Campaign (1897), ethnographic studies by Akbar S. Ahmed (1980), and contemporary reports on the FATA merger and digital connectivity.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 79: Colonial Records & Historical Sources
+- **Research Sources**: Detailed citations are available in `book/sources/page-079-colonial-records-and-historical-sources.md`.
+- **Visual Elements**: 70+ custom SVG logic diagrams covering the historical sources hero, primary vs secondary evidence, colonial record architecture (Gazetteers, Tribal Tables, Administration Reports), military record analysis, cartographic limitations, the five-question test, archival silence, and the research workflow.
+- **Content**: Methodological analysis of Orakzai history reconstruction, supported by the *India Office Records* (British Library), the *Dictionary of the Pathan Tribes* (1910), the *Kohat District Gazetteer* (1883-84), and parliamentary papers on frontier expeditions.
+- **License**: Content is proprietary to the author; visual design is project-specific.

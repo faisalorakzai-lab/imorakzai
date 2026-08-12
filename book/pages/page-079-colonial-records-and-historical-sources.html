@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Colonial Records & Historical Sources</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-primary: #2F4F4F;
+            --badge-secondary: #4682B4;
+            --badge-oral: #B59654;
+            --badge-archive: #6B4F3A;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .source-matrix {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.85rem;
+        }
+        .source-matrix th, .source-matrix td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .source-matrix th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+        }
+        .badge {
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+            margin-right: 0.3rem;
+        }
+        .badge-primary { background: var(--badge-primary); }
+        .badge-secondary { background: var(--badge-secondary); }
+        .badge-oral { background: var(--badge-oral); color: var(--charcoal); }
+        .badge-archive { background: var(--badge-archive); }
+        
+        .methodology-panel {
+            background: rgba(181, 150, 84, 0.05);
+            border-left: 4px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .methodology-panel h4 {
+            color: var(--gold);
+            margin-bottom: 0.8rem;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page historical-sources-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="800" height="1000" fill="url(#paper-texture-79)"/>
+                <defs>
+                    <pattern id="paper-texture-79" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+                        <path d="M0 0 L200 200 M200 0 L0 200" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 79</h3>
+            <h2>COLONIAL RECORDS & HISTORICAL SOURCES</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“History survives in records—but records must be read critically.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">History does not arrive from the past as a finished story. It survives in fragments: a government report, a map, a census table, a gazetteer, a letter, a military dispatch, a photograph, a family document, a poem, a grave inscription, or a story remembered by an elder. Each source preserves something, but none preserves everything. For Orakzai history, this matters especially because much of the written record was produced by outsiders whose purposes were often administrative, military, political or geographical. To understand the record, we must therefore read not only what a document says—but also why it was written, who wrote it, and what it could not see.</p>
+
+            <!-- HERO: HISTORICAL SOURCES HERO (Diagram 1-5) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Archival Desk Elements -->
+                        <rect x="100" y="50" width="400" height="250" fill="rgba(181, 150, 84, 0.05)" stroke="var(--gold)" stroke-width="1"/>
+                        
+                        <!-- Map -->
+                        <rect x="120" y="70" width="120" height="80" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gray)"/>
+                        <path d="M130 80 Q 180 110, 230 90" fill="none" stroke="var(--gold)" stroke-width="0.5"/>
+                        <text x="180" y="140" font-size="7">HISTORICAL MAP</text>
+                        
+                        <!-- Gazetteer -->
+                        <rect x="260" y="70" width="100" height="120" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="310" y="130" font-weight="bold">GAZETTEER</text>
+                        <text x="310" y="145" font-size="6">ADMINISTRATIVE DATA</text>
+                        
+                        <!-- Census Table -->
+                        <rect x="380" y="70" width="100" height="100" fill="rgba(47, 79, 79, 0.1)" stroke="var(--badge-primary)"/>
+                        <line x1="390" y1="90" x2="470" y2="90" stroke="var(--gray)" stroke-width="0.5"/>
+                        <line x1="390" y1="110" x2="470" y2="110" stroke="var(--gray)" stroke-width="0.5"/>
+                        <text x="430" y="160" font-size="7">CENSUS RECORD</text>
+                        
+                        <!-- Magnifying Glass -->
+                        <circle cx="450" cy="240" r="30" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                        <line x1="470" y1="260" x2="520" y2="310" stroke="var(--gold)" stroke-width="4"/>
+                        <text x="450" y="245" font-size="8" fill="var(--gold)" font-weight="bold">CRITIQUE</text>
+                        
+                        <!-- Oral History Symbol -->
+                        <circle cx="180" cy="240" r="25" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <path d="M170 230 Q 180 250, 190 230" fill="none" stroke="var(--ivory)" stroke-width="1.5"/>
+                        <text x="180" y="280" font-size="7">ORAL MEMORY</text>
+                        
+                        <!-- Workflow -->
+                        <g font-size="10" font-weight="bold" fill="var(--gold)">
+                            <text x="300" y="330">PAST → RECORD → RESEARCH → UNDERSTANDING</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A conceptual visualization of the Orakzai historical archive: fragments of the past requiring critical research.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is a Historical Source?</h3>
+            <p>A historical source is evidence produced or preserved from which researchers can learn about the past. These sources are categorized based on their origin and nature, including primary documents, secondary interpretations, oral memories, and material objects. For the Orakzai, these sources provide the building blocks for reconstructing their history.<sup>1</sup></p>
+
+            <!-- DIAGRAM 6-10: SOURCE ARCHITECTURE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="20" width="100" height="30" rx="4" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="250" y="40" font-weight="bold">SOURCE</text>
+                        
+                        <!-- Branches -->
+                        <g font-size="8">
+                            <text x="100" y="80">DOCUMENT</text>
+                            <text x="200" y="80">MAP</text>
+                            <text x="300" y="80">CENSUS</text>
+                            <text x="400" y="80">ORAL MEMORY</text>
+                            
+                            <text x="100" y="140">LETTER</text>
+                            <text x="200" y="140">REPORT</text>
+                            <text x="300" y="140">OBJECT</text>
+                            <text x="400" y="140">SCHOLARSHIP</text>
+                        </g>
+                        
+                        <path d="M250 50 L100 70" stroke="var(--gray)" stroke-width="0.5"/>
+                        <path d="M250 50 L200 70" stroke="var(--gray)" stroke-width="0.5"/>
+                        <path d="M250 50 L300 70" stroke="var(--gray)" stroke-width="0.5"/>
+                        <path d="M250 50 L400 70" stroke="var(--gray)" stroke-width="0.5"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The classification of historical evidence for Orakzai research.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Colonial Records</h3>
+            <p>British India produced extensive written records about the North-West Frontier for administrative, political, military, and geographical purposes. These records, preserved in collections like the India Office Records at the British Library, include administration reports, tribal tables, and dictionaries of tribes. While they provide detailed data, they must be read within their institutional context, recognizing the administrative purpose behind their creation.<sup>1</sup> <sup>2</sup></p>
+
+            <!-- DIAGRAM 11-20: COLONIAL RECORD ARCHITECTURE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="80" y="75">COLONIAL RECORD</text>
+                        <path d="M130 75 L170 75" stroke="var(--gray)" marker-end="url(#arrow-79)"/>
+                        
+                        <text x="230" y="75">ADMINISTRATIVE PURPOSE</text>
+                        <path d="M290 75 L330 75" stroke="var(--gray)" marker-end="url(#arrow-79)"/>
+                        
+                        <text x="390" y="75">SELECTIVE OBSERVATION</text>
+                        <path d="M450 75 L480 75" stroke="var(--gray)" marker-end="url(#arrow-79)"/>
+                        
+                        <text x="500" y="75" text-anchor="end" fill="var(--gold)" font-weight="bold">EVIDENCE</text>
+                        
+                        <defs>
+                            <marker id="arrow-79" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The logical path from colonial administrative reporting to historical evidence.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Gazetteers & Tribal Tables</h3>
+            <p>Gazetteers like the *Gazetteer of the Kohat District (1883-84)* were foundational primary sources, detailing geography, population, and tribal relationships. Tribal tables provided classification systems for administrative needs. While useful for names and locations, these categories often reflected a colonial worldview rather than local self-identification. Cross-checking these with local evidence is essential.<sup>3</sup></p>
+
+            <div class="methodology-panel">
+                <h4>COLONIAL CATEGORY ≠ COMPLETE LOCAL IDENTITY</h4>
+                <p style="font-size: 0.9rem; line-height: 1.6;">A colonial document is evidence, but it is not automatically the truth. It reflects the categories and priorities of the administration that produced it. To achieve a richer history, we must use, contextualize, and compare colonial records with local memory and academic research.</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Who is Missing?</h3>
+            <p>Archives often contain silences. The voices of women, children, ordinary farmers, and those who disagreed with authorities are frequently missing or marginalized in official reports. Reconstructing these missing dimensions requires looking beyond the formal archive to oral histories, material culture, and local community memories.<sup>6</sup></p>
+
+            <!-- DIAGRAM 21-30: MISSING VOICES -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Visible Archive -->
+                        <rect x="50" y="30" width="400" height="40" fill="rgba(47, 79, 79, 0.6)" stroke="var(--badge-primary)"/>
+                        <text x="250" y="55" font-weight="bold">VISIBLE VOICES (OFFICIAL ARCHIVE)</text>
+                        
+                        <!-- Missing Voices -->
+                        <rect x="50" y="80" width="400" height="50" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)" stroke-dasharray="4,4"/>
+                        <text x="250" y="110" font-weight="bold" fill="var(--gold)">MISSING VOICES (SILENCES)</text>
+                        <text x="250" y="122" font-size="7">Women, Children, Non-Combatants, Dissenters</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Visualizing archival silences and the need for supplementary sources.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Oral History & Memory</h3>
+            <p>Oral history is a serious research source that preserves family memories, migration stories, and community events missing from written records. However, memory is not a perfect recording; it changes over time and can be influenced by later events. Effective research requires dating, contextualizing, and cross-checking oral traditions with other independent evidence.<sup>6</sup></p>
+
+            <!-- DIAGRAM 31-40: MEMORY VS EVIDENCE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="100" y="60">EVIDENCE</text>
+                        <text x="180" y="60">+</text>
+                        <text x="250" y="60">INTERPRETATION</text>
+                        <text x="320" y="60">+</text>
+                        <text x="400" y="60">TIME</text>
+                        <path d="M250 80 L250 100" stroke="var(--gold)" marker-end="url(#arrow-79)"/>
+                        <text x="250" y="115" font-weight="bold" fill="var(--gold)">MEMORY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The components of oral memory as historical evidence.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Source Criticism & Corroboration</h3>
+            <p>The core of historical methodology is source criticism—evaluating the author, date, purpose, and bias of every record. Corroboration involves comparing multiple independent sources to establish confidence in a claim. One source is possible evidence; multiple independent sources provide stronger historical certainty.<sup>5</sup></p>
+
+            <!-- DIAGRAM 41-50: FIVE QUESTION TEST -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <circle cx="250" cy="90" r="40" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <text x="250" y="95" font-weight="bold">THE TEST</text>
+                        
+                        <text x="250" y="30" font-weight="bold">WHO?</text>
+                        <text x="400" y="70" font-weight="bold">WHEN?</text>
+                        <text x="350" y="150" font-weight="bold">WHY?</text>
+                        <text x="150" y="150" font-weight="bold">WHAT?</text>
+                        <text x="100" y="70" font-weight="bold">HOW?</text>
+                        
+                        <path d="M250 70 L250 40" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M290 90 L380 75" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M275 120 L330 140" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M225 120 L170 140" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M210 90 L120 75" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The Five-Question Test for evaluating historical sources.”</p>
+            </div>
+
+            <table class="source-matrix">
+                <thead>
+                    <tr>
+                        <th>Source Type</th>
+                        <th>Strength</th>
+                        <th>Limitation</th>
+                        <th>Best Use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Colonial Report</td>
+                        <td>Precise dates/events</td>
+                        <td>Administrative bias</td>
+                        <td>Reconstructing state actions</td>
+                    </tr>
+                    <tr>
+                        <td>Gazetteer</td>
+                        <td>Detailed geography</td>
+                        <td>Static categories</td>
+                        <td>Locating settlements/clans</td>
+                    </tr>
+                    <tr>
+                        <td>Oral History</td>
+                        <td>Lived experience</td>
+                        <td>Memory shifts</td>
+                        <td>Internal community dynamics</td>
+                    </tr>
+                    <tr>
+                        <td>Academic Study</td>
+                        <td>Rigorous analysis</td>
+                        <td>Interpretive framework</td>
+                        <td>Synthesizing evidence</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">AI & Digital Archives</h3>
+            <p>Modern research utilizes digital archives and AI tools for OCR, transcription, and cross-referencing. However, AI can hallucinate and reproduce colonial biases without context. Responsible research treats AI as an assistant, not an authority, requiring human review and verification of original archival records.</p>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>While researching Orakzai history, I learned that finding a record is only the beginning. A document can open a door, but we still have to ask who built the door, why it was built, and what lies beyond it. Colonial records preserve important traces of the past, but they were written from particular positions of power. Local memories preserve another dimension—family stories, names, and places that may never have entered an official archive. Neither source should automatically silence the other. The responsibility is to compare them, to question them, and to be honest about what remains unknown. For me, historical research is not the art of making every gap disappear; it is the discipline of knowing where the evidence ends.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“THE RECORD IS NOT THE PAST. IT IS A TRACE OF THE PAST.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Methodological Principle</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            79
+        </footer>
+    </div>
+</body>
+</html>
