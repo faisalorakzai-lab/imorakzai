@@ -518,5 +518,9 @@
       <navLabel><text>AI &amp; Government</text></navLabel>
       <content src="../pages/page-128-ai-and-government.html"/>
     </navPoint>
+    <navPoint id="navPoint-129" playOrder="128">
+      <navLabel><text>AI Governance</text></navLabel>
+      <content src="../pages/page-129-ai-governance.html"/>
+    </navPoint>
   </navMap>
 </ncx>
