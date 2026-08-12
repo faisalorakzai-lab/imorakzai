@@ -1328,3 +1328,16 @@ The content is grounded in 2026 reports from the Ministry of IT & Telecommunicat
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official MOITT, GIKI, LUMS, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 155: Global Pakistani Talent
+
+Page 155 analyzes the Pakistani diaspora as a strategic human capital asset. It highlights the achievements of global Pakistani professionals in 2026, including the identification of 10 Pakistani immigrants as founders of billion-dollar startups in the US. The page frames the transition from "Brain Drain" to "Brain Circulation," emphasizing knowledge exchange, virtual mentorship, and diaspora investment. It also details the record $1.76 billion in freelance earnings for FY26 and the improvement of Pakistan's global digital position by 27 places.
+
+The content is grounded in 2026 reports from the National Foundation for American Policy (NFAP), the State Bank of Pakistan (SBP), the Ministry of Planning, and the Overseas Pakistanis Convention (OPC). It discusses the "Digital Diaspora," the Telemedicine Backup model for healthcare engagement, and the role of global research networks. The Orakzai context is integrated to show how valley natives abroad provide virtual mentorship and regional investment, creating a direct link between global expertise and local tribal opportunity.
+
+- **Research Sources**: Detailed bibliographic records and a Global Pakistani Talent evidence matrix are available in `book/sources/page-155-global-pakistani-talent.md`; research notes and methodological findings are in `book/sources/page-155-research-notes.md`.
+- **Visual Elements**: 120 original responsive SVG elements: one premium Global Talent Hero and 119 numbered accessible logic-atlas cards. The atlas covers brain circulation models, professional hubs (Gulf, West, East), digital export pathways, and the relationship between virtual mentorship, research networks, and national economic growth.
+- **Content**: Evidence-led narrative connects Page 154 to the broader global human capital potential of the nation. It frames the diaspora as the primary bridge to international markets and sovereign innovation.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official NFAP, SBP, PID, and OPC reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

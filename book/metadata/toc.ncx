@@ -622,5 +622,9 @@
       <navLabel><text>The Future of Pakistani Entrepreneurs</text></navLabel>
       <content src="../pages/page-154-the-future-of-pakistani-entrepreneurs.html"/>
     </navPoint>
+    <navPoint id="navPoint-155" playOrder="154">
+      <navLabel><text>Global Pakistani Talent</text></navLabel>
+      <content src="../pages/page-155-global-pakistani-talent.html"/>
+    </navPoint>
   </navMap>
 </ncx>
