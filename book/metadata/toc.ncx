@@ -526,5 +526,9 @@
       <navLabel><text>The Future of AI</text></navLabel>
       <content src="../pages/page-130-the-future-of-artificial-intelligence.html"/>
     </navPoint>
+    <navPoint id="navPoint-131" playOrder="130">
+      <navLabel><text>Blockchain Technology</text></navLabel>
+      <content src="../pages/page-131-blockchain-technology.html"/>
+    </navPoint>
   </navMap>
 </ncx>
