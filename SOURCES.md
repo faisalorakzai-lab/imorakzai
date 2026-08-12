@@ -1211,3 +1211,16 @@ The content is grounded in 2026 reports from NADRA, the Digital Nation Act 2025,
 - **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 146: Digital Governance
+
+Page 146 examines the transformation of the state through the lens of digital governance, focusing on the legal, institutional, and technological frameworks established under the Digital Nation Pakistan Act 2025. It analyzes the digital governance stack, from citizen-centered services and life-event models to the foundational role of Digital Public Infrastructure (DPI). The page highlights Pakistan's 2026 milestones, including the digitalization of 70% of cabinet operations and the active role of the Pakistan Digital Authority (PDA) in shaping the National Digital Masterplan.
+
+The content is grounded in 2026 reports from the PDA, Business Recorder, and the World Bank. It discusses the transition from "e-government" to a broader digital state transformation, emphasizing interoperability, data exchange, and zero-trust security principles. The Orakzai context is integrated to illustrate how digital governance bridges the geographic divide, providing remote tribal areas with secure access to foundational public services through mobile-first platforms and unified portals.
+
+- **Research Sources**: Detailed bibliographic records and a digital governance evidence matrix are available in `book/sources/page-146-digital-governance.md`; research notes and methodological findings are in `book/sources/page-146-research-notes.md`.
+- **Visual Elements**: 113 original responsive SVG elements: one premium Digital Governance Hero and 112 numbered accessible logic-atlas cards. The atlas covers the governance stack, DPI rails, life-event service models, and sectoral transformation frameworks.
+- **Content**: Evidence-led narrative connects Page 145 to the broader digital state transformation. It frames digital governance as a tool for institutional accountability, transparency, and public trust.
+- **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

@@ -586,5 +586,9 @@
       <navLabel><text>Digital Identity</text></navLabel>
       <content src="../pages/page-145-digital-identity.html"/>
     </navPoint>
+    <navPoint id="navPoint-146" playOrder="145">
+      <navLabel><text>Digital Governance</text></navLabel>
+      <content src="../pages/page-146-digital-governance.html"/>
+    </navPoint>
   </navMap>
 </ncx>
