@@ -558,5 +558,9 @@
       <navLabel><text>Digital Ownership</text></navLabel>
       <content src="../pages/page-138-digital-ownership.html"/>
     </navPoint>
+    <navPoint id="navPoint-139" playOrder="138">
+      <navLabel><text>Blockchain Infrastructure</text></navLabel>
+      <content src="../pages/page-139-blockchain-infrastructure.html"/>
+    </navPoint>
   </navMap>
 </ncx>
