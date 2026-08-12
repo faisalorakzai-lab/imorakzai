@@ -1315,3 +1315,16 @@ The content is grounded in 2026 reports from Worldometers, the Press Information
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official PID, Worldometers, UNFPA, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 154: The Future of Pakistani Entrepreneurs
+
+Page 154 explores the strategic evolution of Pakistani entrepreneurship in 2026, focusing on the shift from talent exports to product exports and IP ownership. It highlights the deep-tech leap in semiconductor design through the Rs 4.5 billion INSPIRE program, the rise of AI-native startups using agentic workflows, and the transition toward globally competitive software products and platforms.
+
+The content is grounded in 2026 reports from the Ministry of IT & Telecommunication (MOITT), GIKI, LUMS, PwC, and industry analysts. It discusses the "Build in Pakistan → Operate Globally" model, the synergy between human strategy and AI productivity, and the importance of regulatory certainty for high-barrier industries. The Orakzai context is integrated to show how specialized technical training and digital infrastructure enable youth in remote valleys to participate in the global deep-tech value chain.
+
+- **Research Sources**: Detailed bibliographic records and a Future Entrepreneurship evidence matrix are available in `book/sources/page-154-the-future-of-pakistani-entrepreneurs.md`; research notes and methodological findings are in `book/sources/page-154-research-notes.md`.
+- **Visual Elements**: 111 original responsive SVG elements: one premium Global Founder Hero and 110 numbered accessible logic-atlas cards. The atlas covers the ownership ladder, deep-tech pathways (semiconductors, AI), product export models, and the relationship between digital trust, IP, and national economic sovereignty.
+- **Content**: Evidence-led narrative connects Page 153 to the long-term strategic goals of the nation's entrepreneurial class. It frames the future founder as a builder-owner of global core technology.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official MOITT, GIKI, LUMS, and industry reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
