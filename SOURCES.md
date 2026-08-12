@@ -423,3 +423,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the pre-British historical timeline, the land-as-home model, the name evidence ladder, tribal organization hierarchies, and the jirga deliberation workflow.
 - **Content**: Original historical synthesis by Faisal Orakzai, supported by Lucas White King's monograph (1900), Mughal frontier studies (Qadir, 2013), and regional ethnography (Stewart, 2007).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 72: British Expansion in the Frontier
+- **Research Sources**: Detailed citations are available in `book/sources/page-072-british-expansion-frontier.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the expansion process, the direct-vs-indirect control model, the political agent hierarchy, the connectivity-control dual role, and the military expedition workflow.
+- **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on the Tirah Campaign (Agha, 2021), frontier administration (Tripodi, 2013), and contemporary military records (Hutchinson, 1898).
+- **License**: Content is proprietary to the author; visual design is project-specific.

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - British Expansion in the Frontier</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-direct: #2F4F4F;
+            --badge-indirect: #4682B4;
+            --badge-autonomy: #123B2A;
+            --badge-negotiation: #B59654;
+            --badge-resistance: #8B0000;
+            --badge-agreement: #6B4F3A;
+            --badge-jurisdiction: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-direct { background: var(--badge-direct); }
+        .badge-indirect { background: var(--badge-indirect); }
+        .badge-autonomy { background: var(--badge-autonomy); }
+        .badge-negotiation { background: var(--badge-negotiation); color: var(--charcoal); }
+        .badge-resistance { background: var(--badge-resistance); }
+        .badge-agreement { background: var(--badge-agreement); }
+        .badge-jurisdiction { background: var(--badge-jurisdiction); }
+        
+        .policy-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .policy-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page british-expansion-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 72</h3>
+            <h2>BRITISH EXPANSION IN THE FRONTIER</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“When an empire reached the mountains, authority became a question of distance, negotiation and resistance.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">British expansion into the frontier was not a single event. It was a process. Political boundaries changed. New administrations appeared. Roads and military posts extended state power. Political agents negotiated with tribal leaders. Military expeditions followed disputes and resistance. Some communities accepted agreements. Others resisted. And throughout the process, the mountains remained a powerful constraint on imperial authority. For Orakzai communities, the arrival of British power did not simply replace one government with another. It changed the relationship between land, tribe, administration, security and political authority. The frontier became increasingly documented, regulated and contested. A new political order was taking shape.</p>
+
+            <!-- HERO: FRONTIER LANDSCAPE HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Layered Mountain Ranges -->
+                        <path d="M0 320 L120 180 L280 260 L460 140 L600 320 Z" fill="rgba(18, 59, 42, 0.15)"/>
+                        <path d="M0 350 L180 230 L340 290 L500 200 L600 350 Z" fill="rgba(18, 59, 42, 0.25)"/>
+                        
+                        <!-- Valley Plane -->
+                        <rect x="0" y="320" width="600" height="80" fill="rgba(23, 26, 23, 0.5)"/>
+                        
+                        <!-- Distant Colonial Outpost (Fort) -->
+                        <rect x="400" y="180" width="40" height="20" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-indirect)"/>
+                        <rect x="415" y="160" width="10" height="20" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-indirect)"/>
+                        
+                        <!-- Road Entering Mountains -->
+                        <path d="M600 380 Q 400 360, 300 330 L 150 300" fill="none" stroke="var(--gold)" stroke-width="1.5" opacity="0.6"/>
+                        
+                        <!-- Small Local Settlement Silhouettes -->
+                        <rect x="100" y="290" width="30" height="15" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <rect x="140" y="285" width="20" height="10" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        
+                        <!-- Subtle Archival Map Overlay -->
+                        <circle cx="300" cy="200" r="180" fill="none" stroke="var(--gold)" stroke-width="0.3" stroke-dasharray="2,4" opacity="0.2"/>
+                        <line x1="120" y1="200" x2="480" y2="200" stroke="var(--gold)" stroke-width="0.2" opacity="0.2"/>
+                        <line x1="300" y1="20" x2="300" y2="380" stroke="var(--gold)" stroke-width="0.2" opacity="0.2"/>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">BRITISH EXPANSION IN THE FRONTIER</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“When an empire reached the mountains, authority became a question of distance.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A conceptual model of the imperial frontier: where administrative roads meet the mountain homeland.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What was “The Frontier”?</h3>
+            <p>The concept of the "frontier" was perceived differently depending on the observer. For British administrators, it was a security boundary and an administrative edge—a political buffer designed to protect the plains of Punjab and manage trade routes. For the Orakzai and neighboring tribes, the same terrain was their homeland (*Watan*), a network of ancestral villages, grazing lands, and defensive valleys. This divergence in perspective defined the nature of colonial-tribal interaction.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <!-- British Perspective -->
+                        <g transform="translate(120, 75)">
+                            <circle cx="0" cy="0" r="50" fill="rgba(70, 130, 180, 0.1)" stroke="var(--badge-indirect)"/>
+                            <text x="0" y="-15" font-weight="bold">BRITISH FRONTIER</text>
+                            <text x="0" y="0" font-size="6">Security Boundary</text>
+                            <text x="0" y="10" font-size="6">Administrative Edge</text>
+                            <text x="0" y="20" font-size="6">Political Buffer</text>
+                        </g>
+                        
+                        <text x="250" y="75" font-size="14" font-weight="bold">≠</text>
+                        
+                        <!-- Local Perspective -->
+                        <g transform="translate(380, 75)">
+                            <circle cx="0" cy="0" r="50" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                            <text x="0" y="-15" font-weight="bold">LOCAL HOMELAND</text>
+                            <text x="0" y="0" font-size="6">Ancestral Territory</text>
+                            <text x="0" y="10" font-size="6">Village Network</text>
+                            <text x="0" y="20" font-size="6">Kinship Landscape</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conflicting definitions of frontier territory between the state and the community.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-direct">Direct Administration</span>
+                <span class="badge badge-indirect">Indirect Rule</span>
+                <span class="badge badge-autonomy">Tribal Autonomy</span>
+                <span class="badge badge-negotiation">Political Negotiation</span>
+                <span class="badge badge-resistance">Military Pressure</span>
+                <span class="badge badge-agreement">Frontier Agreements</span>
+                <span class="badge badge-jurisdiction">Colonial Jurisdiction</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Annexation of Punjab (1849)</h3>
+            <p>The formal arrival of British power on the Orakzai border followed the 1849 annexation of Punjab. After the fall of the Sikh Empire, the British inherited the frontier districts, including Kohat and Peshawar. This did not mean immediate control over the tribal hills; instead, it created a new "Close Border Policy" where the British attempted to manage the frontier from the plains, leading to a long period of negotiation and friction with the mountain tribes.<sup>4</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="70" y="60">SIKH EMPIRE</text>
+                        <path d="M110 60 L150 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <text x="210" y="60">2nd ANGLO-SIKH WAR</text>
+                        <path d="M270 60 L310 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <rect x="310" y="40" width="140" height="40" rx="2" fill="rgba(70, 130, 180, 0.15)" stroke="var(--badge-indirect)"/>
+                        <text x="380" y="55" font-weight="bold">ANNEXATION OF PUNJAB</text>
+                        <text x="380" y="67" font-size="6">(New Frontier Context, 1849)</text>
+                        
+                        <defs>
+                            <marker id="arrow-72" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The political transition leading to British arrival on the Orakzai frontier.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Direct vs Indirect Control</h3>
+            <p>British frontier policy was characterized by a distinction between direct and indirect control. In the settled districts, the state established courts, taxation, and regular bureaucracy. In the tribal hills, however, the British employed "Indirect Frontier Management," relying on Political Agents, tribal intermediaries (*Maliks*), and allowances to maintain order and secure roads. This system allowed for a degree of tribal autonomy while exerting state influence through negotiation and patronage.<sup>2</sup></p>
+
+            <div class="policy-panel">
+                <div class="policy-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Direct Administration</h4>
+                    <p style="font-size: 0.8rem;">Regular officials, courts, taxation, and policing in the settled plains (e.g., Kohat district).</p>
+                </div>
+                <div class="policy-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Indirect Management</h4>
+                    <p style="font-size: 0.8rem;">Political Agents, subsidies, and tribal Jirgas in the mountain territories (e.g., Orakzai hills).</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Role of Political Agents</h3>
+            <p>The Political Agent served as the primary link between the colonial state and the tribes. Their role was multifaceted: they were negotiators, intelligence gatherers, and mediators who implemented frontier policy through personal relationships with tribal leaders. This administrative structure was not an indigenous institution but a colonial tool designed to project power into autonomous zones without the cost of full annexation.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="30" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-indirect)"/>
+                        <text x="250" y="30" font-weight="bold">COLONIAL STATE</text>
+                        
+                        <path d="M250 40 L250 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <rect x="180" y="60" width="140" height="30" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="80" font-weight="bold">POLITICAL AGENT</text>
+                        
+                        <path d="M250 90 L250 110" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <rect x="200" y="110" width="100" height="30" fill="rgba(18, 59, 42, 0.2)" stroke="var(--forest)"/>
+                        <text x="250" y="130" font-weight="bold">TRIBAL LEADERS</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The hierarchy of colonial frontier administration and negotiation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Infrastructure: Roads and Forts</h3>
+            <p>The construction of roads and frontier posts was a key element of British expansion. Infrastructure served a dual role: it provided connectivity for trade and movement, but more importantly, it allowed for military access and administrative control. Key forts on the Samana Range, such as Fort Lockhart and Fort Gulistan, served as strategic eyes overlooking the Orakzai valleys, symbolizing the physical extension of imperial authority into the hills.<sup>3</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="210" y="60" width="80" height="30" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="250" y="80" font-weight="bold">ROAD / FORT</text>
+                        
+                        <path d="M210 75 L150 75" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        <g transform="translate(80, 75)">
+                            <text x="0" y="-10" font-weight="bold">CONNECTIVITY</text>
+                            <text x="0" y="5">Trade &amp; Movement</text>
+                        </g>
+                        
+                        <path d="M290 75 L350 75" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        <g transform="translate(420, 75)">
+                            <text x="0" y="-10" font-weight="bold">CONTROL</text>
+                            <text x="0" y="5">Military Access</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The dual strategic role of frontier infrastructure.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Military Expeditions and Resistance</h3>
+            <p>When negotiations failed or tribal raids occurred, the British launched punitive military expeditions. These were designed to enforce collective responsibility and punish entire tribal sections for the actions of individuals. The Orakzai territory was the object of several major campaigns, most notably the 1891 Miranzai Expedition and the massive 1897 Tirah Expedition. These events were characterized by fierce tribal resistance and a massive concentration of colonial troops, leaving a lasting impact on tribal memory and regional stability.<sup>1</sup> <sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">DISPUTE</text>
+                        <path d="M80 60 L120 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <text x="160" y="60">RESISTANCE</text>
+                        <path d="M200 60 L240 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        
+                        <rect x="240" y="40" width="100" height="40" rx="2" fill="rgba(139, 0, 0, 0.15)" stroke="var(--badge-resistance)"/>
+                        <text x="290" y="60" font-weight="bold">EXPEDITION</text>
+                        <text x="290" y="72" font-size="6">(Military Response)</text>
+                        
+                        <path d="M340 60 L380 60" stroke="var(--gray)" marker-end="url(#arrow-72)"/>
+                        <text x="440" y="60">SETTLEMENT / CHANGE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The cycle of dispute, resistance, and military intervention on the frontier.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The history of the British frontier is often told as a story of maps and military strategy. But for those who lived in the Orakzai hills, it was a story of survival. The expansion of empire brought new technologies and new laws, but it also brought a profound challenge to the ancient autonomy of the tribes. Our ancestors did not simply watch the frontier take shape; they negotiated with it, fought against it, and ultimately adapted to it. The forts on the Samana Range still stand as reminders of a time when the mountains were the site of a great political struggle—a struggle that shaped the modern world we live in today.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“THE MOUNTAINS REMAINED THE FINAL WORD.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            72
+        </footer>
+    </div>
+</body>
+</html>

@@ -268,7 +268,7 @@
     </navPoint>
     <navPoint id="navPoint-66" playOrder="65">
       <navLabel><text>The Role of Elders</text></navLabel>
-      <content src="../pages/page-065-oral-traditions-storytelling.html"/>
+      <content src="../pages/page-066-the-role-of-elders.html"/>
     </navPoint>
     <navPoint id="navPoint-67" playOrder="66">
       <navLabel><text>The Role of Women</text></navLabel>
@@ -289,6 +289,10 @@
     <navPoint id="navPoint-71" playOrder="70">
       <navLabel><text>Orakzai Before British Rule</text></navLabel>
       <content src="../pages/page-071-orakzai-before-british-rule.html"/>
+    </navPoint>
+    <navPoint id="navPoint-72" playOrder="71">
+      <navLabel><text>British Expansion in the Frontier</text></navLabel>
+      <content src="../pages/page-072-british-expansion-frontier.html"/>
     </navPoint>
   </navMap>
 </ncx>
