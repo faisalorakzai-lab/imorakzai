@@ -454,5 +454,9 @@
       <navLabel><text>The Rise of the Internet</text></navLabel>
       <content src="../pages/page-112-the-rise-of-the-internet.html"/>
     </navPoint>
+    <navPoint id="navPoint-113" playOrder="112">
+      <navLabel><text>Pakistan’s Digital Economy</text></navLabel>
+      <content src="../pages/page-113-pakistans-digital-economy.html"/>
+    </navPoint>
   </navMap>
 </ncx>

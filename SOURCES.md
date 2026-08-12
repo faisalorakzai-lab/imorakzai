@@ -782,3 +782,16 @@ The content is grounded in authoritative historical and technical records from t
 - **Evidence Boundary**: All historical claims are supported by institutional records. No single individual is credited with inventing the internet. Statistics for Pakistan reflect official PTA data for 2025.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 113 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 113: Pakistan’s Digital Economy
+
+Page 113 explores the structure, growth, and challenges of Pakistan's digital economy, focusing on IT services, exports, freelancing, fintech, e-commerce, and digital government. It highlights the US$3.4 billion IT services export milestone reported in the 2025–26 Economic Survey and discusses the foundation of digital public infrastructure, including the Raast instant payment system. The page also addresses the digital divide and the potential for Orakzai communities to participate in the global digital market.
+
+The content is grounded in official government statistics from the Ministry of Finance, the State Bank of Pakistan (SBP), and the Pakistan Telecommunication Authority (PTA). It emphasizes the distinction between the IT industry and the broader digitally enabled economy and discusses the role of skills, infrastructure, and trust in driving inclusive growth.
+
+- **Research Sources**: Detailed bibliographic records and digital economy evidence matrices are available in `book/sources/page-113-pakistans-digital-economy.md`; research notes and methodological findings are in `book/sources/page-113-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Digital Economy Hero and 100 numbered accessible logic-atlas cards. The atlas covers digital economy definitions, IT export data, freelance ecosystems, fintech pillars, e-commerce logistics, AI potential, and Orakzai's digital pathways.
+- **Content**: Evidence-led narrative connects Pages 68, 69, 87, 88, 89, 90, 96, 97, 98, 99, 103, 104, 105, 110, 111, and 112. It provides a strategic framework for understanding the digital economy as a driver of opportunity and inclusion.
+- **Evidence Boundary**: Statistics reflect the reporting periods of FY 2024-25 and FY 2025-26. No promotional claims or exaggerated achievements are made. Regional adoption is contextualized within national infrastructure constraints.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 114 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
