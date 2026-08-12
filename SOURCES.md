@@ -453,3 +453,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the frontier politics hero, the definition model, pre-colonial distributed authority, the "One Tribe ≠ One Position" principle, the Jirga-State channel, and the Malik intermediary system.
 - **Content**: Original political analysis by Faisal Orakzai, supported by ethnographic research from Akbar S. Ahmed (1981), academic studies on the Jirga system (Alam, 2021), and official administrative records of the Orakzai Agency establishment (1973).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 77: The Durand Line
+- **Research Sources**: Detailed citations are available in `book/sources/page-077-the-durand-line.md`.
+- **Visual Elements**: 70+ custom SVG logic diagrams covering the Durand Line hero, the 1893 agreement architecture, the Durand Commission survey, the agreement vs. demarcation distinction, mountain/pass geography, Pashtun border communities, the 1919/1921 treaties, and the contemporary border fencing impact.
+- **Content**: Original historical and geopolitical analysis by Faisal Orakzai, supported by primary treaty texts (1893, 1919, 1921), ethnographic research by Akbar S. Ahmed (1980), and contemporary studies on border management (Khan, 2025).
+- **License**: Content is proprietary to the author; visual design is project-specific.

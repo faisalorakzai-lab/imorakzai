@@ -310,5 +310,9 @@
       <navLabel><text>Frontier Politics</text></navLabel>
       <content src="../pages/page-076-frontier-politics.html"/>
     </navPoint>
+    <navPoint id="navPoint-77" playOrder="76">
+      <navLabel><text>The Durand Line</text></navLabel>
+      <content src="../pages/page-077-the-durand-line.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -6,8 +6,8 @@
     <dc:creator>Faisal Orakzai</dc:creator>
     <dc:language>en</dc:language>
     <dc:publisher>Faisal Orakzai</dc:publisher>
-    <dc:date>2026-08-11</dc:date>
-    <meta property="dcterms:modified">2026-08-11T16:00:00Z</meta>
+    <dc:date>2026-08-12</dc:date>
+    <meta property="dcterms:modified">2026-08-12T02:30:00Z</meta>
   </metadata>
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -88,6 +88,7 @@
     <item id="page-074" href="../pages/page-074-orakzai-british-empire.html" media-type="application/xhtml+xml"/>
     <item id="page-075" href="../pages/page-075-tribal-resistance.html" media-type="application/xhtml+xml"/>
     <item id="page-076" href="../pages/page-076-frontier-politics.html" media-type="application/xhtml+xml"/>
+    <item id="page-077" href="../pages/page-077-the-durand-line.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -167,5 +168,6 @@
     <itemref idref="page-074"/>
     <itemref idref="page-075"/>
     <itemref idref="page-076"/>
+    <itemref idref="page-077"/>
   </spine>
 </package>
