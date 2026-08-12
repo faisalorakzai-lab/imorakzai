@@ -170,6 +170,7 @@
     <item id="page-156" href="../pages/page-156-diaspora-investment.html" media-type="application/xhtml+xml"/>
     <item id="page-157" href="../pages/page-157-technology-and-real-estate.html" media-type="application/xhtml+xml"/>
     <item id="page-158" href="../pages/page-158-technology-and-financial-markets.html" media-type="application/xhtml+xml"/>
+    <item id="page-159" href="../pages/page-159-technology-and-human-development.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -331,5 +332,6 @@
     <itemref idref="page-156"/>
     <itemref idref="page-157"/>
     <itemref idref="page-158"/>
+    <itemref idref="page-159"/>
   </spine>
 </package>
