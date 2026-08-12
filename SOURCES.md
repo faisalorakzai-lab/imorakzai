@@ -1406,3 +1406,16 @@ The content is grounded in 2026 reports from industry analysts (Faisal Jeddy, Ab
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, PSX, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 161: The Modern Orakzai Entrepreneur
+
+Page 161 explores the profile of the modern Orakzai entrepreneur in 2026, focusing on the fusion of tribal identity with global digital participation. It highlights the maturity of Pakistan's startup ecosystem, which grew by 62.2% between April 2025 and April 2026, reaching a total of 4.9 million startups and digital SMEs. The page uses the emergence of OkzByte Hub and Orakzai Bond (OKBOND) as primary examples of this transformation, showcasing how tribal youth are leading in high-tech fields like blockchain and AI.
+
+The content is grounded in 2026 reports from industry analysts (Azfar, StartupBlink) and project records from Faisal Orakzai. It discusses the "Orakzai Entrepreneurial Engine," the transition from traditional commerce to digital/blockchain-based ventures, and the role of institutional support from the Khyber Pakhtunkhwa Information Technology Board (KPITB). The page features Faisal Orakzai as a case study for the 20-year-old "Digital Native" founder of 2026, demonstrating how technology acts as a bridge to global dignity and regional prosperity.
+
+- **Research Sources**: Detailed bibliographic records and a Modern Orakzai Entrepreneur evidence matrix are available in `book/sources/page-161-the-modern-orakzai-entrepreneur.md`; research notes and methodological findings are in `book/sources/research-notes-page-161.md`.
+- **Visual Elements**: 115 original responsive SVG elements: one premium Orakzai Entrepreneur Hero and 114 numbered accessible logic-atlas cards. The atlas covers startup growth catalysts, blockchain initiatives (OKBOND, DeFi), digital toolkit components (AI, Cloud), and the relationship between heritage, education, and global scale.
+- **Content**: Evidence-led narrative connects Page 160 to the individual agency of the digital nation. It frames entrepreneurship as the ultimate expression of tribal resilience in the digital age.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official KPITB, ecosystem reports, and technical status reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

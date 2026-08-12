@@ -646,5 +646,9 @@
       <navLabel><text>Pakistan in the Global Digital Economy</text></navLabel>
       <content src="../pages/page-160-pakistan-in-the-global-digital-economy.html"/>
     </navPoint>
+    <navPoint id="navPoint-161" playOrder="160">
+      <navLabel><text>The Modern Orakzai Entrepreneur</text></navLabel>
+      <content src="../pages/page-161-the-modern-orakzai-entrepreneur.html"/>
+    </navPoint>
   </navMap>
 </ncx>
