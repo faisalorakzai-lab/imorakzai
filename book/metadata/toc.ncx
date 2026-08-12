@@ -614,5 +614,9 @@
       <navLabel><text>Technology & Economic Development</text></navLabel>
       <content src="../pages/page-152-technology-and-economic-development.html"/>
     </navPoint>
+    <navPoint id="navPoint-153" playOrder="152">
+      <navLabel><text>Youth & Entrepreneurship</text></navLabel>
+      <content src="../pages/page-153-youth-and-entrepreneurship.html"/>
+    </navPoint>
   </navMap>
 </ncx>

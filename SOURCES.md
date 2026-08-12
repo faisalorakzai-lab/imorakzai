@@ -1302,3 +1302,16 @@ The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), t
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, MOITT, ITU, and industry reports from fiscal year 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 153: Youth & Entrepreneurship
+
+Page 153 examines Pakistan's "Youth Bulge" and its transformation into an entrepreneurial engine. It details the demographic opportunity of 2026, with a population of 259.3 million (64% under 30), and the significant growth of the startup ecosystem (+62.2% in FY25-26). The page highlights the role of the Prime Minister's Digital Youth Hub, which reached 800,000 active users by mid-2026, and the record $1 billion milestone in freelance earnings.
+
+The content is grounded in 2026 reports from Worldometers, the Press Information Department (PID), industry analysts, and the UNFPA. It discusses the shift from individual freelancing to building global products and agencies, the rise of AI and blockchain entrepreneurship, and the democratization of enterprise through digital platforms. The Orakzai context is integrated to illustrate how digital hubs bridge the geographic divide for remote tribal youth, enabling them to participate in the national and global economy.
+
+- **Research Sources**: Detailed bibliographic records and a Youth & Entrepreneurship evidence matrix are available in `book/sources/page-153-youth-and-entrepreneurship.md`; research notes and methodological findings are in `book/sources/page-153-research-notes.md`.
+- **Visual Elements**: 135 original responsive SVG elements: one premium Youth-Enterprise Hero and 134 numbered accessible logic-atlas cards. The atlas covers youth opportunity assets, the path from population to productivity, startup ecosystem models, and the relationship between digital literacy, technical skills, and global business development.
+- **Content**: Evidence-led narrative connects Page 152 to the broader human capital potential of the nation. It frames youth entrepreneurship as the primary pathway to national economic destiny.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official PID, Worldometers, UNFPA, and industry reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
