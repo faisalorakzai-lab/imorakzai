@@ -538,5 +538,9 @@
       <navLabel><text>Bitcoin &amp; Digital Money</text></navLabel>
       <content src="../pages/page-133-bitcoin-and-digital-money.html"/>
     </navPoint>
+    <navPoint id="navPoint-134" playOrder="133">
+      <navLabel><text>Ethereum &amp; Smart Contracts</text></navLabel>
+      <content src="../pages/page-134-ethereum-smart-contracts.html"/>
+    </navPoint>
   </navMap>
 </ncx>
