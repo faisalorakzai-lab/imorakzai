@@ -530,5 +530,9 @@
       <navLabel><text>Blockchain Technology</text></navLabel>
       <content src="../pages/page-131-blockchain-technology.html"/>
     </navPoint>
+    <navPoint id="navPoint-132" playOrder="131">
+      <navLabel><text>Understanding Decentralization</text></navLabel>
+      <content src="../pages/page-132-understanding-decentralization.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -1029,3 +1029,16 @@ The content is grounded in 2026 reports from the Parliament of Pakistan, PVARA, 
 - **Evidence Boundary**: Statistics are derived from official legislative, regulatory, and academic reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 132 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 132: Understanding Decentralization
+
+Page 132 examines the concept of decentralization, focusing on its dimensions, metrics, and application in modern digital systems. It analyzes Pakistan's institutional research capacity, highlighting the National Data Governance Policy 2026, the role of the Pakistan Digital Authority (PDA), and research from PIDE and the World Bank on administrative devolution. The page emphasizes that decentralization is not a binary condition but a spectrum that distributes power, decision-making, and infrastructure to ensure national resilience and equity.
+
+The content is grounded in 2026 reports from the Pakistan Digital Authority (PDA), the World Bank, and industry data on blockchain metrics like the Nakamoto Coefficient. It explores the potential for decentralization to provide resilient digital services in remote districts like Orakzai, bridging the gap between centralized standards and local participation. A personal case study of Faisal Orakzai illustrates the generational shift toward building secure, distributed digital systems through a philosophy of "Redistributed Trust."
+
+- **Research Sources**: Detailed bibliographic records and a decentralization evidence matrix are available in `book/sources/page-132-understanding-decentralization.md`; research notes and methodological findings are in `book/sources/page-132-research-notes.md`.
+- **Visual Elements**: 110 original responsive SVG elements: one premium Decentralization Hero and 109 numbered accessible logic-atlas cards. The atlas covers the decentralization spectrum, infrastructure distribution models, consensus rules, and economic concentration metrics.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-131. It frames decentralization as a tool for national resilience and structural participation.
+- **Evidence Boundary**: Statistics are derived from official institutional, industry, and academic reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 133 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
