@@ -873,3 +873,16 @@ The content is grounded in international standards from NIST and official data f
 - **Evidence Boundary**: Statistics and policy statuses reflect verified records for the 2025–2026 period. Faisal Orakzai is presented as ONE personal case study, not a representation of the entire population. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 120 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 120: The Future of Computing
+
+Page 120 provides a comprehensive technical and conceptual overview of the future of computing, moving from classical von Neumann architectures to specialized compute (GPUs, NPUs), edge computing, and quantum systems. It details the evolution of human-computer interaction (HCI), the rise of agentic AI, and emerging research in neuromorphic and photonic computing. The page emphasizes that the future is not a single machine but an ecosystem of interconnected systems.
+
+The content is grounded in international standards from NIST (Post-Quantum Cryptography) and official data from Pakistan's National Center of Artificial Intelligence (NCAI). It features a personal case study of Faisal Orakzai to illustrate a builder's vision for integrated digital systems, bridging geographic distances through advanced computing. The page also addresses the "Computing Divide" and the importance of green computing for a sustainable digital future.
+
+- **Research Sources**: Detailed bibliographic records and a technology evidence matrix are available in `book/sources/page-120-the-future-of-computing.md`; research notes and methodological findings are in `book/sources/page-120-research-notes.md`.
+- **Visual Elements**: 121 original responsive SVG elements: one premium Future Computing Hero and 120 numbered accessible logic-atlas cards. The atlas covers specialized compute logic, quantum gates, AI agent loops, robotics architectures, and Orakzai's contribution pathways.
+- **Content**: Evidence-led narrative connects Pages 88, 90, 98, 103, 111, 112, 113, 114, 116, 117, 118, and 119. It frames future computing as a continuum of innovation that creates global opportunities for local identities.
+- **Evidence Boundary**: Technologies are explicitly classified as [CURRENT], [EMERGING], [RESEARCH], or [SPECULATIVE]. Faisal Orakzai is presented as ONE personal case study, with documented interests and a conceptual framework. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 121 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
