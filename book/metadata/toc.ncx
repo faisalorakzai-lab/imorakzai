@@ -338,7 +338,7 @@
       <navLabel><text>Tribal Areas &amp; Pakistan</text></navLabel>
       <content src="../pages/page-083-tribal-areas-and-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-84" playOrder="84">
+    <navPoint id="navPoint-84" playOrder="83">
       <navLabel><text>FATA &amp; Its Historical Development</text></navLabel>
       <content src="../pages/page-084-fata-and-its-historical-development.html"/>
     </navPoint>
@@ -353,6 +353,10 @@
     <navPoint id="navPoint-87" playOrder="86">
       <navLabel><text>Education &amp; Development Challenges</text></navLabel>
       <content src="../pages/page-087-education-and-development-challenges.html"/>
+    </navPoint>
+    <navPoint id="navPoint-88" playOrder="87">
+      <navLabel><text>Infrastructure &amp; Connectivity</text></navLabel>
+      <content src="../pages/page-088-infrastructure-and-connectivity.html"/>
     </navPoint>
   </navMap>
 </ncx>

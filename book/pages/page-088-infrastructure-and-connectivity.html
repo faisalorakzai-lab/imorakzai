@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Infrastructure & Connectivity</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-road: #8B4513;
+            --accent-water: #2E8B57;
+            --accent-energy: #DAA520;
+            --accent-digital: #4682B4;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .status-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.8rem;
+        }
+        .status-table th, .status-table td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        .status-table th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .badge {
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-allocated { background: var(--earth); }
+        .badge-design { background: var(--forest); }
+        .badge-rehab { background: var(--gray); }
+        
+        .infra-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .infra-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+        }
+        .infra-title {
+            color: var(--gold);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(181, 150, 84, 0.2);
+            padding-bottom: 0.3rem;
+        }
+        .infra-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .infra-list li {
+            margin-bottom: 0.3rem;
+            padding-left: 0.8rem;
+            position: relative;
+        }
+        .infra-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page infrastructure-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 250 Q400 200 800 250 M0 750 Q400 800 800 750" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" stroke-dasharray="15,5" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 88</h3>
+            <h2>INFRASTRUCTURE & CONNECTIVITY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Building the connections between people, places and opportunity.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">An infrastructure map can tell a story that a political map cannot. A road reveals where people travel. A bridge reveals where geography once created a barrier. An electricity line reveals where modern life has reached. A water system reveals how communities manage one of the most basic requirements of life. And a mobile signal can connect a mountain settlement to a person thousands of kilometres away. For Orakzai, infrastructure has always been connected to geography. Mountains create distance. Distance creates cost. Cost affects access. And access shapes opportunity. The story of infrastructure is therefore also a story of connection—connecting villages to towns, students to schools, patients to healthcare, farmers to markets, families to one another, and Orakzai to the wider world.</p>
+
+            <!-- HERO: INFRASTRUCTURE & CONNECTIVITY (Diagram 1-15) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Landscape -->
+                        <path d="M50 250 L120 100 L200 180 L300 50 L400 150 L500 80 L550 250" fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1.5"/>
+                        
+                        <!-- Road Curve -->
+                        <path d="M50 300 C150 280, 300 320, 550 280" fill="none" stroke="var(--gold)" stroke-width="3" stroke-dasharray="8,4"/>
+                        <text x="300" y="315" font-size="8" fill="var(--gold)">PRIMARY ROAD NETWORK</text>
+                        
+                        <!-- Infrastructure Layers -->
+                        <g transform="translate(100, 220)">
+                            <rect x="-15" y="-10" width="30" height="20" rx="2" fill="rgba(139, 69, 19, 0.15)" stroke="var(--accent-road)"/>
+                            <text y="25" font-size="7">SETTLEMENT</text>
+                        </g>
+                        
+                        <g transform="translate(250, 240)">
+                            <path d="M-20 0 Q0 -20 20 0" fill="none" stroke="var(--ivory)" stroke-width="2"/>
+                            <text y="15" font-size="7">BRIDGE</text>
+                        </g>
+                        
+                        <g transform="translate(400, 100)">
+                            <path d="M-10 0 L10 0 M0 -10 L0 10" stroke="var(--accent-energy)" stroke-width="1.5"/>
+                            <circle r="15" fill="none" stroke="var(--accent-energy)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="25" font-size="7">ENERGY</text>
+                        </g>
+                        
+                        <g transform="translate(500, 180)">
+                            <path d="M0 0 L0 -20 M-5 -15 L5 -15 M-3 -10 L3 -10" stroke="var(--accent-digital)" stroke-width="1.5"/>
+                            <circle cx="0" cy="-25" r="2" fill="var(--accent-digital)"/>
+                            <text y="15" font-size="7">DIGITAL</text>
+                        </g>
+                        
+                        <!-- Connectivity Symbol -->
+                        <circle cx="300" cy="175" r="40" fill="none" stroke="rgba(181, 150, 84, 0.1)" stroke-width="1"/>
+                        <text x="300" y="180" font-size="9" font-weight="bold" fill="var(--gold)">SYSTEM OF CONNECTION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The multi-layered infrastructure of the Orakzai highland.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Infrastructure?</h3>
+            <p>Infrastructure includes the physical and digital systems that support society. It is not just about construction; it is the framework that allows people to move, goods to be traded, and services to be delivered. In Orakzai, infrastructure must overcome the mountain barrier to connect isolated valleys with regional hubs.<sup>3</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 16-25: INFRASTRUCTURE TAXONOMY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="10" width="140" height="30" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="250" y="30" font-weight="bold">INFRASTRUCTURE</text>
+                        
+                        <!-- Branches -->
+                        <path d="M250 40 L250 60 M250 60 L50 60 L50 80 M250 60 L150 60 L150 80 M250 60 L350 60 L350 80 M250 60 L450 60 L450 80" fill="none" stroke="var(--gray)"/>
+                        
+                        <g transform="translate(50, 100)">
+                            <rect x="-40" y="-15" width="80" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">TRANSPORT</text>
+                        </g>
+                        <g transform="translate(150, 100)">
+                            <rect x="-40" y="-15" width="80" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">WATER</text>
+                        </g>
+                        <g transform="translate(250, 100)">
+                            <rect x="-40" y="-15" width="80" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">ENERGY</text>
+                        </g>
+                        <g transform="translate(350, 100)">
+                            <rect x="-40" y="-15" width="80" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">TELECOM</text>
+                        </g>
+                        <g transform="translate(450, 100)">
+                            <rect x="-40" y="-15" width="80" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">DIGITAL</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The sectoral pillars of Orakzai's infrastructure development.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Connectivity as a System</h3>
+            <p>Infrastructure systems depend on one another. A road without maintenance becomes unreliable; internet without electricity becomes difficult to use; and a market without transport has limited reach. True connectivity is achieved when these layers are integrated into a single functioning system.<sup>7</sup></p>
+
+            <!-- DIAGRAM 26-35: CONNECTIVITY SYSTEM -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="40" y="75">ROAD</text>
+                        <text x="80" y="75">+</text>
+                        <text x="120" y="75">ENERGY</text>
+                        <text x="160" y="75">+</text>
+                        <text x="200" y="75">WATER</text>
+                        <text x="240" y="75">+</text>
+                        <text x="280" y="75">TELECOM</text>
+                        <text x="320" y="75">+</text>
+                        <text x="360" y="75">DIGITAL</text>
+                        <text x="400" y="75">=</text>
+                        
+                        <rect x="420" y="55" width="70" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="455" y="80" font-weight="bold">CONNECTED COMMUNITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The logical summation of a connected community.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Geography & Infrastructure: The Engineering Challenge</h3>
+            <p>Orakzai's geography—characterized by steep slopes, high peaks, and seasonal watercourses—presents unique engineering challenges. Infrastructure development in this terrain requires higher investment for retaining walls, culverts, and bridges. Geography creates the barrier; engineering creates the bridge.<sup>4</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 36-45: GEOGRAPHY LINK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">MOUNTAIN</text>
+                        <path d="M90 75 L130 75" stroke="var(--gray)" marker-end="url(#arrow-88)"/>
+                        
+                        <text x="180" y="75">ENGINEERING CHALLENGE</text>
+                        <path d="M240 75 L280 75" stroke="var(--gray)" marker-end="url(#arrow-88)"/>
+                        
+                        <text x="320" y="75">COST</text>
+                        <path d="M360 75 L400 75" stroke="var(--gray)" marker-end="url(#arrow-88)"/>
+                        
+                        <text x="450" y="75" font-weight="bold" fill="var(--gold)">ACCESS</text>
+                        
+                        <defs>
+                            <marker id="arrow-88" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The causal chain from geography to community access.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Infrastructure Development (2026 Status)</h3>
+            <p>As of June 2026, the Khyber Pakhtunkhwa government has approved a significant development package for Orakzai, prioritizing roads and water resources. These are programmed projects representing the state's commitment to post-merger integration.<sup>1</sup> <sup>3</sup></p>
+
+            <table class="status-table">
+                <thead>
+                    <tr>
+                        <th>Project / Sector</th>
+                        <th>Status (2026)</th>
+                        <th>Allocation (Rs)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Road Infrastructure</strong></td>
+                        <td><span class="badge badge-allocated">Allocated</span></td>
+                        <td>9.45 Billion</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Khan Mir Khel Dam</strong></td>
+                        <td><span class="badge badge-design">Design/Const.</span></td>
+                        <td>7.40 Billion</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rural Access Roads</strong></td>
+                        <td><span class="badge badge-rehab">Rehabilitation</span></td>
+                        <td>WB Package-1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rescue 1122 Station</strong></td>
+                        <td><span class="badge badge-design">Approved</span></td>
+                        <td>Tehsil Ismailzai</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Road Maintenance vs. Building</h3>
+            <p>A critical distinction in Orakzai's development is the difference between building new infrastructure and maintaining existing assets. Mountain roads are subject to erosion, landslides, and seasonal damage, requiring consistent maintenance budgets to ensure they remain all-weather routes.<sup>4</sup></p>
+
+            <!-- DIAGRAM 46-55: MAINTENANCE MATRIX -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="50" width="120" height="40" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--earth)"/>
+                        <text x="110" y="75">CONSTRUCTION</text>
+                        
+                        <path d="M170 70 L230 70" stroke="var(--gray)" marker-end="url(#arrow-88)"/>
+                        
+                        <rect x="230" y="50" width="120" height="40" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--forest)"/>
+                        <text x="290" y="75">MAINTENANCE</text>
+                        
+                        <path d="M110 90 L110 130 L230 130" fill="none" stroke="var(--gray)" marker-end="url(#arrow-88)"/>
+                        
+                        <rect x="230" y="110" width="120" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="290" y="135" font-weight="bold">RESILIENCE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The path from construction to long-term infrastructure resilience.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The story of infrastructure in Orakzai is a story of connection. When I look at an infrastructure map, I don't just see lines; I see the lived reality of our community. A road is not just asphalt; it is the student reaching school, the patient reaching the clinic, and the farmer reaching the market. The transition from a landlocked frontier to a connected district is the great task of our generation. We must ensure that the connections we build today—whether they are roads of stone or networks of light—are strong enough to carry the potential of every Orakzai child into the wider world. Connection is dignity.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“CONNECTION IS DIGNITY. INFRASTRUCTURE IS THE PATH.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Infrastructure & Connectivity Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            88
+        </footer>
+    </div>
+</body>
+</html>
