@@ -1367,3 +1367,16 @@ The content is grounded in 2026 reports from the KPK BOR, PLRA, MOITT, and the P
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official KPK BOR, PLRA, MOITT, and financial monitoring reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 158: Technology & Financial Markets
+
+Page 158 analyzes the digital transformation of Pakistan's financial markets in 2026. It highlights the convergence of capital markets, regulatory technology (RegTech), and digital banking. The page details the capital market momentum in H1 2026, where 10 IPOs raised over Rs. 20 billion, and the SECP's landmark S.R.O. 328(I)/2026 mandating the digitization of shares for unlisted companies. It also discusses the operationalization of digital banks, the introduction of the Virtual Assets Act 2026 by the SBP, and the use of AI and ML for risk management and fraud detection.
+
+The content is grounded in 2026 reports from the Securities and Exchange Commission of Pakistan (SECP), the Pakistan Stock Exchange (PSX), and the State Bank of Pakistan (SBP). It discusses the "Digital Financial Engine," the transition from physical to digital ownership, and the role of RegTech and SupTech in enhancing market oversight. The Orakzai context is integrated to show how digital brokerage and mobile investing democratize wealth creation, allowing valley natives to participate in the national financial economy directly from their smartphones.
+
+- **Research Sources**: Detailed bibliographic records and a Financial Markets evidence matrix are available in `book/sources/page-158-technology-and-financial-markets.md`; research notes and methodological findings are in `book/sources/page-158-research-notes.md`.
+- **Visual Elements**: 112 original responsive SVG elements: one premium Digital Financial Hero and 111 numbered accessible logic-atlas cards. The atlas covers capital market rails, digital trading infrastructure, risk management systems (Cyber, AML, Fraud), and the relationship between digitization, transparency, and national wealth creation.
+- **Content**: Evidence-led narrative connects Page 157 to the financial mechanisms of the digital nation. It frames financial markets as a key pillar of sovereign economic development enhanced by technology.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official SECP, PSX, SBP, and financial monitoring reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

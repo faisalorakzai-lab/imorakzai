@@ -634,5 +634,9 @@
       <navLabel><text>Technology & Real Estate</text></navLabel>
       <content src="../pages/page-157-technology-and-real-estate.html"/>
     </navPoint>
+    <navPoint id="navPoint-158" playOrder="157">
+      <navLabel><text>Technology & Financial Markets</text></navLabel>
+      <content src="../pages/page-158-technology-and-financial-markets.html"/>
+    </navPoint>
   </navMap>
 </ncx>
