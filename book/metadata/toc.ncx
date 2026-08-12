@@ -602,5 +602,9 @@
       <navLabel><text>The Internet of Value</text></navLabel>
       <content src="../pages/page-149-the-internet-of-value.html"/>
     </navPoint>
+    <navPoint id="navPoint-150" playOrder="149">
+      <navLabel><text>Building the Digital Nation</text></navLabel>
+      <content src="../pages/page-150-building-the-digital-nation.html"/>
+    </navPoint>
   </navMap>
 </ncx>

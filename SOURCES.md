@@ -1263,3 +1263,16 @@ The content is grounded in 2026 reports from J.P. Morgan, Arthur D. Little, and 
 - **Evidence Boundary**: Statistics and institutional events are derived from official ITU, PDA, technical, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 150: Building the Digital Nation
+
+Page 150 examines the structural shift from physical to digital infrastructure as the foundation of a modern nation. It details Pakistan's 2026 status under the Digital Nation Pakistan Act 2025, focusing on connectivity, data governance, and universal access. The page highlights Pakistan's 2026 milestones, including the phased 5G rollout reaching 1,000 sites, the rise of domestic internet connections to 5.1 million, and the finalization of the National Data Governance Policy 2026.
+
+The content is grounded in 2026 reports from the Ministry of IT and Telecommunication (MOITT), GSMA, and the Pakistan Bureau of Statistics (PBS). It discusses the role of Digital Public Infrastructure (DPI) as the "national rails" for the economy, the implementation of Zero-Trust Security, and the goal of training 1 million AI experts. The Orakzai context is integrated to illustrate how digital infrastructure (specifically satellite internet and 5G) provides the "last mile" connectivity for remote tribal regions, bridging the digital divide.
+
+- **Research Sources**: Detailed bibliographic records and a digital nation evidence matrix are available in `book/sources/page-150-building-the-digital-nation.md`; research notes and methodological findings are in `book/sources/page-150-research-notes.md`.
+- **Visual Elements**: 112 original responsive SVG elements: one premium Digital Nation Hero and 111 numbered accessible logic-atlas cards. The atlas covers the digital nation stack, connectivity rails, data sovereignty models, and the relationship between DPI and national services.
+- **Content**: Evidence-led narrative connects Page 149 to the broader national transformation. It frames digital infrastructure as the destiny of a modern nation's empowerment.
+- **Evidence Boundary**: Statistics and legislative events are derived from official MOITT, PBS, and industry reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
