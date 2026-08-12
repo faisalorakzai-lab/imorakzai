@@ -795,3 +795,16 @@ The content is grounded in official government statistics from the Ministry of F
 - **Evidence Boundary**: Statistics reflect the reporting periods of FY 2024-25 and FY 2025-26. No promotional claims or exaggerated achievements are made. Regional adoption is contextualized within national infrastructure constraints.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 114 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 114: Young Pakistan & Technology
+
+Page 114 examines the relationship between Pakistan’s young generation and technology, highlighting their role as creators and builders in the digital economy. It features a contemporary case study of Faisal Orakzai, a young technology entrepreneur and computer scientist, to illustrate an individual pathway through the larger technological transformation. The page provides detailed statistics on youth demographics, internet usage, and the growing tech freelancer economy.
+
+The content is supported by official data from the Pakistan Economic Survey 2025–26, the Pakistan Bureau of Statistics (PBS), and the State Bank of Pakistan (SBP). It addresses coding, artificial intelligence, remote work, and digital education while maintaining strict evidence boundaries and distinguishing between national statistics and individual case studies.
+
+- **Research Sources**: Detailed bibliographic records and a youth technology evidence matrix are available in `book/sources/page-114-young-pakistan-technology.md`; research notes and methodological findings are in `book/sources/page-114-research-notes.md`.
+- **Visual Elements**: 91 original responsive SVG elements: one premium Young Pakistan Technology Hero and 90 numbered accessible logic-atlas cards. The atlas covers youth demographics, coding pathways, AI tools, freelance flows, startup lifecycles, and Orakzai's digital bridge.
+- **Content**: Evidence-led narrative connects Pages 68, 69, 87, 88, 89, 90, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, and 113. It frames technology as a responsibility and a tool for building the future.
+- **Evidence Boundary**: Faisal Orakzai is presented as ONE case study, not a representative of the entire generation. All biographical and statistical data is sourced from verified institutional records for the 2025–2026 period. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 115 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

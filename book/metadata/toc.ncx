@@ -458,5 +458,9 @@
       <navLabel><text>Pakistan’s Digital Economy</text></navLabel>
       <content src="../pages/page-113-pakistans-digital-economy.html"/>
     </navPoint>
+    <navPoint id="navPoint-114" playOrder="113">
+      <navLabel><text>Young Pakistan &amp; Technology</text></navLabel>
+      <content src="../pages/page-114-young-pakistan-technology.html"/>
+    </navPoint>
   </navMap>
 </ncx>
