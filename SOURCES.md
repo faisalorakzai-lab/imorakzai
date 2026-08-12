@@ -567,3 +567,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Lahore hero (Mountains to Metropolis), the metropolitan role taxonomy, the urban expansion model (1990–2021), the socioeconomic migration drivers, the family language policy (Khalid & Khan, 2026), and the educational career pathway.
 - **Content**: Analysis of the Orakzai community in Lahore, Punjab's historic metropolis. Based on academic studies of Lahore's urbanization (Ghafoor et al., 2023), migration determinants (Ghafoor & Akbar, 2022), and family language policy among migrant Pashto speakers (Khalid & Khan, 2026). Explores the city's role as a center for commerce, education, and healthcare, while documenting the adaptation and identity negotiation of Orakzai families in a multilingual urban landscape.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 96: Orakzai Across Pakistan
+- **Research Sources**: Detailed citations are available in `book/sources/page-096-orakzai-across-pakistan.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Across Pakistan hero (Homeland to Cities), the conceptual map of mobility, the mobile identity model (Origin, Residence, Family, Memory), the migration vs. displacement distinction, and the regional mobility chain (Orakzai -> Hangu -> Kohat -> Peshawar).
+- **Content**: National overview of Orakzai mobility beyond the homeland. Based on UNHCR Return Intention Surveys (2016), UNFPA migration reports (2022), and academic studies on displacement in Kohat (Mahmood et al., 2023). Synthesizes individual urban stories from Pages 92-95 into a broader national picture of adaptation, education, and professional life across Pakistan.
+- **License**: Content is proprietary to the author; visual design is project-specific.

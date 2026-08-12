@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Across Pakistan</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-pak: #006600; /* Pakistan Green */
+            --accent-mob: #4682B4;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .map-legend {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+            margin-top: 1rem;
+            font-size: 0.7rem;
+            text-align: left;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page national-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 500 Q400 450 800 500" fill="none" stroke="rgba(0, 102, 0, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 96</h3>
+            <h2>ORAKZAI ACROSS PAKISTAN</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“From one homeland to many places.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Orakzai is a homeland. But Orakzai identity is not confined to one district. Families move. Students leave for universities. Workers follow opportunity. Professionals build careers. Businesses cross provincial boundaries. Children grow up in cities their grandparents may never have known. Some families return regularly. Some remain connected through visits. Some through phone calls. Some through photographs, stories and language. And some carry the homeland quietly, through memory. Across Pakistan, the Orakzai story therefore becomes a story of movement. From mountains to cities. From villages to universities. From local markets to national economies. From one generation to another. The geography changes. The identity can continue. But the national story must be told carefully. The presence of Pashtuns in a city does not automatically mean the presence of Orakzais. The migration of former-FATA communities does not automatically tell the story of Orakzai families. And a single family story cannot become a population statistic. To understand Orakzai across Pakistan, evidence and memory must be read together.</p>
+
+            <!-- HERO: ORAKZAI ACROSS PAKISTAN (Diagram 1-25) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Abstract Pakistan Silhouette -->
+                        <path d="M150 50 L200 30 L300 50 L450 150 L500 300 L400 380 L200 350 L100 250 L150 50" fill="rgba(0, 102, 0, 0.03)" stroke="rgba(0, 102, 0, 0.2)" stroke-width="1"/>
+                        
+                        <!-- Central Orakzai Homeland -->
+                        <g transform="translate(250, 150)">
+                            <path d="M-30 20 L-10 -20 L10 10 L30 -10 L50 20" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                            <text y="40" fill="var(--gold)" font-weight="bold">ORAKZAI</text>
+                            <text y="52" font-size="7" fill="var(--gray)">HOMELAND</text>
+                        </g>
+                        
+                        <!-- Connection Lines to Cities -->
+                        <g stroke="rgba(181, 150, 84, 0.4)" stroke-width="1" fill="none">
+                            <path d="M250 150 Q220 120 180 100" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Peshawar -->
+                            <path d="M250 150 Q280 120 350 100" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Islamabad -->
+                            <path d="M250 150 Q320 180 420 220" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Lahore -->
+                            <path d="M250 150 Q200 250 150 350" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Karachi -->
+                            <path d="M250 150 Q150 150 100 200" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Quetta -->
+                            <path d="M250 150 Q230 170 210 180" stroke-dasharray="4,2" marker-end="url(#arrow-96)"/> <!-- Hangu/Kohat -->
+                        </g>
+                        
+                        <!-- City Labels -->
+                        <text x="180" y="90">PESHAWAR</text>
+                        <text x="350" y="90">ISLAMABAD</text>
+                        <text x="420" y="210">LAHORE</text>
+                        <text x="150" y="365">KARACHI</text>
+                        <text x="80" y="200">QUETTA</text>
+                        <text x="180" y="195" font-size="8">HANGU / KOHAT</text>
+                        
+                        <defs>
+                            <marker id="arrow-96" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(181, 150, 84, 0.6)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The documented mobility pathways from the Orakzai homeland to major urban centers across Pakistan.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Places of Orakzai Mobility</h3>
+            <p>This conceptual map illustrates documented or plausible mobility pathways, not population size. It categorizes destinations based on their functional roles in the Orakzai story, from regional service centers to national professional hubs.<sup>4</sup></p>
+
+            <!-- DIAGRAM 26-35: PLACES OF ORAKZAI MOBILITY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff">
+                        <rect x="20" y="20" width="460" height="180" rx="4" fill="rgba(255, 255, 255, 0.02)" stroke="var(--gray)" stroke-dasharray="4,2"/>
+                        
+                        <g transform="translate(50, 50)">
+                            <rect width="100" height="30" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                            <text x="50" y="20" text-anchor="middle" font-weight="bold">HOMELAND</text>
+                        </g>
+                        <g transform="translate(170, 50)">
+                            <rect width="100" height="30" rx="2" fill="rgba(70, 130, 180, 0.1)" stroke="var(--accent-mob)"/>
+                            <text x="50" y="20" text-anchor="middle">REGIONAL CITIES</text>
+                        </g>
+                        <g transform="translate(290, 50)">
+                            <rect width="130" height="30" rx="2" fill="rgba(46, 139, 87, 0.1)" stroke="var(--accent-mob)"/>
+                            <text x="65" y="20" text-anchor="middle">MAJOR METROPOLISES</text>
+                        </g>
+                        
+                        <g transform="translate(50, 100)">
+                            <rect width="100" height="30" rx="2" fill="rgba(255, 255, 255, 0.05)" stroke="var(--gray)"/>
+                            <text x="50" y="20" text-anchor="middle">EDU CENTRES</text>
+                        </g>
+                        <g transform="translate(170, 100)">
+                            <rect width="100" height="30" rx="2" fill="rgba(255, 255, 255, 0.05)" stroke="var(--gray)"/>
+                            <text x="50" y="20" text-anchor="middle">PROF CENTRES</text>
+                        </g>
+                        <g transform="translate(290, 100)">
+                            <rect width="130" height="30" rx="2" fill="rgba(255, 255, 255, 0.05)" stroke="var(--gray)"/>
+                            <text x="65" y="20" text-anchor="middle">COMMERCIAL CENTRES</text>
+                        </g>
+                        
+                        <g transform="translate(110, 150)">
+                            <rect width="120" height="30" rx="2" fill="rgba(255, 255, 255, 0.05)" stroke="var(--gray)"/>
+                            <text x="60" y="20" text-anchor="middle">TEMP DESTINATIONS</text>
+                        </g>
+                        <g transform="translate(250, 150)">
+                            <rect width="120" height="30" rx="2" fill="rgba(255, 255, 255, 0.05)" stroke="var(--gray)"/>
+                            <text x="60" y="20" text-anchor="middle">DIASPORA LINKS</text>
+                        </g>
+                    </g>
+                </svg>
+                <div class="map-legend">
+                    <div class="legend-item"><span class="dot" style="background: var(--gold);"></span> Homeland (Orakzai)</div>
+                    <div class="legend-item"><span class="dot" style="background: var(--accent-mob);"></span> Regional (Peshawar, Kohat, Hangu)</div>
+                    <div class="legend-item"><span class="dot" style="background: var(--accent-mob);"></span> National (Karachi, Lahore, Islamabad)</div>
+                    <div class="legend-item"><span class="dot" style="background: var(--gray);"></span> Functional (Quetta, Faisalabad, etc.)</div>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What Does “Orakzai Across Pakistan” Mean?</h3>
+            <p>The presence of the Orakzai people outside their district is defined by three distinct concepts: individuals born in the homeland who have moved, families with Orakzai ancestry established elsewhere, and those who maintain deep cultural and property connections despite their urban residence. This creates a "mobile identity" that bridges geography and heritage.</p>
+
+            <!-- DIAGRAM 36-45: MOBILE IDENTITY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="50">ORIGIN</text>
+                        <text x="150" y="50">RESIDENCE</text>
+                        <text x="250" y="50">FAMILY</text>
+                        <text x="350" y="50">MEMORY</text>
+                        
+                        <path d="M50 60 L350 60" stroke="var(--gray)" stroke-width="1"/>
+                        <circle cx="50" cy="60" r="3" fill="var(--gold)"/>
+                        <circle cx="150" cy="60" r="3" fill="var(--gold)"/>
+                        <circle cx="250" cy="60" r="3" fill="var(--gold)"/>
+                        <circle cx="350" cy="60" r="3" fill="var(--gold)"/>
+                        
+                        <rect x="100" y="90" width="200" height="30" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="200" y="110" font-weight="bold">MOBILE IDENTITY</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The synthesis of identity components for the Orakzai diaspora.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Voluntary Migration vs. Displacement</h3>
+            <p>The history of the Orakzai people includes both voluntary economic migration and forced displacement due to conflict. A 2016 UNHCR Return Intention Survey documented the intentions of families displaced from Orakzai Agency, highlighting that 27% cited destroyed housing as a major challenge to their return. It is critical to distinguish between those who move for opportunity and those who seek safety.<sup>1</sup> <sup>3</sup></p>
+
+            <!-- DIAGRAM 46-60: MIGRATION ≠ DISPLACEMENT -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Voluntary -->
+                        <g transform="translate(100, 75)">
+                            <circle r="40" fill="rgba(70, 130, 180, 0.1)" stroke="var(--accent-mob)"/>
+                            <text y="-5" font-weight="bold">MIGRATION</text>
+                            <text y="10" font-size="7">(Economic / Edu)</text>
+                        </g>
+                        
+                        <text x="250" y="80" font-size="24" fill="var(--gray)">≠</text>
+                        
+                        <!-- Forced -->
+                        <g transform="translate(400, 75)">
+                            <circle r="40" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                            <text y="-5" font-weight="bold">DISPLACEMENT</text>
+                            <text y="10" font-size="7">(Safety / Conflict)</text>
+                        </g>
+                        
+                        <path d="M140 75 L210 75" stroke="var(--gray)" stroke-dasharray="4,2"/>
+                        <path d="M290 75 L360 75" stroke="var(--gray)" stroke-dasharray="4,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conceptual distinction between voluntary movement and forced displacement.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Regional Mobility Chain</h3>
+            <p>Proximity to neighboring districts creates a natural regional mobility chain. Movement often flows from the Orakzai valleys to Hangu and Kohat for immediate services, and then to Peshawar for provincial-level education and healthcare. This regional network forms the foundation of Orakzai urban presence in Khyber Pakhtunkhwa.<sup>3</sup> <sup>4</sup></p>
+
+            <!-- DIAGRAM 61-75: REGIONAL MOBILITY CHAIN -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60" font-weight="bold" fill="var(--gold)">ORAKZAI</text>
+                        <path d="M80 60 L110 60" stroke="var(--gray)" marker-end="url(#arrow-96)"/>
+                        
+                        <text x="140" y="60">HANGU</text>
+                        <path d="M170 60 L200 60" stroke="var(--gray)" marker-end="url(#arrow-96)"/>
+                        
+                        <text x="230" y="60">KOHAT</text>
+                        <path d="M260 60 L290 60" stroke="var(--gray)" marker-end="url(#arrow-96)"/>
+                        
+                        <text x="330" y="60">PESHAWAR</text>
+                        <path d="M370 60 L410 60" stroke="var(--gray)" marker-end="url(#arrow-96)"/>
+                        
+                        <text x="450" y="60" font-weight="bold">BEYOND</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The regional mobility pathway within the Kohat Division and Khyber Pakhtunkhwa.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>To see Orakzai across Pakistan is to see a people who have refused to be limited by their geography. Our story is no longer only a story of mountains; it is a story of how those mountains travel with us. Whether in the busy markets of Karachi, the offices of Islamabad, or the lecture halls of Lahore, the Orakzai heart remains recognizable. We move not to leave our identity behind, but to give it a larger stage. Every student who graduates from a national university, every worker who supports a family back home, and every professional who builds a career in the city is a testament to our resilience. We are one people, connected by blood and memory, living across a vast and diverse nation. We are Orakzai, and we are everywhere that opportunity and dignity call us.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“FROM ONE HOMELAND TO A NATIONAL PRESENCE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">National Orakzai Mobility Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            96
+        </footer>
+    </div>
+</body>
+</html>
