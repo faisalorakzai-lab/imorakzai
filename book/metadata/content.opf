@@ -127,6 +127,7 @@
     <item id="page-113" href="../pages/page-113-pakistans-digital-economy.html" media-type="application/xhtml+xml"/>
     <item id="page-114" href="../pages/page-114-young-pakistan-technology.html" media-type="application/xhtml+xml"/>
     <item id="page-115" href="../pages/page-115-entrepreneurship-pakistan.html" media-type="application/xhtml+xml"/>
+    <item id="page-116" href="../pages/page-116-local-to-global.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -245,5 +246,6 @@
     <itemref idref="page-113"/>
     <itemref idref="page-114"/>
     <itemref idref="page-115"/>
+    <itemref idref="page-116"/>
   </spine>
 </package>

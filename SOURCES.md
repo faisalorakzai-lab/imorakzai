@@ -821,3 +821,16 @@ The content is grounded in official data from the Pakistan Economic Survey 2025�
 - **Evidence Boundary**: Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. All biographical and statistical data is sourced from verified institutional records for the 2025–2026 period. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 116 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 116: From Local Markets to Global Markets
+
+Page 116 explains the strategic journey of businesses, products, and ideas from local markets into national and international arenas. It highlights the role of quality, trust, logistics, and technology in bridging geographic boundaries. The page provides a detailed overview of Pakistan's trade context for 2025–2030, including the National Tariff Policy, the Pakistan Single Window (PSW) facilitation, and the record US$4.6 billion IT export milestone in FY 2025–26.
+
+The content is grounded in official data from the Ministry of Commerce, the State Bank of Pakistan (SBP), and the Pakistan Software Export Board (PSEB). It features a contemporary case study of Faisal Orakzai to illustrate the "Global Mindset" of a technology entrepreneur building for international audiences. The page also addresses the ethical considerations of cultural commodification and the importance of preserving identity in a globalized economy.
+
+- **Research Sources**: Detailed bibliographic records and a local-to-global evidence matrix are available in `book/sources/page-116-local-to-global.md`; research notes and methodological findings are in `book/sources/page-116-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Global Market Hero and 100 numbered accessible logic-atlas cards. The atlas covers market evolution, logistics chains, digital trade facilitation, global trust stacks, and Orakzai's technology pathways.
+- **Content**: Evidence-led narrative connects Pages 49, 50, 89, 90, 96, 97, 98, 99, 100, 103, 111, 112, 113, 114, and 115. It frames global participation as a journey of capacity, consistency, and respect for diverse cultures.
+- **Evidence Boundary**: Statistics and policy goals reflect the verified institutional records for the 2025–2026 period. Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 117 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
