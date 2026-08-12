@@ -470,5 +470,9 @@
       <navLabel><text>From Local Markets to Global Markets</text></navLabel>
       <content src="../pages/page-116-local-to-global.html"/>
     </navPoint>
+    <navPoint id="navPoint-117" playOrder="116">
+      <navLabel><text>The Pakistani Startup Ecosystem</text></navLabel>
+      <content src="../pages/page-117-pakistani-startup-ecosystem.html"/>
+    </navPoint>
   </navMap>
 </ncx>

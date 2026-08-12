@@ -834,3 +834,16 @@ The content is grounded in official data from the Ministry of Commerce, the Stat
 - **Evidence Boundary**: Statistics and policy goals reflect the verified institutional records for the 2025–2026 period. Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 117 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 117: The Pakistani Startup Ecosystem
+
+Page 117 examines Pakistan’s startup ecosystem: its origins, entrepreneurs, technology companies, investors, incubators, accelerators, and government institutions. It provides an objective overview of the ecosystem's dynamics, including the 2026 funding surge (US$113M in H1), the role of National Incubation Centers (NIC 2.0), and the Pakistan Startup Fund (PSF). The page frames the ecosystem as a network where ideas meet people, capital, and technology to drive innovation.
+
+The content is grounded in official data from Ignite, the State Bank of Pakistan (SBP), SECP, and industry research from Data Darbar and Invest2Innovate. It features a contemporary case study of Faisal Orakzai to illustrate how individuals from Orakzai backgrounds participate in the digital entrepreneurial economy. The page also addresses structural challenges such as brain drain and limited exits while highlighting future opportunities in AI, Fintech, and Agritech.
+
+- **Research Sources**: Detailed bibliographic records and an ecosystem evidence matrix are available in `book/sources/page-117-pakistani-startup-ecosystem.md`; research notes and methodological findings are in `book/sources/page-117-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Startup Ecosystem Hero and 100 numbered accessible logic-atlas cards. The atlas covers ecosystem components, funding stages, regulatory frameworks, technology stacks, and Orakzai's startup pathways.
+- **Content**: Evidence-led narrative connects Pages 111, 112, 113, 114, 115, and 116. It frames startups as experiments in what a country can build, emphasizing the importance of fair opportunity and learning from failure.
+- **Evidence Boundary**: Statistics and institutional programs reflect verified records for the 2025–2026 period. Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 118 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
