@@ -486,5 +486,9 @@
       <navLabel><text>The Future of Computing</text></navLabel>
       <content src="../pages/page-120-the-future-of-computing.html"/>
     </navPoint>
+    <navPoint id="navPoint-121" playOrder="120">
+      <navLabel><text>Artificial Intelligence</text></navLabel>
+      <content src="../pages/page-121-artificial-intelligence.html"/>
+    </navPoint>
   </navMap>
 </ncx>

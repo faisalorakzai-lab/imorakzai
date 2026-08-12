@@ -132,6 +132,7 @@
     <item id="page-118" href="../pages/page-118-software-digital-infrastructure.html" media-type="application/xhtml+xml"/>
     <item id="page-119" href="../pages/page-119-cloud-computing.html" media-type="application/xhtml+xml"/>
     <item id="page-120" href="../pages/page-120-the-future-of-computing.html" media-type="application/xhtml+xml"/>
+    <item id="page-121" href="../pages/page-121-artificial-intelligence.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -255,5 +256,6 @@
     <itemref idref="page-118"/>
     <itemref idref="page-119"/>
     <itemref idref="page-120"/>
+    <itemref idref="page-121"/>
   </spine>
 </package>
