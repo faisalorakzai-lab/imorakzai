@@ -977,3 +977,16 @@ The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), t
 - **Evidence Boundary**: Statistics are derived from official SBP, NCAI, and industry reports (Indus AI 2026). Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 128 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 128: AI & Government
+
+Page 128 examines the transformation of public administration through artificial intelligence, focusing on digital public services, disaster management, and accountable governance. It analyzes Pakistan's institutional research capacity, highlighting the Digital Pakistan Masterplan 2026, the Pakistan Digital Authority (PDA), and the NDMA's AI-powered foresight paradigm for flood monitoring. The page emphasizes that while AI can process vast volumes of public records, human accountability and the protection of civil liberties remain the foundation of the state.
+
+The content is grounded in 2026 reports from the Ministry of IT & Telecommunication (MoITT), the National Disaster Management Authority (NDMA), and the National Centre of Artificial Intelligence (NCAI). It explores the potential for AI to improve citizen engagement through digital assistants and smart city infrastructure, particularly in the context of Pakistan's 10-year digital transformation roadmap. A personal case study of Faisal Orakzai illustrates the generational shift toward building secure, transparent government data architectures that bridge traditional knowledge and global technology.
+
+- **Research Sources**: Detailed bibliographic records and a government AI evidence matrix are available in `book/sources/page-128-ai-and-government.md`; research notes and methodological findings are in `book/sources/page-128-research-notes.md`.
+- **Visual Elements**: 107 original responsive SVG elements: one premium AI Government Hero and 106 numbered accessible logic-atlas cards. The atlas covers digital service workflows, disaster mapping pipelines, smart city architectures, and accountability loops.
+- **Content**: Evidence-led narrative connects Pages 50, 103-110, and 111-127. It frames government AI as a tool for public value and national resilience.
+- **Evidence Boundary**: Statistics are derived from official MoITT, NDMA, and NCAI reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 129 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

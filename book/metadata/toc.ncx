@@ -514,5 +514,9 @@
       <navLabel><text>AI &amp; Finance</text></navLabel>
       <content src="../pages/page-127-ai-and-finance.html"/>
     </navPoint>
+    <navPoint id="navPoint-128" playOrder="127">
+      <navLabel><text>AI &amp; Government</text></navLabel>
+      <content src="../pages/page-128-ai-and-government.html"/>
+    </navPoint>
   </navMap>
 </ncx>
