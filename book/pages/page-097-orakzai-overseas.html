@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Overseas</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-overseas: #2E8B57; /* Sea Green / Global */
+            --accent-gulf: #DAA520; /* Goldenrod / Gulf */
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .evidence-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+            text-align: left;
+        }
+        .evidence-card h4 {
+            color: var(--gold);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+        }
+
+        .logic-atlas { margin-top: 2rem; }
+        .atlas-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; }
+        .mini-diagram { margin: 0; padding: 0.5rem; }
+        .mini-diagram svg { display: block; width: 100%; }
+        .mini-diagram .diagram-caption { font-size: 0.64rem; margin-top: 0.25rem; }
+        .table-wrap { overflow-x: auto; margin: 1rem 0; }
+        .table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.62rem; color: rgba(255,255,255,0.84); }
+        .table-wrap th, .table-wrap td { border: 1px solid rgba(181,150,84,0.22); padding: 0.35rem; vertical-align: top; text-align: left; }
+        .table-wrap th { color: var(--gold); background: rgba(181,150,84,0.06); }
+        .research-matrices ol { padding-left: 1.25rem; color: rgba(255,255,255,0.82); font-size: 0.83rem; }
+        @media print { .atlas-grid { grid-template-columns: repeat(2, 1fr); } .table-wrap { overflow: visible; } }
+        @media (max-width: 650px) { .atlas-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="content-page overseas-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 600 Q400 550 800 600" fill="none" stroke="rgba(46, 139, 87, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 97</h3>
+            <h2>ORAKZAI OVERSEAS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Distance changes the geography of home, not necessarily its memory.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">An Orakzai family can live far from Orakzai and still carry Orakzai with them. A passport may change. A language may expand. A profession may change. A child may grow up thousands of kilometres from the mountains. But family memory can travel. So can food. So can stories. So can language. So can photographs. So can the habit of returning home. For some families, migration began with work. For others, education opened the door. For others, conflict, insecurity or displacement changed the direction of their lives. Some travelled temporarily. Some stayed for decades. Some built permanent homes abroad. Some returned. Others created families that now belong to more than one country. The overseas Orakzai story is therefore not one story. It is many journeys connected by memory.</p>
+
+            <!-- HERO: ORAKZAI OVERSEAS (Diagram 1-25) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Subtle World Map / Global Grid -->
+                        <circle cx="300" cy="200" r="170" fill="none" stroke="rgba(46, 139, 87, 0.1)" stroke-dasharray="2,2"/>
+                        <path d="M130 200 L470 200 M300 30 L300 370" stroke="rgba(255, 255, 255, 0.03)" stroke-width="0.5"/>
+                        
+                        <!-- Central Orakzai Homeland -->
+                        <g transform="translate(300, 200)">
+                            <circle r="30" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                            <path d="M-15 10 L0 -15 L15 10" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                            <text y="45" font-weight="bold" fill="var(--gold)">HOMELAND</text>
+                        </g>
+                        
+                        <!-- Global Connection Lines -->
+                        <g stroke="rgba(46, 139, 87, 0.5)" stroke-width="1.5" fill="none">
+                            <path d="M300 200 Q380 120 480 80" stroke-dasharray="4,2" marker-end="url(#arrow-97)"/> <!-- Gulf -->
+                            <path d="M300 200 Q220 100 150 90" stroke-dasharray="4,2" marker-end="url(#arrow-97)"/> <!-- Europe / UK -->
+                            <path d="M300 200 Q150 150 80 180" stroke-dasharray="4,2" marker-end="url(#arrow-97)"/> <!-- North America -->
+                            <path d="M300 200 Q400 300 450 320" stroke-dasharray="4,2" marker-end="url(#arrow-97)"/> <!-- Australia -->
+                        </g>
+                        
+                        <!-- Destination Labels -->
+                        <text x="490" y="70" font-weight="bold" fill="var(--accent-gulf)">THE GULF</text>
+                        <text x="140" y="80" font-weight="bold" fill="var(--accent-overseas)">EUROPE &amp; UK</text>
+                        <text x="70" y="195" font-weight="bold" fill="var(--accent-overseas)">NORTH AMERICA</text>
+                        <text x="460" y="335" font-weight="bold" fill="var(--accent-overseas)">AUSTRALIA</text>
+                        
+                        <defs>
+                            <marker id="arrow-97" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(46, 139, 87, 0.7)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Global mobility pathways from the Orakzai homeland to international diaspora hubs.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What Does “Overseas Orakzai” Mean?</h3>
+            <p>The phrase describes multiple dimensions of global movement: Orakzai-born individuals living abroad, Pakistani citizens of Orakzai ancestry, second-generation families with heritage ties, students, temporary workers, business professionals, and those who acquired citizenship elsewhere while maintaining active family connections in the homeland. This forms a complex "overseas identity" bridging origin and destination.<sup>1</sup> <sup>2</sup></p>
+
+            <!-- DIAGRAM 26-35: OVERSEAS IDENTITY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="40" y="75">ORIGIN</text>
+                        <path d="M70 75 L100 75" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="130" y="75">MIGRATION</text>
+                        <path d="M160 75 L190 75" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="220" y="75">FAMILY</text>
+                        <path d="M250 75 L280 75" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="310" y="75">MEMORY</text>
+                        <path d="M340 75 L370 75" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <rect x="400" y="55" width="80" height="40" rx="4" fill="rgba(46, 139, 87, 0.1)" stroke="var(--accent-overseas)"/>
+                        <text x="440" y="75" font-weight="bold">NEW HOME</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The structural components of overseas identity formation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Evidence Panel: Known vs. Unknown</h3>
+            <p>To maintain academic rigor, it is essential to distinguish between broad national data and specific community evidence. While national migration patterns are well-documented, exact global counts for sub-tribes remain a research gap.<sup>1</sup></p>
+
+            <div class="evidence-grid">
+                <div class="evidence-card">
+                    <h4>What We Know (Verified)</h4>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.8);">Pakistan has a large overseas diaspora with long-standing labour migration to the Gulf and professional settlement in Western nations. Remittances play a major role in national economic stability and household support across regions.</p>
+                </div>
+                <div class="evidence-card">
+                    <h4>What is a Research Gap</h4>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.8);">There is no official public census or reliable statistical database that isolates a country-by-country population count for the Orakzai diaspora overseas. General Pashtun or former-FATA data cannot be assumed as Orakzai-specific.</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Pakistani Overseas Migration Context</h3>
+            <p>Data from the Bureau of Emigration & Overseas Employment (BEOE) and international migration research provides Pakistan-wide context for Pakistani movement to the Gulf States (Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain), the UK, Europe, North America, Australia, and other destinations. State Bank of Pakistan reporting shows that workers’ remittances are a major national financial flow; those figures do not identify Orakzai senders or district-level contributions.<sup>1</sup> <sup>2</sup> <sup>3</sup></p>
+
+            <!-- DIAGRAM 36-45: PAKISTAN VS ORAKZAI EVIDENCE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="50" y="30" width="180" height="80" rx="4" fill="rgba(255, 255, 255, 0.02)" stroke="var(--gray)"/>
+                        <text x="140" y="55" font-weight="bold">PAKISTAN-WIDE MIGRATION</text>
+                        <text x="140" y="75" fill="var(--gray)">BEOE &amp; SBP Statistics</text>
+                        <text x="140" y="90" fill="var(--gray)">Millions of Overseas Workers</text>
+                        
+                        <text x="250" y="75" font-size="16" fill="var(--gold)">≠</text>
+                        
+                        <rect x="270" y="30" width="180" height="80" rx="4" fill="rgba(181, 150, 84, 0.05)" stroke="var(--gold)"/>
+                        <text x="360" y="55" font-weight="bold">ORAKZAI OVERSEAS</text>
+                        <text x="360" y="75" fill="var(--gold)">Requires Specific Evidence</text>
+                        <text x="360" y="90" fill="var(--gold)">Verified Family &amp; Field Data</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Methodological distinction between national migration totals and Orakzai-specific evidence.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Gulf: Primary Labour and Enterprise Destinations</h3>
+            <p>The Gulf Cooperation Council (GCC) countries—specifically Saudi Arabia, the United Arab Emirates, Qatar, Oman, Kuwait, and Bahrain—are important destinations within Pakistan’s wider labour-migration system. Public sources reviewed for this page do not provide a reliable country-wide Orakzai count or a complete occupation table; therefore, Gulf destinations are presented as national context, while Orakzai-specific workers, students, professionals, families, and businesses remain subjects for direct documentation.<sup>1</sup> <sup>2</sup></p>
+
+            <!-- DIAGRAM 46-60: GULF NETWORK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Center Pakistan -->
+                        <rect x="200" y="70" width="100" height="40" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="95" font-weight="bold">PAKISTAN / FATA</text>
+                        
+                        <!-- Gulf Hubs -->
+                        <g transform="translate(80, 30)">
+                            <rect width="80" height="30" rx="2" fill="none" stroke="var(--accent-gulf)"/>
+                            <text x="40" y="20">SAUDI ARABIA</text>
+                        </g>
+                        <g transform="translate(80, 120)">
+                            <rect width="80" height="30" rx="2" fill="none" stroke="var(--accent-gulf)"/>
+                            <text x="40" y="20">UAE (DUBAI)</text>
+                        </g>
+                        <g transform="translate(340, 30)">
+                            <rect width="80" height="30" rx="2" fill="none" stroke="var(--accent-gulf)"/>
+                            <text x="40" y="20">QATAR</text>
+                        </g>
+                        <g transform="translate(340, 120)">
+                            <rect width="80" height="30" rx="2" fill="none" stroke="var(--accent-gulf)"/>
+                            <text x="40" y="20">OMAN / KUWAIT</text>
+                        </g>
+                        
+                        <!-- Links -->
+                        <path d="M200 80 L160 50" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M200 100 L160 135" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M300 80 L340 50" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                        <path d="M300 100 L340 135" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Primary Gulf destination network within the Pakistani labour migration system.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Remittances and Homeland Connectivity</h3>
+            <p>Overseas employment frequently generates vital financial support for families remaining in Pakistan. Academic studies on former-FATA displacement and livelihoods highlight how remittances contribute to household resilience, education, healthcare, and housing investment. However, national remittance data does not isolate district-level inflows, making qualitative family histories and regional surveys essential for understanding community impact.<sup>3</sup> <sup>4</sup></p>
+
+            <!-- DIAGRAM 61-75: REMITTANCE CYCLE -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="60" y="60">OVERSEAS WORKER</text>
+                        <path d="M120 60 L160 60" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="210" y="60">FINANCIAL FLOWS</text>
+                        <path d="M260 60 L300 60" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="350" y="60">FAMILY SUPPORT</text>
+                        <path d="M400 60 L430 60" stroke="var(--gray)" marker-end="url(#arrow-97)"/>
+                        
+                        <text x="470" y="60" font-weight="bold" fill="var(--gold)">HOMELAND</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The economic cycle connecting overseas employment with homeland family investment.”</p>
+            </div>
+
+
+<section class="logic-atlas" aria-labelledby="atlas-title">
+  <h3 id="atlas-title" class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Logic Atlas: Overseas Orakzai</h3>
+  <p>These original SVG diagrams explain the page's central relationships without manufacturing country populations, community sizes, or tribe-specific totals. Where public evidence is Pakistan-wide, Pashtun-wide, former-FATA-wide, family-specific, oral-history based, or a research gap, the graphic labels that evidence level directly.</p>
+  <div class="atlas-grid">
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-1-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-1-title g97-1-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-1-title">World connection map</title>
+    <desc id="g97-1-desc">A three-step conceptual relationship: ORAKZAI HOMELAND, GLOBAL ROUTES, and FAMILY MEMORY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">WORLD CONNECTION MAP</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI HOMELAND</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">GLOBAL ROUTES</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY MEMORY</text>
+  </svg>
+  <figcaption id="g97-1-caption" class="diagram-caption">1. World connection map — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-2-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-2-title g97-2-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-2-title">Saudi Arabia</title>
+    <desc id="g97-2-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and NO PUBLIC COUNT LOCATED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">SAUDI ARABIA</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NO PUBLIC COUNT LOCATED</text>
+  </svg>
+  <figcaption id="g97-2-caption" class="diagram-caption">2. Saudi Arabia — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-3-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-3-title g97-3-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-3-title">United Arab Emirates</title>
+    <desc id="g97-3-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and NO PUBLIC COUNT LOCATED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">UNITED ARAB EMIRATES</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NO PUBLIC COUNT LOCATED</text>
+  </svg>
+  <figcaption id="g97-3-caption" class="diagram-caption">3. United Arab Emirates — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-4-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-4-title g97-4-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-4-title">Qatar</title>
+    <desc id="g97-4-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and VERIFY BY FIELDWORK. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">QATAR</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">VERIFY BY FIELDWORK</text>
+  </svg>
+  <figcaption id="g97-4-caption" class="diagram-caption">4. Qatar — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-5-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-5-title g97-5-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-5-title">Oman</title>
+    <desc id="g97-5-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and RESEARCH GAP. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">OMAN</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RESEARCH GAP</text>
+  </svg>
+  <figcaption id="g97-5-caption" class="diagram-caption">5. Oman — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-6-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-6-title g97-6-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-6-title">Kuwait</title>
+    <desc id="g97-6-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and RESEARCH GAP. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">KUWAIT</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RESEARCH GAP</text>
+  </svg>
+  <figcaption id="g97-6-caption" class="diagram-caption">6. Kuwait — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-7-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-7-title g97-7-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-7-title">Bahrain</title>
+    <desc id="g97-7-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and LIMITED PUBLIC EVIDENCE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">BAHRAIN</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LIMITED PUBLIC EVIDENCE</text>
+  </svg>
+  <figcaption id="g97-7-caption" class="diagram-caption">7. Bahrain — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-8-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-8-title g97-8-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-8-title">Gulf family network</title>
+    <desc id="g97-8-desc">A three-step conceptual relationship: WORKER, FAMILY, and HOMELAND. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">GULF FAMILY NETWORK</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">WORKER</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND</text>
+  </svg>
+  <figcaption id="g97-8-caption" class="diagram-caption">8. Gulf family network — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-9-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-9-title g97-9-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-9-title">Remittances</title>
+    <desc id="g97-9-desc">A three-step conceptual relationship: NATIONAL FLOW, HOUSEHOLD SUPPORT, and NOT TRIBE-ATTRIBUTED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">REMITTANCES</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NATIONAL FLOW</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOUSEHOLD SUPPORT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NOT TRIBE-ATTRIBUTED</text>
+  </svg>
+  <figcaption id="g97-9-caption" class="diagram-caption">9. Remittances — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-10-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-10-title g97-10-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-10-title">Europe</title>
+    <desc id="g97-10-desc">A three-step conceptual relationship: PAKISTAN-WIDE, EUROPEAN ROUTES, and ORAKZAI DATA NEEDED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">EUROPE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EUROPEAN ROUTES</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI DATA NEEDED</text>
+  </svg>
+  <figcaption id="g97-10-caption" class="diagram-caption">10. Europe — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-11-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-11-title g97-11-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-11-title">United Kingdom</title>
+    <desc id="g97-11-desc">A three-step conceptual relationship: ORAKZAI, PASHTUN, and BRITISH / LOCAL. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">UNITED KINGDOM</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PASHTUN</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">BRITISH / LOCAL</text>
+  </svg>
+  <figcaption id="g97-11-caption" class="diagram-caption">11. United Kingdom — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-12-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-12-title g97-12-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-12-title">Germany</title>
+    <desc id="g97-12-desc">A three-step conceptual relationship: EDUCATION, EMPLOYMENT, and PUBLIC EVIDENCE LIMITED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">GERMANY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EMPLOYMENT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PUBLIC EVIDENCE LIMITED</text>
+  </svg>
+  <figcaption id="g97-12-caption" class="diagram-caption">12. Germany — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-13-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-13-title g97-13-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-13-title">Italy</title>
+    <desc id="g97-13-desc">A three-step conceptual relationship: MIGRATION ROUTE, FAMILY SETTLEMENT, and ORAKZAI DATA NEEDED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">ITALY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MIGRATION ROUTE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY SETTLEMENT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI DATA NEEDED</text>
+  </svg>
+  <figcaption id="g97-13-caption" class="diagram-caption">13. Italy — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-14-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-14-title g97-14-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-14-title">France</title>
+    <desc id="g97-14-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and RESEARCH GAP. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">FRANCE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RESEARCH GAP</text>
+  </svg>
+  <figcaption id="g97-14-caption" class="diagram-caption">14. France — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-15-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-15-title g97-15-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-15-title">Greece</title>
+    <desc id="g97-15-desc">A three-step conceptual relationship: PAKISTAN-WIDE, ORAKZAI-SPECIFIC, and RESEARCH GAP. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">GREECE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RESEARCH GAP</text>
+  </svg>
+  <figcaption id="g97-15-caption" class="diagram-caption">15. Greece — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-16-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-16-title g97-16-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-16-title">Other Europe</title>
+    <desc id="g97-16-desc">A three-step conceptual relationship: DESTINATION, EVIDENCE, and TIME PERIOD. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">OTHER EUROPE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DESTINATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EVIDENCE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TIME PERIOD</text>
+  </svg>
+  <figcaption id="g97-16-caption" class="diagram-caption">16. Other Europe — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-17-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-17-title g97-17-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-17-title">North America</title>
+    <desc id="g97-17-desc">A three-step conceptual relationship: EDUCATION, PROFESSION, and FAMILY NETWORK. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">NORTH AMERICA</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PROFESSION</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY NETWORK</text>
+  </svg>
+  <figcaption id="g97-17-caption" class="diagram-caption">17. North America — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-18-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-18-title g97-18-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-18-title">United States</title>
+    <desc id="g97-18-desc">A three-step conceptual relationship: PUBLIC RECORD, ORAKZAI CONNECTION, and PRIVACY PROTECTED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">UNITED STATES</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PUBLIC RECORD</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI CONNECTION</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PRIVACY PROTECTED</text>
+  </svg>
+  <figcaption id="g97-18-caption" class="diagram-caption">18. United States — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-19-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-19-title g97-19-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-19-title">Canada</title>
+    <desc id="g97-19-desc">A three-step conceptual relationship: EDUCATION, SETTLEMENT, and PAKISTANI DATA ≠ ORAKZAI DATA. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">CANADA</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">SETTLEMENT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTANI DATA ≠ ORAKZAI DATA</text>
+  </svg>
+  <figcaption id="g97-19-caption" class="diagram-caption">19. Canada — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-20-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-20-title g97-20-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-20-title">Australia</title>
+    <desc id="g97-20-desc">A three-step conceptual relationship: PAKISTAN-WIDE, PASHTUN-WIDE, and ORAKZAI DATA NEEDED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">AUSTRALIA</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PASHTUN-WIDE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI DATA NEEDED</text>
+  </svg>
+  <figcaption id="g97-20-caption" class="diagram-caption">20. Australia — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-21-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-21-title g97-21-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-21-title">Other destinations</title>
+    <desc id="g97-21-desc">A three-step conceptual relationship: DESTINATION, MIGRATION TYPE, and SOURCE / DATE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">OTHER DESTINATIONS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DESTINATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MIGRATION TYPE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">SOURCE / DATE</text>
+  </svg>
+  <figcaption id="g97-21-caption" class="diagram-caption">21. Other destinations — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-22-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-22-title g97-22-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-22-title">Students abroad</title>
+    <desc id="g97-22-desc">A three-step conceptual relationship: EDUCATION, MOBILITY, and OPPORTUNITY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">STUDENTS ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MOBILITY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">OPPORTUNITY</text>
+  </svg>
+  <figcaption id="g97-22-caption" class="diagram-caption">22. Students abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-23-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-23-title g97-23-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-23-title">Professionals</title>
+    <desc id="g97-23-desc">A three-step conceptual relationship: QUALIFICATION, CAREER, and NETWORK. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">PROFESSIONALS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">QUALIFICATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">CAREER</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NETWORK</text>
+  </svg>
+  <figcaption id="g97-23-caption" class="diagram-caption">23. Professionals — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-24-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-24-title g97-24-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-24-title">Entrepreneurs</title>
+    <desc id="g97-24-desc">A three-step conceptual relationship: BUSINESS, TRADE, and HOMELAND LINK. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">ENTREPRENEURS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">BUSINESS</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TRADE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND LINK</text>
+  </svg>
+  <figcaption id="g97-24-caption" class="diagram-caption">24. Entrepreneurs — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-25-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-25-title g97-25-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-25-title">Family abroad</title>
+    <desc id="g97-25-desc">A three-step conceptual relationship: HOMELAND, DIGITAL CONTACT, and OVERSEAS HOME. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">FAMILY ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIGITAL CONTACT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">OVERSEAS HOME</text>
+  </svg>
+  <figcaption id="g97-25-caption" class="diagram-caption">25. Family abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-26-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-26-title g97-26-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-26-title">Eid abroad</title>
+    <desc id="g97-26-desc">A three-step conceptual relationship: PRAYER, FAMILY, and COMMUNITY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">EID ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PRAYER</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">COMMUNITY</text>
+  </svg>
+  <figcaption id="g97-26-caption" class="diagram-caption">26. Eid abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-27-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-27-title g97-27-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-27-title">Weddings abroad</title>
+    <desc id="g97-27-desc">A three-step conceptual relationship: FAMILY, TRAVEL, and MULTI-LOCAL CELEBRATION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">WEDDINGS ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TRAVEL</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MULTI-LOCAL CELEBRATION</text>
+  </svg>
+  <figcaption id="g97-27-caption" class="diagram-caption">27. Weddings abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-28-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-28-title g97-28-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-28-title">Funerals abroad</title>
+    <desc id="g97-28-desc">A three-step conceptual relationship: DISTANCE, TIMING, and PARTICIPATION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">FUNERALS ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DISTANCE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TIMING</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PARTICIPATION</text>
+  </svg>
+  <figcaption id="g97-28-caption" class="diagram-caption">28. Funerals abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-29-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-29-title g97-29-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-29-title">Language</title>
+    <desc id="g97-29-desc">A three-step conceptual relationship: PASHTO, URDU, and ENGLISH / LOCAL LANGUAGE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">LANGUAGE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PASHTO</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">URDU</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ENGLISH / LOCAL LANGUAGE</text>
+  </svg>
+  <figcaption id="g97-29-caption" class="diagram-caption">29. Language — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-30-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-30-title g97-30-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-30-title">Pashto at home</title>
+    <desc id="g97-30-desc">A three-step conceptual relationship: PARENTS, ELDERS, and STORIES / VISITS. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">PASHTO AT HOME</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PARENTS</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ELDERS</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">STORIES / VISITS</text>
+  </svg>
+  <figcaption id="g97-30-caption" class="diagram-caption">30. Pashto at home — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-31-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-31-title g97-31-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-31-title">Food abroad</title>
+    <desc id="g97-31-desc">A three-step conceptual relationship: FOOD, MEMORY, and FAMILY / HOME. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">FOOD ABROAD</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FOOD</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MEMORY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY / HOME</text>
+  </svg>
+  <figcaption id="g97-31-caption" class="diagram-caption">31. Food abroad — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-32-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-32-title g97-32-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-32-title">Music</title>
+    <desc id="g97-32-desc">A three-step conceptual relationship: PASHTUN-WIDE, DIASPORA, and DIRECT ORAKZAI EVIDENCE NEEDED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">MUSIC</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PASHTUN-WIDE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIASPORA</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIRECT ORAKZAI EVIDENCE NEEDED</text>
+  </svg>
+  <figcaption id="g97-32-caption" class="diagram-caption">32. Music — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-33-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-33-title g97-33-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-33-title">Attan</title>
+    <desc id="g97-33-desc">A three-step conceptual relationship: PERFORMANCE, CONTEXT, and CLASSIFY CAREFULLY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">ATTAN</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PERFORMANCE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">CONTEXT</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">CLASSIFY CAREFULLY</text>
+  </svg>
+  <figcaption id="g97-33-caption" class="diagram-caption">33. Attan — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-34-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-34-title g97-34-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-34-title">Elders</title>
+    <desc id="g97-34-desc">A three-step conceptual relationship: LANGUAGE, GENEALOGY, and HOMELAND MEMORY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">ELDERS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LANGUAGE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">GENEALOGY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND MEMORY</text>
+  </svg>
+  <figcaption id="g97-34-caption" class="diagram-caption">34. Elders — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-35-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-35-title g97-35-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-35-title">Women</title>
+    <desc id="g97-35-desc">A three-step conceptual relationship: EDUCATION, FAMILY LIFE, and NO SINGLE EXPERIENCE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">WOMEN</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY LIFE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NO SINGLE EXPERIENCE</text>
+  </svg>
+  <figcaption id="g97-35-caption" class="diagram-caption">35. Women — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-36-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-36-title g97-36-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-36-title">Youth</title>
+    <desc id="g97-36-desc">A three-step conceptual relationship: ORAKZAI MEMORY, GLOBAL CULTURE, and DIGITAL LIFE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">YOUTH</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI MEMORY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">GLOBAL CULTURE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIGITAL LIFE</text>
+  </svg>
+  <figcaption id="g97-36-caption" class="diagram-caption">36. Youth — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-37-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-37-title g97-37-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-37-title">Second generation</title>
+    <desc id="g97-37-desc">A three-step conceptual relationship: PARENTS' HOMELAND, CHILDREN'S BIRTHPLACE, and MULTI-LOCAL IDENTITY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">SECOND GENERATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PARENTS' HOMELAND</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">CHILDREN'S BIRTHPLACE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MULTI-LOCAL IDENTITY</text>
+  </svg>
+  <figcaption id="g97-37-caption" class="diagram-caption">37. Second generation — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-38-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-38-title g97-38-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-38-title">Third generation</title>
+    <desc id="g97-38-desc">A three-step conceptual relationship: HERITAGE LANGUAGE, FAMILY STORIES, and RESEARCH AREA. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">THIRD GENERATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HERITAGE LANGUAGE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY STORIES</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RESEARCH AREA</text>
+  </svg>
+  <figcaption id="g97-38-caption" class="diagram-caption">38. Third generation — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-39-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-39-title g97-39-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-39-title">Homeland visits</title>
+    <desc id="g97-39-desc">A three-step conceptual relationship: FAMILY, EID / WEDDINGS, and HERITAGE / PROPERTY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">HOMELAND VISITS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EID / WEDDINGS</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HERITAGE / PROPERTY</text>
+  </svg>
+  <figcaption id="g97-39-caption" class="diagram-caption">39. Homeland visits — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-40-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-40-title g97-40-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-40-title">Property connection</title>
+    <desc id="g97-40-desc">A three-step conceptual relationship: LAND, HOUSE, and INHERITANCE / NO ASSUMPTION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">PROPERTY CONNECTION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LAND</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOUSE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">INHERITANCE / NO ASSUMPTION</text>
+  </svg>
+  <figcaption id="g97-40-caption" class="diagram-caption">40. Property connection — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-41-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-41-title g97-41-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-41-title">Return migration</title>
+    <desc id="g97-41-desc">A three-step conceptual relationship: LEAVE, RETURN, and RE-MIGRATE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">RETURN MIGRATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LEAVE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RETURN</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RE-MIGRATE</text>
+  </svg>
+  <figcaption id="g97-41-caption" class="diagram-caption">41. Return migration — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-42-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-42-title g97-42-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-42-title">Transnational family</title>
+    <desc id="g97-42-desc">A three-step conceptual relationship: PAKISTAN, GULF / EUROPE, and NORTH AMERICA / OTHER. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">TRANSNATIONAL FAMILY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">GULF / EUROPE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NORTH AMERICA / OTHER</text>
+  </svg>
+  <figcaption id="g97-42-caption" class="diagram-caption">42. Transnational family — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-43-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-43-title g97-43-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-43-title">Digital Orakzai</title>
+    <desc id="g97-43-desc">A three-step conceptual relationship: WHATSAPP, VIDEO CALLS, and DIGITAL PHOTOS. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">DIGITAL ORAKZAI</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">WHATSAPP</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">VIDEO CALLS</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIGITAL PHOTOS</text>
+  </svg>
+  <figcaption id="g97-43-caption" class="diagram-caption">43. Digital Orakzai — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-44-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-44-title g97-44-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-44-title">Oral history online</title>
+    <desc id="g97-44-desc">A three-step conceptual relationship: MEMORY, RECORDING, and ARCHIVE / FUTURE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">ORAL HISTORY ONLINE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MEMORY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RECORDING</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ARCHIVE / FUTURE</text>
+  </svg>
+  <figcaption id="g97-44-caption" class="diagram-caption">44. Oral history online — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-45-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-45-title g97-45-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-45-title">AI preservation</title>
+    <desc id="g97-45-desc">A three-step conceptual relationship: AI, TRANSLATION / SEARCH, and ≠ ANCESTRAL AUTHORITY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">AI PRESERVATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">AI</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TRANSLATION / SEARCH</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">≠ ANCESTRAL AUTHORITY</text>
+  </svg>
+  <figcaption id="g97-45-caption" class="diagram-caption">45. AI preservation — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-46-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-46-title g97-46-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-46-title">Remittances and development</title>
+    <desc id="g97-46-desc">A three-step conceptual relationship: OVERSEAS INCOME, FAMILY, and EDUCATION / HEALTH / BUSINESS. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">REMITTANCES AND DEVELOPMENT</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">OVERSEAS INCOME</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION / HEALTH / BUSINESS</text>
+  </svg>
+  <figcaption id="g97-46-caption" class="diagram-caption">46. Remittances and development — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-47-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-47-title g97-47-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-47-title">Education</title>
+    <desc id="g97-47-desc">A three-step conceptual relationship: TUITION, BOOKS / TECHNOLOGY, and OPPORTUNITY. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">EDUCATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TUITION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">BOOKS / TECHNOLOGY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">OPPORTUNITY</text>
+  </svg>
+  <figcaption id="g97-47-caption" class="diagram-caption">47. Education — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-48-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-48-title g97-48-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-48-title">Healthcare</title>
+    <desc id="g97-48-desc">A three-step conceptual relationship: FAMILY SUPPORT, MEDICAL TRAVEL, and PROFESSIONAL NETWORK. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">HEALTHCARE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY SUPPORT</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MEDICAL TRAVEL</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PROFESSIONAL NETWORK</text>
+  </svg>
+  <figcaption id="g97-48-caption" class="diagram-caption">48. Healthcare — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-49-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-49-title g97-49-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-49-title">Business</title>
+    <desc id="g97-49-desc">A three-step conceptual relationship: INVESTMENT, TRADE, and PROFESSIONAL SERVICES. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">BUSINESS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">INVESTMENT</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TRADE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PROFESSIONAL SERVICES</text>
+  </svg>
+  <figcaption id="g97-49-caption" class="diagram-caption">49. Business — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-50-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-50-title g97-50-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-50-title">Cultural organizations</title>
+    <desc id="g97-50-desc">A three-step conceptual relationship: ORAKZAI-SPECIFIC?, PASHTUN-WIDE?, and VERIFY SCOPE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">CULTURAL ORGANIZATIONS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI-SPECIFIC?</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PASHTUN-WIDE?</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">VERIFY SCOPE</text>
+  </svg>
+  <figcaption id="g97-50-caption" class="diagram-caption">50. Cultural organizations — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-51-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-51-title g97-51-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-51-title">Community spaces</title>
+    <desc id="g97-51-desc">A three-step conceptual relationship: MOSQUE, EID / CHARITY, and NOT NECESSARILY ORAKZAI-SPECIFIC. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">COMMUNITY SPACES</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MOSQUE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EID / CHARITY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NOT NECESSARILY ORAKZAI-SPECIFIC</text>
+  </svg>
+  <figcaption id="g97-51-caption" class="diagram-caption">51. Community spaces — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-52-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-52-title g97-52-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-52-title">Hospitality</title>
+    <desc id="g97-52-desc">A three-step conceptual relationship: NEW ARRIVAL, HOSTING, and SOCIAL SUPPORT. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">HOSPITALITY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NEW ARRIVAL</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOSTING</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">SOCIAL SUPPORT</text>
+  </svg>
+  <figcaption id="g97-52-caption" class="diagram-caption">52. Hospitality — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-53-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-53-title g97-53-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-53-title">Melmastia</title>
+    <desc id="g97-53-desc">A three-step conceptual relationship: HOMELAND VALUE, MIGRATION, and NEW CONTEXT. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">MELMASTIA</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND VALUE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MIGRATION</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NEW CONTEXT</text>
+  </svg>
+  <figcaption id="g97-53-caption" class="diagram-caption">53. Melmastia — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-54-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-54-title g97-54-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-54-title">Identity</title>
+    <desc id="g97-54-desc">A three-step conceptual relationship: ORAKZAI + PASHTUN, PAKISTANI + MUSLIM, and CITY / FAMILY / PROFESSION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">IDENTITY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI + PASHTUN</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTANI + MUSLIM</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">CITY / FAMILY / PROFESSION</text>
+  </svg>
+  <figcaption id="g97-54-caption" class="diagram-caption">54. Identity — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-55-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-55-title g97-55-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-55-title">Meaning of home</title>
+    <desc id="g97-55-desc">A three-step conceptual relationship: BIRTHPLACE, FAMILY + MEMORY, and LANGUAGE + CURRENT HOME. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">MEANING OF HOME</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">BIRTHPLACE</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FAMILY + MEMORY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LANGUAGE + CURRENT HOME</text>
+  </svg>
+  <figcaption id="g97-55-caption" class="diagram-caption">55. Meaning of home — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-56-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-56-title g97-56-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-56-title">Cultural change</title>
+    <desc id="g97-56-desc">A three-step conceptual relationship: TRADITION, MIGRATION, and ADAPTATION / NEW EXPRESSION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">CULTURAL CHANGE</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">TRADITION</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MIGRATION</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ADAPTATION / NEW EXPRESSION</text>
+  </svg>
+  <figcaption id="g97-56-caption" class="diagram-caption">56. Cultural change — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-57-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-57-title g97-57-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-57-title">Cultural loss</title>
+    <desc id="g97-57-desc">A three-step conceptual relationship: LANGUAGE RISK, ORAL HISTORY RISK, and NOT INEVITABLE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">CULTURAL LOSS</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">LANGUAGE RISK</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAL HISTORY RISK</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NOT INEVITABLE</text>
+  </svg>
+  <figcaption id="g97-57-caption" class="diagram-caption">57. Cultural loss — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-58-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-58-title g97-58-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-58-title">Cultural continuity</title>
+    <desc id="g97-58-desc">A three-step conceptual relationship: MEMORY, PRACTICE, and PARTICIPATION. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">CULTURAL CONTINUITY</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MEMORY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PRACTICE</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PARTICIPATION</text>
+  </svg>
+  <figcaption id="g97-58-caption" class="diagram-caption">58. Cultural continuity — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-59-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-59-title g97-59-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-59-title">Next generation</title>
+    <desc id="g97-59-desc">A three-step conceptual relationship: MEMORY, EDUCATION, and DIGITAL LIFE / CHOICE. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">NEXT GENERATION</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MEMORY</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIGITAL LIFE / CHOICE</text>
+  </svg>
+  <figcaption id="g97-59-caption" class="diagram-caption">59. Next generation — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-60-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-60-title g97-60-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-60-title">Global Orakzai network</title>
+    <desc id="g97-60-desc">A three-step conceptual relationship: PAKISTAN, GULF / EUROPE / UK, and NORTH AMERICA / AUSTRALIA. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">GLOBAL ORAKZAI NETWORK</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTAN</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">GULF / EUROPE / UK</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">NORTH AMERICA / AUSTRALIA</text>
+  </svg>
+  <figcaption id="g97-60-caption" class="diagram-caption">60. Global Orakzai network — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-61-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-61-title g97-61-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-61-title">Country evidence matrix</title>
+    <desc id="g97-61-desc">A three-step conceptual relationship: PAKISTANI DATA, ORAKZAI DATA, and EVIDENCE LEVEL. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">COUNTRY EVIDENCE MATRIX</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">PAKISTANI DATA</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">ORAKZAI DATA</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EVIDENCE LEVEL</text>
+  </svg>
+  <figcaption id="g97-61-caption" class="diagram-caption">61. Country evidence matrix — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-62-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-62-title g97-62-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-62-title">Migration type matrix</title>
+    <desc id="g97-62-desc">A three-step conceptual relationship: EMPLOYMENT, EDUCATION / FAMILY, and RETURN / CIRCULAR. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">MIGRATION TYPE MATRIX</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EMPLOYMENT</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EDUCATION / FAMILY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">RETURN / CIRCULAR</text>
+  </svg>
+  <figcaption id="g97-62-caption" class="diagram-caption">62. Migration type matrix — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-63-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-63-title g97-63-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-63-title">Generation matrix</title>
+    <desc id="g97-63-desc">A three-step conceptual relationship: FIRST, SECOND / THIRD, and EVIDENCE NEEDED. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">GENERATION MATRIX</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">FIRST</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">SECOND / THIRD</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">EVIDENCE NEEDED</text>
+  </svg>
+  <figcaption id="g97-63-caption" class="diagram-caption">63. Generation matrix — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-64-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-64-title g97-64-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-64-title">Research gap</title>
+    <desc id="g97-64-desc">A three-step conceptual relationship: COUNT, COUNTRY / CITY, and STORIES / NETWORKS. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">RESEARCH GAP</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">COUNT</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">COUNTRY / CITY</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">STORIES / NETWORKS</text>
+  </svg>
+  <figcaption id="g97-64-caption" class="diagram-caption">64. Research gap — conceptual framework; not a census.</figcaption>
+</figure>
+<figure class="logic-diagram mini-diagram" aria-labelledby="g97-65-caption">
+  <svg viewBox="0 0 560 132" role="img" aria-labelledby="g97-65-title g97-65-desc" xmlns="http://www.w3.org/2000/svg">
+    <title id="g97-65-title">Final statement</title>
+    <desc id="g97-65-desc">A three-step conceptual relationship: HOMELAND, MAP, and DIASPORA / WORLD. It is explanatory, not a population estimate.</desc>
+    <rect x="12" y="10" width="536" height="112" rx="8" fill="#101510" stroke="#B59654" stroke-opacity="0.42"/>
+    <text x="280" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#B59654" letter-spacing="1.4">FINAL STATEMENT</text>
+    <rect x="28" y="50" width="150" height="43" rx="5" fill="#153B2A" stroke="#2E8B57"/>
+    <text x="103" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">HOMELAND</text>
+    <path d="M182 71 H216" stroke="#B59654" stroke-width="1.5"/><path d="M216 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="205" y="50" width="150" height="43" rx="5" fill="#3C3020" stroke="#B59654"/>
+    <text x="280" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">MAP</text>
+    <path d="M359 71 H393" stroke="#B59654" stroke-width="1.5"/><path d="M393 71 l-8 -5 v10 z" fill="#B59654"/>
+    <rect x="382" y="50" width="150" height="43" rx="5" fill="#202B35" stroke="#7894A8"/>
+    <text x="457" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F5F0E6">DIASPORA / WORLD</text>
+  </svg>
+  <figcaption id="g97-65-caption" class="diagram-caption">65. Final statement — conceptual framework; not a census.</figcaption>
+</figure>
+  </div>
+</section>
+
+<section class="research-matrices" aria-labelledby="matrix-title">
+  <h3 id="matrix-title" class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Evidence Matrices and Research Questions</h3>
+  <p>These matrices separate broad migration context from direct Orakzai evidence. “Not located” means that a reliable public country-level count was not found in the reviewed sources; it is not a claim that no Orakzai people live in that destination.</p>
+  <div class="table-wrap"><table><thead><tr><th>Destination</th><th>Pakistan-wide migration evidence</th><th>Orakzai-specific evidence</th><th>Migration type</th><th>Evidence level</th><th>Research status</th></tr></thead><tbody><tr><td>Saudi Arabia</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>UAE</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Qatar</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Oman</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Kuwait</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Bahrain</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>UK</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Germany</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Italy</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>France</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Greece</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Other Europe</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>USA</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Canada</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Australia</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>New Zealand</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Malaysia</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr>
+<tr><td>Other verified destinations</td><td>Pakistan-wide records may exist</td><td>Country-wide Orakzai count not located</td><td>Employment / education / family varies</td><td>Context: official or academic</td><td>Do not infer tribe from nationality or surname</td></tr></tbody></table></div>
+  <div class="table-wrap"><table><thead><tr><th>Migration type</th><th>Description</th><th>Orakzai evidence</th><th>Broader evidence</th></tr></thead><tbody><tr><td>Employment</td><td>Paid work abroad</td><td>Direct Orakzai evidence required</td><td>BEOE / ILO / IOM context</td></tr>
+<tr><td>Business</td><td>Enterprise or trade</td><td>Do not infer ownership from names</td><td>Diaspora business research</td></tr>
+<tr><td>Education</td><td>Study and qualification</td><td>Student totals not located</td><td>International education data</td></tr>
+<tr><td>Family reunification</td><td>Household movement</td><td>Family-specific evidence</td><td>Migration and census data</td></tr>
+<tr><td>Professional migration</td><td>Skilled careers</td><td>Public examples only, no directory</td><td>Occupation and visa data</td></tr>
+<tr><td>Temporary work</td><td>Time-limited mobility</td><td>Country/date evidence needed</td><td>Labour migration reports</td></tr>
+<tr><td>Permanent settlement</td><td>Long-term residence or citizenship</td><td>No global Orakzai stock count</td><td>National demographic data</td></tr>
+<tr><td>Displacement</td><td>Movement for safety</td><td>Case-specific documentation</td><td>UNHCR / IDMC context</td></tr>
+<tr><td>Return migration</td><td>Return to Pakistan or Orakzai</td><td>No universal pattern</td><td>Household and return surveys</td></tr>
+<tr><td>Circular migration</td><td>Move, return, and re-migrate</td><td>Family histories needed</td><td>Migration scholarship</td></tr></tbody></table></div>
+  <div class="table-wrap"><table><thead><tr><th>Generation</th><th>Analytical relationship to homeland</th><th>Evidence needed</th></tr></thead><tbody><tr><td>First generation</td><td>Direct migrant memory and experience</td><td>Oral history, travel history, consented family archive</td></tr>
+<tr><td>Second generation</td><td>Parents' homeland plus birthplace of children</td><td>Family narrative, language practice, visits, self-identification</td></tr>
+<tr><td>Third generation</td><td>Potentially mediated ancestral geography</td><td>Genealogy, recordings, archives, and participant testimony</td></tr>
+<tr><td>Later generations</td><td>Multiple local and family affiliations</td><td>Country-specific, family-specific research; no assumption</td></tr></tbody></table></div>
+  <div class="evidence-card" style="margin-top: 1rem;"><h4>What Still Needs to Be Documented</h4><p>The precise number and country distribution of overseas Orakzai people; first-, second-, and third-generation experiences; women’s and youth’s perspectives; student, professional, business, Gulf, European, North American, and Australian mobility; remittance pathways; language maintenance; cultural organizations; digital communities; homeland visits; return migration; property connections; and community investment. A comprehensive history has yet to be systematically documented.</p></div>
+  <div class="evidence-card" style="margin-top: 1rem;"><h4>Oral-History Questions</h4><ol><li>When did your family first leave Pakistan, and where did they go?</li><li>Was the move for work, education, family, safety, or another reason?</li><li>Which generation of your family lives abroad, and do relatives remain in Orakzai?</li><li>How do family members communicate across borders, and what role does Pashto play at home?</li><li>Which traditions, foods, stories, photographs, or festivals remain important?</li><li>How are weddings, births, funerals, and Eid connected across countries?</li><li>What does “home” mean to you, and do you plan to return permanently?</li><li>What should future researchers document about women, youth, work, education, and business?</li></ol></div>
+</section>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>When an Orakzai person boards a flight to Riyadh, Dubai, London, or Toronto, they carry more than luggage. They carry the silence of the mountains, the warmth of the Hujra, and the expectations of a family. Distance does not dilute identity; it tests it, and in testing it, often makes it more resolute. In the gleaming towers of the Gulf or the busy streets of Western cities, our people work with dignity, building futures while remaining tethered to the valleys of their ancestors. Every remittance sent home, every phone call checking on an elder, and every child taught to speak Pashto in a foreign land is an act of preservation. We are a people of the frontier, but our horizon is the world. We are Orakzai, wherever life's journey takes us.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“DISTANCE CHANGES GEOGRAPHY; MEMORY PRESERVES IDENTITY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Global Orakzai Diaspora Analysis</p>
+            </div>
+
+            <section class="references" aria-labelledby="references-title">
+                <h3 id="references-title" class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">References and Evidence Notes</h3>
+                <p><sup>1</sup> Bureau of Emigration &amp; Overseas Employment, Government of Pakistan, <em>Reports &amp; Statistics</em>, including country-, district-, occupation-, and province-wise emigration tables [<a href="https://beoe.gov.pk/reports-and-statistics">BEOE reports</a>]. This is Pakistan-wide or administrative-source context, not a complete Orakzai diaspora census.</p>
+                <p><sup>2</sup> International Labour Organization, <em>Labour Migration from Pakistan: 2015 Status Report</em> [<a href="https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@asia/@ro-bangkok/documents/publication/wcms_514139.pdf">ILO report</a>]. Historical labour-migration evidence should not be treated as a current global stock count.</p>
+                <p><sup>3</sup> State Bank of Pakistan, <em>Workers’ Remittances</em> and current economic-data releases [<a href="https://www.sbp.org.pk/ecodata/ism/ism_current.asp">SBP economic data</a>]. National remittance totals are not tribe-attributed.</p>
+                <p><sup>4</sup> Imran Mosel and Ashley Jackson, <em>Sanctuary in the City? Urban Displacement and Vulnerability in Peshawar, Pakistan</em>, Overseas Development Institute, 2013 [<a href="https://www.refworld.org/sites/default/files/legacy-pdf/en/2013-5/523ac01f4.pdf">ODI / Refworld copy</a>]. Useful for former-FATA and transnational household context, not an Orakzai-specific overseas count.</p>
+                <p><sup>5</sup> Destination-level claims in this page are deliberately classified as Pakistan-wide, broader Pashtun/former-FATA context, family-specific, oral-history evidence, or research gaps. No unsupported country population, organization, business, student total, professional directory, or surname-based identity inference is presented.</p>
+            </section>
+
+        </main>
+
+        <footer class="page-footer">
+            97
+        </footer>
+    </div>
+</body>
+</html>

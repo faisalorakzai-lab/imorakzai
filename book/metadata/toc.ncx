@@ -268,7 +268,7 @@
     </navPoint>
     <navPoint id="navPoint-66" playOrder="65">
       <navLabel><text>The Role of Elders</text></navLabel>
-      <content src="../pages/page-065-the-role-of-elders.html"/>
+      <content src="../pages/page-066-the-role-of-elders.html"/>
     </navPoint>
     <navPoint id="navPoint-67" playOrder="66">
       <navLabel><text>The Role of Women</text></navLabel>
@@ -389,6 +389,10 @@
     <navPoint id="navPoint-96" playOrder="95">
       <navLabel><text>Orakzai Across Pakistan</text></navLabel>
       <content src="../pages/page-096-orakzai-across-pakistan.html"/>
+    </navPoint>
+    <navPoint id="navPoint-97" playOrder="96">
+      <navLabel><text>Orakzai Overseas</text></navLabel>
+      <content src="../pages/page-097-orakzai-overseas.html"/>
     </navPoint>
   </navMap>
 </ncx>

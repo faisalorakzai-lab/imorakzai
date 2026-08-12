@@ -573,3 +573,17 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Across Pakistan hero (Homeland to Cities), the conceptual map of mobility, the mobile identity model (Origin, Residence, Family, Memory), the migration vs. displacement distinction, and the regional mobility chain (Orakzai -> Hangu -> Kohat -> Peshawar).
 - **Content**: National overview of Orakzai mobility beyond the homeland. Based on UNHCR Return Intention Surveys (2016), UNFPA migration reports (2022), and academic studies on displacement in Kohat (Mahmood et al., 2023). Synthesizes individual urban stories from Pages 92-95 into a broader national picture of adaptation, education, and professional life across Pakistan.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 97: Orakzai Overseas
+- **Research Sources**: Detailed citations are available in `book/sources/page-097-orakzai-overseas.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Overseas hero (Homeland to Global Destinations), the conceptual overseas identity model, the Known vs. Unknown evidence panel, the Pakistan-wide migration vs. Orakzai-specific evidence matrix, the Gulf migration network (Saudi Arabia, UAE, Qatar, Oman, Kuwait, Bahrain), and the remittance flow cycle.
+- **Content**: Comprehensive exploration of Orakzai people and families living outside Pakistan, their migration journeys, overseas employment in the Gulf and Western nations, family networks, remittances, identity, adaptation, and ongoing connections with the homeland. Based on Bureau of Emigration reports, State Bank remittance data, and academic migration studies.
+- **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 97 — Orakzai Overseas: Verified Source Ledger
+
+Page 97 distinguishes Orakzai-specific evidence from broader migration context. The principal official sources are the Bureau of Emigration & Overseas Employment [BEOE Reports & Statistics](https://beoe.gov.pk/reports-and-statistics), the International Labour Organization’s [Labour Migration from Pakistan: 2015 Status Report](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@asia/@ro-bangkok/documents/publication/wcms_514139.pdf), and the State Bank of Pakistan’s [Economic Data and Workers’ Remittances](https://www.sbp.org.pk/ecodata/ism/ism_current.asp). Broader former-FATA displacement and transnational household context is drawn from Mosel and Jackson, [*Sanctuary in the City?*](https://www.refworld.org/sites/default/files/legacy-pdf/en/2013-5/523ac01f4.pdf), ODI/HPG, 2013.
+
+No reliable public source located for this page provides a complete country-by-country global count of Orakzais overseas. National migration totals, Pashtun-wide evidence, former-FATA evidence, and national remittance totals are therefore not represented as Orakzai statistics. Country-level counts, community sizes, organizations, businesses, student totals, professional totals, and surname-based identity claims are excluded unless directly documented.
+
+The Page 97 HTML source contains a responsive, JavaScript-free SVG logic atlas with 70 graphics in total, including the hero, destination frameworks, Gulf/Europe/North America/Australia sections, family and cultural continuity models, evidence matrices, research gaps, and final statement. Page 98 was not created.
