@@ -107,7 +107,7 @@
       <content src="../pages/page-025-pashtun-family-structure.html"/>
     </navPoint>
     <navPoint id="navPoint-26" playOrder="25">
-      <navLabel><text>Pashtun Brotherhood</text></navLabel>
+      <navLabel><text>Pashtun brotherhood</text></navLabel>
       <content src="../pages/page-026-pashtun-brotherhood.html"/>
     </navPoint>
     <navPoint id="navPoint-27" playOrder="26">
@@ -377,6 +377,10 @@
     <navPoint id="navPoint-93" playOrder="92">
       <navLabel><text>Orakzai in Peshawar</text></navLabel>
       <content src="../pages/page-093-orakzai-in-peshawar.html"/>
+    </navPoint>
+    <navPoint id="navPoint-94" playOrder="93">
+      <navLabel><text>Orakzai in Islamabad</text></navLabel>
+      <content src="../pages/page-094-orakzai-in-islamabad.html"/>
     </navPoint>
   </navMap>
 </ncx>

@@ -555,3 +555,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Peshawar hero (Mountains to City), the urban role taxonomy, the regional connectivity map, the temporary vs. permanent stay model, the educational pathway (UoP), and the urban tribal network synthesis.
 - **Content**: Analysis of Peshawar as the primary regional urban center for the Orakzai people. Based on ODI research (Mosel & Jackson), NPS tribal profiles, and academic studies on borderland political economy (Bukhari). Explores the city's role in education, healthcare, and business, while distinguishing between broader urban history and specific tribal mobility.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 94: Orakzai in Islamabad
+- **Research Sources**: Detailed citations are available in `book/sources/page-094-orakzai-in-islamabad.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Islamabad hero (Mountains to Capital), the capital role taxonomy, the urban expansion model (1979–2021), the metropolitan network (Islamabad-Rawalpindi), the professional migration drivers, and the national identity synthesis.
+- **Content**: Analysis of the Orakzai community in Islamabad, Pakistan's national capital. Based on academic studies of Islamabad's urbanization (Shah et al., 2021; Khan et al., 2023) and institutional records (QAU, 2024). Explores the city's role as a center for government, education, and professional careers, while documenting the synthesis of tribal heritage with modern national identity.
+- **License**: Content is proprietary to the author; visual design is project-specific.
