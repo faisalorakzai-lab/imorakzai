@@ -1354,3 +1354,16 @@ The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), T
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, MOITT, and financial monitoring reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 157: Technology & Real Estate
+
+Page 157 explores the digital transformation of Pakistan's real estate sector in 2026. It focuses on the land record revolution, highlighting the KPK Board of Revenue's February 2026 settlement deadline and the Punjab Land Records Authority's (PLRA) digitization of over 23,542 Mauzas. The page details the role of PropTech platforms like Zameen and Graana, the launch of remote land management services for overseas Pakistanis, and the integration of AI, BIM, and GIS into smart city projects like Capital Smart City Islamabad.
+
+The content is grounded in 2026 reports from the KPK BOR, PLRA, MOITT, and the PropTech Convention. It discusses the "PropTech Engine," the transition from paper to digital titles, and the use of Digital Twins and IoT for sustainable urban design. The Orakzai context is integrated to show how the KPK land settlement initiative is providing tribal owners with recognized digital titles, enabling them to participate in the formal economy while preserving tribal heritage.
+
+- **Research Sources**: Detailed bibliographic records and a Technology & Real Estate evidence matrix are available in `book/sources/page-157-technology-and-real-estate.md`; research notes and methodological findings are in `book/sources/page-157-research-notes.md`.
+- **Visual Elements**: 116 original responsive SVG elements: one premium PropTech Hero and 115 numbered accessible logic-atlas cards. The atlas covers the property lifecycle, land digitization rails, smart building systems (IoT, HVAC, Energy), real estate analytics (AVM, Yield), and the relationship between digital titles, collateral, and national growth.
+- **Content**: Evidence-led narrative connects Page 156 to the physical infrastructure of the digital nation. It frames real estate as a key asset class enhanced by digital intelligence.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official KPK BOR, PLRA, MOITT, and financial monitoring reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

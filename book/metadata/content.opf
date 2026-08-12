@@ -168,6 +168,7 @@
     <item id="page-154" href="../pages/page-154-the-future-of-pakistani-entrepreneurs.html" media-type="application/xhtml+xml"/>
     <item id="page-155" href="../pages/page-155-global-pakistani-talent.html" media-type="application/xhtml+xml"/>
     <item id="page-156" href="../pages/page-156-diaspora-investment.html" media-type="application/xhtml+xml"/>
+    <item id="page-157" href="../pages/page-157-technology-and-real-estate.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -327,5 +328,6 @@
     <itemref idref="page-154"/>
     <itemref idref="page-155"/>
     <itemref idref="page-156"/>
+    <itemref idref="page-157"/>
   </spine>
 </package>

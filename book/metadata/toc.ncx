@@ -630,5 +630,9 @@
       <navLabel><text>Diaspora Investment</text></navLabel>
       <content src="../pages/page-156-diaspora-investment.html"/>
     </navPoint>
+    <navPoint id="navPoint-157" playOrder="156">
+      <navLabel><text>Technology & Real Estate</text></navLabel>
+      <content src="../pages/page-157-technology-and-real-estate.html"/>
+    </navPoint>
   </navMap>
 </ncx>
