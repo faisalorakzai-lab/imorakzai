@@ -494,5 +494,9 @@
       <navLabel><text>AI &amp; Human Civilization</text></navLabel>
       <content src="../pages/page-122-ai-and-human-civilization.html"/>
     </navPoint>
+    <navPoint id="navPoint-123" playOrder="122">
+      <navLabel><text>AI in Pakistan</text></navLabel>
+      <content src="../pages/page-123-ai-in-pakistan.html"/>
+    </navPoint>
   </navMap>
 </ncx>

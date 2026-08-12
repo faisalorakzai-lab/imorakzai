@@ -912,3 +912,16 @@ The content is grounded in 2026 reports from the Stanford AI Index and UNESCO's 
 - **Evidence Boundary**: Claims are classified as [CURRENT], [EMERGING], [RESEARCH], or [SPECULATIVE]. Faisal Orakzai is presented as ONE personal case study with a documented conceptual framework. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 123 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 123: AI in Pakistan
+
+Page 123 provides a comprehensive analysis of Pakistan's artificial intelligence ecosystem, focusing on institutional development, policy, and economic potential. It highlights the role of the National Centre of Artificial Intelligence (NCAI) and its network of laboratories across major universities (NUST, NED, COMSATS). The page also discusses the landmark Islamabad AI Declaration of February 2026 and its focus on sovereign and responsible AI.
+
+The content examines the transition from a service-based technology economy to a product-oriented one, supported by record IT exports and freelancer earnings in FY 2025-26. It features the "Young Pakistani Builder" generation, with Faisal Orakzai as a representative case study of individual ambition within the broader technological shift. Special attention is given to Pashto-language AI research and the potential for digital archives to preserve Orakzai's oral history.
+
+- **Research Sources**: Detailed bibliographic records and a technology evidence matrix are available in `book/sources/page-123-ai-in-pakistan.md`; research notes and methodological findings are in `book/sources/page-123-research-notes.md`.
+- **Visual Elements**: 81 original responsive SVG elements: one premium AI Pakistan Hero and 80 numbered accessible logic-atlas cards. The atlas covers NCAI lab networks, AI startup ecosystems, compute infrastructure stacks, and local-language NLP pipelines.
+- **Content**: Evidence-led narrative connects Pages 63, 90, 97, 103-110, and 111-122. It frames Pakistan's AI future as a question of participation and building rather than just consumption.
+- **Evidence Boundary**: Statistics are derived from official MoITT, NCAI, and PSEB reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 124 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
