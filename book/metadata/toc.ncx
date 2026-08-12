@@ -398,5 +398,9 @@
       <navLabel><text>Global Orakzai Communities</text></navLabel>
       <content src="../pages/page-098-global-orakzai-communities.html"/>
     </navPoint>
+    <navPoint id="navPoint-99" playOrder="98">
+      <navLabel><text>Identity in the Diaspora</text></navLabel>
+      <content src="../pages/page-099-identity-in-the-diaspora.html"/>
+    </navPoint>
   </navMap>
 </ncx>
