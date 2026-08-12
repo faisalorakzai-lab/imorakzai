@@ -430,5 +430,9 @@
       <navLabel><text>Digitizing Tribal Archives</text></navLabel>
       <content src="../pages/page-106-digitizing-tribal-archives.html"/>
     </navPoint>
+    <navPoint id="navPoint-107" playOrder="106">
+      <navLabel><text>Oral History &amp; Technology</text></navLabel>
+      <content src="../pages/page-107-oral-history-technology.html"/>
+    </navPoint>
   </navMap>
 </ncx>

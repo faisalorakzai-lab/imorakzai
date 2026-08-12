@@ -704,3 +704,16 @@ The page draws on international standards from UNESCO and the Digital Preservati
 - **Evidence Boundary**: No specific Orakzai archival collections are invented. Digitization is not presented as an automatic proof of historical truth. Personal identification documents and sensitive family data are excluded from open publication. AI tools are strictly defined as assistants, not authorities.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 107 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 107: Oral History & Technology
+
+Page 107 explores the recording, preservation, and sharing of oral history through modern technology while maintaining ethical standards and cultural ownership. It emphasizes that voice is a primary historical source and provides a methodological framework for capturing memory as evidence.
+
+The page incorporates professional standards from the Oral History Association (OHA), institutional case studies from the Citizens Archive of Pakistan (CAP), and research on the ethical use of born-digital materials. It addresses the role of Pashto as an archival language and the opportunities and risks presented by AI in transcription, translation, and summarization.
+
+- **Research Sources**: Detailed citations and claim boundaries are available in `book/sources/page-107-oral-history-technology.md`; research notes and methodological findings are in `book/sources/page-107-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Oral History & Technology Hero and 100 numbered accessible logic-atlas cards. The atlas covers oral history methodology, memory as evidence, diverse narrator circles, language nuances, transcription/translation workflows, consent levels, digital preservation (3-2-1), AI assistance risks, and community governance models.
+- **Content**: Evidence-led narrative connects Pages 60-70, 80, 89, 90, 97-99, 103-106. It provides practical guidance for researchers and community members while maintaining strict evidence boundaries.
+- **Evidence Boundary**: No interviews or oral traditions are invented. Oral testimony is clearly distinguished from independently verified historical fact. AI tools are defined as assistants, not authorities. Fictional metadata samples are explicitly labeled.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 108 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
