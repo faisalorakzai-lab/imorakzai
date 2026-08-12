@@ -574,5 +574,9 @@
       <navLabel><text>Sovereign Technology</text></navLabel>
       <content src="../pages/page-142-sovereign-technology.html"/>
     </navPoint>
+    <navPoint id="navPoint-143" playOrder="142">
+      <navLabel><text>National Digital Infrastructure</text></navLabel>
+      <content src="../pages/page-143-national-digital-infrastructure.html"/>
+    </navPoint>
   </navMap>
 </ncx>

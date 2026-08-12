@@ -1172,3 +1172,16 @@ The content is grounded in 2026 reports from the Ministry of IT & Telecom (MoITT
 - **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 143 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 143: National Digital Infrastructure
+
+Page 143 examines the collection of physical, digital, institutional, and technological systems that enable a country to participate in the digital economy. It analyzes the national digital stack, focusing on the intersection of connectivity, fiber-optic networks, 5G rollout, and Digital Public Infrastructure (DPI). The page highlights Pakistan's significant progress in digital transformation, including a 20% improvement in the ITU ICT Development Index 2026 and the scheduled commercial launch of 5G services in mid-August 2026.
+
+The content is grounded in 2026 reports from the ITU, MoITT, and the Pakistan Digital Authority (PDA). It discusses the integration of identity (NADRA) and payments (Raast) as the foundation of DPI, the strategic importance of submarine cables and Internet Exchange Points (IXPs), and the necessity of bridging the digital divide through rural connectivity. A personal case study of Faisal Orakzai illustrates the generational shift toward advocating for modern, resilient, and inclusive digital infrastructure that empowers local communities through high-capacity networks and sovereign digital services.
+
+- **Research Sources**: Detailed bibliographic records and a national digital infrastructure evidence matrix are available in `book/sources/page-143-national-digital-infrastructure.md`; research notes and methodological findings are in `book/sources/page-143-research-notes.md`.
+- **Visual Elements**: 114 original responsive SVG elements: one premium National Digital Infrastructure Hero and 113 numbered accessible logic-atlas cards. The atlas covers the digital stack layers, 5G rollout roadmap, submarine-to-local architecture, and the national DPI model.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-142. It frames national digital infrastructure as a primary driver of economic productivity and national resilience.
+- **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 144 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
