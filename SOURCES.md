@@ -808,3 +808,16 @@ The content is supported by official data from the Pakistan Economic Survey 2025
 - **Evidence Boundary**: Faisal Orakzai is presented as ONE case study, not a representative of the entire generation. All biographical and statistical data is sourced from verified institutional records for the 2025–2026 period. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 115 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 115: Entrepreneurship in Pakistan
+
+Page 115 explores entrepreneurship in Pakistan as an economic, social, and cultural phenomenon. It covers the spectrum from small and medium enterprises (SMEs) and family businesses to technology startups and digital entrepreneurship. The page features a contemporary case study of Faisal Orakzai to illustrate the "Builder's Model" of technical entrepreneurship. It provides detailed regulatory definitions from the State Bank of Pakistan (SBP) and information on government support programs like the Pakistan Startup Fund (PSF).
+
+The content is grounded in official data from the Pakistan Economic Survey 2025–26, the SBP Revised Prudential Regulations for SME Financing (July 2026), and SMEDA strategic plans. It addresses the role of formalization, inclusion, and digital trust while maintaining strict evidence boundaries and distinguishing between national statistics and individual case studies.
+
+- **Research Sources**: Detailed bibliographic records and an entrepreneurship evidence matrix are available in `book/sources/page-115-entrepreneurship-pakistan.md`; research notes and methodological findings are in `book/sources/page-115-research-notes.md`.
+- **Visual Elements**: 91 original responsive SVG elements: one premium Entrepreneurship Hero and 90 numbered accessible logic-atlas cards. The atlas covers SME definitions, startup ecosystems, financing ladders, women and youth entrepreneurs, and Orakzai's market pathways.
+- **Content**: Evidence-led narrative connects Pages 35, 36, 47, 49, 50, 67, 68, 69, 88, 89, 90, 96, 97, 98, 99, 100, 101, 102, 103, 110, 111, 112, 113, and 114. It frames entrepreneurship as a tool for creating value and building opportunity.
+- **Evidence Boundary**: Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. All biographical and statistical data is sourced from verified institutional records for the 2025–2026 period. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 116 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
