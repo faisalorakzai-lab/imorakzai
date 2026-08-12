@@ -1289,3 +1289,16 @@ The content is grounded in 2026 reports from Dawn, Business Recorder, the Pakist
 - **Evidence Boundary**: Statistics and policy events are derived from official PBS, MOITT, and industry reports from fiscal year 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 152: Technology & Economic Development
+
+Page 152 analyzes technology as a foundational economic force that transforms productivity across all sectors. It highlights Pakistan's 2026 milestones, including the rise of its ICT Development Index (IDI) score to 67.7, the record $4.6 billion in IT exports, and the freelance economy surpassing the $1 billion milestone. The page frames technology as the infrastructure of opportunity, detailing its impact on manufacturing, agriculture, healthcare, and education.
+
+The content is grounded in 2026 reports from the State Bank of Pakistan (SBP), the Ministry of IT & Telecommunication (MOITT), the International Telecommunication Union (ITU), and the Special Investment Facilitation Council (SIFC). It discusses the adoption of Industry 4.0, the potential for digital transformation to add $34.9 billion to the economy by 2030, and the rise of the skills economy. The Orakzai context is integrated to illustrate how digital platforms and remote work enable regional professionals to participate in global markets, removing geographic barriers to economic empowerment.
+
+- **Research Sources**: Detailed bibliographic records and a Technology & Economic Development evidence matrix are available in `book/sources/page-152-technology-and-economic-development.md`; research notes and methodological findings are in `book/sources/page-152-research-notes.md`.
+- **Visual Elements**: 113 original responsive SVG elements: one premium Technology-Economy Hero and 112 numbered accessible logic-atlas cards. The atlas covers productivity rails, digital transformation models, IT export surges, and the relationship between AI, Industry 4.0, and global services exports.
+- **Content**: Evidence-led narrative connects Page 151 to the broader technological drivers of development. It frames technology as the ultimate equalizer for national and regional prosperity.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, MOITT, ITU, and industry reports from fiscal year 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

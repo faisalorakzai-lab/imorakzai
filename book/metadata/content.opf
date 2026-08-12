@@ -163,6 +163,7 @@
     <item id="page-149" href="../pages/page-149-the-internet-of-value.html" media-type="application/xhtml+xml"/>
     <item id="page-150" href="../pages/page-150-building-the-digital-nation.html" media-type="application/xhtml+xml"/>
     <item id="page-151" href="../pages/page-151-pakistans-economic-future.html" media-type="application/xhtml+xml"/>
+    <item id="page-152" href="../pages/page-152-technology-and-economic-development.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -317,5 +318,6 @@
     <itemref idref="page-149"/>
     <itemref idref="page-150"/>
     <itemref idref="page-151"/>
+    <itemref idref="page-152"/>
   </spine>
 </package>

@@ -610,5 +610,9 @@
       <navLabel><text>Pakistan’s Economic Future</text></navLabel>
       <content src="../pages/page-151-pakistans-economic-future.html"/>
     </navPoint>
+    <navPoint id="navPoint-152" playOrder="151">
+      <navLabel><text>Technology & Economic Development</text></navLabel>
+      <content src="../pages/page-152-technology-and-economic-development.html"/>
+    </navPoint>
   </navMap>
 </ncx>
