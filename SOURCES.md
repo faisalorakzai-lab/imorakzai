@@ -549,3 +549,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Karachi hero (Mountain to Sea), the migration driver model, the Karachi diversity matrix, the Pashtun migration timeline, the chain migration flow, the staged migration pathway, and the "Home in the City" synthesis.
 - **Content**: Detailed examination of the Orakzai community in Karachi. Based on Oxford scholarship (Zia Ur Rehman, Robert Nichols) and IGC research on Pashtun migration. Explores the history of settlement, economic involvement in transport and trade, the formation of urban hubs in District West and Malir, and the maintenance of trans-local identity across distance.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 93: Orakzai in Peshawar
+- **Research Sources**: Detailed citations are available in `book/sources/page-093-orakzai-in-peshawar.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Peshawar hero (Mountains to City), the urban role taxonomy, the regional connectivity map, the temporary vs. permanent stay model, the educational pathway (UoP), and the urban tribal network synthesis.
+- **Content**: Analysis of Peshawar as the primary regional urban center for the Orakzai people. Based on ODI research (Mosel & Jackson), NPS tribal profiles, and academic studies on borderland political economy (Bukhari). Explores the city's role in education, healthcare, and business, while distinguishing between broader urban history and specific tribal mobility.
+- **License**: Content is proprietary to the author; visual design is project-specific.
