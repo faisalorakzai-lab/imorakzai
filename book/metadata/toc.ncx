@@ -590,5 +590,9 @@
       <navLabel><text>Digital Governance</text></navLabel>
       <content src="../pages/page-146-digital-governance.html"/>
     </navPoint>
+    <navPoint id="navPoint-147" playOrder="146">
+      <navLabel><text>Digital Assets & Regulation</text></navLabel>
+      <content src="../pages/page-147-digital-assets-and-regulation.html"/>
+    </navPoint>
   </navMap>
 </ncx>

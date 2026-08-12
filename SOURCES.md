@@ -1224,3 +1224,16 @@ The content is grounded in 2026 reports from the PDA, Business Recorder, and the
 - **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 147: Digital Assets & Regulation
+
+Page 147 examines the development of the regulatory framework for digital assets in Pakistan, focusing on the shift from the 2018 restrictive environment to the comprehensive Virtual Assets Act 2026. It analyzes the role of the Pakistan Virtual Assets Regulatory Authority (PVARA) and the integration of digital value into the formal financial system. The page highlights Pakistan's 2026 milestones, including the enactment of the Virtual Assets Act in March 2026 and the SBP policy pivot in April 2026 that ended the 8-year crypto banking ban.
+
+The content is grounded in 2026 reports from PVARA, the State Bank of Pakistan (SBP), and official government announcements. It discusses the principle of "Regulation by Function," the implementation of the FATF Travel Rule, and the classification of digital assets into payment, utility, security, and commodity categories. The Orakzai context is integrated to illustrate how a regulated environment provides "safe rails" for regional entrepreneurs and diaspora communities to participate in the global digital economy through secure and compliant platforms.
+
+- **Research Sources**: Detailed bibliographic records and a digital asset regulation evidence matrix are available in `book/sources/page-147-digital-assets-and-regulation.md`; research notes and methodological findings are in `book/sources/page-147-research-notes.md`.
+- **Visual Elements**: 111 original responsive SVG elements: one premium Digital Asset Regulatory Hero and 110 numbered accessible logic-atlas cards. The atlas covers asset categories, regulatory stacks, compliance loops, and institutional relationships between PVARA, SBP, and SECP.
+- **Content**: Evidence-led narrative connects Page 146 to the broader digital economy. It frames regulation as a bridge between innovation and institutional trust.
+- **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
