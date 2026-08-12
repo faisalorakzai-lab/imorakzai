@@ -678,3 +678,16 @@ The page incorporates research on family language policy and identity formation 
 - **Evidence Boundary**: No unfounded predictions about Pashto's "death" or global dominance are made. No specific future population numbers or growth rates are invented. AI is labeled as an assistance tool, not an independent source of truth. Scenarios are clearly distinguished from forecasts.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 105 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 105: Digital Preservation of History
+
+Page 105 explains the responsible preservation of Orakzai history, family memory, and cultural heritage in digital form. It distinguishes between technical digitization and long-term preservation, emphasizing the importance of metadata, provenance, and redundancy.
+
+The page uses international standards from UNESCO, the Digital Preservation Coalition (DPC), and the IFLA as its foundation. It also references local institutional models such as the Citizens Archive of Pakistan (CAP) to illustrate the role of oral history and family archives in historical documentation. It establishes ethical guidelines for informed consent, privacy, and the use of AI in historical research.
+
+- **Research Sources**: Detailed citations and claim boundaries are available in `book/sources/page-105-digital-preservation-of-history.md`; research notes and methodological findings are in `book/sources/page-105-research-notes.md`.
+- **Visual Elements**: 91 original responsive SVG elements: one premium Digital Preservation Hero and 90 numbered accessible logic-atlas cards. The atlas covers preservation workflows, historical source types, metadata categories, file formats, backup strategies (3-2-1), AI risks, community archives, and intergenerational memory transmission.
+- **Content**: Evidence-led narrative connects Pages 1, 64, 65, 79, 80, 103, and 104. It provides practical guidance for family and community-led documentation while maintaining strict evidence boundaries.
+- **Evidence Boundary**: No existing "Orakzai Digital Archive" is claimed; it is presented as a proposed conceptual framework. Digital copies are identified as surrogates of physical originals. AI-generated reconstructions are strictly excluded from historical evidence.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 106 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

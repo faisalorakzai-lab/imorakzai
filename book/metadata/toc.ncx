@@ -422,5 +422,9 @@
       <navLabel><text>The Future of Pashto</text></navLabel>
       <content src="../pages/page-104-future-of-pashto.html"/>
     </navPoint>
+    <navPoint id="navPoint-105" playOrder="104">
+      <navLabel><text>Digital Preservation of History</text></navLabel>
+      <content src="../pages/page-105-digital-preservation-of-history.html"/>
+    </navPoint>
   </navMap>
 </ncx>

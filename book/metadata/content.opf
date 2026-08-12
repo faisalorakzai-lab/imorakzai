@@ -116,6 +116,7 @@
     <item id="page-102" href="../pages/page-102-tradition-vs-modernity.html" media-type="application/xhtml+xml"/>
     <item id="page-103" href="../pages/page-103-preserving-culture-digital-world.html" media-type="application/xhtml+xml"/>
     <item id="page-104" href="../pages/page-104-future-of-pashto.html" media-type="application/xhtml+xml"/>
+    <item id="page-105" href="../pages/page-105-digital-preservation-of-history.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -223,5 +224,6 @@
     <itemref idref="page-102"/>
     <itemref idref="page-103"/>
     <itemref idref="page-104"/>
+    <itemref idref="page-105"/>
   </spine>
 </package>
