@@ -582,5 +582,9 @@
       <navLabel><text>Blockchain & National Infrastructure</text></navLabel>
       <content src="../pages/page-144-blockchain-and-national-infrastructure.html"/>
     </navPoint>
+    <navPoint id="navPoint-145" playOrder="144">
+      <navLabel><text>Digital Identity</text></navLabel>
+      <content src="../pages/page-145-digital-identity.html"/>
+    </navPoint>
   </navMap>
 </ncx>

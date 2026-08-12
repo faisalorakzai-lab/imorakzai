@@ -1198,3 +1198,16 @@ The content is grounded in 2026 reports from PVARA, the State Bank of Pakistan (
 - **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 145 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 145: Digital Identity
+
+Page 145 explores the foundational role of digital identity in the modern nation, tracing the shift from physical documentation to secure, interoperable, and privacy-conscious digital systems. It analyzes the identity lifecycle, authentication mechanisms, and the rise of decentralized trust models. The page highlights Pakistan's 2026 digital identity milestones, including the widespread adoption of the Pak ID app (surpassing 18 million downloads by July 2026) and the rollout of the Nishan Pakistan unified verification platform.
+
+The content is grounded in 2026 reports from NADRA, the Digital Nation Act 2025, and industry updates regarding the transition to facial recognition and IRIS biometrics. It discusses the implementation of "Privacy by Design" through biometric control systems and the growing importance of Self-Sovereign Identity (SSI) for regional empowerment. The Orakzai context is integrated to illustrate how digital ID bridges the gap in remote tribal areas, ensuring secure access to national services and the protection of regional rights.
+
+- **Research Sources**: Detailed bibliographic records and a digital identity evidence matrix are available in `book/sources/page-145-digital-identity.md`; research notes and methodological findings are in `book/sources/page-145-research-notes.md`.
+- **Visual Elements**: 110 original responsive SVG elements: one premium Digital Identity Hero and 109 numbered accessible logic-atlas cards. The atlas covers identity lifecycles, authentication factors, public-key cryptography, national ID platforms, and SSI architectures.
+- **Content**: Evidence-led narrative connects Page 144 to the broader DPI framework. It frames digital identity as a tool for sovereignty, privacy, and inclusion.
+- **Evidence Boundary**: Statistics and legislative events are derived from official institutional, technical, and government reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
