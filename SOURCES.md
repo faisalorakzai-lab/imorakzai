@@ -847,3 +847,16 @@ The content is grounded in official data from Ignite, the State Bank of Pakistan
 - **Evidence Boundary**: Statistics and institutional programs reflect verified records for the 2025–2026 period. Faisal Orakzai is presented as ONE contemporary case study, not a representative of the entire population. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 118 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 118: Software & Digital Infrastructure
+
+Page 118 explains the software and digital infrastructure that supports Pakistan's modern economy, including networks, servers, data centers, cloud platforms, and Digital Public Infrastructure (DPI). It details Pakistan's international submarine cable connectivity (AAE-1, PEACE, SMW-6), the role of NADRA (Identity) and Raast (Payments), and the growing data center market. The page frames infrastructure as the hidden layer that makes digital participation possible.
+
+The content is grounded in official data from the Pakistan Telecommunication Authority (PTA), the State Bank of Pakistan (SBP), and industry research from Mordor Intelligence and Submarine Cable Map. It features a personal case study of Faisal Orakzai to illustrate a founder's perspective on building with software and systems. The page also addresses the infrastructure gap between urban and remote regions and the importance of digital inclusion.
+
+- **Research Sources**: Detailed bibliographic records and an infrastructure evidence matrix are available in `book/sources/page-118-software-digital-infrastructure.md`; research notes and methodological findings are in `book/sources/page-118-research-notes.md`.
+- **Visual Elements**: 101 original responsive SVG elements: one premium Software & Infrastructure Hero and 100 numbered accessible logic-atlas cards. The atlas covers the digital stack, network topologies, cloud logic, cybersecurity models, and Orakzai's connectivity pathways.
+- **Content**: Evidence-led narrative connects Pages 88, 90, 98, 103, 111, 112, 113, 114, 116, and 117. It frames digital infrastructure as a foundational engine of innovation and inclusion.
+- **Evidence Boundary**: Statistics and system statuses reflect verified records for the 2025–2026 period. Faisal Orakzai is presented as ONE personal case study, not a representation of the entire population. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 119 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

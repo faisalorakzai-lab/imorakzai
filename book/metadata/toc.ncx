@@ -474,5 +474,9 @@
       <navLabel><text>The Pakistani Startup Ecosystem</text></navLabel>
       <content src="../pages/page-117-pakistani-startup-ecosystem.html"/>
     </navPoint>
+    <navPoint id="navPoint-118" playOrder="117">
+      <navLabel><text>Software &amp; Digital Infrastructure</text></navLabel>
+      <content src="../pages/page-118-software-digital-infrastructure.html"/>
+    </navPoint>
   </navMap>
 </ncx>
