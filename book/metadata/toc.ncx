@@ -410,5 +410,9 @@
       <navLabel><text>From Tribal Society to Modern Society</text></navLabel>
       <content src="../pages/page-101-from-tribal-society-to-modern-society.html"/>
     </navPoint>
+    <navPoint id="navPoint-102" playOrder="101">
+      <navLabel><text>Tradition vs Modernity</text></navLabel>
+      <content src="../pages/page-102-tradition-vs-modernity.html"/>
+    </navPoint>
   </navMap>
 </ncx>
