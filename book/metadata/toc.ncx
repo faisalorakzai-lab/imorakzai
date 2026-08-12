@@ -594,5 +594,9 @@
       <navLabel><text>Digital Assets & Regulation</text></navLabel>
       <content src="../pages/page-147-digital-assets-and-regulation.html"/>
     </navPoint>
+    <navPoint id="navPoint-148" playOrder="147">
+      <navLabel><text>Financial Infrastructure of the Future</text></navLabel>
+      <content src="../pages/page-148-financial-infrastructure-of-the-future.html"/>
+    </navPoint>
   </navMap>
 </ncx>

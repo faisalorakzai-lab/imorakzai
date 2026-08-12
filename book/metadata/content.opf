@@ -159,6 +159,7 @@
     <item id="page-145" href="../pages/page-145-digital-identity.html" media-type="application/xhtml+xml"/>
     <item id="page-146" href="../pages/page-146-digital-governance.html" media-type="application/xhtml+xml"/>
     <item id="page-147" href="../pages/page-147-digital-assets-and-regulation.html" media-type="application/xhtml+xml"/>
+    <item id="page-148" href="../pages/page-148-financial-infrastructure-of-the-future.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -309,5 +310,6 @@
     <itemref idref="page-145"/>
     <itemref idref="page-146"/>
     <itemref idref="page-147"/>
+    <itemref idref="page-148"/>
   </spine>
 </package>
