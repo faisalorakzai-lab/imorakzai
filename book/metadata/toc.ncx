@@ -450,5 +450,9 @@
       <navLabel><text>Pakistan’s Technology Revolution</text></navLabel>
       <content src="../pages/page-111-pakistans-technology-revolution.html"/>
     </navPoint>
+    <navPoint id="navPoint-112" playOrder="111">
+      <navLabel><text>The Rise of the Internet</text></navLabel>
+      <content src="../pages/page-112-the-rise-of-the-internet.html"/>
+    </navPoint>
   </navMap>
 </ncx>

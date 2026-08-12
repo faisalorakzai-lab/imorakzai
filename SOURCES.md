@@ -769,3 +769,16 @@ The content is supported by official statistics from the Pakistan Telecommunicat
 - **Evidence Boundary**: All statistics reflect the reporting period of 2025–2026. No promotional claims or exaggerated achievements are made. The page distinguishes between established facts, statistical data, and policy goals. Regional technological access is acknowledged as unequal.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 112 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 112: The Rise of the Internet
+
+Page 112 provides a comprehensive overview of the internet's evolution from early research networks to a defining global infrastructure. It explores the technical milestones of ARPANET, the development of TCP/IP, the birth of the World Wide Web at CERN, and the subsequent commercial and social transformations. The page specifically connects these global developments with the history of internet adoption in Pakistan and its impact on Orakzai communities.
+
+The content is grounded in authoritative historical and technical records from the Internet Society, CERN, and the Pakistan Telecommunication Authority (PTA). It emphasizes the distinction between the Internet (the infrastructure) and the World Wide Web (the service), and addresses the digital divide and the role of the internet in cultural preservation.
+
+- **Research Sources**: Detailed bibliographic records and an internet evolution evidence matrix are available in `book/sources/page-112-the-rise-of-the-internet.md`; research notes and methodological findings are in `book/sources/page-112-research-notes.md`.
+- **Visual Elements**: 120 original responsive SVG elements: one premium Internet Hero and 119 numbered accessible logic-atlas cards. The atlas covers packet switching, ARPANET milestones, TCP/IP handshake, DNS lookup, Web architecture (HTML/HTTP), search engines, mobile internet, and Orakzai's digital connectivity.
+- **Content**: Evidence-led narrative connects Pages 103, 104, 110, and 111. It provides a strategic framework for understanding the internet as a bridge for education, migration, and cultural continuity.
+- **Evidence Boundary**: All historical claims are supported by institutional records. No single individual is credited with inventing the internet. Statistics for Pakistan reflect official PTA data for 2025.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 113 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
