@@ -429,3 +429,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the expansion process, the direct-vs-indirect control model, the political agent hierarchy, the connectivity-control dual role, and the military expedition workflow.
 - **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on the Tirah Campaign (Agha, 2021), frontier administration (Tripodi, 2013), and contemporary military records (Hutchinson, 1898).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 73: Frontier Tribal Administration
+- **Research Sources**: Detailed citations are available in `book/sources/page-073-frontier-tribal-administration.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the frontier administration hero, the ordinary vs. frontier comparison, the Political Agent power hierarchy, the Malik system interaction, and the FCR legal framework.
+- **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on the FCR (Hopkins, 2015), frontier administration (Tripodi, 2013), and ethnographic research on Orakzai Maliks (Infinity Press, 2023).
+- **License**: Content is proprietary to the author; visual design is project-specific.

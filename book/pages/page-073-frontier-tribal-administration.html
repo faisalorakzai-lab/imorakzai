@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Frontier Tribal Administration</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-admin: #2F4F4F;
+            --badge-tribal: #123B2A;
+            --badge-custom: #B59654;
+            --badge-religion: #6B4F3A;
+            --badge-military: #8B0000;
+            --badge-legal: #4682B4;
+            --badge-negotiation: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-admin { background: var(--badge-admin); }
+        .badge-tribal { background: var(--badge-tribal); }
+        .badge-custom { background: var(--badge-custom); color: var(--charcoal); }
+        .badge-religion { background: var(--badge-religion); }
+        .badge-military { background: var(--badge-military); }
+        .badge-legal { background: var(--badge-legal); }
+        .badge-negotiation { background: var(--badge-negotiation); }
+        
+        .comparison-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .comparison-card {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page frontier-admin-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 73</h3>
+            <h2>FRONTIER TRIBAL ADMINISTRATION</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Between the state and the tribe, authority was negotiated.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">After expanding toward the frontier, the British faced a difficult question: How do you govern a mountainous society where local authority already exists? The answer was not simply to build offices and replace every local institution. Instead, the colonial state developed a frontier system that relied on political agents, tribal intermediaries, jirgas, allowances, special laws and, where necessary, military force. It was neither ordinary provincial administration nor complete tribal independence. It was a negotiated system of power. The state tried to reach the tribe. The tribe tried to protect its autonomy. Between them stood a network of officials, elders, agreements, customary practices and colonial regulations.</p>
+
+            <!-- HERO: FRONTIER ADMINISTRATION HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Layered Mountain Ranges -->
+                        <path d="M0 320 L120 180 L280 260 L460 140 L600 320 Z" fill="rgba(18, 59, 42, 0.15)"/>
+                        <path d="M0 350 L180 230 L340 290 L500 200 L600 350 Z" fill="rgba(18, 59, 42, 0.25)"/>
+                        
+                        <!-- Valley Plane -->
+                        <rect x="0" y="320" width="600" height="80" fill="rgba(23, 26, 23, 0.5)"/>
+                        
+                        <!-- Colonial Administrative Post -->
+                        <rect x="420" y="160" width="40" height="25" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-legal)"/>
+                        <rect x="435" y="140" width="10" height="20" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-legal)"/>
+                        
+                        <!-- Road Connecting Settlement and Post -->
+                        <path d="M440 380 Q 300 350, 150 310" fill="none" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6"/>
+                        
+                        <!-- Local Elders Silhouette Gathering -->
+                        <circle cx="150" cy="310" r="10" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <circle cx="135" cy="315" r="8" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        <circle cx="165" cy="315" r="8" fill="rgba(181, 150, 84, 0.2)" stroke="var(--gold)"/>
+                        
+                        <!-- Layered Map Lines Overlay -->
+                        <line x1="50" y1="200" x2="550" y2="200" stroke="var(--gold)" stroke-width="0.3" opacity="0.2"/>
+                        <line x1="300" y1="50" x2="300" y2="380" stroke="var(--gold)" stroke-width="0.3" opacity="0.2"/>
+                        <circle cx="300" cy="200" r="150" fill="none" stroke="var(--gold)" stroke-width="0.2" opacity="0.2"/>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">FRONTIER TRIBAL ADMINISTRATION</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“Between the state and the tribe, authority was negotiated.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A conceptual model of the negotiated authority on the mountain frontier.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What was Frontier Administration?</h3>
+            <p>Frontier administration was a distinctive colonial approach designed for areas where ordinary provincial bureaucracy was considered difficult, expensive, or politically unsuitable. In these regions, the state projected influence through a specialized framework that balanced central objectives with the realities of local tribal authority. This system allowed the state to manage the frontier while acknowledging the practical limitations of its penetration into the mountainous terrain.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="60" y="75">FRONTIER</text>
+                        <path d="M90 75 L120 75" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        
+                        <text x="170" y="75">LIMITED STATE<br/>PENETRATION</text>
+                        <path d="M220 75 L250 75" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        
+                        <text x="300" y="75">LOCAL<br/>AUTHORITY</text>
+                        <path d="M350 75 L380 75" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        
+                        <rect x="380" y="55" width="100" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="430" y="75" font-weight="bold">SPECIAL<br/>ADMINISTRATION</text>
+                        
+                        <defs>
+                            <marker id="arrow-73" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The logical pathway leading to the creation of special frontier administration.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-admin">Colonial Administration</span>
+                <span class="badge badge-tribal">Tribal Authority</span>
+                <span class="badge badge-custom">Customary Authority</span>
+                <span class="badge badge-religion">Religious Authority</span>
+                <span class="badge badge-military">Military Authority</span>
+                <span class="badge badge-legal">Legal Authority</span>
+                <span class="badge badge-negotiation">Political Negotiation</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Ordinary Province vs Frontier</h3>
+            <p>The distinction between ordinary colonial administration and frontier administration was fundamental. While the settled districts of Punjab and later the NWFP followed a regular bureaucratic model with courts and police, the tribal frontier operated through a more flexible, negotiated system. This distinction was not static; it changed over time and varied significantly across different locations along the frontier borderland.</p>
+
+            <div class="comparison-panel">
+                <div class="comparison-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Ordinary Administration</h4>
+                    <p style="font-size: 0.75rem;">District officials, formal courts, police, taxation, and a regular bureaucratic hierarchy.</p>
+                </div>
+                <div class="comparison-card">
+                    <h4 style="color: var(--gold); margin-bottom: 0.5rem;">Frontier Administration</h4>
+                    <p style="font-size: 0.75rem;">Political Agents, tribal intermediaries, jirgas, allowances, and special regulations like the FCR.</p>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Political Agent</h3>
+            <p>The Political Agent (PA) was the central figure in the frontier system, holding concentrated executive, judicial, and security powers. Acting as the chief colonial official in a tribal agency, the PA was responsible for managing tribal relations, mediating disputes, and coordinating security. The office was a colonial administrative structure designed to project state power into autonomous zones while maintaining a bridge to the local communities.<sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="10" width="140" height="30" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-legal)"/>
+                        <text x="250" y="30" font-weight="bold">COLONIAL GOVERNMENT</text>
+                        
+                        <path d="M250 40 L250 60" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        
+                        <rect x="150" y="60" width="200" height="30" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="250" y="80" font-weight="bold">POLITICAL AGENT (PA)</text>
+                        
+                        <path d="M250 90 L250 110" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        
+                        <rect x="180" y="110" width="140" height="30" fill="rgba(18, 59, 42, 0.2)" stroke="var(--forest)"/>
+                        <text x="250" y="130" font-weight="bold">TRIBAL REPRESENTATIVES</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The hierarchy of colonial frontier administration and tribal negotiation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Maliks and Tribal Representation</h3>
+            <p>In the Orakzai frontier, the colonial state relied on recognized tribal intermediaries known as *Maliks*. A Malik functioned as a bridge between the Political Agent and the local community, facilitating negotiation and administrative implementation. However, colonial recognition did not always equate to universal tribal legitimacy; the Malik system was a tool of state patronage that interacted with, and sometimes transformed, traditional leadership structures.<sup>4</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="100" y="60">COMMUNITY</text>
+                        <path d="M140 60 L180 60" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-73)" marker-start="url(#arrow-73)"/>
+                        
+                        <rect x="180" y="40" width="140" height="40" rx="2" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="60" font-weight="bold">MALIK</text>
+                        <text x="250" y="72" font-size="6">(Recognized Intermediary)</text>
+                        
+                        <path d="M320 60 L360 60" stroke="var(--gold)" stroke-width="1" marker-end="url(#arrow-73)" marker-start="url(#arrow-73)"/>
+                        <text x="420" y="60">COLONIAL STATE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The dual-facing role of the Malik in frontier negotiation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Frontier Crimes Regulation (FCR)</h3>
+            <p>The Frontier Crimes Regulation (FCR), most notably the 1901 version, provided the special legal framework for governing the tribal areas. It concentrated powers in the Political Agent and utilized the **Jirga** as a judicial mechanism for dispute resolution and the enforcement of agreements. A central and controversial feature was **Collective Responsibility**, which allowed the state to hold an entire clan accountable for the actions of an individual, serving as a tool for security and deterrence.<sup>1</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="30" rx="4" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-legal)"/>
+                        <text x="250" y="30" font-weight="bold">FCR (1901)</text>
+                        
+                        <path d="M250 40 L150 70" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        <g transform="translate(100, 85)">
+                            <text x="0" y="-10" font-weight="bold">JIRGA MECHANISM</text>
+                            <text x="0" y="5">Judicial Procedure</text>
+                        </g>
+                        
+                        <path d="M250 40 L350 70" stroke="var(--gray)" marker-end="url(#arrow-73)"/>
+                        <g transform="translate(400, 85)">
+                            <text x="0" y="-10" font-weight="bold">COLLECTIVE RESP.</text>
+                            <text x="0" y="5">Group Accountability</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The core mechanisms of the Frontier Crimes Regulation.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Frontier administration was a system built on the tension between the desire for control and the reality of mountain autonomy. It was a world of Political Agents, Maliks, and special regulations—a world where the law of the state met the custom of the tribe. While it provided a framework for governance, it also created a special legal space that defined our relationship with the center for over a century. To understand the Orakzai today, we must understand this legacy of negotiated power and the resilience of a people who maintained their identity within a complex administrative machine.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“AUTHORITY WAS A DIALOGUE, NOT A DECREE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            73
+        </footer>
+    </div>
+</body>
+</html>
