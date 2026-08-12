@@ -606,5 +606,9 @@
       <navLabel><text>Building the Digital Nation</text></navLabel>
       <content src="../pages/page-150-building-the-digital-nation.html"/>
     </navPoint>
+    <navPoint id="navPoint-151" playOrder="150">
+      <navLabel><text>Pakistan’s Economic Future</text></navLabel>
+      <content src="../pages/page-151-pakistans-economic-future.html"/>
+    </navPoint>
   </navMap>
 </ncx>

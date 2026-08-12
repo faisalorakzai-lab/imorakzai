@@ -1276,3 +1276,16 @@ The content is grounded in 2026 reports from the Ministry of IT and Telecommunic
 - **Evidence Boundary**: Statistics and legislative events are derived from official MOITT, PBS, and industry reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 151: Pakistan’s Economic Future
+
+Page 151 explores the transformation of Pakistan's economy, focusing on the shift from a consumption-based traditional model to a digital, productive, and global one. It highlights 2026 achievements, including the record $4.6 billion in IT exports, the 5.77% growth in Large-Scale Manufacturing (LSM), and the strategic launch of the Mobile & Electronics Policy 2026-33. The page frames 2026 as the 'Year of Reform and Modernization,' emphasizing the role of human capital, digital skills, and value-added exports in achieving national prosperity.
+
+The content is grounded in 2026 reports from Dawn, Business Recorder, the Pakistan Bureau of Statistics (PBS), and the Ministry of Industries & Production (MoI&P). It discusses the potential of the digital economy to add $60 billion to the GDP by 2030 and the integration of AI and precision analytics in agriculture. The Orakzai context is used to illustrate how digital platforms empower regional entrepreneurs and the diaspora to participate in global markets, removing geographic barriers to economic participation.
+
+- **Research Sources**: Detailed bibliographic records and a Pakistan’s Economic Future evidence matrix are available in `book/sources/page-151-pakistans-economic-future.md`; research notes and methodological findings are in `book/sources/page-151-research-notes.md`.
+- **Visual Elements**: 110 original responsive SVG elements: one premium Economic Future Hero and 109 numbered accessible logic-atlas cards. The atlas covers the productivity base, value-added export models, IT export surges, and the relationship between AI, manufacturing, and global competitiveness.
+- **Content**: Evidence-led narrative connects Page 150 to the broader national economic vision. It frames productivity as the core driver of long-term global sovereignty.
+- **Evidence Boundary**: Statistics and policy events are derived from official PBS, MOITT, and industry reports from fiscal year 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
