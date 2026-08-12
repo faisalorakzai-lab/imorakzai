@@ -298,5 +298,9 @@
       <navLabel><text>Frontier Tribal Administration</text></navLabel>
       <content src="../pages/page-073-frontier-tribal-administration.html"/>
     </navPoint>
+    <navPoint id="navPoint-74" playOrder="73">
+      <navLabel><text>The Orakzai and the British Empire</text></navLabel>
+      <content src="../pages/page-074-orakzai-british-empire.html"/>
+    </navPoint>
   </navMap>
 </ncx>

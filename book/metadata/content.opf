@@ -85,6 +85,7 @@
     <item id="page-071" href="../pages/page-071-orakzai-before-british-rule.html" media-type="application/xhtml+xml"/>
     <item id="page-072" href="../pages/page-072-british-expansion-frontier.html" media-type="application/xhtml+xml"/>
     <item id="page-073" href="../pages/page-073-frontier-tribal-administration.html" media-type="application/xhtml+xml"/>
+    <item id="page-074" href="../pages/page-074-orakzai-british-empire.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -161,5 +162,6 @@
     <itemref idref="page-071"/>
     <itemref idref="page-072"/>
     <itemref idref="page-073"/>
+    <itemref idref="page-074"/>
   </spine>
 </package>

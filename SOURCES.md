@@ -435,3 +435,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the frontier administration hero, the ordinary vs. frontier comparison, the Political Agent power hierarchy, the Malik system interaction, and the FCR legal framework.
 - **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on the FCR (Hopkins, 2015), frontier administration (Tripodi, 2013), and ethnographic research on Orakzai Maliks (Infinity Press, 2023).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 74: The Orakzai and the British Empire
+- **Research Sources**: Detailed citations are available in `book/sources/page-074-orakzai-british-empire.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the imperial encounter hero, the strategic frontier model, the schematic historical map, the contact-to-administration timeline, and the military expedition workflow.
+- **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on the Tirah Campaign (Agha, 2021), contemporary military records (Hutchinson, 1898), and local ethnographic research (Dawar, 2013).
+- **License**: Content is proprietary to the author; visual design is project-specific.

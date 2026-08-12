@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - The Orakzai and the British Empire</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-empire: #2F4F4F;
+            --badge-frontier: #4682B4;
+            --badge-encounter: #123B2A;
+            --badge-resistance: #8B0000;
+            --badge-negotiation: #B59654;
+            --badge-admin: #6B4F3A;
+            --badge-memory: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-empire { background: var(--badge-empire); }
+        .badge-frontier { background: var(--badge-frontier); }
+        .badge-encounter { background: var(--badge-encounter); }
+        .badge-resistance { background: var(--badge-resistance); }
+        .badge-negotiation { background: var(--badge-negotiation); color: var(--charcoal); }
+        .badge-admin { background: var(--badge-admin); }
+        .badge-memory { background: var(--badge-memory); }
+        
+        .expedition-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.75rem;
+            color: var(--ivory);
+        }
+        .expedition-table th, .expedition-table td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .expedition-table th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page orakzai-british-empire-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 74</h3>
+            <h2>THE ORAKZAI AND THE BRITISH EMPIRE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“An empire met its limits at the frontier.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">An empire is often easiest to understand from its frontiers. At the centre, power can appear permanent. At the edge, power must negotiate with geography, distance, local authority and people who already possess their own political worlds. For the Orakzai, the arrival of the British Empire did not mean that one government simply replaced another overnight. It created a long encounter. There were military confrontations. There were negotiations. There were agreements. There were punishments. There were intermediaries. There were periods of relative calm. And there were moments when imperial policy collided directly with local autonomy. The history of the Orakzai and the British Empire is therefore not a simple story of conquest. It is a history of frontier power—and of a people negotiating, resisting and adapting to an expanding empire.</p>
+
+            <!-- HERO: IMPERIAL ENCOUNTER HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Large Mountain Frontier Landscape -->
+                        <path d="M0 350 L100 200 L250 300 L450 150 L600 350 Z" fill="rgba(18, 59, 42, 0.15)"/>
+                        <path d="M0 380 L150 250 L300 320 L500 220 L600 380 Z" fill="rgba(18, 59, 42, 0.25)"/>
+                        
+                        <!-- Ground Plane -->
+                        <rect x="0" y="350" width="600" height="50" fill="rgba(23, 26, 23, 0.5)"/>
+                        
+                        <!-- British Administrative/Military Road -->
+                        <path d="M600 390 Q 400 370, 300 340 L 180 320" fill="none" stroke="var(--gold)" stroke-width="1.5" opacity="0.6"/>
+                        
+                        <!-- Distant Outpost -->
+                        <rect x="450" y="200" width="30" height="15" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-frontier)"/>
+                        <rect x="460" y="185" width="10" height="15" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-frontier)"/>
+                        
+                        <!-- Local Mountain Communities (Human Silhouettes) -->
+                        <circle cx="100" cy="330" r="4" fill="var(--ivory)" opacity="0.8"/>
+                        <circle cx="120" cy="335" r="4" fill="var(--ivory)" opacity="0.8"/>
+                        <circle cx="80" cy="335" r="4" fill="var(--ivory)" opacity="0.8"/>
+                        
+                        <!-- Layered Imperial Map Lines Approaching -->
+                        <path d="M550 50 Q 550 200, 400 250" fill="none" stroke="var(--gold)" stroke-width="0.3" stroke-dasharray="2,4" opacity="0.3"/>
+                        <path d="M580 80 Q 580 230, 430 280" fill="none" stroke="var(--gold)" stroke-width="0.3" stroke-dasharray="2,4" opacity="0.3"/>
+                        
+                        <text x="300" y="50" font-size="18" font-weight="bold" fill="var(--gold)">THE ORAKZAI AND THE BRITISH EMPIRE</text>
+                        <text x="300" y="75" font-size="9" fill="rgba(255, 255, 255, 0.7)">“An empire met its limits at the frontier.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A conceptual visualization of the imperial encounter: the approaching state meeting the mountain homeland.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What was the British Empire?</h3>
+            <p>The British Empire was a global imperial system, with British India serving as one of its most vital territories. The north-western frontier became strategically critical during the 19th century due to the geopolitical rivalry with the Russian Empire—known as the "Great Game." Afghanistan functioned as a buffer state, and the tribal territories, including those of the Orakzai, became the front line of imperial defence, trade routes, and security concerns.<sup>4</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="30" y="40" width="80" height="40" rx="2" fill="rgba(70, 130, 180, 0.15)" stroke="var(--badge-frontier)"/>
+                        <text x="70" y="65" font-weight="bold">BRITISH INDIA</text>
+                        
+                        <path d="M110 60 L140 60" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <rect x="140" y="40" width="100" height="40" rx="2" fill="rgba(18, 59, 42, 0.15)" stroke="var(--forest)"/>
+                        <text x="190" y="60" font-weight="bold">NW FRONTIER</text>
+                        <text x="190" y="72" font-size="6">(Orakzai Territory)</text>
+                        
+                        <path d="M240 60 L270 60" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <rect x="270" y="40" width="90" height="40" rx="2" fill="rgba(107, 79, 58, 0.15)" stroke="var(--earth)"/>
+                        <text x="315" y="65" font-weight="bold">AFGHANISTAN</text>
+                        
+                        <path d="M360 60 L390 60" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <rect x="390" y="40" width="80" height="40" rx="2" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="430" y="60" font-weight="bold">IMPERIAL</text>
+                        <text x="430" y="72" font-weight="bold">STRATEGY</text>
+                        
+                        <defs>
+                            <marker id="arrow-74" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The strategic placement of the frontier within the British imperial system.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Orakzai Homeland: Schematic Historical Map</h3>
+            <p>To understand the encounter, we must look at the geography. Historically, the Orakzai territory centered around the mountain heartland of Tirah and the Samana Range. This terrain provided a natural fortress that protected tribal autonomy while placing the Orakzai at a strategic crossroads between the settled districts of Kohat and Peshawar and the routes to Afghanistan.</p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <!-- Schematic Map Background -->
+                        <rect x="50" y="50" width="400" height="200" fill="rgba(181, 150, 84, 0.03)" stroke="rgba(181, 150, 84, 0.2)"/>
+                        
+                        <!-- Directional Labels -->
+                        <text x="250" y="40" fill="var(--gold)" font-weight="bold">AFGHANISTAN DIRECTION</text>
+                        <text x="250" y="270" fill="var(--gold)" font-weight="bold">KOHAT / PESHAWAR (Settled Districts)</text>
+                        
+                        <!-- Tribal Zones -->
+                        <path d="M150 100 Q 250 80, 350 100 L 350 200 Q 250 220, 150 200 Z" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)" stroke-dasharray="4,2"/>
+                        <text x="250" y="150" font-size="12" font-weight="bold" fill="var(--forest)">ORAKZAI TERRITORY</text>
+                        <text x="250" y="165" font-size="7" fill="var(--forest)">(Tirah &amp; Samana Range)</text>
+                        
+                        <!-- Adjacent Tribes -->
+                        <text x="100" y="150" transform="rotate(-90, 100, 150)" fill="var(--gray)">KURRAM / TURI</text>
+                        <text x="400" y="150" transform="rotate(90, 400, 150)" fill="var(--gray)">AFRIDI SECTIONS</text>
+                        
+                        <text x="250" y="240" font-size="10" font-weight="bold" fill="var(--gold)">SCHEMATIC HISTORICAL MAP</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A schematic representation of Orakzai historical geography and strategic placement.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-empire">Empire</span>
+                <span class="badge badge-frontier">Frontier</span>
+                <span class="badge badge-encounter">Encounter</span>
+                <span class="badge badge-resistance">Resistance</span>
+                <span class="badge badge-negotiation">Negotiation</span>
+                <span class="badge badge-admin">Administration</span>
+                <span class="badge badge-memory">Memory</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Forms of Resistance and Negotiation</h3>
+            <p>Resistance to imperial expansion was multifaceted. While military confrontation is most frequently documented, resistance also took the form of non-cooperation, refusal to pay colonial fines, and collective negotiation through the Jirga. Conversely, periods of negotiation occurred when tribal sections sought to protect their interests or reached agreements regarding road safety and allowances. This dynamic relationship meant that authority was always a dialogue, never a simple decree.<sup>5</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <circle cx="150" cy="75" r="50" fill="rgba(139, 0, 0, 0.1)" stroke="var(--badge-resistance)"/>
+                        <text x="150" y="65" font-weight="bold">RESISTANCE</text>
+                        <text x="150" y="75" font-size="6">Armed Uprisings</text>
+                        <text x="150" y="85" font-size="6">Non-Cooperation</text>
+                        <text x="150" y="95" font-size="6">Siege of Posts</text>
+                        
+                        <path d="M200 75 L300 75" stroke="var(--gold)" stroke-width="1" marker-start="url(#arrow-74)" marker-end="url(#arrow-74)"/>
+                        <text x="250" y="70" fill="var(--gold)">NEGOTIATED BALANCE</text>
+                        
+                        <circle cx="350" cy="75" r="50" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="350" y="65" font-weight="bold">NEGOTIATION</text>
+                        <text x="350" y="75" font-size="6">Jirga Agreements</text>
+                        <text x="350" y="85" font-size="6">Allowances</text>
+                        <text x="350" y="95" font-size="6">Political Intermediaries</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The continuous tension between resistance and negotiation on the frontier.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Documented Military Expeditions</h3>
+            <p>When frontier policy shifted toward direct intervention (the "Forward Policy"), the British launched several punitive expeditions against Orakzai clans. These military actions were often the result of border disputes, raids on the plains, or the tribal refusal to accept colonial infrastructure like roads and forts. The following table summarizes major documented expeditions involving Orakzai sections.<sup>1</sup> <sup>3</sup></p>
+
+            <table class="expedition-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Expedition</th>
+                        <th>Objective</th>
+                        <th>Sections Involved</th>
+                        <th>Outcome</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1855</td>
+                        <td>Neville Chamberlain Exp.</td>
+                        <td>Punitive action for raids.</td>
+                        <td>Bizoti Orakzais</td>
+                        <td>Settlement reached.</td>
+                    </tr>
+                    <tr>
+                        <td>1868-69</td>
+                        <td>Wilde / Keyes Exp.</td>
+                        <td>Border security enforcement.</td>
+                        <td>Bizoti &amp; Utman Khel</td>
+                        <td>Continued friction.</td>
+                    </tr>
+                    <tr>
+                        <td>1891</td>
+                        <td>Miranzai Expedition</td>
+                        <td>Securing Samana Range.</td>
+                        <td>Multiple Orakzai clans</td>
+                        <td>Fort Lockhart built.</td>
+                    </tr>
+                    <tr>
+                        <td>1897-98</td>
+                        <td>Tirah Expedition</td>
+                        <td>Subduing general uprising.</td>
+                        <td>Afridi &amp; Orakzai</td>
+                        <td>Largest frontier campaign.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Tirah Expedition (1897–98)</h3>
+            <p>The Tirah Expedition was the most significant military encounter of the period. Triggered by a widespread tribal uprising in 1897, General Sir William Lockhart led a massive force of 34,000 troops into the heart of the Orakzai and Afridi homeland. The campaign featured fierce engagements, such as the **Storming of Dargai Heights** and the **Battle of Saragarhi**, where Orakzai and Afridi tribesmen besieged a British signal post. The expedition demonstrated the immense logistical challenges of mountain warfare and the deep-seated resistance of the tribes to foreign incursion.<sup>1</sup> <sup>2</sup></p>
+
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">UPRISING</text>
+                        <path d="M80 75 L120 75" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <rect x="120" y="55" width="100" height="40" rx="2" fill="rgba(139, 0, 0, 0.2)" stroke="var(--badge-resistance)"/>
+                        <text x="170" y="75" font-weight="bold">TIRAH EXPEDITION</text>
+                        <text x="170" y="87" font-size="6">(34,000 Troops)</text>
+                        
+                        <path d="M220 75 L260 75" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <text x="310" y="75">SARAGARHI / DARGAI</text>
+                        <path d="M360 75 L400 75" stroke="var(--gray)" marker-end="url(#arrow-74)"/>
+                        
+                        <text x="440" y="75">LONG-TERM<br/>IMPACT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The sequence and scale of the 1897 Tirah Expedition.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The history of our encounter with the British Empire is etched into the very stones of the Samana Range. It was a time when the world’s greatest power met its limits in our valleys. While colonial records speak of 'pacification' and 'punishment,' our oral histories speak of the defense of home and the preservation of dignity. The Orakzai did not just survive this era; they navigated it with a strategic wisdom that allowed them to protect their identity while adapting to a changing world. We remember this history not to dwell on conflict, but to honor the resilience of those who stood firm in the face of an empire.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“POWER WAS MEASURED IN DISTANCE AND ENDURANCE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            74
+        </footer>
+    </div>
+</body>
+</html>
