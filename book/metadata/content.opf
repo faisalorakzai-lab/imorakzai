@@ -20,6 +20,7 @@
     <item id="page-005" href="../pages/page-005-why-im-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="page-006" href="../pages/page-006-the-meaning-of-orakzai.html" media-type="application/xhtml+xml"/>
     <item id="page-007" href="../pages/page-007-my-connection-to-orakzai.html" media-type="application/xhtml+xml"/>
+    <item id="page-008" href="../pages/page-008-identity-memory-belonging.html" media-type="application/xhtml+xml"/>
     <item id="page-009" href="../pages/page-009-the-pashtun-world.html" media-type="application/xhtml+xml"/>
     <item id="page-010" href="../pages/page-010-who-are-the-pashtuns.html" media-type="application/xhtml+xml"/>
     <item id="page-011" href="../pages/page-011-origins-of-the-pashtun-people.html" media-type="application/xhtml+xml"/>
@@ -185,6 +186,7 @@
     <itemref idref="page-005"/>
     <itemref idref="page-006"/>
     <itemref idref="page-007"/>
+    <itemref idref="page-008"/>
     <itemref idref="page-009"/>
     <itemref idref="page-010"/>
     <itemref idref="page-011"/>

@@ -46,6 +46,13 @@
 - **License**: MIT / Project-specific.
 - **Content**: Original autobiographical text provided by the author.
 
+## Page 8: Identity, Memory & Belonging
+- **Research Sources**: Detailed notes are available in `book/sources/page-008-sources.md`.
+- **Visual Elements**: Custom SVG "Memory as a Bridge" graphic (mountain landscape transitioning to modern digital grid).
+- **Source**: Original creation for Faisal Orakzai.
+- **License**: MIT / Project-specific.
+- **Content**: Original reflective essay provided by the author.
+
 ## Page 9: The Pashtun World
 - **Research Sources**: Detailed citations are available in `book/sources/page-009-sources.md`.
 - **Visual Elements**: Custom SVG design featuring conceptual cultural-geographic illustration (mountains, valleys, cities, digital grid).

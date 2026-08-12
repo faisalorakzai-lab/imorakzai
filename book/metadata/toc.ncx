@@ -38,619 +38,623 @@
       <navLabel><text>My Connection to Orakzai Identity</text></navLabel>
       <content src="../pages/page-007-my-connection-to-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-9" playOrder="8">
+    <navPoint id="navPoint-8" playOrder="9">
+      <navLabel><text>Identity, Memory &amp; Belonging</text></navLabel>
+      <content src="../pages/page-008-identity-memory-belonging.html"/>
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
       <navLabel><text>The Pashtun World</text></navLabel>
       <content src="../pages/page-009-the-pashtun-world.html"/>
     </navPoint>
-    <navPoint id="navPoint-10" playOrder="9">
+    <navPoint id="navPoint-10" playOrder="10">
       <navLabel><text>Who Are the Pashtuns?</text></navLabel>
       <content src="../pages/page-010-who-are-the-pashtuns.html"/>
     </navPoint>
-    <navPoint id="navPoint-11" playOrder="10">
+    <navPoint id="navPoint-11" playOrder="11">
       <navLabel><text>Origins of the Pashtun People</text></navLabel>
       <content src="../pages/page-011-origins-of-the-pashtun-people.html"/>
     </navPoint>
-    <navPoint id="navPoint-12" playOrder="11">
+    <navPoint id="navPoint-12" playOrder="12">
       <navLabel><text>Pashtun Tribal Society</text></navLabel>
       <content src="../pages/page-012-pashtun-tribal-society.html"/>
     </navPoint>
-    <navPoint id="navPoint-13" playOrder="12">
+    <navPoint id="navPoint-13" playOrder="13">
       <navLabel><text>Major Pashtun Tribes</text></navLabel>
       <content src="../pages/page-013-major-pashtun-tribal-landscape.html"/>
     </navPoint>
-    <navPoint id="navPoint-14" playOrder="13">
+    <navPoint id="navPoint-14" playOrder="14">
       <navLabel><text>The Pashtun Tribal Confederations</text></navLabel>
       <content src="../pages/page-014-pashtun-tribal-confederations.html"/>
     </navPoint>
-    <navPoint id="navPoint-15" playOrder="14">
+    <navPoint id="navPoint-15" playOrder="15">
       <navLabel><text>Karlani Pashtuns</text></navLabel>
       <content src="../pages/page-015-karlani-pashtuns.html"/>
     </navPoint>
-    <navPoint id="navPoint-16" playOrder="15">
+    <navPoint id="navPoint-16" playOrder="16">
       <navLabel><text>Orakzai Within the Karlani System</text></navLabel>
       <content src="../pages/page-016-orakzai-within-karlani.html"/>
     </navPoint>
-    <navPoint id="navPoint-17" playOrder="16">
+    <navPoint id="navPoint-17" playOrder="17">
       <navLabel><text>Pashtunwali — The Code of Life</text></navLabel>
       <content src="../pages/page-017-pashtunwali.html"/>
     </navPoint>
-    <navPoint id="navPoint-18" playOrder="17">
+    <navPoint id="navPoint-18" playOrder="18">
       <navLabel><text>Melmastia — Hospitality</text></navLabel>
       <content src="../pages/page-018-melmastia-hospitality.html"/>
     </navPoint>
-    <navPoint id="navPoint-19" playOrder="18">
+    <navPoint id="navPoint-19" playOrder="19">
       <navLabel><text>Nanawatai — Protection &amp; Forgiveness</text></navLabel>
       <content src="../pages/page-019-nanawatai-protection-forgiveness.html"/>
     </navPoint>
-    <navPoint id="navPoint-20" playOrder="19">
+    <navPoint id="navPoint-20" playOrder="20">
       <navLabel><text>Jirga — Traditional Governance</text></navLabel>
       <content src="../pages/page-020-jirga-traditional-governance.html"/>
     </navPoint>
-    <navPoint id="navPoint-21" playOrder="20">
+    <navPoint id="navPoint-21" playOrder="21">
       <navLabel><text>Nang — Honour</text></navLabel>
       <content src="../pages/page-021-nang-honour.html"/>
     </navPoint>
-    <navPoint id="navPoint-22" playOrder="21">
+    <navPoint id="navPoint-22" playOrder="22">
       <navLabel><text>Ghairat — Dignity</text></navLabel>
       <content src="../pages/page-022-ghairat-dignity.html"/>
     </navPoint>
-    <navPoint id="navPoint-23" playOrder="22">
+    <navPoint id="navPoint-23" playOrder="23">
       <navLabel><text>Badal — Justice &amp; Revenge</text></navLabel>
       <content src="../pages/page-023-badal-justice-revenge.html"/>
     </navPoint>
-    <navPoint id="navPoint-24" playOrder="23">
+    <navPoint id="navPoint-24" playOrder="24">
       <navLabel><text>Hujra — The Community Space</text></navLabel>
       <content src="../pages/page-024-hujra-community-space.html"/>
     </navPoint>
-    <navPoint id="navPoint-25" playOrder="24">
+    <navPoint id="navPoint-25" playOrder="25">
       <navLabel><text>Pashtun Family Structure</text></navLabel>
       <content src="../pages/page-025-pashtun-family-structure.html"/>
     </navPoint>
-    <navPoint id="navPoint-26" playOrder="25">
+    <navPoint id="navPoint-26" playOrder="26">
       <navLabel><text>Pashtun brotherhood</text></navLabel>
       <content src="../pages/page-026-pashtun-brotherhood.html"/>
     </navPoint>
-    <navPoint id="navPoint-27" playOrder="26">
+    <navPoint id="navPoint-27" playOrder="27">
       <navLabel><text>Pashtun Language &amp; Literature</text></navLabel>
       <content src="../pages/page-027-pashtun-language-literature.html"/>
     </navPoint>
-    <navPoint id="navPoint-28" playOrder="27">
+    <navPoint id="navPoint-28" playOrder="28">
       <navLabel><text>Pashto Poetry</text></navLabel>
       <content src="../pages/page-028-pashto-poetry.html"/>
     </navPoint>
-    <navPoint id="navPoint-29" playOrder="28">
+    <navPoint id="navPoint-29" playOrder="29">
       <navLabel><text>Pashtun Oral History</text></navLabel>
       <content src="../pages/page-029-pashtun-oral-history.html"/>
     </navPoint>
-    <navPoint id="navPoint-30" playOrder="29">
+    <navPoint id="navPoint-30" playOrder="30">
       <navLabel><text>Preserving Tribal Memory</text></navLabel>
       <content src="../pages/page-030-preserving-tribal-memory.html"/>
     </navPoint>
-    <navPoint id="navPoint-31" playOrder="30">
+    <navPoint id="navPoint-31" playOrder="31">
       <navLabel><text>The Orakzai Tribe</text></navLabel>
       <content src="../pages/page-031-the-orakzai-tribe.html"/>
     </navPoint>
-    <navPoint id="navPoint-32" playOrder="31">
+    <navPoint id="navPoint-32" playOrder="32">
       <navLabel><text>Origins of the Orakzai</text></navLabel>
       <content src="../pages/page-032-origins-of-the-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-33" playOrder="32">
+    <navPoint id="navPoint-33" playOrder="33">
       <navLabel><text>Orakzai Tribal Genealogy</text></navLabel>
       <content src="../pages/page-033-orakzai-tribal-genealogy.html"/>
     </navPoint>
-    <navPoint id="navPoint-34" playOrder="33">
+    <navPoint id="navPoint-34" playOrder="34">
       <navLabel><text>Orakzai Sub-Tribes</text></navLabel>
       <content src="../pages/page-034-orakzai-sub-tribes.html"/>
     </navPoint>
-    <navPoint id="navPoint-35" playOrder="34">
+    <navPoint id="navPoint-35" playOrder="35">
       <navLabel><text>Tribal Clans &amp; Lineages</text></navLabel>
       <content src="../pages/page-035-tribal-clans-lineages.html"/>
     </navPoint>
-    <navPoint id="navPoint-36" playOrder="35">
+    <navPoint id="navPoint-36" playOrder="36">
       <navLabel><text>Orakzai Tribal Leadership</text></navLabel>
       <content src="../pages/page-036-orakzai-tribal-leadership.html"/>
     </navPoint>
-    <navPoint id="navPoint-37" playOrder="36">
+    <navPoint id="navPoint-37" playOrder="37">
       <navLabel><text>Jirga Among the Orakzai</text></navLabel>
       <content src="../pages/page-037-jirga-among-the-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-38" playOrder="37">
+    <navPoint id="navPoint-38" playOrder="38">
       <navLabel><text>Traditional Orakzai Governance</text></navLabel>
       <content src="../pages/page-038-traditional-orakzai-governance.html"/>
     </navPoint>
-    <navPoint id="navPoint-39" playOrder="38">
+    <navPoint id="navPoint-39" playOrder="39">
       <navLabel><text>Orakzai Social Structure</text></navLabel>
       <content src="../pages/page-039-orakzai-social-structure.html"/>
     </navPoint>
-    <navPoint id="navPoint-40" playOrder="39">
+    <navPoint id="navPoint-40" playOrder="40">
       <navLabel><text>Orakzai Family &amp; Kinship</text></navLabel>
       <content src="../pages/page-040-orakzai-family-kinship.html"/>
     </navPoint>
-    <navPoint id="navPoint-41" playOrder="40">
+    <navPoint id="navPoint-41" playOrder="41">
       <navLabel><text>Orakzai Territory</text></navLabel>
       <content src="../pages/page-041-orakzai-territory.html"/>
     </navPoint>
-    <navPoint id="navPoint-42" playOrder="41">
+    <navPoint id="navPoint-42" playOrder="42">
       <navLabel><text>Geography of Orakzai</text></navLabel>
       <content src="../pages/page-042-geography-of-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-43" playOrder="42">
+    <navPoint id="navPoint-43" playOrder="43">
       <navLabel><text>Mountains of Orakzai</text></navLabel>
       <content src="../pages/page-043-mountains-of-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-44" playOrder="43">
+    <navPoint id="navPoint-44" playOrder="44">
       <navLabel><text>Valleys &amp; Rivers</text></navLabel>
       <content src="../pages/page-044-valleys-rivers.html"/>
     </navPoint>
-    <navPoint id="navPoint-45" playOrder="44">
+    <navPoint id="navPoint-45" playOrder="45">
       <navLabel><text>Climate &amp; Environment</text></navLabel>
       <content src="../pages/page-045-climate-environment.html"/>
     </navPoint>
-    <navPoint id="navPoint-46" playOrder="45">
+    <navPoint id="navPoint-46" playOrder="46">
       <navLabel><text>Traditional Settlements</text></navLabel>
       <content src="../pages/page-046-traditional-settlements.html"/>
     </navPoint>
-    <navPoint id="navPoint-47" playOrder="46">
+    <navPoint id="navPoint-47" playOrder="47">
       <navLabel><text>Agriculture &amp; Land</text></navLabel>
       <content src="../pages/page-047-agriculture-land.html"/>
     </navPoint>
-    <navPoint id="navPoint-48" playOrder="47">
+    <navPoint id="navPoint-48" playOrder="48">
       <navLabel><text>Livestock &amp; Rural Economy</text></navLabel>
       <content src="../pages/page-048-livestock-rural-economy.html"/>
     </navPoint>
-    <navPoint id="navPoint-49" playOrder="48">
+    <navPoint id="navPoint-49" playOrder="49">
       <navLabel><text>Traditional Trades</text></navLabel>
       <content src="../pages/page-049-traditional-trades.html"/>
     </navPoint>
-    <navPoint id="navPoint-50" playOrder="49">
+    <navPoint id="navPoint-50" playOrder="50">
       <navLabel><text>Orakzai Markets</text></navLabel>
       <content src="../pages/page-050-orakzai-markets.html"/>
     </navPoint>
-    <navPoint id="navPoint-51" playOrder="50">
+    <navPoint id="navPoint-51" playOrder="51">
       <navLabel><text>Orakzai Culture</text></navLabel>
       <content src="../pages/page-051-orakzai-culture.html"/>
     </navPoint>
-    <navPoint id="navPoint-52" playOrder="51">
+    <navPoint id="navPoint-52" playOrder="52">
       <navLabel><text>Orakzai Traditions</text></navLabel>
       <content src="../pages/page-052-orakzai-traditions.html"/>
     </navPoint>
-    <navPoint id="navPoint-53" playOrder="52">
+    <navPoint id="navPoint-53" playOrder="53">
       <navLabel><text>Orakzai Hospitality</text></navLabel>
       <content src="../pages/page-053-orakzai-hospitality.html"/>
     </navPoint>
-    <navPoint id="navPoint-54" playOrder="53">
+    <navPoint id="navPoint-54" playOrder="54">
       <navLabel><text>Traditional Clothing</text></navLabel>
       <content src="../pages/page-054-traditional-clothing.html"/>
     </navPoint>
-    <navPoint id="navPoint-55" playOrder="54">
+    <navPoint id="navPoint-55" playOrder="55">
       <navLabel><text>Turban &amp; Cultural Identity</text></navLabel>
       <content src="../pages/page-055-turban-cultural-identity.html"/>
     </navPoint>
-    <navPoint id="navPoint-56" playOrder="55">
+    <navPoint id="navPoint-56" playOrder="56">
       <navLabel><text>Orakzai Weddings</text></navLabel>
       <content src="../pages/page-056-orakzai-weddings.html"/>
     </navPoint>
-    <navPoint id="navPoint-57" playOrder="56">
+    <navPoint id="navPoint-57" playOrder="57">
       <navLabel><text>Birth &amp; Family Traditions</text></navLabel>
       <content src="../pages/page-057-birth-family-traditions.html"/>
     </navPoint>
-    <navPoint id="navPoint-58" playOrder="57">
+    <navPoint id="navPoint-58" playOrder="58">
       <navLabel><text>Funerals &amp; Community Traditions</text></navLabel>
       <content src="../pages/page-058-funerals-community-traditions.html"/>
     </navPoint>
-    <navPoint id="navPoint-59" playOrder="58">
+    <navPoint id="navPoint-59" playOrder="59">
       <navLabel><text>Festivals &amp; Celebrations</text></navLabel>
       <content src="../pages/page-059-festivals-celebrations.html"/>
     </navPoint>
-    <navPoint id="navPoint-60" playOrder="59">
+    <navPoint id="navPoint-60" playOrder="60">
       <navLabel><text>Traditional Food</text></navLabel>
       <content src="../pages/page-060-traditional-food.html"/>
     </navPoint>
-    <navPoint id="navPoint-61" playOrder="60">
+    <navPoint id="navPoint-61" playOrder="61">
       <navLabel><text>Orakzai Music</text></navLabel>
       <content src="../pages/page-061-orakzai-music.html"/>
     </navPoint>
-    <navPoint id="navPoint-62" playOrder="61">
+    <navPoint id="navPoint-62" playOrder="62">
       <navLabel><text>Attan &amp; Traditional Dance</text></navLabel>
       <content src="../pages/page-062-attan-traditional-dance.html"/>
     </navPoint>
-    <navPoint id="navPoint-63" playOrder="62">
+    <navPoint id="navPoint-63" playOrder="63">
       <navLabel><text>Pashto Proverbs</text></navLabel>
       <content src="../pages/page-063-pashto-proverbs.html"/>
     </navPoint>
-    <navPoint id="navPoint-64" playOrder="63">
+    <navPoint id="navPoint-64" playOrder="64">
       <navLabel><text>Stories of Orakzai Elders</text></navLabel>
       <content src="../pages/page-064-stories-of-orakzai-elders.html"/>
     </navPoint>
-    <navPoint id="navPoint-65" playOrder="64">
+    <navPoint id="navPoint-65" playOrder="65">
       <navLabel><text>Oral Traditions &amp; Storytelling</text></navLabel>
       <content src="../pages/page-065-oral-traditions-storytelling.html"/>
     </navPoint>
-    <navPoint id="navPoint-66" playOrder="65">
+    <navPoint id="navPoint-66" playOrder="66">
       <navLabel><text>The Role of Elders</text></navLabel>
       <content src="../pages/page-066-the-role-of-elders.html"/>
     </navPoint>
-    <navPoint id="navPoint-67" playOrder="66">
+    <navPoint id="navPoint-67" playOrder="67">
       <navLabel><text>The Role of Women</text></navLabel>
       <content src="../pages/page-067-the-role-of-women.html"/>
     </navPoint>
-    <navPoint id="navPoint-68" playOrder="67">
+    <navPoint id="navPoint-68" playOrder="68">
       <navLabel><text>Youth in Orakzai Society</text></navLabel>
       <content src="../pages/page-068-youth-in-orakzai-society.html"/>
     </navPoint>
-    <navPoint id="navPoint-69" playOrder="68">
+    <navPoint id="navPoint-69" playOrder="69">
       <navLabel><text>Education in Traditional Society</text></navLabel>
       <content src="../pages/page-069-education-in-traditional-society.html"/>
     </navPoint>
-    <navPoint id="navPoint-70" playOrder="69">
+    <navPoint id="navPoint-70" playOrder="70">
       <navLabel><text>Religion &amp; Community Life</text></navLabel>
       <content src="../pages/page-070-religion-community-life.html"/>
     </navPoint>
-    <navPoint id="navPoint-71" playOrder="70">
+    <navPoint id="navPoint-71" playOrder="71">
       <navLabel><text>Orakzai Before British Rule</text></navLabel>
       <content src="../pages/page-071-orakzai-before-british-rule.html"/>
     </navPoint>
-    <navPoint id="navPoint-72" playOrder="71">
+    <navPoint id="navPoint-72" playOrder="72">
       <navLabel><text>British Expansion in the Frontier</text></navLabel>
       <content src="../pages/page-072-british-expansion-frontier.html"/>
     </navPoint>
-    <navPoint id="navPoint-73" playOrder="72">
+    <navPoint id="navPoint-73" playOrder="73">
       <navLabel><text>Frontier Tribal Administration</text></navLabel>
       <content src="../pages/page-073-frontier-tribal-administration.html"/>
     </navPoint>
-    <navPoint id="navPoint-74" playOrder="73">
+    <navPoint id="navPoint-74" playOrder="74">
       <navLabel><text>The Orakzai and the British Empire</text></navLabel>
       <content src="../pages/page-074-orakzai-british-empire.html"/>
     </navPoint>
-    <navPoint id="navPoint-75" playOrder="74">
+    <navPoint id="navPoint-75" playOrder="75">
       <navLabel><text>Tribal Resistance</text></navLabel>
       <content src="../pages/page-075-tribal-resistance.html"/>
     </navPoint>
-    <navPoint id="navPoint-76" playOrder="75">
+    <navPoint id="navPoint-76" playOrder="76">
       <navLabel><text>Frontier Politics</text></navLabel>
       <content src="../pages/page-076-frontier-politics.html"/>
     </navPoint>
-    <navPoint id="navPoint-77" playOrder="76">
+    <navPoint id="navPoint-77" playOrder="77">
       <navLabel><text>The Durand Line</text></navLabel>
       <content src="../pages/page-077-the-durand-line.html"/>
     </navPoint>
-    <navPoint id="navPoint-78" playOrder="77">
+    <navPoint id="navPoint-78" playOrder="78">
       <navLabel><text>Orakzai &amp; the Wider Frontier</text></navLabel>
       <content src="../pages/page-078-orakzai-and-the-wider-frontier.html"/>
     </navPoint>
-    <navPoint id="navPoint-79" playOrder="78">
+    <navPoint id="navPoint-79" playOrder="79">
       <navLabel><text>Colonial Records &amp; Historical Sources</text></navLabel>
       <content src="../pages/page-079-colonial-records-and-historical-sources.html"/>
     </navPoint>
-    <navPoint id="navPoint-80" playOrder="79">
+    <navPoint id="navPoint-80" playOrder="80">
       <navLabel><text>Understanding History Through Multiple Sources</text></navLabel>
       <content src="../pages/page-080-understanding-history-through-multiple-sources.html"/>
     </navPoint>
-    <navPoint id="navPoint-81" playOrder="80">
+    <navPoint id="navPoint-81" playOrder="81">
       <navLabel><text>Orakzai During the Creation of Pakistan</text></navLabel>
       <content src="../pages/page-081-orakzai-during-the-creation-of-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-82" playOrder="81">
+    <navPoint id="navPoint-82" playOrder="82">
       <navLabel><text>1947 &amp; the New Pakistan</text></navLabel>
       <content src="../pages/page-082-1947-and-the-new-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-83" playOrder="82">
+    <navPoint id="navPoint-83" playOrder="83">
       <navLabel><text>Tribal Areas &amp; Pakistan</text></navLabel>
       <content src="../pages/page-083-tribal-areas-and-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-84" playOrder="83">
+    <navPoint id="navPoint-84" playOrder="84">
       <navLabel><text>FATA &amp; Its Historical Development</text></navLabel>
       <content src="../pages/page-084-fata-and-its-historical-development.html"/>
     </navPoint>
-    <navPoint id="navPoint-85" playOrder="84">
+    <navPoint id="navPoint-85" playOrder="85">
       <navLabel><text>Orakzai Agency</text></navLabel>
       <content src="../pages/page-085-orakzai-agency.html"/>
     </navPoint>
-    <navPoint id="navPoint-86" playOrder="85">
+    <navPoint id="navPoint-86" playOrder="86">
       <navLabel><text>Administrative Evolution</text></navLabel>
       <content src="../pages/page-086-administrative-evolution.html"/>
     </navPoint>
-    <navPoint id="navPoint-87" playOrder="86">
+    <navPoint id="navPoint-87" playOrder="87">
       <navLabel><text>Education &amp; Development Challenges</text></navLabel>
       <content src="../pages/page-087-education-and-development-challenges.html"/>
     </navPoint>
-    <navPoint id="navPoint-88" playOrder="87">
+    <navPoint id="navPoint-88" playOrder="88">
       <navLabel><text>Infrastructure &amp; Connectivity</text></navLabel>
       <content src="../pages/page-088-infrastructure-and-connectivity.html"/>
     </navPoint>
-    <navPoint id="navPoint-89" playOrder="88">
+    <navPoint id="navPoint-89" playOrder="89">
       <navLabel><text>Migration &amp; Urbanization</text></navLabel>
       <content src="../pages/page-089-migration-and-urbanization.html"/>
     </navPoint>
-    <navPoint id="navPoint-90" playOrder="89">
+    <navPoint id="navPoint-90" playOrder="90">
       <navLabel><text>Orakzai Diaspora</text></navLabel>
       <content src="../pages/page-090-orakzai-diaspora.html"/>
     </navPoint>
-    <navPoint id="navPoint-91" playOrder="90">
+    <navPoint id="navPoint-91" playOrder="91">
       <navLabel><text>Orakzai in Modern Pakistan</text></navLabel>
       <content src="../pages/page-091-orakzai-in-modern-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-92" playOrder="91">
+    <navPoint id="navPoint-92" playOrder="92">
       <navLabel><text>Orakzai in Karachi</text></navLabel>
       <content src="../pages/page-092-orakzai-in-karachi.html"/>
     </navPoint>
-    <navPoint id="navPoint-93" playOrder="92">
+    <navPoint id="navPoint-93" playOrder="93">
       <navLabel><text>Orakzai in Peshawar</text></navLabel>
       <content src="../pages/page-093-orakzai-in-peshawar.html"/>
     </navPoint>
-    <navPoint id="navPoint-94" playOrder="93">
+    <navPoint id="navPoint-94" playOrder="94">
       <navLabel><text>Orakzai in Islamabad</text></navLabel>
       <content src="../pages/page-094-orakzai-in-islamabad.html"/>
     </navPoint>
-    <navPoint id="navPoint-95" playOrder="94">
+    <navPoint id="navPoint-95" playOrder="95">
       <navLabel><text>Orakzai in Lahore</text></navLabel>
       <content src="../pages/page-095-orakzai-in-lahore.html"/>
     </navPoint>
-    <navPoint id="navPoint-96" playOrder="95">
+    <navPoint id="navPoint-96" playOrder="96">
       <navLabel><text>Orakzai Across Pakistan</text></navLabel>
       <content src="../pages/page-096-orakzai-across-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-97" playOrder="96">
+    <navPoint id="navPoint-97" playOrder="97">
       <navLabel><text>Orakzai Overseas</text></navLabel>
       <content src="../pages/page-097-orakzai-overseas.html"/>
     </navPoint>
-    <navPoint id="navPoint-98" playOrder="97">
+    <navPoint id="navPoint-98" playOrder="98">
       <navLabel><text>Global Orakzai Communities</text></navLabel>
       <content src="../pages/page-098-global-orakzai-communities.html"/>
     </navPoint>
-    <navPoint id="navPoint-99" playOrder="98">
+    <navPoint id="navPoint-99" playOrder="99">
       <navLabel><text>Identity in the Diaspora</text></navLabel>
       <content src="../pages/page-099-identity-in-the-diaspora.html"/>
     </navPoint>
-    <navPoint id="navPoint-100" playOrder="99">
+    <navPoint id="navPoint-100" playOrder="100">
       <navLabel><text>The Modern Orakzai</text></navLabel>
       <content src="../pages/page-100-the-modern-orakzai.html"/>
     </navPoint>
-    <navPoint id="navPoint-101" playOrder="100">
+    <navPoint id="navPoint-101" playOrder="101">
       <navLabel><text>From Tribal Society to Modern Society</text></navLabel>
       <content src="../pages/page-101-from-tribal-society-to-modern-society.html"/>
     </navPoint>
-    <navPoint id="navPoint-102" playOrder="101">
+    <navPoint id="navPoint-102" playOrder="102">
       <navLabel><text>Tradition vs Modernity</text></navLabel>
       <content src="../pages/page-102-tradition-vs-modernity.html"/>
     </navPoint>
-    <navPoint id="navPoint-103" playOrder="102">
+    <navPoint id="navPoint-103" playOrder="103">
       <navLabel><text>Preserving Culture in a Digital World</text></navLabel>
       <content src="../pages/page-103-preserving-culture-digital-world.html"/>
     </navPoint>
-    <navPoint id="navPoint-104" playOrder="103">
+    <navPoint id="navPoint-104" playOrder="104">
       <navLabel><text>The Future of Pashto</text></navLabel>
       <content src="../pages/page-104-future-of-pashto.html"/>
     </navPoint>
-    <navPoint id="navPoint-105" playOrder="104">
+    <navPoint id="navPoint-105" playOrder="105">
       <navLabel><text>Digital Preservation of History</text></navLabel>
       <content src="../pages/page-105-digital-preservation-of-history.html"/>
     </navPoint>
-    <navPoint id="navPoint-106" playOrder="105">
+    <navPoint id="navPoint-106" playOrder="106">
       <navLabel><text>Digitizing Tribal Archives</text></navLabel>
       <content src="../pages/page-106-digitizing-tribal-archives.html"/>
     </navPoint>
-    <navPoint id="navPoint-107" playOrder="106">
+    <navPoint id="navPoint-107" playOrder="107">
       <navLabel><text>Oral History &amp; Technology</text></navLabel>
       <content src="../pages/page-107-oral-history-technology.html"/>
     </navPoint>
-    <navPoint id="navPoint-108" playOrder="107">
+    <navPoint id="navPoint-108" playOrder="108">
       <navLabel><text>Building a Digital Orakzai Archive</text></navLabel>
       <content src="../pages/page-108-building-a-digital-orakzai-archive.html"/>
     </navPoint>
-    <navPoint id="navPoint-109" playOrder="108">
+    <navPoint id="navPoint-109" playOrder="109">
       <navLabel><text>Mapping Orakzai History</text></navLabel>
       <content src="../pages/page-109-mapping-orakzai-history.html"/>
     </navPoint>
-    <navPoint id="navPoint-110" playOrder="109">
+    <navPoint id="navPoint-110" playOrder="110">
       <navLabel><text>Digital Heritage</text></navLabel>
       <content src="../pages/page-110-digital-heritage.html"/>
     </navPoint>
-    <navPoint id="navPoint-111" playOrder="110">
+    <navPoint id="navPoint-111" playOrder="111">
       <navLabel><text>Pakistan’s Technology Revolution</text></navLabel>
       <content src="../pages/page-111-pakistans-technology-revolution.html"/>
     </navPoint>
-    <navPoint id="navPoint-112" playOrder="111">
+    <navPoint id="navPoint-112" playOrder="112">
       <navLabel><text>The Rise of the Internet</text></navLabel>
       <content src="../pages/page-112-the-rise-of-the-internet.html"/>
     </navPoint>
-    <navPoint id="navPoint-113" playOrder="112">
+    <navPoint id="navPoint-113" playOrder="113">
       <navLabel><text>Pakistan’s Digital Economy</text></navLabel>
       <content src="../pages/page-113-pakistans-digital-economy.html"/>
     </navPoint>
-    <navPoint id="navPoint-114" playOrder="113">
+    <navPoint id="navPoint-114" playOrder="114">
       <navLabel><text>Young Pakistan &amp; Technology</text></navLabel>
       <content src="../pages/page-114-young-pakistan-technology.html"/>
     </navPoint>
-    <navPoint id="navPoint-115" playOrder="114">
+    <navPoint id="navPoint-115" playOrder="115">
       <navLabel><text>Entrepreneurship in Pakistan</text></navLabel>
       <content src="../pages/page-115-entrepreneurship-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-116" playOrder="115">
+    <navPoint id="navPoint-116" playOrder="116">
       <navLabel><text>From Local Markets to Global Markets</text></navLabel>
       <content src="../pages/page-116-local-to-global.html"/>
     </navPoint>
-    <navPoint id="navPoint-117" playOrder="116">
+    <navPoint id="navPoint-117" playOrder="117">
       <navLabel><text>The Pakistani Startup Ecosystem</text></navLabel>
       <content src="../pages/page-117-pakistani-startup-ecosystem.html"/>
     </navPoint>
-    <navPoint id="navPoint-118" playOrder="117">
+    <navPoint id="navPoint-118" playOrder="118">
       <navLabel><text>Software &amp; Digital Infrastructure</text></navLabel>
       <content src="../pages/page-118-software-digital-infrastructure.html"/>
     </navPoint>
-    <navPoint id="navPoint-119" playOrder="118">
+    <navPoint id="navPoint-119" playOrder="119">
       <navLabel><text>Cloud Computing</text></navLabel>
       <content src="../pages/page-119-cloud-computing.html"/>
     </navPoint>
-    <navPoint id="navPoint-120" playOrder="119">
+    <navPoint id="navPoint-120" playOrder="120">
       <navLabel><text>The Future of Computing</text></navLabel>
       <content src="../pages/page-120-the-future-of-computing.html"/>
     </navPoint>
-    <navPoint id="navPoint-121" playOrder="120">
+    <navPoint id="navPoint-121" playOrder="121">
       <navLabel><text>Artificial Intelligence</text></navLabel>
       <content src="../pages/page-121-artificial-intelligence.html"/>
     </navPoint>
-    <navPoint id="navPoint-122" playOrder="121">
+    <navPoint id="navPoint-122" playOrder="122">
       <navLabel><text>AI &amp; Human Civilization</text></navLabel>
       <content src="../pages/page-122-ai-and-human-civilization.html"/>
     </navPoint>
-    <navPoint id="navPoint-123" playOrder="122">
+    <navPoint id="navPoint-123" playOrder="123">
       <navLabel><text>AI in Pakistan</text></navLabel>
       <content src="../pages/page-123-ai-in-pakistan.html"/>
     </navPoint>
-    <navPoint id="navPoint-124" playOrder="123">
+    <navPoint id="navPoint-124" playOrder="124">
       <navLabel><text>AI &amp; Education</text></navLabel>
       <content src="../pages/page-124-ai-and-education.html"/>
     </navPoint>
-    <navPoint id="navPoint-125" playOrder="124">
+    <navPoint id="navPoint-125" playOrder="125">
       <navLabel><text>AI &amp; Healthcare</text></navLabel>
       <content src="../pages/page-125-ai-and-healthcare.html"/>
     </navPoint>
-    <navPoint id="navPoint-126" playOrder="125">
+    <navPoint id="navPoint-126" playOrder="126">
       <navLabel><text>AI &amp; Agriculture</text></navLabel>
       <content src="../pages/page-126-ai-and-agriculture.html"/>
     </navPoint>
-    <navPoint id="navPoint-127" playOrder="126">
+    <navPoint id="navPoint-127" playOrder="127">
       <navLabel><text>AI &amp; Finance</text></navLabel>
       <content src="../pages/page-127-ai-and-finance.html"/>
     </navPoint>
-    <navPoint id="navPoint-128" playOrder="127">
+    <navPoint id="navPoint-128" playOrder="128">
       <navLabel><text>AI &amp; Government</text></navLabel>
       <content src="../pages/page-128-ai-and-government.html"/>
     </navPoint>
-    <navPoint id="navPoint-129" playOrder="128">
+    <navPoint id="navPoint-129" playOrder="129">
       <navLabel><text>AI Governance</text></navLabel>
       <content src="../pages/page-129-ai-governance.html"/>
     </navPoint>
-    <navPoint id="navPoint-130" playOrder="129">
+    <navPoint id="navPoint-130" playOrder="130">
       <navLabel><text>The Future of AI</text></navLabel>
       <content src="../pages/page-130-the-future-of-artificial-intelligence.html"/>
     </navPoint>
-    <navPoint id="navPoint-131" playOrder="130">
+    <navPoint id="navPoint-131" playOrder="131">
       <navLabel><text>Blockchain Technology</text></navLabel>
       <content src="../pages/page-131-blockchain-technology.html"/>
     </navPoint>
-    <navPoint id="navPoint-132" playOrder="131">
+    <navPoint id="navPoint-132" playOrder="132">
       <navLabel><text>Understanding Decentralization</text></navLabel>
       <content src="../pages/page-132-understanding-decentralization.html"/>
     </navPoint>
-    <navPoint id="navPoint-133" playOrder="132">
+    <navPoint id="navPoint-133" playOrder="133">
       <navLabel><text>Bitcoin &amp; Digital Money</text></navLabel>
       <content src="../pages/page-133-bitcoin-and-digital-money.html"/>
     </navPoint>
-    <navPoint id="navPoint-134" playOrder="133">
+    <navPoint id="navPoint-134" playOrder="134">
       <navLabel><text>Ethereum &amp; Smart Contracts</text></navLabel>
       <content src="../pages/page-134-ethereum-smart-contracts.html"/>
     </navPoint>
-    <navPoint id="navPoint-135" playOrder="134">
+    <navPoint id="navPoint-135" playOrder="135">
       <navLabel><text>Decentralized Finance</text></navLabel>
       <content src="../pages/page-135-decentralized-finance.html"/>
     </navPoint>
-    <navPoint id="navPoint-136" playOrder="135">
+    <navPoint id="navPoint-136" playOrder="136">
       <navLabel><text>Tokenization of Real-World Assets</text></navLabel>
       <content src="../pages/page-136-tokenization-of-real-world-assets.html"/>
     </navPoint>
-    <navPoint id="navPoint-137" playOrder="136">
+    <navPoint id="navPoint-137" playOrder="137">
       <navLabel><text>Real Estate Tokenization</text></navLabel>
       <content src="../pages/page-137-real-estate-tokenization.html"/>
     </navPoint>
-    <navPoint id="navPoint-138" playOrder="137">
+    <navPoint id="navPoint-138" playOrder="138">
       <navLabel><text>Digital Ownership</text></navLabel>
       <content src="../pages/page-138-digital-ownership.html"/>
     </navPoint>
-    <navPoint id="navPoint-139" playOrder="138">
+    <navPoint id="navPoint-139" playOrder="139">
       <navLabel><text>Blockchain Infrastructure</text></navLabel>
       <content src="../pages/page-139-blockchain-infrastructure.html"/>
     </navPoint>
-    <navPoint id="navPoint-140" playOrder="139">
+    <navPoint id="navPoint-140" playOrder="140">
       <navLabel><text>The Future of Web3</text></navLabel>
       <content src="../pages/page-140-the-future-of-web3.html"/>
     </navPoint>
-    <navPoint id="navPoint-141" playOrder="140">
+    <navPoint id="navPoint-141" playOrder="141">
       <navLabel><text>Digital Sovereignty</text></navLabel>
       <content src="../pages/page-141-digital-sovereignty.html"/>
     </navPoint>
-    <navPoint id="navPoint-142" playOrder="141">
+    <navPoint id="navPoint-142" playOrder="142">
       <navLabel><text>Sovereign Technology</text></navLabel>
       <content src="../pages/page-142-sovereign-technology.html"/>
     </navPoint>
-    <navPoint id="navPoint-143" playOrder="142">
+    <navPoint id="navPoint-143" playOrder="143">
       <navLabel><text>National Digital Infrastructure</text></navLabel>
       <content src="../pages/page-143-national-digital-infrastructure.html"/>
     </navPoint>
-    <navPoint id="navPoint-144" playOrder="143">
+    <navPoint id="navPoint-144" playOrder="144">
       <navLabel><text>Blockchain & National Infrastructure</text></navLabel>
       <content src="../pages/page-144-blockchain-and-national-infrastructure.html"/>
     </navPoint>
-    <navPoint id="navPoint-145" playOrder="144">
+    <navPoint id="navPoint-145" playOrder="145">
       <navLabel><text>Digital Identity</text></navLabel>
       <content src="../pages/page-145-digital-identity.html"/>
     </navPoint>
-    <navPoint id="navPoint-146" playOrder="145">
+    <navPoint id="navPoint-146" playOrder="146">
       <navLabel><text>Digital Governance</text></navLabel>
       <content src="../pages/page-146-digital-governance.html"/>
     </navPoint>
-    <navPoint id="navPoint-147" playOrder="146">
+    <navPoint id="navPoint-147" playOrder="147">
       <navLabel><text>Digital Assets & Regulation</text></navLabel>
       <content src="../pages/page-147-digital-assets-and-regulation.html"/>
     </navPoint>
-    <navPoint id="navPoint-148" playOrder="147">
+    <navPoint id="navPoint-148" playOrder="148">
       <navLabel><text>Financial Infrastructure of the Future</text></navLabel>
       <content src="../pages/page-148-financial-infrastructure-of-the-future.html"/>
     </navPoint>
-    <navPoint id="navPoint-149" playOrder="148">
+    <navPoint id="navPoint-149" playOrder="149">
       <navLabel><text>The Internet of Value</text></navLabel>
       <content src="../pages/page-149-the-internet-of-value.html"/>
     </navPoint>
-    <navPoint id="navPoint-150" playOrder="149">
+    <navPoint id="navPoint-150" playOrder="150">
       <navLabel><text>Building the Digital Nation</text></navLabel>
       <content src="../pages/page-150-building-the-digital-nation.html"/>
     </navPoint>
-    <navPoint id="navPoint-151" playOrder="150">
+    <navPoint id="navPoint-151" playOrder="151">
       <navLabel><text>Pakistan’s Economic Future</text></navLabel>
       <content src="../pages/page-151-pakistans-economic-future.html"/>
     </navPoint>
-    <navPoint id="navPoint-152" playOrder="151">
+    <navPoint id="navPoint-152" playOrder="152">
       <navLabel><text>Technology & Economic Development</text></navLabel>
       <content src="../pages/page-152-technology-and-economic-development.html"/>
     </navPoint>
-    <navPoint id="navPoint-153" playOrder="152">
+    <navPoint id="navPoint-153" playOrder="153">
       <navLabel><text>Youth & Entrepreneurship</text></navLabel>
       <content src="../pages/page-153-youth-and-entrepreneurship.html"/>
     </navPoint>
-    <navPoint id="navPoint-154" playOrder="153">
+    <navPoint id="navPoint-154" playOrder="154">
       <navLabel><text>The Future of Pakistani Entrepreneurs</text></navLabel>
       <content src="../pages/page-154-the-future-of-pakistani-entrepreneurs.html"/>
     </navPoint>
-    <navPoint id="navPoint-155" playOrder="154">
+    <navPoint id="navPoint-155" playOrder="155">
       <navLabel><text>Global Pakistani Talent</text></navLabel>
       <content src="../pages/page-155-global-pakistani-talent.html"/>
     </navPoint>
-    <navPoint id="navPoint-156" playOrder="155">
+    <navPoint id="navPoint-156" playOrder="156">
       <navLabel><text>Diaspora Investment</text></navLabel>
       <content src="../pages/page-156-diaspora-investment.html"/>
     </navPoint>
-    <navPoint id="navPoint-157" playOrder="156">
+    <navPoint id="navPoint-157" playOrder="157">
       <navLabel><text>Technology & Real Estate</text></navLabel>
       <content src="../pages/page-157-technology-and-real-estate.html"/>
     </navPoint>
-    <navPoint id="navPoint-158" playOrder="157">
+    <navPoint id="navPoint-158" playOrder="158">
       <navLabel><text>Technology & Financial Markets</text></navLabel>
       <content src="../pages/page-158-technology-and-financial-markets.html"/>
     </navPoint>
-    <navPoint id="navPoint-159" playOrder="158">
+    <navPoint id="navPoint-159" playOrder="159">
       <navLabel><text>Technology & Human Development</text></navLabel>
       <content src="../pages/page-159-technology-and-human-development.html"/>
     </navPoint>
-    <navPoint id="navPoint-160" playOrder="159">
+    <navPoint id="navPoint-160" playOrder="160">
       <navLabel><text>Pakistan in the Global Digital Economy</text></navLabel>
       <content src="../pages/page-160-pakistan-in-the-global-digital-economy.html"/>
     </navPoint>
-    <navPoint id="navPoint-161" playOrder="160">
+    <navPoint id="navPoint-161" playOrder="161">
       <navLabel><text>The Modern Orakzai Entrepreneur</text></navLabel>
       <content src="../pages/page-161-the-modern-orakzai-entrepreneur.html"/>
     </navPoint>
-    <navPoint id="navPoint-162" playOrder="161">
+    <navPoint id="navPoint-162" playOrder="162">
       <navLabel><text>From Identity to Innovation</text></navLabel>
       <content src="../pages/page-162-from-identity-to-innovation.html"/>
     </navPoint>
