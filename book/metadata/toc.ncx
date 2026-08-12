@@ -498,5 +498,9 @@
       <navLabel><text>AI in Pakistan</text></navLabel>
       <content src="../pages/page-123-ai-in-pakistan.html"/>
     </navPoint>
+    <navPoint id="navPoint-124" playOrder="123">
+      <navLabel><text>AI &amp; Education</text></navLabel>
+      <content src="../pages/page-124-ai-and-education.html"/>
+    </navPoint>
   </navMap>
 </ncx>
