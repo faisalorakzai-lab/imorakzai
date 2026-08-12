@@ -543,3 +543,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Modern Orakzai hero, the identity synthesis model, the constitutional transition timeline (1947–2018), the administrative district hierarchy, the judicial transition (FCR to Courts), and the 2023 census dashboard.
 - **Content**: Comprehensive analysis of Orakzai as a district within modern Pakistan. Based on the *25th Constitutional Amendment (2018)*, *District Courts Orakzai* records, and the *2023 Digital Census* data. Explores the transition from the FATA era to provincial integration, the establishment of formal judiciary and administration, and the synthesis of tribal identity with national citizenship.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 92: Orakzai in Karachi
+- **Research Sources**: Detailed citations are available in `book/sources/page-092-orakzai-in-karachi.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Karachi hero (Mountain to Sea), the migration driver model, the Karachi diversity matrix, the Pashtun migration timeline, the chain migration flow, the staged migration pathway, and the "Home in the City" synthesis.
+- **Content**: Detailed examination of the Orakzai community in Karachi. Based on Oxford scholarship (Zia Ur Rehman, Robert Nichols) and IGC research on Pashtun migration. Explores the history of settlement, economic involvement in transport and trade, the formation of urban hubs in District West and Malir, and the maintenance of trans-local identity across distance.
+- **License**: Content is proprietary to the author; visual design is project-specific.

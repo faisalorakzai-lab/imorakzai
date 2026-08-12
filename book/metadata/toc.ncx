@@ -370,5 +370,9 @@
       <navLabel><text>Orakzai in Modern Pakistan</text></navLabel>
       <content src="../pages/page-091-orakzai-in-modern-pakistan.html"/>
     </navPoint>
+    <navPoint id="navPoint-92" playOrder="91">
+      <navLabel><text>Orakzai in Karachi</text></navLabel>
+      <content src="../pages/page-092-orakzai-in-karachi.html"/>
+    </navPoint>
   </navMap>
 </ncx>
