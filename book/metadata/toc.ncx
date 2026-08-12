@@ -322,5 +322,9 @@
       <navLabel><text>Colonial Records &amp; Historical Sources</text></navLabel>
       <content src="../pages/page-079-colonial-records-and-historical-sources.html"/>
     </navPoint>
+    <navPoint id="navPoint-80" playOrder="79">
+      <navLabel><text>Understanding History Through Multiple Sources</text></navLabel>
+      <content src="../pages/page-080-understanding-history-through-multiple-sources.html"/>
+    </navPoint>
   </navMap>
 </ncx>

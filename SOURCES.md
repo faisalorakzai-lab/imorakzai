@@ -471,3 +471,9 @@
 - **Visual Elements**: 70+ custom SVG logic diagrams covering the historical sources hero, primary vs secondary evidence, colonial record architecture (Gazetteers, Tribal Tables, Administration Reports), military record analysis, cartographic limitations, the five-question test, archival silence, and the research workflow.
 - **Content**: Methodological analysis of Orakzai history reconstruction, supported by the *India Office Records* (British Library), the *Dictionary of the Pathan Tribes* (1910), the *Kohat District Gazetteer* (1883-84), and parliamentary papers on frontier expeditions.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 80: Understanding History Through Multiple Sources
+- **Research Sources**: Detailed citations are available in `book/sources/page-080-understanding-history-through-multiple-sources.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the multiple sources hero, the evidence chain, independent corroboration models, triangulation (temporal, geographic, methodological), scale of evidence, and case studies (Food, Tradition, Place).
+- **Content**: Methodological analysis of historical reconstruction through multiple evidence streams, supported by *History, Theory, Methods* (2014), *Nature Scientific Reports* (2026), and academic studies on women's oral histories in Orakzai (2025).
+- **License**: Content is proprietary to the author; visual design is project-specific.
