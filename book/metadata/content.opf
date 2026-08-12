@@ -87,6 +87,7 @@
     <item id="page-073" href="../pages/page-073-frontier-tribal-administration.html" media-type="application/xhtml+xml"/>
     <item id="page-074" href="../pages/page-074-orakzai-british-empire.html" media-type="application/xhtml+xml"/>
     <item id="page-075" href="../pages/page-075-tribal-resistance.html" media-type="application/xhtml+xml"/>
+    <item id="page-076" href="../pages/page-076-frontier-politics.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -165,5 +166,6 @@
     <itemref idref="page-073"/>
     <itemref idref="page-074"/>
     <itemref idref="page-075"/>
+    <itemref idref="page-076"/>
   </spine>
 </package>

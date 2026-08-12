@@ -306,5 +306,9 @@
       <navLabel><text>Tribal Resistance</text></navLabel>
       <content src="../pages/page-075-tribal-resistance.html"/>
     </navPoint>
+    <navPoint id="navPoint-76" playOrder="75">
+      <navLabel><text>Frontier Politics</text></navLabel>
+      <content src="../pages/page-076-frontier-politics.html"/>
+    </navPoint>
   </navMap>
 </ncx>

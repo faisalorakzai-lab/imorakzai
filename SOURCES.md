@@ -447,3 +447,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the resistance-negotiation hero, the multi-dimensional resistance model, the colonial vs. historical event distinction, the "One Name ≠ One Actor" principle, and specific event cards.
 - **Content**: Original historical synthesis by Faisal Orakzai, supported by academic studies on frontier administration (Tripodi, 2013), contemporary military records (Hutchinson, 1898), and research on tribal political institutions (Yousaf, 2020).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 76: Frontier Politics
+- **Research Sources**: Detailed citations are available in `book/sources/page-076-frontier-politics.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the frontier politics hero, the definition model, pre-colonial distributed authority, the "One Tribe ≠ One Position" principle, the Jirga-State channel, and the Malik intermediary system.
+- **Content**: Original political analysis by Faisal Orakzai, supported by ethnographic research from Akbar S. Ahmed (1981), academic studies on the Jirga system (Alam, 2021), and official administrative records of the Orakzai Agency establishment (1973).
+- **License**: Content is proprietary to the author; visual design is project-specific.

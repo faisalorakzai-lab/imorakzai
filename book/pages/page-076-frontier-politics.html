@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Frontier Politics</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-politics: #2F4F4F;
+            --badge-authority: #123B2A;
+            --badge-negotiation: #B59654;
+            --badge-state: #4682B4;
+            --badge-kinship: #6B4F3A;
+            --badge-jirga: #123B2A;
+            --badge-malik: #77746B;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .evidence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-politics { background: var(--badge-politics); }
+        .badge-authority { background: var(--badge-authority); }
+        .badge-negotiation { background: var(--badge-negotiation); color: var(--charcoal); }
+        .badge-state { background: var(--badge-state); }
+        .badge-kinship { background: var(--badge-kinship); }
+        .badge-jirga { background: var(--badge-jirga); }
+        .badge-malik { background: var(--badge-malik); }
+    </style>
+</head>
+<body>
+    <div class="content-page frontier-politics-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 200 Q 400 250, 800 200" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 500 Q 400 550, 800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+                <path d="M0 800 Q 400 850, 800 800" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 76</h3>
+            <h2>FRONTIER POLITICS</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Where local authority and state power meet.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Frontier politics was never simply a contest between a tribe and a state. It was a negotiation between different forms of authority. A jirga could speak for a community. An elder could carry local influence. A malik could act as an intermediary. A religious scholar could shape public opinion. A Political Agent could represent the colonial administration. And behind all of them were families, villages, tribal sections and communities whose interests did not always align. To understand Orakzai political history, we therefore have to look beyond rulers and governments. We have to ask who held authority locally, who negotiated with the state, who resisted it, who cooperated with it, and how political institutions changed over time.</p>
+
+            <!-- HERO: FRONTIER POLITICS HERO (Diagram 1) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Valley Landscape -->
+                        <path d="M0 320 L150 150 L300 250 L450 100 L600 320 Z" fill="rgba(18, 59, 42, 0.15)"/>
+                        <path d="M0 350 L200 200 L350 280 L500 150 L600 350 Z" fill="rgba(18, 59, 42, 0.25)"/>
+                        
+                        <!-- Central Meeting Circle (Jirga) -->
+                        <circle cx="300" cy="300" r="40" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)" stroke-width="1.5"/>
+                        <text x="300" y="305" font-weight="bold" fill="var(--gold)">JIRGA</text>
+                        
+                        <!-- Community Silhouettes -->
+                        <circle cx="260" cy="300" r="5" fill="var(--ivory)" opacity="0.8"/>
+                        <circle cx="270" cy="320" r="5" fill="var(--ivory)" opacity="0.8"/>
+                        <circle cx="330" cy="320" r="5" fill="var(--ivory)" opacity="0.8"/>
+                        <circle cx="340" cy="300" r="5" fill="var(--ivory)" opacity="0.8"/>
+                        
+                        <!-- Elder Symbol -->
+                        <circle cx="300" cy="260" r="8" fill="rgba(107, 79, 58, 0.4)" stroke="var(--earth)"/>
+                        <text x="300" y="245" font-size="7">ELDER</text>
+                        
+                        <!-- Document/Scroll -->
+                        <rect x="360" y="280" width="15" height="20" fill="rgba(255, 255, 255, 0.2)" stroke="var(--ivory)"/>
+                        
+                        <!-- Government Office Symbol -->
+                        <rect x="500" y="250" width="40" height="30" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-state)"/>
+                        <text x="520" y="240" font-size="7">STATE OFFICE</text>
+                        
+                        <!-- Road -->
+                        <path d="M600 380 Q 450 350, 340 310" fill="none" stroke="var(--gray)" stroke-width="1" stroke-dasharray="3,3"/>
+                        
+                        <!-- Speech/Dialogue Symbols -->
+                        <path d="M280 280 Q 300 250, 320 280" fill="none" stroke="var(--gold)" stroke-width="0.5" opacity="0.6"/>
+                        
+                        <!-- Two Subtle Lines Meeting -->
+                        <path d="M100 50 L280 280" fill="none" stroke="var(--badge-authority)" stroke-width="1" opacity="0.4"/>
+                        <text x="120" y="70" font-size="8" fill="var(--badge-authority)">LOCAL AUTHORITY</text>
+                        
+                        <path d="M500 50 L320 280" fill="none" stroke="var(--badge-state)" stroke-width="1" opacity="0.4"/>
+                        <text x="480" y="70" font-size="8" fill="var(--badge-state)">STATE AUTHORITY</text>
+                        
+                        <text x="300" y="360" font-weight="bold" fill="var(--gold)">NEGOTIATION</text>
+                        
+                        <text x="300" y="30" font-size="18" font-weight="bold" fill="var(--gold)">FRONTIER POLITICS</text>
+                        <text x="300" y="50" font-size="9" fill="rgba(255, 255, 255, 0.7)">“Where local authority and state power meet.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“A conceptual visualization of the political encounter: local authority meeting state power at the point of negotiation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Frontier Politics?</h3>
+            <p>Frontier politics is a system of continuous interaction and negotiation between the local tribal society and the state. It involves the management of authority, representation, and security within a specific territorial context. Unlike the politics of the settled plains, frontier politics operates through a mixture of customary law, tribal leadership, and special administrative regulations.</p>
+
+            <!-- DIAGRAM 2: FRONTIER POLITICS COMPONENTS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="100" width="140" height="40" rx="4" fill="rgba(47, 79, 79, 0.2)" stroke="var(--badge-politics)"/>
+                        <text x="250" y="125" font-weight="bold">FRONTIER POLITICS</text>
+                        
+                        <!-- Branching Lines -->
+                        <path d="M250 100 L250 40" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M250 140 L250 200" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M180 120 L80 80" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M180 120 L80 160" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M320 120 L420 80" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M320 120 L420 160" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="250" y="35" font-weight="bold">AUTHORITY</text>
+                        <text x="250" y="215" font-weight="bold">NEGOTIATION</text>
+                        <text x="60" y="75" font-weight="bold">REPRESENTATION</text>
+                        <text x="60" y="165" font-weight="bold">SECURITY</text>
+                        <text x="440" y="75" font-weight="bold">LAW / CUSTOM</text>
+                        <text x="440" y="165" font-weight="bold">TERRITORY</text>
+                        
+                        <defs>
+                            <marker id="arrow-76" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The interconnected dimensions of the frontier political system.”</p>
+            </div>
+
+            <div class="evidence-grid">
+                <span class="badge badge-politics">Politics</span>
+                <span class="badge badge-authority">Authority</span>
+                <span class="badge badge-negotiation">Negotiation</span>
+                <span class="badge badge-state">State Power</span>
+                <span class="badge badge-kinship">Kinship</span>
+                <span class="badge badge-jirga">Jirga</span>
+                <span class="badge badge-malik">Malik</span>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Politics Before Colonial Rule</h3>
+            <p>Before the arrival of British administration, Orakzai society possessed its own political organization. Authority was not centralized in a single person or office but was distributed across multiple levels—from the family to the clan, the village, and the tribal Jirga. This distributed authority allowed for collective decision-making and the management of territorial and social disputes through customary practice.</p>
+
+            <!-- DIAGRAM 3: PRE-COLONIAL AUTHORITY FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">FAMILY</text>
+                        <path d="M80 60 L110 60" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="150" y="60">CLAN / SECTION</text>
+                        <path d="M200 60 L230 60" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="270" y="60">VILLAGE</text>
+                        <path d="M310 60 L340 60" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="370" y="60">JIRGA</text>
+                        <path d="M400 60 L430 60" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="470" y="60">ALLIANCES</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The nested hierarchy of pre-colonial tribal authority.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Kinship and Politics</h3>
+            <p>Kinship is the foundational network of frontier politics. It provides the basis for trust, alliance, and collective responsibility. While not every political decision is determined by blood relations, kinship creates the primary framework through which representation is understood and leadership is exercised. Political influence often flows through the strength and unity of a lineage or clan.<sup>1</sup></p>
+
+            <!-- DIAGRAM 4: KINSHIP-POLITICS CONNECTION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="50" y="50">KINSHIP</text>
+                        <path d="M80 50 L120 50" stroke="var(--gold)" marker-end="url(#arrow-76)"/>
+                        <text x="150" y="50">TRUST</text>
+                        <path d="M180 50 L220 50" stroke="var(--gold)" marker-end="url(#arrow-76)"/>
+                        <text x="260" y="50">ALLIANCE</text>
+                        <path d="M300 50 L340 50" stroke="var(--gold)" marker-end="url(#arrow-76)"/>
+                        <text x="410" y="50">POLITICAL INFLUENCE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pathway from kinship to political influence.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">One Tribe ≠ One Political Position</h3>
+            <p>The Orakzai tribe is a complex society with multiple sections, each holding its own territorial and political interests. Internal diversity means that different clans might adopt different positions toward the state or other tribes. One section might prioritize negotiation to protect trade routes, while another might resist to defend its autonomy. This diversity is essential to understanding the dynamic nature of frontier politics.</p>
+
+            <!-- DIAGRAM 5: ONE TRIBE != ONE POSITION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <rect x="200" y="10" width="100" height="30" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="250" y="30" font-weight="bold">ORAKZAI</text>
+                        
+                        <path d="M250 40 L150 70" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M250 40 L250 70" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        <path d="M250 40 L350 70" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <text x="150" y="85">SECTION A<br/>(Interest: Trade)</text>
+                        <text x="250" y="85">SECTION B<br/>(Interest: Autonomy)</text>
+                        <text x="350" y="85">SECTION C<br/>(Interest: Security)</text>
+                        
+                        <text x="250" y="125" font-size="10" font-weight="bold" fill="var(--gold)">ONE TRIBE ≠ ONE POLITICAL POSITION</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Illustrating the internal political diversity of the Orakzai.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Jirga: Forum for Deliberation</h3>
+            <p>The Jirga is the central political institution of the frontier. It is a collective council of elders and representatives that facilitates deliberation, dispute resolution, and negotiation. Operating on the principles of consensus and mediation, the Jirga serves as the primary channel through which a community speaks and through which the state interacts with the tribe.<sup>2</sup></p>
+
+            <!-- DIAGRAM 6: JIRGA-STATE CHANNEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="100" y="75">COMMUNITY</text>
+                        <path d="M140 75 L180 75" stroke="var(--gray)" marker-end="url(#arrow-76)"/>
+                        
+                        <rect x="180" y="55" width="140" height="40" rx="2" fill="rgba(18, 59, 42, 0.2)" stroke="var(--forest)"/>
+                        <text x="250" y="80" font-weight="bold">JIRGA</text>
+                        
+                        <path d="M320 75 L360 75" stroke="var(--gold)" stroke-width="1" marker-start="url(#arrow-76)" marker-end="url(#arrow-76)"/>
+                        <text x="340" y="70" fill="var(--gold)">NEGOTIATION</text>
+                        
+                        <rect x="360" y="55" width="100" height="40" rx="2" fill="rgba(70, 130, 180, 0.2)" stroke="var(--badge-state)"/>
+                        <text x="410" y="80" font-weight="bold">STATE REP.</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The Jirga as a critical channel between the community and the state.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Maliks and the Intermediary System</h3>
+            <p>The Malik system, formalized during the colonial period, created a group of government-recognized intermediaries. A Malik acted as a bridge, communicating state decisions to the tribe and representing tribal grievances to the Political Agent. This role often involved the distribution of frontier allowances (*muajib*) and the collection of fines, making the Malik a central figure in the negotiated authority of the frontier.<sup>4</sup></p>
+
+            <!-- DIAGRAM 7: MALIK INTERMEDIARY SYSTEM -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="8" fill="#fff" text-anchor="middle">
+                        <text x="100" y="60">TRIBAL CLAN</text>
+                        <path d="M140 60 L180 60" stroke="var(--gray)" marker-start="url(#arrow-76)" marker-end="url(#arrow-76)"/>
+                        
+                        <rect x="180" y="40" width="140" height="40" rx="2" fill="rgba(119, 116, 107, 0.2)" stroke="var(--badge-malik)"/>
+                        <text x="250" y="60" font-weight="bold">MALIK</text>
+                        <text x="250" y="72" font-size="6">(Recognized Intermediary)</text>
+                        
+                        <path d="M320 60 L360 60" stroke="var(--gray)" marker-start="url(#arrow-76)" marker-end="url(#arrow-76)"/>
+                        <text x="420" y="60">POLITICAL AGENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The dual-facing role of the Malik in frontier administration.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Political Change and Adaptation</h3>
+            <p>The political life of the Orakzai has undergone significant transformation. From the formal establishment of the Orakzai Agency in 1973 to the historic FATA merger in 2018, the relationship between local authority and state power has continuously adapted to new legal and constitutional realities. This history is one of resilience, as communities navigate changing structures while preserving their core cultural and political values.<sup>3</sup> <sup>5</sup></p>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Frontier politics is not a museum piece; it is the living memory of how we have governed ourselves and how we have interacted with the world. It is the wisdom of the Jirga, the responsibility of the elders, and the resilience of a people who have always known that authority must be earned and negotiated, never just imposed. To understand the Orakzai today, we must honor this legacy of political strategic thinking—a history of people who maintained their dignity while navigating the complex currents of empire and state-building.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“AUTHORITY WAS A DIALOGUE, NOT A DECREE.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Author's Synthesis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            76
+        </footer>
+    </div>
+</body>
+</html>
