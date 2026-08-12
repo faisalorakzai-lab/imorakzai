@@ -406,5 +406,9 @@
       <navLabel><text>The Modern Orakzai</text></navLabel>
       <content src="../pages/page-100-the-modern-orakzai.html"/>
     </navPoint>
+    <navPoint id="navPoint-101" playOrder="100">
+      <navLabel><text>From Tribal Society to Modern Society</text></navLabel>
+      <content src="../pages/page-101-from-tribal-society-to-modern-society.html"/>
+    </navPoint>
   </navMap>
 </ncx>

@@ -7,7 +7,7 @@
     <dc:language>en</dc:language>
     <dc:publisher>Faisal Orakzai</dc:publisher>
     <dc:date>2026-08-12</dc:date>
-    <meta property="dcterms:modified">2026-08-12T06:30:00Z</meta>
+    <meta property="dcterms:modified">2026-08-12T07:30:00Z</meta>
   </metadata>
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -112,6 +112,7 @@
     <item id="page-098" href="../pages/page-098-global-orakzai-communities.html" media-type="application/xhtml+xml"/>
     <item id="page-099" href="../pages/page-099-identity-in-the-diaspora.html" media-type="application/xhtml+xml"/>
     <item id="page-100" href="../pages/page-100-the-modern-orakzai.html" media-type="application/xhtml+xml"/>
+    <item id="page-101" href="../pages/page-101-from-tribal-society-to-modern-society.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -215,5 +216,6 @@
     <itemref idref="page-098"/>
     <itemref idref="page-099"/>
     <itemref idref="page-100"/>
+    <itemref idref="page-101"/>
   </spine>
 </package>
