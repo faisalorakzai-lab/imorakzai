@@ -418,5 +418,9 @@
       <navLabel><text>Preserving Culture in a Digital World</text></navLabel>
       <content src="../pages/page-103-preserving-culture-digital-world.html"/>
     </navPoint>
+    <navPoint id="navPoint-104" playOrder="103">
+      <navLabel><text>The Future of Pashto</text></navLabel>
+      <content src="../pages/page-104-future-of-pashto.html"/>
+    </navPoint>
   </navMap>
 </ncx>

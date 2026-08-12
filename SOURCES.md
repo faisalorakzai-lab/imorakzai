@@ -665,3 +665,16 @@ The page uses UNESCO guidelines for digital heritage and intangible cultural her
 - **Evidence Boundary**: No existing "Orakzai Digital Heritage Archive" is claimed; it is presented as a proposed framework. No Pashto digital resource is claimed as Orakzai-specific without evidence. AI-generated material is strictly excluded from historical evidence. Private family records are identified as restricted.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 104 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 104: The Future of Pashto
+
+Page 104 examines the future of Pashto as a living language, exploring the intersections of identity, education, media, technology, and intergenerational transmission. It provides a scholarly overview of Pashto's linguistic classification and geographic distribution while addressing contemporary challenges and opportunities in the digital world.
+
+The page incorporates research on family language policy and identity formation (Khalid et al., 2026), computational linguistics for low-resource languages (Haq et al., 2023), and manually annotated Pashto sentential corpora (Ali et al., 2024). It establishes three future scenarios (Continuity, Adaptation, Fragmentation) to frame potential linguistic developments without making unfounded predictions.
+
+- **Research Sources**: Detailed citations and claim boundaries are available in `book/sources/page-104-future-of-pashto.md`; research notes and academic URLs are in `book/sources/page-104-research-notes.md`.
+- **Visual Elements**: 86 original responsive SVG elements: one premium Future of Pashto Hero and 85 numbered accessible logic-atlas cards. The atlas covers linguistic classification, family transmission, education policy, Unicode/digital text, social media impact, NLP/AI tools, machine translation, and future linguistic scenarios.
+- **Content**: Evidence-led narrative connects Pages 28, 53, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 89, 90, 97, 98, 99, 100, 101, 102, and 103. It provides a balanced view of linguistic change, emphasizing human agency over technological determinism.
+- **Evidence Boundary**: No unfounded predictions about Pashto's "death" or global dominance are made. No specific future population numbers or growth rates are invented. AI is labeled as an assistance tool, not an independent source of truth. Scenarios are clearly distinguished from forecasts.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 105 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
