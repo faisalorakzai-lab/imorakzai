@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Agency</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-homeland: #6B4F3A;
+            --badge-agency: #123B2A;
+            --badge-district: #B22222;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .comparison-box {
+            background: rgba(181, 150, 84, 0.05);
+            border: 1px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        .comparison-box h4 {
+            color: var(--gold);
+            margin-top: 0;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.1rem;
+        }
+        .census-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .census-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 0.75rem;
+            text-align: center;
+        }
+        .census-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            color: var(--gold);
+            display: block;
+        }
+        .census-value {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--ivory);
+        }
+        .badge {
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-homeland { background: var(--badge-homeland); }
+        .badge-agency { background: var(--badge-agency); }
+        .badge-district { background: var(--badge-district); }
+    </style>
+</head>
+<body>
+    <div class="content-page agency-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M400 0 L400 1000" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" stroke-dasharray="10,5" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 85</h3>
+            <h2>ORAKZAI AGENCY</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“One territory, many communities, and a changing relationship with the state.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Orakzai Agency was not simply a line drawn on a map. It was an administrative framework placed over a landscape already shaped by communities, valleys, migration, trade, memory, and tribal relationships. For generations, people living in the Orakzai region encountered different forms of authority: family, tribal institutions, elders, jirga, religious leadership, political administration, and eventually the wider institutions of the Pakistani state. The Agency system became one layer within that history. Understanding it requires looking beyond the administrative name. What was the Agency? Who governed it? How was it connected to FATA? How did ordinary people experience its institutions? And what changed when the Agency became a district?</p>
+
+            <!-- HERO: ORAKZAI AGENCY LANDSCAPE (Diagram 1-5) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Mountain Ridge -->
+                        <path d="M0 250 L100 150 L200 250 L300 180 L400 250 L500 160 L600 250" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="2"/>
+                        
+                        <!-- Valley Path -->
+                        <path d="M100 350 Q300 300 500 350" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="5,5"/>
+                        
+                        <!-- Elements -->
+                        <g transform="translate(150, 280)">
+                            <rect x="-40" y="-20" width="80" height="40" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--earth)"/>
+                            <text y="5">HOMELAND</text>
+                        </g>
+                        
+                        <g transform="translate(300, 280)">
+                            <rect x="-40" y="-20" width="80" height="40" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--forest)"/>
+                            <text y="5">AGENCY</text>
+                        </g>
+                        
+                        <g transform="translate(450, 280)">
+                            <rect x="-40" y="-20" width="80" height="40" rx="4" fill="rgba(178, 34, 34, 0.15)" stroke="var(--badge-district)"/>
+                            <text y="5">DISTRICT</text>
+                        </g>
+                        
+                        <!-- Archival Seal Symbol -->
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1"/>
+                        <text x="50" y="55" font-size="6" fill="rgba(181, 150, 84, 0.5)">ARCHIVAL RECORD</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Orakzai Agency: An administrative layer over a historical landscape.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What was Orakzai Agency?</h3>
+            <p>Orakzai Agency was a former political agency of the **Federally Administered Tribal Areas (FATA)**. The Constitution of Pakistan historically listed Orakzai among the federally administered territories, placing it under the executive authority of the President through the Governor of Khyber Pakhtunkhwa. It was an administrative unit, not a sovereign state, and its primary purpose was to manage the frontier through a system of indirect rule.<sup>1</sup> <sup>8</sup></p>
+
+            <!-- DIAGRAM 6-15: HOMELAND VS AGENCY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <!-- Homeland Circle -->
+                        <circle cx="200" cy="100" r="70" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)" stroke-dasharray="5,5"/>
+                        <text x="160" y="100" fill="var(--earth)">ORAKZAI HOMELAND</text>
+                        
+                        <!-- Agency Circle -->
+                        <circle cx="300" cy="100" r="60" fill="rgba(18, 59, 42, 0.1)" stroke="var(--forest)"/>
+                        <text x="340" y="100" fill="var(--forest)">ORAKZAI AGENCY</text>
+                        
+                        <text x="250" y="185" font-size="7" font-style="italic">“Identity and settlement extend beyond administrative lines.”</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conceptual distinction between the historical homeland and the administrative agency.”</p>
+            </div>
+
+            <div class="comparison-box">
+                <h4>Establishment Date Requires Source Comparison</h4>
+                <p style="font-size: 0.85rem; line-height: 1.4;">Historical records provide slightly different dates for the Agency's formal creation:</p>
+                <ul style="font-size: 0.8rem; color: rgba(255,255,255,0.8);">
+                    <li><strong>November 3, 1973:</strong> The President of Pakistan announced the creation of the Agency.</li>
+                    <li><strong>November 30, 1973:</strong> Official establishment date cited in some administrative archives.</li>
+                    <li><strong>December 1, 1973:</strong> Formal inauguration and commencement of independent functioning.</li>
+                </ul>
+                <p style="font-size: 0.75rem; font-style: italic; margin-top: 0.5rem;">The difference reflects the gap between political announcement and institutional implementation.</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Geography: The Landlocked Frontier</h3>
+            <p>Orakzai's geography defined its administrative experience. Unlike most FATA agencies, Orakzai was **landlocked**, sharing no direct international boundary with Afghanistan. It was bounded by Khyber to the north, Kurram to the west, Kohat and Hangu to the south, and FR Kohat to the east. This meant that while it was part of the frontier, its trade and movement were mediated through its neighbors, making it a highland sanctuary within the wider tribal landscape.<sup>4</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 16-25: GEOGRAPHIC RELATIONSHIPS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <rect x="150" y="120" width="100" height="60" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="200" y="155" font-weight="bold">ORAKZAI</text>
+                        
+                        <text x="200" y="80">KHYBER (N)</text>
+                        <path d="M200 90 L200 115" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <text x="320" y="150">FR KOHAT (E)</text>
+                        <path d="M300 150 L255 150" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <text x="200" y="220">KOHAT/HANGU (S)</text>
+                        <path d="M200 210 L200 185" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <text x="80" y="150">KURRAM (W)</text>
+                        <path d="M100 150 L145 150" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <defs>
+                            <marker id="arrow-85" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“Orakzai's landlocked position within the regional geography.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Administration: The Political Agent</h3>
+            <p>The **Political Agent (PA)** was the executive and judicial head of the Agency. Historically based in Hangu due to the lack of a suitable administrative center within the Agency's rugged interior during the early years, the PA managed the region through the **Frontier Crimes Regulation (FCR)**. The system relied on **Maliks**—government-recognized tribal intermediaries—who served as the primary link between the state and the local communities.<sup>8</sup></p>
+
+            <!-- DIAGRAM 26-35: ADMINISTRATIVE HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="10" width="140" height="30" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="250" y="30">FEDERAL GOVERNMENT</text>
+                        
+                        <path d="M250 40 L250 65" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <rect x="180" y="70" width="140" height="30" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--forest)"/>
+                        <text x="250" y="90" font-weight="bold">POLITICAL AGENT</text>
+                        
+                        <path d="M250 100 L250 125" stroke="var(--gray)" marker-end="url(#arrow-85)"/>
+                        
+                        <g transform="translate(150, 140)">
+                            <rect width="90" height="30" rx="4" fill="rgba(107, 79, 58, 0.1)" stroke="var(--earth)"/>
+                            <text x="45" y="20">MALIKS / ELDERS</text>
+                        </g>
+                        
+                        <g transform="translate(260, 140)">
+                            <rect width="90" height="30" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                            <text x="45" y="20">LOCAL JIRGA</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The historical administrative hierarchy of Orakzai Agency.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">2017 Census Snapshot</h3>
+            <p>The 2017 Census provided a statistical snapshot of Orakzai Agency just before its transition to a district. It documented a purely rural population of over a quarter-million people, living in approximately 31,000 households across the Agency's two main sub-divisions.<sup>4</sup></p>
+
+            <div class="census-grid">
+                <div class="census-item">
+                    <span class="census-label">Total Population</span>
+                    <span class="census-value">254,303</span>
+                </div>
+                <div class="census-item">
+                    <span class="census-label">Area (km²)</span>
+                    <span class="census-value">1,538</span>
+                </div>
+                <div class="census-item">
+                    <span class="census-label">Urban Population</span>
+                    <span class="census-value">0</span>
+                </div>
+                <div class="census-item">
+                    <span class="census-label">Households</span>
+                    <span class="census-value">31,420</span>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The 2018 Transition</h3>
+            <p>The constitutional status of Orakzai changed fundamentally in **May 2018** with the **25th Amendment**. The Agency framework was abolished, and Orakzai was merged into Khyber Pakhtunkhwa as a **District**. This transition replaced the Political Agent with a **Deputy Commissioner (DC)** and extended the jurisdiction of regular provincial courts and police to the region.<sup>2</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 36-50: TRANSITION FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="50" width="120" height="50" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--forest)"/>
+                        <text x="80" y="75">ORAKZAI AGENCY</text>
+                        <text x="80" y="85" font-size="6">Political Agent / FCR</text>
+                        
+                        <path d="M140 75 L180 75" stroke="var(--gold)" marker-end="url(#arrow-85)"/>
+                        
+                        <circle cx="220" cy="75" r="30" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="220" y="78" font-weight="bold">25th AMEND.</text>
+                        
+                        <path d="M260 75 L300 75" stroke="var(--gold)" marker-end="url(#arrow-85)"/>
+                        
+                        <rect x="340" y="50" width="120" height="50" rx="4" fill="rgba(178, 34, 34, 0.15)" stroke="var(--badge-district)"/>
+                        <text x="400" y="75">ORAKZAI DISTRICT</text>
+                        <text x="400" y="85" font-size="6">Deputy Commissioner / Courts</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The constitutional transition from Agency to District.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Orakzai Agency was not simply a name; it was a layer of state authority over a pre-existing tribal landscape. Geography as destiny shaped Orakzai's unique trade and political relationships, as its landlocked position required a different kind of diplomacy than its border-facing neighbors. While the names have changed—from Frontier Region to Agency to District—the kinship networks and cultural identity of the Orakzai people remain the core of the region. The challenge of the modern era is to ensure that administrative integration serves the people, transforming the historical frontier into a center of opportunity and service.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“ADMINISTRATIVE LINES CHANGE. THE HOMELAND REMAINS.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Orakzai Agency Historical Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            85
+        </footer>
+    </div>
+</body>
+</html>

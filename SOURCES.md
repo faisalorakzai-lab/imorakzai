@@ -501,3 +501,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the FATA evolution hero, the historical timeline (1901–2018), constitutional status comparison (1956/1962/1973), Orakzai Agency creation (1973), and the reform milestones (1996, 2011, 2018).
 - **Content**: Deep historical analysis of FATA's evolution from a colonial frontier concept to a constitutional region of Pakistan. Explores the legal foundations (FCR 1901, Articles 246/247) and the major reform milestones leading to the 2018 merger. Supported by the *Constitution of Pakistan*, *Gazette of Pakistan (1973)*, and scholarly analysis from the *Journal of Asian Development Studies* (2024).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 85: Orakzai Agency
+- **Research Sources**: Detailed citations are available in `book/sources/page-085-orakzai-agency.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Agency hero, the homeland vs. agency conceptual model, the landlocked geography, the administrative hierarchy (PA/APA/Malik), the 2017 census snapshot, and the Agency-to-District transition.
+- **Content**: Comprehensive historical analysis of Orakzai Agency as an administrative unit of FATA (1973–2018). Explores its creation from FR Kohat, its unique landlocked geography, the governance under the FCR, and its eventual integration as a District in 2018. Supported by the *Constitution of Pakistan*, *PBS Census (2017)*, and ethnographic research by *Akbar S. Ahmed (1980)*.
+- **License**: Content is proprietary to the author; visual design is project-specific.

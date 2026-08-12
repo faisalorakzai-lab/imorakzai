@@ -342,5 +342,9 @@
       <navLabel><text>FATA &amp; Its Historical Development</text></navLabel>
       <content src="../pages/page-084-fata-and-its-historical-development.html"/>
     </navPoint>
+    <navPoint id="navPoint-85" playOrder="84">
+      <navLabel><text>Orakzai Agency</text></navLabel>
+      <content src="../pages/page-085-orakzai-agency.html"/>
+    </navPoint>
   </navMap>
 </ncx>
