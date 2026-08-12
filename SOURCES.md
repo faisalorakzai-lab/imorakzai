@@ -1094,3 +1094,16 @@ The content is grounded in 2026 reports from the IMF, BIS, and industry analysis
 - **Evidence Boundary**: Statistics are derived from official institutional, intergovernmental, and industry reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 137 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 137: Real Estate Tokenization
+
+Page 137 examines the transformation of property rights into programmable digital infrastructure. It analyzes the property trust stack, focusing on the integration of legal foundations, property verification, and smart-contract distributions. The page highlights the global real estate tokenization market's valuation at $4.81 billion in 2026 and explores Pakistan's PropTech landscape, including blockchain-enabled land records and fractional ownership initiatives.
+
+The content is grounded in 2026 reports from Precedence Research, PIDE, and industry milestones from the PropTech Convention Pakistan. It discusses the potential for tokenization to improve market efficiency and inclusion, while addressing the "Title Gap" and the necessity of legal recognition by government registries. A personal case study of Faisal Orakzai illustrates the generational shift toward approaching real estate as a system where software and physical assets intersect.
+
+- **Research Sources**: Detailed bibliographic records and a real estate tokenization evidence matrix are available in `book/sources/page-137-real-estate-tokenization.md`; research notes and methodological findings are in `book/sources/page-137-research-notes.md`.
+- **Visual Elements**: 116 original responsive SVG elements: one premium Real Estate Hero and 115 numbered accessible logic-atlas cards. The atlas covers fractionalization models, rental income distribution loops, property trust stacks, and the transition from paper-based registries to shared digital networks.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-136. It frames real estate tokenization as a tool for national digital transformation and inclusive property markets.
+- **Evidence Boundary**: Statistics are derived from official institutional, academic, and industry reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 138 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

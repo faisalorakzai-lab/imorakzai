@@ -550,5 +550,9 @@
       <navLabel><text>Tokenization of Real-World Assets</text></navLabel>
       <content src="../pages/page-136-tokenization-of-real-world-assets.html"/>
     </navPoint>
+    <navPoint id="navPoint-137" playOrder="136">
+      <navLabel><text>Real Estate Tokenization</text></navLabel>
+      <content src="../pages/page-137-real-estate-tokenization.html"/>
+    </navPoint>
   </navMap>
 </ncx>
