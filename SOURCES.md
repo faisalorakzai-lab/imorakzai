@@ -561,3 +561,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Islamabad hero (Mountains to Capital), the capital role taxonomy, the urban expansion model (1979–2021), the metropolitan network (Islamabad-Rawalpindi), the professional migration drivers, and the national identity synthesis.
 - **Content**: Analysis of the Orakzai community in Islamabad, Pakistan's national capital. Based on academic studies of Islamabad's urbanization (Shah et al., 2021; Khan et al., 2023) and institutional records (QAU, 2024). Explores the city's role as a center for government, education, and professional careers, while documenting the synthesis of tribal heritage with modern national identity.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 95: Orakzai in Lahore
+- **Research Sources**: Detailed citations are available in `book/sources/page-095-orakzai-in-lahore.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai in Lahore hero (Mountains to Metropolis), the metropolitan role taxonomy, the urban expansion model (1990–2021), the socioeconomic migration drivers, the family language policy (Khalid & Khan, 2026), and the educational career pathway.
+- **Content**: Analysis of the Orakzai community in Lahore, Punjab's historic metropolis. Based on academic studies of Lahore's urbanization (Ghafoor et al., 2023), migration determinants (Ghafoor & Akbar, 2022), and family language policy among migrant Pashto speakers (Khalid & Khan, 2026). Explores the city's role as a center for commerce, education, and healthcare, while documenting the adaptation and identity negotiation of Orakzai families in a multilingual urban landscape.
+- **License**: Content is proprietary to the author; visual design is project-specific.

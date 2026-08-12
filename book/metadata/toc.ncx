@@ -382,5 +382,9 @@
       <navLabel><text>Orakzai in Islamabad</text></navLabel>
       <content src="../pages/page-094-orakzai-in-islamabad.html"/>
     </navPoint>
+    <navPoint id="navPoint-95" playOrder="94">
+      <navLabel><text>Orakzai in Lahore</text></navLabel>
+      <content src="../pages/page-095-orakzai-in-lahore.html"/>
+    </navPoint>
   </navMap>
 </ncx>

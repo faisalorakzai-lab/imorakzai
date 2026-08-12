@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai in Lahore</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-punjab: #D2691E; /* Chocolate/Orange for Lahore's brick and culture */
+            --accent-lang: #8B4513;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .data-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+            text-align: center;
+        }
+        .data-val {
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+        }
+        .data-lab {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+            color: var(--gray);
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page lahore-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 400 Q400 350 800 400" fill="none" stroke="rgba(210, 105, 30, 0.05)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 95</h3>
+            <h2>ORAKZAI IN LAHORE</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Carrying homeland memory into a historic metropolis.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Lahore is another kind of city in the Orakzai story. It is not the homeland. It is not a frontier city. It is not the national capital. Lahore is Punjab's great historic metropolis — a city of universities, markets, hospitals, businesses, literature, food, art and millions of daily journeys. For an Orakzai person, Lahore can represent opportunity at a different scale. A university. A profession. A business. A hospital. A temporary residence. A family home. Or simply a place where life takes a new direction. Yet Lahore is also multilingual. Pashto exists alongside Punjabi, Urdu and English, and migrant families negotiate identity within this changing linguistic environment. For some Orakzai families, therefore, living in Lahore may involve learning how to belong to a new city without forgetting where the family came from. The story is not simply about migration. It is about adaptation. It is about language. It is about family. And it is about carrying memory into a different cultural landscape.</p>
+
+            <!-- HERO: ORAKZAI IN LAHORE (Diagram 1-25) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Left: Orakzai Mountains -->
+                        <path d="M20 280 L70 180 L130 240 L180 150 L250 280" fill="none" stroke="var(--gold)" stroke-width="2"/>
+                        <text x="80" y="300" fill="var(--gold)">MOUNTAINS</text>
+                        <text x="80" y="315" font-size="7" fill="var(--gray)">HOMELAND</text>
+                        
+                        <!-- Center: The Connection -->
+                        <path d="M250 220 L400 220" stroke="var(--gray)" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow-95)"/>
+                        <text x="325" y="210" fill="var(--gray)" font-size="8">MIGRATION PATHWAY</text>
+                        
+                        <!-- Right: Lahore Skyline -->
+                        <g transform="translate(450, 150)">
+                            <!-- Badshahi Mosque Inspired Silhouette -->
+                            <path d="M0 130 L0 80 Q20 50 40 80 L40 130 M15 80 Q20 70 25 80" fill="none" stroke="rgba(210, 105, 30, 0.4)" stroke-width="1.5"/>
+                            <path d="M50 130 L50 40 Q70 10 90 40 L90 130" fill="none" stroke="rgba(210, 105, 30, 0.4)" stroke-width="1.5"/>
+                            
+                            <!-- Modern Buildings -->
+                            <rect x="100" y="60" width="15" height="70" fill="rgba(210, 105, 30, 0.2)"/>
+                            <rect x="120" y="30" width="20" height="100" fill="rgba(210, 105, 30, 0.2)"/>
+                            
+                            <text x="70" y="150" fill="var(--accent-punjab)" font-weight="bold">LAHORE</text>
+                            <text x="70" y="165" font-size="7" fill="var(--gray)">HISTORIC METROPOLIS</text>
+                        </g>
+                        
+                        <!-- Symbols -->
+                        <g transform="translate(300, 120)">
+                            <text x="0" y="0" font-size="12">📖</text>
+                            <text y="15" font-size="6">EDUCATION</text>
+                        </g>
+                        <g transform="translate(350, 90)">
+                            <text x="0" y="0" font-size="12">💼</text>
+                            <text y="15" font-size="6">PROFESSION</text>
+                        </g>
+                        
+                        <defs>
+                            <marker id="arrow-95" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gray)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The visual transition from the Orakzai highlands to the historic metropolis of Lahore.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Lahore as a Metropolis</h3>
+            <p>Lahore is Punjab's primary metropolitan center, functioning as a provincial capital, educational hub, and commercial powerhouse. Its role as a cultural and healthcare destination attracts individuals from across Pakistan, including the Orakzai community. The city's diverse sectors—from media and technology to historic commerce—provide a multi-layered urban environment for adaptation and growth.<sup>2</sup> <sup>3</sup></p>
+
+            <!-- DIAGRAM 26-35: METROPOLITAN ROLE TAXONOMY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="190" y="20" width="120" height="30" rx="4" fill="rgba(210, 105, 30, 0.1)" stroke="var(--accent-punjab)"/>
+                        <text x="250" y="40" font-weight="bold">LAHORE</text>
+                        
+                        <g transform="translate(250, 50)">
+                            <path d="M0 0 L0 20" stroke="var(--gray)"/>
+                            <path d="M-150 20 L150 20" stroke="var(--gray)"/>
+                            
+                            <!-- Branches -->
+                            <g transform="translate(-150, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">HISTORY</text>
+                            </g>
+                            <g transform="translate(-100, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">EDUCATION</text>
+                            </g>
+                            <g transform="translate(-50, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">COMMERCE</text>
+                            </g>
+                            <g transform="translate(0, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">CULTURE</text>
+                            </g>
+                            <g transform="translate(50, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">HEALTHCARE</text>
+                            </g>
+                            <g transform="translate(100, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">PROFESSIONS</text>
+                            </g>
+                            <g transform="translate(150, 20)">
+                                <path d="M0 0 L0 15" stroke="var(--gray)"/>
+                                <text y="30">TECHNOLOGY</text>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The multi-functional roles of Lahore as a historic metropolis.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Lahore's Urban Growth</h3>
+            <p>Academic research documents the rapid urbanization and urban sprawl of Lahore. Between 1990 and 2021, the city's built-up area nearly doubled, expanding from 455 km² to over 807 km². This expansion is driven by rural-to-urban migration and land-use pressures, creating a dynamic metropolitan landscape that continues to attract new residents seeking economic and educational advancement.<sup>2</sup></p>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <span class="data-val">455.45 km²</span>
+                    <span class="data-lab">Built-up Area (1990)</span>
+                </div>
+                <div class="data-card">
+                    <span class="data-val">807.40 km²</span>
+                    <span class="data-lab">Built-up Area (2021)</span>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Socioeconomic Determinants of Migration</h3>
+            <p>Migration to Lahore is motivated by a combination of economic conditions, employment opportunities, and access to education. Studies indicate that migrants are not only seeking better livelihoods but are also responding to educational deprivation in their home regions. For the Orakzai community, Lahore offers a scale of opportunity that complements the regional hubs of the northwest.<sup>3</sup></p>
+
+            <!-- DIAGRAM 36-45: MIGRATION DRIVERS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">ORAKZAI</text>
+                        <path d="M80 75 L120 75" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        
+                        <rect x="140" y="55" width="80" height="40" rx="4" fill="none" stroke="var(--gold)"/>
+                        <text x="180" y="70">ECONOMIC</text>
+                        <text x="180" y="82">CONDITIONS</text>
+                        
+                        <rect x="230" y="55" width="80" height="40" rx="4" fill="none" stroke="var(--accent-punjab)"/>
+                        <text x="270" y="70">EMPLOYMENT</text>
+                        <text x="270" y="82">SERVICES</text>
+                        
+                        <rect x="320" y="55" width="80" height="40" rx="4" fill="none" stroke="var(--forest)"/>
+                        <text x="360" y="75">EDUCATION</text>
+                        
+                        <path d="M400 75 L440 75" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        <text x="470" y="75" font-weight="bold">LAHORE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The socioeconomic drivers of migration to Lahore.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Language and Identity Negotiation</h3>
+            <p>A 2026 study highlights how migrant Pashto-speaking families in Lahore negotiate their identity through family language policy. In the multilingual context of Lahore, Pashto remains the desired language for home and community communication, while Urdu and English are adopted for utility and social mobility. This linguistic adaptation allows families to belong to the city without losing their ancestral heritage.<sup>1</sup></p>
+
+            <!-- DIAGRAM 46-60: LANGUAGE POLICY MODEL -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <circle cx="200" cy="100" r="80" fill="rgba(139, 69, 19, 0.05)" stroke="var(--accent-lang)"/>
+                        <text x="200" y="60" font-weight="bold" fill="var(--accent-lang)">IDENTITY NEGOTIATION</text>
+                        
+                        <!-- Languages -->
+                        <g transform="translate(200, 100)">
+                            <text y="-20" font-weight="bold" fill="var(--forest)">PASHTO (HOME)</text>
+                            <text y="10">URDU / PUNJABI (UTILITY)</text>
+                            <text y="30">ENGLISH (OPPORTUNITY)</text>
+                        </g>
+                        
+                        <path d="M200 140 L200 170" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        <text x="200" y="185" font-size="8">MULTILINGUAL RESOURCE</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The negotiation of identity through family language policy in Lahore (Khalid & Khan, 2026).”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Education and Professional Presence</h3>
+            <p>Lahore's educational ecosystem, including the University of the Punjab, LUMS, and GCU, hosts a verified presence of Orakzai students and alumni. These individuals pursue careers in politics, computer science, mass communication, and entrepreneurship, building professional networks that span the country. Their success stories document the contribution of the Orakzai community to the national professional landscape.<sup>4</sup></p>
+
+            <!-- DIAGRAM 61-75: EDUCATIONAL CAREER PATHWAY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">ORAKZAI</text>
+                        <path d="M80 75 L120 75" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        
+                        <rect x="140" y="55" width="80" height="40" rx="4" fill="none" stroke="var(--accent-punjab)"/>
+                        <text x="180" y="75">UNIVERSITY</text>
+                        
+                        <path d="M220 75 L260 75" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        
+                        <rect x="280" y="55" width="80" height="40" rx="4" fill="none" stroke="var(--gold)"/>
+                        <text x="320" y="75">PROFESSION</text>
+                        
+                        <path d="M360 75 L400 75" stroke="var(--gray)" marker-end="url(#arrow-95)"/>
+                        <text x="450" y="75" font-weight="bold">NATIONAL SUCCESS</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The educational and professional pathway of Orakzai individuals in Lahore.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Lahore is the city where the Orakzai spirit meets the history and culture of Punjab. It is a city that demands adaptation—a new language, a different rhythm, a wider horizon. In the lecture halls of the Punjab University or the busy markets of Liberty, I see our people learning how to belong to this great metropolis while remaining anchored to their roots. We are a people who carry our memory with us, even as we build new homes and new careers. Lahore has expanded our world, teaching us that identity is not a fixed point but a living dialogue between where we came from and where we are going. We are Orakzai, and we are at home in the heart of Punjab.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“ANCHORED BY MEMORY, EXPANDED BY THE CITY.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Orakzai in Lahore Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            95
+        </footer>
+    </div>
+</body>
+</html>
