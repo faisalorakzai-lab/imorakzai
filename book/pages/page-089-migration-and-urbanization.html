@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Migration & Urbanization</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-urban: #4682B4;
+            --accent-rural: #556B2F;
+            --accent-diaspora: #DAA520;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .data-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+        }
+        .data-value {
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+        }
+        .data-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            color: var(--gray);
+        }
+        .flow-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 0;
+            padding: 1rem;
+            background: rgba(181, 150, 84, 0.05);
+            border-radius: 4px;
+        }
+        .flow-step {
+            text-align: center;
+            flex: 1;
+        }
+        .flow-arrow {
+            color: var(--gold);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page migration-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <circle cx="400" cy="500" r="300" fill="none" stroke="rgba(181, 150, 84, 0.03)" stroke-width="1" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 89</h3>
+            <h2>MIGRATION & URBANIZATION</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Leaving home does not always mean leaving identity behind.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">People do not always leave home because they have stopped loving it. Sometimes they leave because opportunity is elsewhere. Sometimes they leave to study. Sometimes to work. Sometimes to find healthcare. Sometimes because conflict makes staying impossible. And sometimes migration begins with one family member leaving and eventually becomes a network connecting an entire community to a city. For Orakzai, movement has never been only about geography. It is also about memory. A person can build a new life in a city while continuing to speak Pashto at home. A family can move away while maintaining relationships with relatives in the homeland. A young person can study in an urban centre while carrying the identity of the village. Migration changes where people live. It does not necessarily determine who they are. Urbanization therefore creates a different question: How does a community remain connected when its people no longer live in one place?</p>
+
+            <!-- HERO: MIGRATION & URBANIZATION (Diagram 1-20) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Mountains (Homeland) -->
+                        <path d="M20 250 L80 120 L150 200 L220 100 L280 250" fill="none" stroke="var(--accent-rural)" stroke-width="2"/>
+                        <text x="80" y="270" fill="var(--accent-rural)">VILLAGE</text>
+                        
+                        <!-- Road to City -->
+                        <path d="M150 250 Q300 250 450 250" fill="none" stroke="var(--gold)" stroke-width="3" stroke-dasharray="10,5"/>
+                        <text x="300" y="265" font-size="8" fill="var(--gold)">MIGRATION PATH</text>
+                        
+                        <!-- Cityscape -->
+                        <g transform="translate(450, 150)">
+                            <rect x="0" y="0" width="20" height="100" fill="rgba(70, 130, 180, 0.2)" stroke="var(--accent-urban)"/>
+                            <rect x="25" y="30" width="20" height="70" fill="rgba(70, 130, 180, 0.2)" stroke="var(--accent-urban)"/>
+                            <rect x="50" y="10" width="20" height="90" fill="rgba(70, 130, 180, 0.2)" stroke="var(--accent-urban)"/>
+                            <text x="35" y="120" fill="var(--accent-urban)">URBAN HUB</text>
+                        </g>
+                        
+                        <!-- Digital Connection / Diaspora -->
+                        <circle cx="300" cy="80" r="40" fill="none" stroke="var(--accent-diaspora)" stroke-width="1" stroke-dasharray="2,2"/>
+                        <text x="300" y="85" font-weight="bold" fill="var(--accent-diaspora)">DIASPORA NETWORK</text>
+                        
+                        <!-- Connection Lines -->
+                        <path d="M100 180 Q300 50 500 180" fill="none" stroke="rgba(181, 150, 84, 0.2)" stroke-width="1"/>
+                        
+                        <!-- Silhouettes -->
+                        <circle cx="100" cy="180" r="4" fill="var(--ivory)"/>
+                        <circle cx="500" cy="180" r="4" fill="var(--ivory)"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The trans-local bridge between the Orakzai highland and the urban world.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Migration?</h3>
+            <p>Migration refers to the movement of people from one place to another. In the Orakzai context, it is a survival and advancement strategy. It ranges from seasonal pastoral movement between upper and lower valleys to long-distance international labor in the Gulf. These categories are not mutually exclusive; a family may have one member working in Karachi, another studying in Peshawar, and others managing the ancestral land in Orakzai.<sup>5</sup> <sup>6</sup></p>
+
+            <!-- DIAGRAM 21-35: MIGRATION TAXONOMY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="10" width="140" height="30" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="250" y="30" font-weight="bold">MIGRATION TYPES</text>
+                        
+                        <!-- Primary Nodes -->
+                        <g transform="translate(100, 80)">
+                            <circle r="35" fill="none" stroke="var(--gray)" stroke-width="1"/>
+                            <text y="-5">INTERNAL</text>
+                            <text y="10" font-size="7">(Kohat, Karachi)</text>
+                        </g>
+                        <g transform="translate(250, 80)">
+                            <circle r="35" fill="none" stroke="var(--gray)" stroke-width="1"/>
+                            <text y="-5">INTERNATIONAL</text>
+                            <text y="10" font-size="7">(UAE, KSA)</text>
+                        </g>
+                        <g transform="translate(400, 80)">
+                            <circle r="35" fill="none" stroke="var(--gray)" stroke-width="1"/>
+                            <text y="-5">SEASONAL</text>
+                            <text y="10" font-size="7">(Upper/Lower)</text>
+                        </g>
+                        
+                        <!-- Drivers -->
+                        <text x="250" y="150" font-size="8" fill="var(--gray)">DRIVERS: WORK • EDUCATION • SECURITY • FAMILY • HEALTH</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The diverse modalities of Orakzai mobility.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is Urbanization?</h3>
+            <p>Urbanization in Orakzai is a dual process. It involves the physical movement of people to established cities like Peshawar and Karachi, but it also involves the administrative and economic transformation of local settlements. The growth of Kalaya as a district headquarters and Ghiljo as a commercial hub represents a "local urbanization" that changes the character of the homeland itself.<sup>2</sup> <sup>7</sup></p>
+
+            <!-- DIAGRAM 36-45: URBANIZATION PROCESS -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">RURAL</text>
+                        <path d="M80 60 L120 60" stroke="var(--gold)" marker-end="url(#arrow-89)"/>
+                        <text x="160" y="60">TOWN (Kalaya)</text>
+                        <path d="M210 60 L250 60" stroke="var(--gold)" marker-end="url(#arrow-89)"/>
+                        <text x="300" y="60">CITY (Peshawar)</text>
+                        <path d="M350 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-89)"/>
+                        <text x="450" y="60" font-weight="bold" fill="var(--gold)">URBAN NETWORK</text>
+                        
+                        <defs>
+                            <marker id="arrow-89" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The continuum of Orakzai settlement transformation.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The 2023 Demographic Snapshot</h3>
+            <p>The 2023 Digital Census records a population of 387,561 for Orakzai District. While the census classifies the district as 100% rural in its locality tables, this statistical designation masks the emerging urban functions of its primary administrative and commercial centers. The population density of 252 persons per km² reflects a society highly concentrated in accessible valley floors.<sup>1</sup></p>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <span class="data-value">387,561</span>
+                    <span class="data-label">Total Population (2023)</span>
+                </div>
+                <div class="data-card">
+                    <span class="data-value">52,104</span>
+                    <span class="data-label">Total Households</span>
+                </div>
+                <div class="data-card">
+                    <span class="data-value">100%</span>
+                    <span class="data-label">Rural Locality Classification</span>
+                </div>
+                <div class="data-card">
+                    <span class="data-value">252</span>
+                    <span class="data-label">Persons per km²</span>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Migration & Remittances</h3>
+            <p>For many Orakzai households, migration is an economic necessity that yields vital remittances. These funds are not merely for consumption; they are invested in the human capital of the next generation—paying for school fees, healthcare, and the construction of permanent housing that symbolizes the family's success and resilience.<sup>5</sup></p>
+
+            <!-- DIAGRAM 46-60: REMITTANCE FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="40">MIGRANT (Gulf/Karachi)</text>
+                        <path d="M50 50 L50 100" stroke="var(--gold)" marker-end="url(#arrow-89)"/>
+                        <text x="50" y="120" font-weight="bold">LABOUR / SKILLS</text>
+                        
+                        <path d="M120 75 L180 75" stroke="var(--accent-diaspora)" stroke-width="2" marker-end="url(#arrow-89)"/>
+                        <text x="150" y="65" fill="var(--accent-diaspora)">REMITTANCES</text>
+                        
+                        <g transform="translate(250, 75)">
+                            <rect x="-40" y="-20" width="80" height="40" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gold)"/>
+                            <text y="5">HOUSEHOLD</text>
+                        </g>
+                        
+                        <path d="M300 75 L360 75" stroke="var(--gray)" marker-end="url(#arrow-89)"/>
+                        
+                        <g transform="translate(430, 75)" font-size="7">
+                            <text y="-10">EDUCATION</text>
+                            <text y="0">HEALTHCARE</text>
+                            <text y="10">HOUSING</text>
+                            <text y="20">RESILIENCE</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The economic cycle of migration and household investment.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Trans-local Identity</h3>
+            <p>Being Orakzai is no longer defined solely by residence in the mountains. The identity is carried into the streets of Karachi, the classrooms of Peshawar, and the labor camps of the Gulf. This trans-local identity is maintained through a "memory of return"—the enduring social and emotional connection to the ancestral village that remains the ultimate reference point for every Orakzai person.<sup>6</sup></p>
+
+            <!-- DIAGRAM 61-75: IDENTITY MATRIX -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <circle cx="200" cy="100" r="80" fill="none" stroke="rgba(181, 150, 84, 0.1)" stroke-width="1"/>
+                        <circle cx="200" cy="100" r="40" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                        <text x="200" y="105" font-weight="bold">IDENTITY</text>
+                        
+                        <g transform="translate(200, 30)">
+                            <text>MEMORY</text>
+                        </g>
+                        <g transform="translate(200, 170)">
+                            <text>RETURN</text>
+                        </g>
+                        <g transform="translate(100, 100)">
+                            <text text-anchor="end">HOME</text>
+                        </g>
+                        <g transform="translate(300, 100)">
+                            <text text-anchor="start">MOVEMENT</text>
+                        </g>
+                        
+                        <!-- Intersections -->
+                        <path d="M200 70 L200 40 M200 130 L200 160 M160 100 L110 100 M240 100 L290 100" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The psychological and social components of trans-local Orakzai identity.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>Migration is often seen as a loss—a loss of people, a loss of culture, a loss of connection. But in Orakzai, I see it as a form of resilience. When a young man leaves for Karachi or Dubai, he is not abandoning his mountains; he is building a bridge to them. He carries the language of his elders into the city and sends the fruits of his labor back to the valley. The dream of returning to the village often fuels the hard work in the city, even if that return is only for holidays or retirement. Being Orakzai is not about where you stand; it is about where your heart is anchored. Our mountains are not just a place; they are a perspective that we carry wherever we go.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“BEING ORAKZAI IS NOT ABOUT WHERE YOU STAND; IT IS ABOUT WHERE YOUR HEART IS ANCHORED.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Migration & Urbanization Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            89
+        </footer>
+    </div>
+</body>
+</html>

@@ -525,3 +525,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Infrastructure & Connectivity hero, the infrastructure components model, the connectivity system, the geography-infrastructure link, the village-to-regional road hierarchy, and the construction vs. maintenance matrix.
 - **Content**: Comprehensive analysis of Orakzai's physical and digital infrastructure, including roads, water resources (Khan Mir Khel Dam), energy, and telecommunications. Based on the *KP Development Package (June 2026)*, *ADP 2026-27*, and *World Bank* project documentation. Explores the role of infrastructure in connecting communities to opportunity.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 89: Migration & Urbanization
+- **Research Sources**: Detailed citations are available in `book/sources/page-089-migration-and-urbanization.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Migration & Urbanization hero, the migration taxonomy, the urbanization process, the mobility decision matrix, the trade-migration link, and the remittance flow model.
+- **Content**: Comprehensive analysis of migration as a social and economic force in Orakzai. Based on the *2023 Population Census*, *PBS* locality tables, and academic studies on the Pashtun diaspora (Lefebvre, Bukhari). Explores internal migration to Karachi and Peshawar, international labor in the Gulf, and the administrative urbanization of local centers like Kalaya.
+- **License**: Content is proprietary to the author; visual design is project-specific.

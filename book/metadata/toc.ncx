@@ -358,5 +358,9 @@
       <navLabel><text>Infrastructure &amp; Connectivity</text></navLabel>
       <content src="../pages/page-088-infrastructure-and-connectivity.html"/>
     </navPoint>
+    <navPoint id="navPoint-89" playOrder="88">
+      <navLabel><text>Migration &amp; Urbanization</text></navLabel>
+      <content src="../pages/page-089-migration-and-urbanization.html"/>
+    </navPoint>
   </navMap>
 </ncx>
