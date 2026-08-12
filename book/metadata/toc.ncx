@@ -394,5 +394,9 @@
       <navLabel><text>Orakzai Overseas</text></navLabel>
       <content src="../pages/page-097-orakzai-overseas.html"/>
     </navPoint>
+    <navPoint id="navPoint-98" playOrder="97">
+      <navLabel><text>Global Orakzai Communities</text></navLabel>
+      <content src="../pages/page-098-global-orakzai-communities.html"/>
+    </navPoint>
   </navMap>
 </ncx>
