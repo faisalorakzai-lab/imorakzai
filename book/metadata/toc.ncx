@@ -446,5 +446,9 @@
       <navLabel><text>Digital Heritage</text></navLabel>
       <content src="../pages/page-110-digital-heritage.html"/>
     </navPoint>
+    <navPoint id="navPoint-111" playOrder="110">
+      <navLabel><text>Pakistan’s Technology Revolution</text></navLabel>
+      <content src="../pages/page-111-pakistans-technology-revolution.html"/>
+    </navPoint>
   </navMap>
 </ncx>
