@@ -459,3 +459,9 @@
 - **Visual Elements**: 70+ custom SVG logic diagrams covering the Durand Line hero, the 1893 agreement architecture, the Durand Commission survey, the agreement vs. demarcation distinction, mountain/pass geography, Pashtun border communities, the 1919/1921 treaties, and the contemporary border fencing impact.
 - **Content**: Original historical and geopolitical analysis by Faisal Orakzai, supported by primary treaty texts (1893, 1919, 1921), ethnographic research by Akbar S. Ahmed (1980), and contemporary studies on border management (Khan, 2025).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 78: Orakzai & the Wider Frontier
+- **Research Sources**: Detailed citations are available in `book/sources/page-078-orakzai-and-the-wider-frontier.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the wider frontier hero, frontier architecture, Orakzai geography, neighboring tribal connections (Afridi, Bangash), Tirah-Kohat-Hangu routes, trade networks, kinship across space, the digital frontier, and the post-2018 transition.
+- **Content**: Original historical and regional analysis by Faisal Orakzai, supported by colonial gazetteers (Kohat, 1883), military records of the Tirah Campaign (1897), ethnographic studies by Akbar S. Ahmed (1980), and contemporary reports on the FATA merger and digital connectivity.
+- **License**: Content is proprietary to the author; visual design is project-specific.

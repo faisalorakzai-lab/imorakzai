@@ -314,5 +314,9 @@
       <navLabel><text>The Durand Line</text></navLabel>
       <content src="../pages/page-077-the-durand-line.html"/>
     </navPoint>
+    <navPoint id="navPoint-78" playOrder="77">
+      <navLabel><text>Orakzai &amp; the Wider Frontier</text></navLabel>
+      <content src="../pages/page-078-orakzai-and-the-wider-frontier.html"/>
+    </navPoint>
   </navMap>
 </ncx>
