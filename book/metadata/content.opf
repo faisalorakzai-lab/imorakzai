@@ -149,6 +149,7 @@
     <item id="page-135" href="../pages/page-135-decentralized-finance.html" media-type="application/xhtml+xml"/>
     <item id="page-136" href="../pages/page-136-tokenization-of-real-world-assets.html" media-type="application/xhtml+xml"/>
     <item id="page-137" href="../pages/page-137-real-estate-tokenization.html" media-type="application/xhtml+xml"/>
+    <item id="page-138" href="../pages/page-138-digital-ownership.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -289,5 +290,6 @@
     <itemref idref="page-135"/>
     <itemref idref="page-136"/>
     <itemref idref="page-137"/>
+    <itemref idref="page-138"/>
   </spine>
 </package>

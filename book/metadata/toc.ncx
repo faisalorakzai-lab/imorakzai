@@ -554,5 +554,9 @@
       <navLabel><text>Real Estate Tokenization</text></navLabel>
       <content src="../pages/page-137-real-estate-tokenization.html"/>
     </navPoint>
+    <navPoint id="navPoint-138" playOrder="137">
+      <navLabel><text>Digital Ownership</text></navLabel>
+      <content src="../pages/page-138-digital-ownership.html"/>
+    </navPoint>
   </navMap>
 </ncx>
