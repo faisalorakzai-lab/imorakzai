@@ -652,3 +652,16 @@ The page defines tradition as transmitted practices, knowledge, beliefs, express
 - **Evidence Boundary**: No Pashtun-wide practice is automatically labelled Orakzai-specific. No family custom is treated as Islamic law. No modern event is treated as an ancient tradition. No festival origin, song, poem, food, ritual, genealogy, social statistic, employment statistic, internet penetration figure, migration number, or cultural practice is fabricated. The modern role of hujra and jirga, village-level cultural change, digital culture, and AI’s role in language preservation are explicitly identified as research areas requiring further documentation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 103 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 103: Preserving Culture in a Digital World
+
+Page 103 explores the documentation, preservation, and transmission of Orakzai cultural knowledge in the digital age. It establishes a rigorous framework for digital stewardship, distinguishing between simple digitization and long-term preservation.
+
+The page uses UNESCO guidelines for digital heritage and intangible cultural heritage (ICH) as its authoritative foundation. It incorporates research on minority language revitalization in Pakistan (Mehmood et al., 2025) and professional oral history methodologies (Boyd, 2012). It emphasizes informed consent, metadata standards, and community ownership as the ethical core of cultural archiving.
+
+- **Research Sources**: Detailed citations and claim boundaries are available in `book/sources/page-103-preserving-culture-digital-world.md`; research notes and URLs are in `book/sources/page-103-research-notes.md`.
+- **Visual Elements**: 82 original responsive SVG elements: one premium Digital Preservation Hero, one page-background SVG, and 80 numbered accessible logic-atlas cards. The atlas covers preservation definitions, ICH domains, oral history workflows, consent, family archives, media preservation (photo, audio, video), Pashto digital tools, metadata standards, archive architecture, AI ethics, and long-term digital continuity.
+- **Content**: Evidence-led analysis connects Pages 28, 49, 50, 53, 59–70, 80, 89, 90, 97–102. It provides practical guidance for community-led documentation while maintaining strict evidence boundaries.
+- **Evidence Boundary**: No existing "Orakzai Digital Heritage Archive" is claimed; it is presented as a proposed framework. No Pashto digital resource is claimed as Orakzai-specific without evidence. AI-generated material is strictly excluded from historical evidence. Private family records are identified as restricted.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 104 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
