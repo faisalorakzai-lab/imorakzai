@@ -507,3 +507,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Agency hero, the homeland vs. agency conceptual model, the landlocked geography, the administrative hierarchy (PA/APA/Malik), the 2017 census snapshot, and the Agency-to-District transition.
 - **Content**: Comprehensive historical analysis of Orakzai Agency as an administrative unit of FATA (1973–2018). Explores its creation from FR Kohat, its unique landlocked geography, the governance under the FCR, and its eventual integration as a District in 2018. Supported by the *Constitution of Pakistan*, *PBS Census (2017)*, and ethnographic research by *Akbar S. Ahmed (1980)*.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 86: Administrative Evolution
+- **Research Sources**: Detailed citations are available in `book/sources/page-086-administrative-evolution.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Administrative Evolution hero, the layers of authority model, the state vs. identity matrix, the customary authority hierarchy, the Political Agency hierarchy, and the Agency-to-District feature comparison.
+- **Content**: Deep analysis of the administrative changes in the Orakzai region from pre-colonial decentralized authority to the colonial indirect rule system, the FATA Agency framework, and the modern provincial district governance following the 2018 merger. Supported by the *Constitution of Pakistan*, *FCR 1901*, and academic research from *Akbar S. Ahmed (1980)* and the *International Journal of Social Sciences (2025)*.
+- **License**: Content is proprietary to the author; visual design is project-specific.

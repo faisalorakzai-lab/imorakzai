@@ -346,5 +346,9 @@
       <navLabel><text>Orakzai Agency</text></navLabel>
       <content src="../pages/page-085-orakzai-agency.html"/>
     </navPoint>
+    <navPoint id="navPoint-86" playOrder="85">
+      <navLabel><text>Administrative Evolution</text></navLabel>
+      <content src="../pages/page-086-administrative-evolution.html"/>
+    </navPoint>
   </navMap>
 </ncx>

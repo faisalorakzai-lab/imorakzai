@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Administrative Evolution</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --badge-local: #6B4F3A;
+            --badge-colonial: #2F4F4F;
+            --badge-agency: #123B2A;
+            --badge-district: #B22222;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.8rem;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.6rem;
+            text-align: left;
+        }
+        .comparison-table th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+        .badge {
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ivory);
+        }
+        .badge-local { background: var(--badge-local); }
+        .badge-colonial { background: var(--badge-colonial); }
+        .badge-agency { background: var(--badge-agency); }
+        .badge-district { background: var(--badge-district); }
+        
+        .matrix-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .matrix-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 1rem;
+        }
+        .matrix-title {
+            color: var(--gold);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(181, 150, 84, 0.2);
+            padding-bottom: 0.3rem;
+        }
+        .matrix-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .matrix-list li {
+            margin-bottom: 0.3rem;
+            padding-left: 0.8rem;
+            position: relative;
+        }
+        .matrix-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page evolution-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M0 500 L800 500" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" stroke-dasharray="10,5" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 86</h3>
+            <h2>ADMINISTRATIVE EVOLUTION</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“From local authority to provincial governance.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Administrative boundaries can change in a single document. Institutions take longer. And communities remember even longer. The history of Orakzai is therefore not only a history of territory; it is also a history of administration. Different generations encountered different systems of authority. Some knew local elders and jirga. Some encountered colonial frontier officials. Others lived under the Political Agent and the institutions of the former tribal-area administration. Later generations entered a political system increasingly connected to Pakistan’s constitutional and electoral institutions. And after 2018, Orakzai entered a new phase as part of Khyber Pakhtunkhwa. The map changed. The laws changed. The institutions changed. But the community did not suddenly become something new.</p>
+
+            <!-- HERO: ADMINISTRATIVE EVOLUTION (Diagram 1-5) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Background layers -->
+                        <path d="M50 300 Q300 250 550 300" fill="none" stroke="rgba(181, 150, 84, 0.1)" stroke-width="1"/>
+                        <path d="M50 280 Q300 230 550 280" fill="none" stroke="rgba(181, 150, 84, 0.1)" stroke-width="1"/>
+                        
+                        <!-- Timeline Nodes -->
+                        <g transform="translate(100, 200)">
+                            <rect x="-35" y="-20" width="70" height="40" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--badge-local)"/>
+                            <text y="5">LOCAL</text>
+                        </g>
+                        <path d="M135 200 L165 200" stroke="var(--gold)" marker-end="url(#arrow-86)"/>
+                        
+                        <g transform="translate(200, 200)">
+                            <rect x="-35" y="-20" width="70" height="40" rx="4" fill="rgba(47, 79, 79, 0.15)" stroke="var(--badge-colonial)"/>
+                            <text y="5">COLONIAL</text>
+                        </g>
+                        <path d="M235 200 L265 200" stroke="var(--gold)" marker-end="url(#arrow-86)"/>
+                        
+                        <g transform="translate(300, 200)">
+                            <rect x="-35" y="-20" width="70" height="40" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--badge-agency)"/>
+                            <text y="5">AGENCY</text>
+                        </g>
+                        <path d="M335 200 L365 200" stroke="var(--gold)" marker-end="url(#arrow-86)"/>
+                        
+                        <g transform="translate(400, 200)">
+                            <rect x="-35" y="-20" width="70" height="40" rx="4" fill="rgba(178, 34, 34, 0.15)" stroke="var(--badge-district)"/>
+                            <text y="5">DISTRICT</text>
+                        </g>
+                        
+                        <!-- Labels -->
+                        <text x="300" y="320" font-size="8" fill="var(--gold)">CHRONOLOGICAL ADMINISTRATIVE TRANSITION</text>
+                        
+                        <defs>
+                            <marker id="arrow-86" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The layered evolution of administration in the Orakzai region.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What does Administrative Evolution mean?</h3>
+            <p>Administrative evolution refers to the systematic changes in territorial organization, legal authority, and government institutions. It involves the shift from informal customary norms to formal state bureaucracies. For Orakzai, this meant moving from a system where authority was personal and kinship-based to one where it is institutional and district-based.<sup>1</sup> <sup>8</sup></p>
+
+            <!-- DIAGRAM 6-15: COMPONENTS OF ADMINISTRATION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="20" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="60" y="75">TERRITORY</text>
+                        <text x="110" y="75">+</text>
+                        
+                        <rect x="120" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="160" y="75">LAW</text>
+                        <text x="210" y="75">+</text>
+                        
+                        <rect x="220" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="260" y="75">INSTITUTIONS</text>
+                        <text x="310" y="75">+</text>
+                        
+                        <rect x="320" y="50" width="80" height="40" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="360" y="75">SERVICES</text>
+                        <text x="410" y="75">=</text>
+                        
+                        <rect x="420" y="50" width="60" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="450" y="75" font-weight="bold">ADMIN</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The logical components of an administrative system.”</p>
+            </div>
+
+            <div class="matrix-grid">
+                <div class="matrix-item">
+                    <div class="matrix-title">State Administration</div>
+                    <ul class="matrix-list">
+                        <li>Constitutional Status</li>
+                        <li>Provincial Departments</li>
+                        <li>Courts & Police</li>
+                        <li>District Management</li>
+                        <li>Land Records</li>
+                    </ul>
+                </div>
+                <div class="matrix-item">
+                    <div class="matrix-title">Social Identity</div>
+                    <ul class="matrix-list">
+                        <li>Language (Pashto)</li>
+                        <li>Kinship & Family</li>
+                        <li>Tribal Lineage</li>
+                        <li>Customary Riwaj</li>
+                        <li>Local Memory</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Before Formal Agency Administration</h3>
+            <p>Before the modern bureaucratic state, authority in the Orakzai region was decentralized. It was not a single centralized government but a network of overlapping institutions. Authority resided in the family head, the clan elder, and the collective **Jirga**. This pre-colonial system was based on **Pashtunwali** and local custom, where power was negotiated rather than dictated by a central office.<sup>9</sup></p>
+
+            <!-- DIAGRAM 16-25: CUSTOMARY HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <rect x="150" y="10" width="100" height="30" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--badge-local)"/>
+                        <text x="200" y="30">FAMILY</text>
+                        <path d="M200 40 L200 65" stroke="var(--gray)" marker-end="url(#arrow-86)"/>
+                        
+                        <rect x="150" y="70" width="100" height="30" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--badge-local)"/>
+                        <text x="200" y="90">CLAN / SECTION</text>
+                        <path d="M200 100 L200 125" stroke="var(--gray)" marker-end="url(#arrow-86)"/>
+                        
+                        <rect x="150" y="130" width="100" height="30" rx="4" fill="rgba(107, 79, 58, 0.15)" stroke="var(--badge-local)"/>
+                        <text x="200" y="150">ELDERS</text>
+                        <path d="M200 160 L200 185" stroke="var(--gray)" marker-end="url(#arrow-86)"/>
+                        
+                        <rect x="150" y="190" width="100" height="30" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="200" y="210" font-weight="bold">JIRGA</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conceptual hierarchy of customary authority.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">The Political Agency System (1973–2018)</h3>
+            <p>The creation of Orakzai Agency in 1973 formalized a system of "indirect rule" that had its roots in colonial policy. The **Political Agent (PA)** was the pivot of this system, holding executive and judicial powers. The state communicated with the tribe through **Maliks** (recognized intermediaries), creating a special administrative space defined by the **Frontier Crimes Regulation (FCR)**.<sup>7</sup> <sup>8</sup></p>
+
+            <!-- DIAGRAM 26-35: AGENCY HIERARCHY -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="180" y="10" width="140" height="30" rx="4" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                        <text x="250" y="30">FEDERAL AUTHORITY</text>
+                        
+                        <path d="M250 40 L250 65" stroke="var(--gray)" marker-end="url(#arrow-86)"/>
+                        
+                        <rect x="180" y="70" width="140" height="30" rx="4" fill="rgba(18, 59, 42, 0.15)" stroke="var(--badge-agency)"/>
+                        <text x="250" y="90" font-weight="bold">POLITICAL AGENT</text>
+                        
+                        <path d="M250 100 L250 125" stroke="var(--gray)" marker-end="url(#arrow-86)"/>
+                        
+                        <g transform="translate(150, 140)">
+                            <rect width="90" height="30" rx="4" fill="rgba(107, 79, 58, 0.1)" stroke="var(--badge-local)"/>
+                            <text x="45" y="20">MALIK / INTERMEDIARY</text>
+                        </g>
+                        
+                        <g transform="translate(260, 140)">
+                            <rect width="90" height="30" rx="4" fill="rgba(181, 150, 84, 0.1)" stroke="var(--gold)"/>
+                            <text x="45" y="20">COMMUNITY</text>
+                        </g>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The administrative hierarchy of the former Political Agency system.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Agency vs. District: A Feature Comparison</h3>
+            <p>The 2018 merger represented the most significant administrative shift in over a century. It replaced the FCR with the Constitution and provincial laws, and transitioned the region from a federally administered frontier to a provincial district.<sup>2</sup> <sup>5</sup></p>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Agency Era (Pre-2018)</th>
+                        <th>District Era (Post-2018)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Administrative Head</strong></td>
+                        <td><span class="badge badge-agency">Political Agent</span></td>
+                        <td><span class="badge badge-district">Deputy Commissioner</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Legal Framework</strong></td>
+                        <td>Frontier Crimes Regulation (FCR)</td>
+                        <td>Constitution / KP Provincial Laws</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Judiciary</strong></td>
+                        <td>PA / Jirga (Administrative Justice)</td>
+                        <td>District & Sessions Judge (Regular Courts)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Security / Police</strong></td>
+                        <td>Levies / Khasadars</td>
+                        <td>KP Police</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Representation</strong></td>
+                        <td>National Assembly / Senate</td>
+                        <td>NA / Senate / KP Provincial Assembly</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The history of Orakzai is a history of navigating different systems of power. Laws change in a day, but institutions take years to mature, and community memories last for generations. The shift from "ruling" a frontier through a Political Agent to "serving" a district through a Deputy Commissioner is the core challenge of the 2018 merger. Administrative lines do not define the Orakzai people; they only define how the state sees them. The true evolution is not just in the documents of the secretariat, but in the ability of the community to ensure that constitutional integration translates into dignity, justice, and service for every citizen.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“ADMINISTRATION CHANGES. THE COMMUNITY ENDURES.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Administrative Evolution Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            86
+        </footer>
+    </div>
+</body>
+</html>
