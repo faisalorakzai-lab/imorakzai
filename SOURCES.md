@@ -899,3 +899,16 @@ The content is grounded in international standards from NIST (AI Risk Management
 - **Evidence Boundary**: Technologies are explicitly classified as [CURRENT], [EMERGING], [RESEARCH], or [SPECULATIVE]. Faisal Orakzai is presented as ONE personal case study, with documented interests and a conceptual philosophy. No promotional or exaggerated claims are made.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 122 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 122: AI & Human Civilization
+
+Page 122 examines Artificial Intelligence as a civilizational force, analyzing its impact on knowledge production, labor markets, education, and cultural preservation. It contrasts the multiplication of physical labor through machines with the amplification of cognitive work through AI. The page emphasizes that technological progress does not automatically produce social progress and that the future of AI is a question of human choice, institutions, and values.
+
+The content is grounded in 2026 reports from the Stanford AI Index and UNESCO's guidelines on intangible cultural heritage. It features specific evidence of Pashto-language AI research (Qehwa AI, Katib) and Pakistan's record IT export performance in FY 2025-26. A personal case study of Faisal Orakzai provides a civilizational view on how technology can expand human capability while preserving local identities and oral histories.
+
+- **Research Sources**: Detailed bibliographic records and a technology evidence matrix are available in `book/sources/page-122-ai-and-human-civilization.md`; research notes and methodological findings are in `book/sources/page-122-research-notes.md`.
+- **Visual Elements**: 121 original responsive SVG elements: one premium AI Civilization Hero and 120 numbered accessible logic-atlas cards. The atlas covers civilizational stacks, trust architectures, Pashto digital preservation pipelines, and human-AI collaboration loops.
+- **Content**: Evidence-led narrative connects Pages 90, 98, 99, 103, 107, 108, 114, 120, and 121. It frames AI as a tool for human ambition that requires responsible engineering and strong social contracts.
+- **Evidence Boundary**: Claims are classified as [CURRENT], [EMERGING], [RESEARCH], or [SPECULATIVE]. Faisal Orakzai is presented as ONE personal case study with a documented conceptual framework. No promotional or exaggerated claims are made.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 123 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

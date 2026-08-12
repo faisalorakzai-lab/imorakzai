@@ -490,5 +490,9 @@
       <navLabel><text>Artificial Intelligence</text></navLabel>
       <content src="../pages/page-121-artificial-intelligence.html"/>
     </navPoint>
+    <navPoint id="navPoint-122" playOrder="121">
+      <navLabel><text>AI &amp; Human Civilization</text></navLabel>
+      <content src="../pages/page-122-ai-and-human-civilization.html"/>
+    </navPoint>
   </navMap>
 </ncx>
