@@ -743,3 +743,16 @@ The content integrates historical Survey of India (SOI) maps, trans-frontier rec
 - **Evidence Boundary**: All cartographic visualizations are explicitly labeled as **SCHEMATIC — NOT A HISTORICAL BOUNDARY MAP**. Disputed or uncertain tribal boundaries are represented as conceptual zones. No historical settlements or migration routes are invented without corroborating evidence.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 110 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 110: Digital Heritage
+
+Page 110 explores the concept of digital heritage as a vital mechanism for preserving and passing forward Orakzai history and culture. It distinguishes between simple digitization and long-term digital preservation, emphasizing the importance of metadata, authenticity, and ethical responsibility. The page addresses both born-digital and digitized heritage types, including photographs, documents, audio, video, and community memories.
+
+The content is grounded in international standards such as the UNESCO Charter on the Preservation of Digital Heritage, the OAIS Reference Model, and professional guidelines from the Digital Preservation Coalition (DPC). It also addresses the ethical role of AI in heritage preservation, ensuring that technology serves to protect evidence rather than manufacture history.
+
+- **Research Sources**: Detailed bibliographic records and a digital heritage evidence matrix are available in `book/sources/page-110-digital-heritage.md`; research notes and methodological findings are in `book/sources/page-110-research-notes.md`.
+- **Visual Elements**: 121 original responsive SVG elements: one premium Digital Heritage Hero and 120 numbered accessible logic-atlas cards. The atlas covers heritage types, preservation strategies (3-2-1 rule), born-digital risks, metadata schemas (Dublin Core, PREMIS, IIIF), AI ethics, and a proposed archival roadmap.
+- **Content**: Evidence-led narrative connects Pages 42-45, 47, 50, 71-80, 81-90, 97-99, 103-109. It provides a strategic framework for digital heritage management while maintaining strict evidence boundaries.
+- **Evidence Boundary**: No existing "Orakzai Digital Heritage Archive" is claimed. All architectures and workflows are explicitly labeled as proposed or illustrative. AI-generated reconstructions are clearly distinguished from original historical evidence. Sensitive personal and children's records are excluded from public collections.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 111 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

@@ -442,5 +442,9 @@
       <navLabel><text>Mapping Orakzai History</text></navLabel>
       <content src="../pages/page-109-mapping-orakzai-history.html"/>
     </navPoint>
+    <navPoint id="navPoint-110" playOrder="109">
+      <navLabel><text>Digital Heritage</text></navLabel>
+      <content src="../pages/page-110-digital-heritage.html"/>
+    </navPoint>
   </navMap>
 </ncx>
