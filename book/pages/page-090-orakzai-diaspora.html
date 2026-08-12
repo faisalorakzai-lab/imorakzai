@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M ORAKZAI - Orakzai Diaspora</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        :root {
+            --charcoal: #171A17;
+            --ivory: #F5F0E6;
+            --forest: #123B2A;
+            --earth: #6B4F3A;
+            --gold: #B59654;
+            --gray: #77746B;
+            --accent-diaspora: #DAA520;
+            --accent-city: #4682B4;
+            --accent-village: #556B2F;
+        }
+        .logic-diagram {
+            background: rgba(18, 59, 42, 0.04);
+            border: 1px solid rgba(18, 59, 42, 0.25);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .logic-diagram svg {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram-caption {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .stat-box {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(181, 150, 84, 0.2);
+            padding: 0.75rem;
+            text-align: center;
+        }
+        .stat-value {
+            color: var(--gold);
+            font-size: 1.25rem;
+            font-weight: bold;
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+            color: var(--gray);
+        }
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.75rem;
+        }
+        .matrix-table th, .matrix-table td {
+            border: 1px solid rgba(181, 150, 84, 0.3);
+            padding: 0.5rem;
+            text-align: left;
+        }
+        .matrix-table th {
+            background: rgba(181, 150, 84, 0.1);
+            color: var(--gold);
+            text-transform: uppercase;
+            font-size: 0.65rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page diaspora-page">
+        <div class="transition-background">
+            <svg viewBox="0 0 800 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L800 0 L800 1000 L0 1000 Z" fill="none" stroke="rgba(181, 150, 84, 0.02)" stroke-width="0.5" />
+                <path d="M400 0 Q450 500 400 1000" fill="none" stroke="rgba(181, 150, 84, 0.05)" stroke-width="1" stroke-dasharray="20,10" />
+            </svg>
+        </div>
+
+        <header class="page-header">
+            <h3 class="section-label" style="letter-spacing: 0.3rem; font-size: 0.75rem; margin-bottom: 0.5rem; color: var(--gold);">PAGE 90</h3>
+            <h2>ORAKZAI DIASPORA</h2>
+            <p style="font-style: italic; color: rgba(255,255,255,0.8); margin-top: 0.5rem; font-size: 1.05rem;">“Distance can change where people live without deciding where they belong.”</p>
+        </header>
+        
+        <main class="page-body essay-content">
+            <p class="opening-statement">Not every Orakzai family lives in the place where its story began. Some families have moved to nearby towns. Some have built lives in Pakistan’s major cities. Some have crossed national borders for work or education. Others were forced to leave because of conflict. For some, migration was temporary. For others, movement became permanent. Yet distance does not necessarily erase belonging. A family can live far from the mountains and still remember its village. A child can grow up in a city and still learn the language of their grandparents. A household can build a new life while maintaining relationships with relatives, traditions and memories connected to home. The Orakzai diaspora is therefore not one single experience. It is a collection of journeys.</p>
+
+            <!-- HERO: ORAKZAI DIASPORA (Diagram 1-20) -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="10" fill="#fff" text-anchor="middle">
+                        <!-- Orakzai Highland (Source) -->
+                        <path d="M50 250 L120 120 L200 200 L280 100 L350 250" fill="none" stroke="var(--accent-village)" stroke-width="2"/>
+                        <text x="120" y="270" fill="var(--accent-village)">ORAKZAI HOMELAND</text>
+                        
+                        <!-- Global Hubs -->
+                        <g transform="translate(500, 100)">
+                            <circle r="30" fill="none" stroke="var(--accent-city)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="5">PESHAWAR / KOHAT</text>
+                        </g>
+                        <g transform="translate(520, 200)">
+                            <circle r="30" fill="none" stroke="var(--accent-city)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="5">KARACHI</text>
+                        </g>
+                        <g transform="translate(480, 280)">
+                            <circle r="30" fill="none" stroke="var(--accent-city)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="5">GULF (UAE/KSA)</text>
+                        </g>
+                        <g transform="translate(300, 50)">
+                            <circle r="25" fill="none" stroke="var(--accent-diaspora)" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text y="5">UK / EUROPE</text>
+                        </g>
+                        
+                        <!-- Connection Network -->
+                        <path d="M200 180 Q350 140 470 100" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="1"/>
+                        <path d="M200 180 Q350 190 490 200" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="1"/>
+                        <path d="M200 180 Q350 240 450 280" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="1"/>
+                        <path d="M200 180 Q250 100 300 75" fill="none" stroke="rgba(181, 150, 84, 0.3)" stroke-width="1"/>
+                        
+                        <!-- Symbolic Nodes -->
+                        <circle cx="200" cy="180" r="4" fill="var(--gold)"/>
+                        <circle cx="470" cy="100" r="3" fill="var(--ivory)"/>
+                        <circle cx="490" cy="200" r="3" fill="var(--ivory)"/>
+                        <circle cx="450" cy="280" r="3" fill="var(--ivory)"/>
+                        <circle cx="300" cy="75" r="3" fill="var(--ivory)"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The global network of Orakzai journeys.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">What is a Diaspora?</h3>
+            <p>A diaspora is more than simply living away from an ancestral homeland. It is a living social network maintained through memory, identity, language, and economic ties. While a migrant moves from one place to another, a diaspora community exists in multiple places at once—connected by a shared origin and a continued commitment to the homeland.<sup>6</sup></p>
+
+            <!-- DIAGRAM 21-30: DIASPORA FORMATION -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="60">HOME</text>
+                        <path d="M80 60 L120 60" stroke="var(--gold)" marker-end="url(#arrow-90)"/>
+                        <text x="160" y="60">MOVEMENT</text>
+                        <path d="M210 60 L250 60" stroke="var(--gold)" marker-end="url(#arrow-90)"/>
+                        <text x="300" y="60">NEW PLACE</text>
+                        <path d="M350 60 L390 60" stroke="var(--gold)" marker-end="url(#arrow-90)"/>
+                        <text x="450" y="60" font-weight="bold" fill="var(--gold)">DIASPORA</text>
+                        
+                        <defs>
+                            <marker id="arrow-90" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--gold)"/>
+                            </marker>
+                        </defs>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The conceptual progression from movement to diaspora.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Conflict and Displacement</h3>
+            <p>A significant part of the modern Orakzai diaspora was created through conflict-induced internal displacement. As military operations intensified in Orakzai Agency in late 2009, thousands of families were forced to seek sanctuary in neighbouring districts. This movement was not a choice of opportunity, but a necessity of survival.<sup>1</sup> <sup>2</sup></p>
+
+            <div class="stat-box">
+                <div class="stat-item">
+                    <span class="stat-value">40,000</span>
+                    <span class="stat-label">Displaced (Dec 2009)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">2,400</span>
+                    <span class="stat-label">Families to Hangu</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">23,000</span>
+                    <span class="stat-label">HH Returned (2010)</span>
+                </div>
+            </div>
+
+            <!-- DIAGRAM 31-45: IDP MOVEMENT FLOW -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <text x="50" y="75">HOME</text>
+                        <path d="M80 75 L120 75" stroke="var(--earth)" marker-end="url(#arrow-90)"/>
+                        
+                        <text x="180" y="75">DISPLACEMENT</text>
+                        <path d="M240 75 L280 75" stroke="var(--earth)" marker-end="url(#arrow-90)"/>
+                        
+                        <text x="350" y="75">HOST COMMUNITY</text>
+                        
+                        <!-- Split Path -->
+                        <path d="M420 75 L450 50" stroke="var(--gray)" marker-end="url(#arrow-90)"/>
+                        <text x="475" y="45" fill="var(--accent-village)">RETURN</text>
+                        
+                        <path d="M420 75 L450 100" stroke="var(--gray)" marker-end="url(#arrow-90)"/>
+                        <text x="475" y="105" fill="var(--accent-city)">SETTLEMENT</text>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pathways of internal displacement and its outcomes.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Classification of Movement</h3>
+            <p>Not all migration is the same phenomenon. Understanding the Orakzai diaspora requires distinguishing between different types of movement, each with its own drivers, scope, and impact on the community.<sup>5</sup> <sup>7</sup></p>
+
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Driver</th>
+                        <th>Geographic Scope</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Conflict Displacement</strong></td>
+                        <td>Security / Operations</td>
+                        <td>Neighboring Districts</td>
+                        <td>High (UNHCR)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Economic Migration</strong></td>
+                        <td>Employment / Trade</td>
+                        <td>Karachi / Gulf Hubs</td>
+                        <td>High (Academic)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Educational</strong></td>
+                        <td>Higher Education</td>
+                        <td>Peshawar / Islamabad</td>
+                        <td>Medium (Observed)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Urbanization</strong></td>
+                        <td>Services / Housing</td>
+                        <td>Peshawar / Kohat</td>
+                        <td>Medium (Census)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Urban Hubs: Karachi and Peshawar</h3>
+            <p>Karachi remains the largest Orakzai diaspora hub outside the northwest, with significant concentrations in Sohrab Goth, Banaras, and Pathan Colony. In these urban environments, Orakzai migrants are heavily involved in the transport and retail sectors, creating economic networks that support families back in the homeland. Peshawar, meanwhile, serves as a center for education and professional settlement.<sup>6</sup> <sup>7</sup></p>
+
+            <!-- DIAGRAM 46-60: URBAN NETWORK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <circle cx="250" cy="75" r="40" fill="none" stroke="var(--gold)" stroke-width="1"/>
+                        <text x="250" y="80" font-weight="bold">ORAKZAI HUB</text>
+                        
+                        <!-- Satellite Hubs -->
+                        <g transform="translate(100, 40)">
+                            <rect x="-35" y="-15" width="70" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">PESHAWAR</text>
+                        </g>
+                        <g transform="translate(400, 40)">
+                            <rect x="-35" y="-15" width="70" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">KARACHI</text>
+                        </g>
+                        <g transform="translate(100, 110)">
+                            <rect x="-35" y="-15" width="70" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">KOHAT / HANGU</text>
+                        </g>
+                        <g transform="translate(400, 110)">
+                            <rect x="-35" y="-15" width="70" height="30" rx="2" fill="rgba(255,255,255,0.05)" stroke="var(--gray)"/>
+                            <text y="5">GULF REGION</text>
+                        </g>
+                        
+                        <!-- Connectors -->
+                        <path d="M210 65 L135 45 M290 65 L365 45 M210 85 L135 105 M290 85 L365 105" stroke="rgba(181, 150, 84, 0.2)" stroke-dasharray="2,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The national and international urban network of Orakzai communities.”</p>
+            </div>
+
+            <h3 class="section-label" style="color: var(--gold); margin: 2rem 0 1rem; text-transform: uppercase; font-size: 0.8rem; border-bottom: 1px solid rgba(181, 150, 84, 0.2); padding-bottom: 0.2rem;">Maintaining Identity Across Distance</h3>
+            <p>The Orakzai identity is not lost in the city; it is adapted. Family networks, the Pashto language, and digital connectivity allow the diaspora to participate in tribal life from thousands of kilometres away. A return visit for a wedding or a funeral is not just a trip; it is a renewal of belonging.<sup>6</sup></p>
+
+            <!-- DIAGRAM 61-75: TRANS-LOCAL NETWORK -->
+            <div class="logic-diagram">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <g font-size="9" fill="#fff" text-anchor="middle">
+                        <rect x="140" y="80" width="120" height="40" rx="4" fill="rgba(181, 150, 84, 0.15)" stroke="var(--gold)"/>
+                        <text x="200" y="105" font-weight="bold">TRANS-LOCAL IDENTITY</text>
+                        
+                        <!-- Pillars -->
+                        <g transform="translate(200, 40)">
+                            <text>LANGUAGE (PASHTO)</text>
+                        </g>
+                        <g transform="translate(200, 160)">
+                            <text>DIGITAL CONNECTION</text>
+                        </g>
+                        <g transform="translate(60, 100)">
+                            <text>FAMILY NETWORKS</text>
+                        </g>
+                        <g transform="translate(340, 100)">
+                            <text>MEMORY OF HOME</text>
+                        </g>
+                        
+                        <path d="M200 70 L200 50 M200 130 L200 150 M130 100 L70 100 M270 100 L330 100" stroke="var(--gray)" stroke-dasharray="2,2"/>
+                    </g>
+                </svg>
+                <p class="diagram-caption">“The pillars of Orakzai identity in the diaspora context.”</p>
+            </div>
+
+            <section class="reflection-box">
+                <h3>AUTHOR'S REFLECTION</h3>
+                <p>The Orakzai diaspora is a collection of journeys, but every journey has a common anchor. When I meet Orakzai people in Karachi or Dubai, I don't see people who have left their identity behind; I see people who have carried it with them into a larger world. They speak the language of the mountains in the middle of a concrete city. They send the fruits of their labor back to build schools and houses in the valley. They prove that being Orakzai is not about where you live, but about how you carry the values of your elders into new environments. Our community is no longer confined to our mountains; it is a global network of resilience. We are everywhere, yet we are always home.</p>
+            </section>
+
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(181, 150, 84, 0.3); border-bottom: 1px solid rgba(181, 150, 84, 0.3);">
+                <p style="font-size: 1.1rem; font-family: 'Playfair Display', Georgia, serif; color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 0.1rem;">“WE ARE EVERYWHERE, YET WE ARE ALWAYS HOME.”</p>
+                <p style="font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; margin-top: 0.5rem; color: rgba(255,255,255,0.6);">Orakzai Diaspora Analysis</p>
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            90
+        </footer>
+    </div>
+</body>
+</html>

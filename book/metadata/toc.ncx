@@ -362,5 +362,9 @@
       <navLabel><text>Migration &amp; Urbanization</text></navLabel>
       <content src="../pages/page-089-migration-and-urbanization.html"/>
     </navPoint>
+    <navPoint id="navPoint-90" playOrder="89">
+      <navLabel><text>Orakzai Diaspora</text></navLabel>
+      <content src="../pages/page-090-orakzai-diaspora.html"/>
+    </navPoint>
   </navMap>
 </ncx>

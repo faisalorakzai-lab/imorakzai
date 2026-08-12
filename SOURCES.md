@@ -531,3 +531,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Migration & Urbanization hero, the migration taxonomy, the urbanization process, the mobility decision matrix, the trade-migration link, and the remittance flow model.
 - **Content**: Comprehensive analysis of migration as a social and economic force in Orakzai. Based on the *2023 Population Census*, *PBS* locality tables, and academic studies on the Pashtun diaspora (Lefebvre, Bukhari). Explores internal migration to Karachi and Peshawar, international labor in the Gulf, and the administrative urbanization of local centers like Kalaya.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 90: Orakzai Diaspora
+- **Research Sources**: Detailed citations are available in `book/sources/page-090-orakzai-diaspora.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Orakzai Diaspora hero, the diaspora formation model, the migration classification matrix, the IDP movement flow, the return migration cycle, and the trans-local identity network.
+- **Content**: Comprehensive analysis of the Orakzai diaspora as a living social network. Based on *UNHCR* and *IDMC* reports on conflict-induced displacement (2009–2011), academic studies on the Pashtun diaspora (Bukhari, Ul Hassan), and ethnographic research on urban hubs in Karachi, Peshawar, and the Gulf. Explores the maintenance of identity across distance through language, kinship, and digital connection.
+- **License**: Content is proprietary to the author; visual design is project-specific.
