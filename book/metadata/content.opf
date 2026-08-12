@@ -7,7 +7,7 @@
     <dc:language>en</dc:language>
     <dc:publisher>Faisal Orakzai</dc:publisher>
     <dc:date>2026-08-12</dc:date>
-    <meta property="dcterms:modified">2026-08-12T02:55:00Z</meta>
+    <meta property="dcterms:modified">2026-08-12T03:00:00Z</meta>
   </metadata>
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -94,6 +94,7 @@
     <item id="page-080" href="../pages/page-080-understanding-history-through-multiple-sources.html" media-type="application/xhtml+xml"/>
     <item id="page-081" href="../pages/page-081-orakzai-during-the-creation-of-pakistan.html" media-type="application/xhtml+xml"/>
     <item id="page-082" href="../pages/page-082-1947-and-the-new-pakistan.html" media-type="application/xhtml+xml"/>
+    <item id="page-083" href="../pages/page-083-tribal-areas-and-pakistan.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -179,5 +180,6 @@
     <itemref idref="page-080"/>
     <itemref idref="page-081"/>
     <itemref idref="page-082"/>
+    <itemref idref="page-083"/>
   </spine>
 </package>

@@ -489,3 +489,9 @@
 - **Visual Elements**: 70+ custom SVG logic diagrams covering the 1947–1955 transition hero, country vs. state conceptual model, early Pakistan timeline, Orakzai's status in FR Kohat, the FCR continuity model, and the One Unit scheme impact.
 - **Content**: Historical analysis of early Pakistan's state-building in the frontier, focusing on institutional continuity, the withdrawal of regular troops (Operation Curzon), and the Objectives Resolution of 1949. Supported by *The Pashtun Borderlands* (Edinburgh University Press, 2021) and *International Journal of Constitutional Law* (2020).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 83: Tribal Areas & Pakistan
+- **Research Sources**: Detailed citations are available in `book/sources/page-083-tribal-areas-and-pakistan.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the Tribal Areas hero, FATA administrative definition, the seven agencies map concept, Orakzai Agency history (1973), Agency vs. District comparison, Article 246/247 framework, and the 2018 merger (25th Amendment).
+- **Content**: Historical analysis of the Federally Administered Tribal Areas (FATA), the constitutional role of the President (Article 247), the Malik and Political Agent system, and the 2018 integration into Khyber Pakhtunkhwa. Supported by the *Constitution of Pakistan*, the *25th Constitutional Amendment Act (2018)*, and scholarly analysis from *Strategic Studies* (2011).
+- **License**: Content is proprietary to the author; visual design is project-specific.
