@@ -302,5 +302,9 @@
       <navLabel><text>The Orakzai and the British Empire</text></navLabel>
       <content src="../pages/page-074-orakzai-british-empire.html"/>
     </navPoint>
+    <navPoint id="navPoint-75" playOrder="74">
+      <navLabel><text>Tribal Resistance</text></navLabel>
+      <content src="../pages/page-075-tribal-resistance.html"/>
+    </navPoint>
   </navMap>
 </ncx>
