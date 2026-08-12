@@ -402,5 +402,9 @@
       <navLabel><text>Identity in the Diaspora</text></navLabel>
       <content src="../pages/page-099-identity-in-the-diaspora.html"/>
     </navPoint>
+    <navPoint id="navPoint-100" playOrder="99">
+      <navLabel><text>The Modern Orakzai</text></navLabel>
+      <content src="../pages/page-100-the-modern-orakzai.html"/>
+    </navPoint>
   </navMap>
 </ncx>
