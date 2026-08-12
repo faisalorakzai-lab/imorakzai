@@ -495,3 +495,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the Tribal Areas hero, FATA administrative definition, the seven agencies map concept, Orakzai Agency history (1973), Agency vs. District comparison, Article 246/247 framework, and the 2018 merger (25th Amendment).
 - **Content**: Historical analysis of the Federally Administered Tribal Areas (FATA), the constitutional role of the President (Article 247), the Malik and Political Agent system, and the 2018 integration into Khyber Pakhtunkhwa. Supported by the *Constitution of Pakistan*, the *25th Constitutional Amendment Act (2018)*, and scholarly analysis from *Strategic Studies* (2011).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 84: FATA & Its Historical Development
+- **Research Sources**: Detailed citations are available in `book/sources/page-084-fata-and-its-historical-development.md`.
+- **Visual Elements**: 75+ custom SVG logic diagrams covering the FATA evolution hero, the historical timeline (1901–2018), constitutional status comparison (1956/1962/1973), Orakzai Agency creation (1973), and the reform milestones (1996, 2011, 2018).
+- **Content**: Deep historical analysis of FATA's evolution from a colonial frontier concept to a constitutional region of Pakistan. Explores the legal foundations (FCR 1901, Articles 246/247) and the major reform milestones leading to the 2018 merger. Supported by the *Constitution of Pakistan*, *Gazette of Pakistan (1973)*, and scholarly analysis from the *Journal of Asian Development Studies* (2024).
+- **License**: Content is proprietary to the author; visual design is project-specific.

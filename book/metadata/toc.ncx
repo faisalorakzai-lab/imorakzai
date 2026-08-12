@@ -338,5 +338,9 @@
       <navLabel><text>Tribal Areas &amp; Pakistan</text></navLabel>
       <content src="../pages/page-083-tribal-areas-and-pakistan.html"/>
     </navPoint>
+    <navPoint id="navPoint-84" playOrder="83">
+      <navLabel><text>FATA &amp; Its Historical Development</text></navLabel>
+      <content src="../pages/page-084-fata-and-its-historical-development.html"/>
+    </navPoint>
   </navMap>
 </ncx>
