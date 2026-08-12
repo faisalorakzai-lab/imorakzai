@@ -1393,3 +1393,16 @@ The content is grounded in 2026 reports from the UNDP, BTI Transformation Index,
 - **Evidence Boundary**: Statistics and institutional milestones are derived from official UNDP, UNESCO, WEF, and academic health reports from 2025-2026.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 160: Pakistan in the Global Digital Economy
+
+Page 160 examines Pakistan's position within the global digital economy in 2026. It highlights the shift from a traditional emerging market to a digital-first economy, driven by IT exports, a booming freelance sector, and a rapidly maturing fintech landscape. The page details the IT export milestone of crossing $4 billion in June 2026, the dominance of digital payments (92-94% of retail share), and the projected e-commerce market size of $63.55 billion. It also discusses the maturity of the startup ecosystem, with over 170 VC-backed startups valued at more than $4 billion.
+
+The content is grounded in 2026 reports from industry analysts (Faisal Jeddy, Abdul Aleem Sheikh), SBP data, and institutional monitors like FNPK and OICCI. It discusses the "Global Digital Economy Engine," the transition from consuming to building and exporting technology, and the role of infrastructure like cloud computing and 5G. The Orakzai context is integrated to show how the global digital economy acts as an equalizer, allowing professionals in the valley to earn international revenue through global talent platforms and remote work, bypassing geographic isolation.
+
+- **Research Sources**: Detailed bibliographic records and a Global Digital Economy evidence matrix are available in `book/sources/page-160-pakistan-in-the-global-digital-economy.md`; research notes and methodological findings are in `book/sources/research-notes-page-160.md`.
+- **Visual Elements**: 112 original responsive SVG elements: one premium Global Digital Economy Hero and 111 numbered accessible logic-atlas cards. The atlas covers export rails, startup ecosystems, digital payment systems, and the relationship between talent, infrastructure, and global markets.
+- **Content**: Evidence-led narrative connects Page 159 to the economic mechanisms of the digital nation. It frames the global digital economy as a strategic opportunity for sovereign growth.
+- **Evidence Boundary**: Statistics and institutional milestones are derived from official SBP, PSX, and industry reports from 2025-2026.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

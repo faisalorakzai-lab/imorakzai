@@ -642,5 +642,9 @@
       <navLabel><text>Technology & Human Development</text></navLabel>
       <content src="../pages/page-159-technology-and-human-development.html"/>
     </navPoint>
+    <navPoint id="navPoint-160" playOrder="159">
+      <navLabel><text>Pakistan in the Global Digital Economy</text></navLabel>
+      <content src="../pages/page-160-pakistan-in-the-global-digital-economy.html"/>
+    </navPoint>
   </navMap>
 </ncx>
