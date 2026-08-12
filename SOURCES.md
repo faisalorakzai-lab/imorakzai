@@ -1159,3 +1159,16 @@ The content is grounded in 2026 reports from the Pakistan Digital Authority (PDA
 - **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 142 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 142: Sovereign Technology
+
+Page 142 examines the capability of a country, institution, or community to develop, operate, and govern critical technologies according to its own strategic priorities. It analyzes the sovereign technology stack, focusing on the layered architecture from energy and semiconductors to AI and software applications. The page highlights Pakistan's significant strides in building sovereign capability, including the launch of its first Sovereign AI Cloud infrastructure in March 2026 and the rollout of the Rs 4.5 billion National Semiconductor Plan (PNSP).
+
+The content is grounded in 2026 reports from the Ministry of IT & Telecom (MoITT), Ignite National Technology Fund, and academic research on chip technology trends in Pakistan. It discusses the necessity of strategic resilience over technological isolation, the role of open-source as strategic infrastructure, and the emergence of regional concepts like the Orakzai Sovereign Grid (OSG). A personal case study of Faisal Orakzai illustrates the generational shift toward "Sovereign-by-Design," bridging global standards with local requirements to ensure a secure and autonomous digital future.
+
+- **Research Sources**: Detailed bibliographic records and a sovereign technology evidence matrix are available in `book/sources/page-142-sovereign-technology.md`; research notes and methodological findings are in `book/sources/page-142-research-notes.md`.
+- **Visual Elements**: 119 original responsive SVG elements: one premium Sovereign Technology Hero and 118 numbered accessible logic-atlas cards. The atlas covers the technology stack layers, chip design pipelines, AI sovereignty loops, and the proposed OSG architecture.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-141. It frames sovereign technology as a tool for national empowerment and long-term strategic autonomy.
+- **Evidence Boundary**: Statistics are derived from official institutional, technical, and government reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 143 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
