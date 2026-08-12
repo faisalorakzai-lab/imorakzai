@@ -417,3 +417,9 @@
 - **Visual Elements**: 50+ custom SVG logic diagrams covering the religion-community hero, the faith-practice-responsibility model, the mosque institutional framework, and the intergenerational transmission of faith.
 - **Content**: Original documentary synthesis by Faisal Orakzai, supported by studies on Orakzai madrasas (Habib et al., 2026), social cohesion research (Alam et al., 2024), and regional religious studies.
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 71: Orakzai Before British Rule
+- **Research Sources**: Detailed citations are available in `book/sources/page-071-orakzai-before-british-rule.md`.
+- **Visual Elements**: 50+ custom SVG logic diagrams covering the pre-British historical timeline, the land-as-home model, the name evidence ladder, tribal organization hierarchies, and the jirga deliberation workflow.
+- **Content**: Original historical synthesis by Faisal Orakzai, supported by Lucas White King's monograph (1900), Mughal frontier studies (Qadir, 2013), and regional ethnography (Stewart, 2007).
+- **License**: Content is proprietary to the author; visual design is project-specific.
