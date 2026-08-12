@@ -546,5 +546,9 @@
       <navLabel><text>Decentralized Finance</text></navLabel>
       <content src="../pages/page-135-decentralized-finance.html"/>
     </navPoint>
+    <navPoint id="navPoint-136" playOrder="135">
+      <navLabel><text>Tokenization of Real-World Assets</text></navLabel>
+      <content src="../pages/page-136-tokenization-of-real-world-assets.html"/>
+    </navPoint>
   </navMap>
 </ncx>

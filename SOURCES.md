@@ -1081,3 +1081,16 @@ The content is grounded in 2026 reports from the Asian Development Bank (ADB), O
 - **Evidence Boundary**: Statistics are derived from official institutional, intergovernmental, and academic reports. Faisal Orakzai is presented as a representative example of a technological generation.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 136 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 136: Tokenization of Real-World Assets (RWA)
+
+Page 136 examines the transformation of physical and traditional assets into programmable digital infrastructure through tokenization. It analyzes the RWA trust stack, focusing on the integration of legal, custody, and oracle layers. The page highlights the global market's growth to over $60 billion by July 2026 and explores Pakistan's opportunity to connect real estate, agriculture, and diaspora capital with modern digital financial systems.
+
+The content is grounded in 2026 reports from the IMF, BIS, and industry analysis from Yahoo Finance and Brickken. It discusses the potential for tokenization to improve market efficiency and inclusion, while addressing deep challenges such as the oracle-legal gap and liquidity limitations. A personal case study of Faisal Orakzai illustrates the generational shift toward understanding the entire RWA stack as a multidisciplinary bridge between the physical and digital worlds.
+
+- **Research Sources**: Detailed bibliographic records and an RWA evidence matrix are available in `book/sources/page-136-tokenization-of-real-world-assets.md`; research notes and methodological findings are in `book/sources/page-136-research-notes.md`.
+- **Visual Elements**: 118 original responsive SVG elements: one premium RWA Hero and 117 numbered accessible logic-atlas cards. The atlas covers the tokenization stack, fractional ownership models, atomic settlement loops, and Pakistan-specific RWA opportunities.
+- **Content**: Evidence-led narrative connects Pages 103-110, and 111-135. It frames tokenization as a tool for national digital sovereignty and programmable capital markets.
+- **Evidence Boundary**: Statistics are derived from official institutional, intergovernmental, and industry reports. Faisal Orakzai is presented as a representative example of a technological generation.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 137 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
