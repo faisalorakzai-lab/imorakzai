@@ -151,6 +151,7 @@
     <item id="page-137" href="../pages/page-137-real-estate-tokenization.html" media-type="application/xhtml+xml"/>
     <item id="page-138" href="../pages/page-138-digital-ownership.html" media-type="application/xhtml+xml"/>
     <item id="page-139" href="../pages/page-139-blockchain-infrastructure.html" media-type="application/xhtml+xml"/>
+    <item id="page-140" href="../pages/page-140-the-future-of-web3.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -293,5 +294,6 @@
     <itemref idref="page-137"/>
     <itemref idref="page-138"/>
     <itemref idref="page-139"/>
+    <itemref idref="page-140"/>
   </spine>
 </package>

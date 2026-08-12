@@ -562,5 +562,9 @@
       <navLabel><text>Blockchain Infrastructure</text></navLabel>
       <content src="../pages/page-139-blockchain-infrastructure.html"/>
     </navPoint>
+    <navPoint id="navPoint-140" playOrder="139">
+      <navLabel><text>The Future of Web3</text></navLabel>
+      <content src="../pages/page-140-the-future-of-web3.html"/>
+    </navPoint>
   </navMap>
 </ncx>
