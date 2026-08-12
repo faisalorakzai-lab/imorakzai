@@ -119,6 +119,7 @@
     <item id="page-105" href="../pages/page-105-digital-preservation-of-history.html" media-type="application/xhtml+xml"/>
     <item id="page-106" href="../pages/page-106-digitizing-tribal-archives.html" media-type="application/xhtml+xml"/>
     <item id="page-107" href="../pages/page-107-oral-history-technology.html" media-type="application/xhtml+xml"/>
+    <item id="page-108" href="../pages/page-108-building-a-digital-orakzai-archive.html" media-type="application/xhtml+xml"/>
     <item id="author-image" href="../images/author/faisal-orakzai-author.jpg" media-type="image/jpeg"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
@@ -229,5 +230,6 @@
     <itemref idref="page-105"/>
     <itemref idref="page-106"/>
     <itemref idref="page-107"/>
+    <itemref idref="page-108"/>
   </spine>
 </package>

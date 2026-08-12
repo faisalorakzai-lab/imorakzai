@@ -717,3 +717,16 @@ The page incorporates professional standards from the Oral History Association (
 - **Evidence Boundary**: No interviews or oral traditions are invented. Oral testimony is clearly distinguished from independently verified historical fact. AI tools are defined as assistants, not authorities. Fictional metadata samples are explicitly labeled.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 108 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 108: Building a Digital Orakzai Archive
+
+Page 108 presents a proposed architectural model for a comprehensive, long-term digital archive dedicated to Orakzai history and cultural heritage. It moves from theoretical preservation concepts to practical design, governance, and accessibility frameworks, emphasizing that an archive requires structure, context, and trust beyond mere storage.
+
+The page incorporates international standards from the Digital Preservation Coalition (DPC), UNESCO/PERSIST guidelines, and community-controlled models like Mukurtu. It addresses the 3-2-1 backup strategy, Dublin Core metadata, IIIF image interoperability, and the role of multidisciplinary collaboration between community members, archivists, historians, linguists, and technologists.
+
+- **Research Sources**: Detailed citations and archival recommendations are available in `book/sources/page-108-building-a-digital-orakzai-archive.md`; research notes and methodological findings are in `book/sources/page-108-research-notes.md`.
+- **Visual Elements**: 121 original responsive SVG elements: one premium Archive Hero and 120 numbered accessible logic-atlas cards. The atlas covers archival collection types (photographs, documents, maps, etc.), technical structures (file naming, folder hierarchy, master vs access copies), metadata schemas, access levels, community governance, security, and a building roadmap.
+- **Content**: Evidence-led narrative connects Pages 53, 54, 59-70, 79, 80, 89, 90, 97-99, 103-107. It provides a strategic roadmap for archival development while maintaining strict evidence boundaries.
+- **Evidence Boundary**: No existing "Orakzai Digital Archive" is claimed. All architectures, workflows, and statistics are explicitly labeled as proposed or illustrative project-scoping examples. AI tools are defined as assistants, not authorities. Sensitive personal and children's records are excluded from public access.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 109 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.

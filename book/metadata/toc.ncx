@@ -434,5 +434,9 @@
       <navLabel><text>Oral History &amp; Technology</text></navLabel>
       <content src="../pages/page-107-oral-history-technology.html"/>
     </navPoint>
+    <navPoint id="navPoint-108" playOrder="107">
+      <navLabel><text>Building a Digital Orakzai Archive</text></navLabel>
+      <content src="../pages/page-108-building-a-digital-orakzai-archive.html"/>
+    </navPoint>
   </navMap>
 </ncx>
