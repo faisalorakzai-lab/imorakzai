@@ -483,3 +483,9 @@
 - **Visual Elements**: 75+ custom SVG logic diagrams covering the 1947 transition hero, the constitutional lapse of paramountcy, NWFP referendum vs. tribal status, Jinnah's tribal agreements, and the continuity of the Frontier Crimes Regulation (FCR).
 - **Content**: Historical analysis of the 1947 transition from British rule to Pakistan, focusing on the unique legal and administrative status of Orakzai (then part of FR Kohat). Supported by the *Indian Independence Act 1947*, *History and Sociology of South Asia* (2014), and academic studies on FATA's constitutional history (2020).
 - **License**: Content is proprietary to the author; visual design is project-specific.
+
+## Page 82: 1947 & the New Pakistan
+- **Research Sources**: Detailed citations are available in `book/sources/page-082-1947-and-the-new-pakistan.md`.
+- **Visual Elements**: 70+ custom SVG logic diagrams covering the 1947–1955 transition hero, country vs. state conceptual model, early Pakistan timeline, Orakzai's status in FR Kohat, the FCR continuity model, and the One Unit scheme impact.
+- **Content**: Historical analysis of early Pakistan's state-building in the frontier, focusing on institutional continuity, the withdrawal of regular troops (Operation Curzon), and the Objectives Resolution of 1949. Supported by *The Pashtun Borderlands* (Edinburgh University Press, 2021) and *International Journal of Constitutional Law* (2020).
+- **License**: Content is proprietary to the author; visual design is project-specific.

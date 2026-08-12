@@ -330,5 +330,9 @@
       <navLabel><text>Orakzai During the Creation of Pakistan</text></navLabel>
       <content src="../pages/page-081-orakzai-during-the-creation-of-pakistan.html"/>
     </navPoint>
+    <navPoint id="navPoint-82" playOrder="81">
+      <navLabel><text>1947 &amp; the New Pakistan</text></navLabel>
+      <content src="../pages/page-082-1947-and-the-new-pakistan.html"/>
+    </navPoint>
   </navMap>
 </ncx>
