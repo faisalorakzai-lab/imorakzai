@@ -730,3 +730,16 @@ The page incorporates international standards from the Digital Preservation Coal
 - **Evidence Boundary**: No existing "Orakzai Digital Archive" is claimed. All architectures, workflows, and statistics are explicitly labeled as proposed or illustrative project-scoping examples. AI tools are defined as assistants, not authorities. Sensitive personal and children's records are excluded from public access.
 - **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 109 was not created.
 - **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
+
+## Page 109: Mapping Orakzai History
+
+Page 109 explores the historical geography and cartographic representation of the Orakzai tribal area. It emphasizes that a map is not history by itself but a layered source of evidence that must be interpreted alongside documents, oral histories, and administrative records. The page covers the administrative evolution of Orakzai from the Frontier Region of Kohat to its modern status as a district in Khyber Pakhtunkhwa.
+
+The content integrates historical Survey of India (SOI) maps, trans-frontier records, and modern OCHA administrative data. It addresses technical aspects of historical mapping such as georeferencing, coordinate reference systems, map projections, and the use of Historical GIS (HGIS) for layering spatial evidence.
+
+- **Research Sources**: Detailed bibliographic records and mapping evidence matrices are available in `book/sources/page-109-mapping-orakzai-history.md`; research notes and methodological findings are in `book/sources/page-109-research-notes.md`.
+- **Visual Elements**: 121 original responsive SVG elements: one premium Mapping Hero and 120 numbered accessible logic-atlas cards. The atlas covers mapping concepts (scale, projection, georeferencing), physical geography (topography, river systems, watersheds), human geography (settlements, land use, infrastructure), and modern digital mapping tools.
+- **Content**: Evidence-led narrative connects Pages 42-45, 71-80, 81-90, 91-100, 103-108. It provides a spatial context for Orakzai history while maintaining strict evidence boundaries.
+- **Evidence Boundary**: All cartographic visualizations are explicitly labeled as **SCHEMATIC — NOT A HISTORICAL BOUNDARY MAP**. Disputed or uncertain tribal boundaries are represented as conceptual zones. No historical settlements or migration routes are invented without corroborating evidence.
+- **Technical**: The page is JavaScript-free, EPUB 3 compatible, responsive, printable, and includes SVG `<title>` and `<desc>` accessibility metadata for every numbered atlas graphic. Page 110 was not created.
+- **License**: Content is proprietary to the author; visual design is project-specific; graphics are original and created for this book.
